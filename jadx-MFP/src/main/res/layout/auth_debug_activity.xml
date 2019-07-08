@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <Button android:id="@+id/use_integ_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Use Integ for all"/>
+        <Button android:id="@+id/use_prod_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Use Prod for all"/>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="#eee" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center" android:background="#bbb" android:padding="4dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="idm (sso) environment:"/>
+            <RadioGroup android:id="@+id/radio_group_idm" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/radio_idm_env_dev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="dev"/>
+                <RadioButton android:id="@+id/radio_idm_env_dev_short_ttl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="dev (short ttl)"/>
+                <RadioButton android:id="@+id/radio_idm_env_integ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="integ"/>
+                <RadioButton android:id="@+id/radio_idm_env_prod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="prod"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="#eee" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+            <TextView android:gravity="center" android:background="#bbb" android:padding="4dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="notification environment:"/>
+            <RadioGroup android:id="@+id/radio_group_nis" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/radio_nis_env_dev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="dev"/>
+                <RadioButton android:id="@+id/radio_nis_env_prod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="prod"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="#eee" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+            <TextView android:gravity="center" android:background="#bbb" android:padding="4dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="sync v2 environment:"/>
+            <RadioGroup android:id="@+id/radio_group_syncv2" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/radio_syncv2_env_integ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="integ"/>
+                <RadioButton android:id="@+id/radio_syncv2_env_prod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="prod"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="#eee" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+            <TextView android:gravity="center" android:background="#bbb" android:padding="4dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="consents environment:"/>
+            <RadioGroup android:id="@+id/radio_group_consents" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/radio_consents_env_dev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="dev"/>
+                <RadioButton android:id="@+id/radio_consents_env_prod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="prod"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="#eee" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+            <TextView android:gravity="center" android:background="#bbb" android:padding="4dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="v1 (binary) apis"/>
+            <RadioGroup android:id="@+id/radio_group_v1" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/radio_v1_env_integ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="integ"/>
+                <RadioButton android:id="@+id/radio_v1_env_dev1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="dev1"/>
+                <RadioButton android:id="@+id/radio_v1_env_qa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="qa"/>
+                <RadioButton android:id="@+id/radio_v1_env_preprod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="preprod"/>
+                <RadioButton android:id="@+id/radio_v1_env_prod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="prod"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="#eee" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+            <TextView android:gravity="center" android:background="#bbb" android:padding="4dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="v2 apis"/>
+            <RadioGroup android:id="@+id/radio_group_v2" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/radio_v2_env_integ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="integ"/>
+                <RadioButton android:id="@+id/radio_v2_env_dev1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="dev1"/>
+                <RadioButton android:id="@+id/radio_v2_env_qa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="qa"/>
+                <RadioButton android:id="@+id/radio_v2_env_preprod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="preprod"/>
+                <RadioButton android:id="@+id/radio_v2_env_prod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="prod"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="#eee" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+            <TextView android:gravity="center" android:background="#bbb" android:padding="4dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="config api"/>
+            <RadioGroup android:id="@+id/radio_group_config" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/radio_config_env_integ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="integ"/>
+                <RadioButton android:id="@+id/radio_config_env_qa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="qa"/>
+                <RadioButton android:id="@+id/radio_config_env_prod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="prod"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="#eee" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+            <TextView android:gravity="center" android:background="#bbb" android:padding="4dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="website"/>
+            <RadioGroup android:id="@+id/radio_group_website" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/radio_website_env_integ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="integ"/>
+                <RadioButton android:id="@+id/radio_website_env_qa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="qa"/>
+                <RadioButton android:id="@+id/radio_website_env_preprod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="preprod"/>
+                <RadioButton android:id="@+id/radio_website_env_prod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="prod"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="#eee" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+            <TextView android:gravity="center" android:background="#bbb" android:padding="4dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="device activation:"/>
+            <RadioGroup android:id="@+id/radio_group_device_activation" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/radio_device_activation_env_integ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="dev"/>
+                <RadioButton android:id="@+id/radio_device_activation_env_prod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="prod"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="#eee" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+            <TextView android:gravity="center" android:background="#bbb" android:padding="4dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="blog"/>
+            <RadioGroup android:id="@+id/radio_group_blog" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/radio_blog_env_integ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="integ"/>
+                <RadioButton android:id="@+id/radio_blog_env_prod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="prod"/>
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

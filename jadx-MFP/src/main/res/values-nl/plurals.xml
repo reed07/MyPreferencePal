@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="challenge_ends_in_format">
+        <item quantity="one">Loopt af over %1$s dag</item>
+        <item quantity="other">Loopt af over %1$s dagen</item>
+    </plurals>
+    <plurals name="days_remaining_format">
+        <item quantity="one">%1$s dag resterend</item>
+        <item quantity="other">%1$s dagen resterend</item>
+    </plurals>
+    <plurals name="friend_just_joined">
+        <item quantity="one">%1$d Facebook-vriend is lid geworden van MyFitnessPal%1$d</item>
+        <item quantity="other">%1$d Facebook-vrienden zijn lid geworden van MyFitnessPal</item>
+    </plurals>
+    <plurals name="hours_remaining_format">
+        <item quantity="one">%1$s uur resterend</item>
+        <item quantity="other">%1$s uur resterend</item>
+    </plurals>
+    <plurals name="ingredients_deleted_plural">
+        <item quantity="one">Ingrediënt verwijderd.</item>
+        <item quantity="other">Ingrediënten verwijderd.</item>
+    </plurals>
+    <plurals name="me_header_streak">
+        <item quantity="one">Reeks: %1$d dag</item>
+        <item quantity="other">Reeks: %1$d dagen</item>
+    </plurals>
+    <plurals name="me_my_cardio_count">
+        <item quantity="one">%1$d cardiotraining</item>
+        <item quantity="other">%1$d cardiotrainingen</item>
+    </plurals>
+    <plurals name="me_my_foods_count">
+        <item quantity="one">%1$d voedingsmiddel</item>
+        <item quantity="other">%1$d voedingsmiddelen</item>
+    </plurals>
+    <plurals name="me_my_meals_count">
+        <item quantity="one">%1$d maaltijd</item>
+        <item quantity="other">%1$d maaltijden</item>
+    </plurals>
+    <plurals name="me_my_recipes_count">
+        <item quantity="one">%1$d recept</item>
+        <item quantity="other">%1$d recepten</item>
+    </plurals>
+    <plurals name="me_my_strength_count">
+        <item quantity="one">%1$d krachttraining</item>
+        <item quantity="other">%1$d krachttrainingen</item>
+    </plurals>
+    <plurals name="more_friends">
+        <item quantity="one">+ nog %1$d vriend…</item>
+        <item quantity="other">+ nog %1$d vrienden…</item>
+    </plurals>
+    <plurals name="progress_breakfast">
+        <item quantity="one">ontbijt geregistreerd</item>
+        <item quantity="other">ontbijten geregistreerd</item>
+    </plurals>
+    <plurals name="progress_daily_fiber">
+        <item quantity="one">voedingsvezeldoel bereikt</item>
+        <item quantity="other">voedingsvezeldoelen bereikt</item>
+    </plurals>
+    <plurals name="progress_daily_protein">
+        <item quantity="one">eiwitdoel bereikt</item>
+        <item quantity="other">eiwitdoelen bereikt</item>
+    </plurals>
+    <plurals name="progress_dinner">
+        <item quantity="one">avondmaaltijd geregistreerd</item>
+        <item quantity="other">avondmaaltijden geregistreerd</item>
+    </plurals>
+    <plurals name="progress_exercise">
+        <item quantity="one">geregistreerde activiteit</item>
+        <item quantity="other">geregistreerde activiteiten</item>
+    </plurals>
+    <plurals name="progress_fiber">
+        <item quantity="one">gram voedingsvezel geregistreerd</item>
+        <item quantity="other">gram voedingsvezel geregistreerd</item>
+    </plurals>
+    <plurals name="progress_food">
+        <item quantity="one">geregistreerd voedingsmiddel</item>
+        <item quantity="other">geregistreerde voedingsmiddelen</item>
+    </plurals>
+    <plurals name="progress_lunch">
+        <item quantity="one">lunch geregistreerd</item>
+        <item quantity="other">lunches geregistreerd</item>
+    </plurals>
+    <plurals name="progress_meals">
+        <item quantity="one">geregistreerde maaltijd</item>
+        <item quantity="other">geregistreerde maaltijden</item>
+    </plurals>
+    <plurals name="progress_nutrient_goals">
+        <item quantity="one">voedingsdoel behaald</item>
+        <item quantity="other">voedingsdoelen behaald</item>
+    </plurals>
+    <plurals name="progress_protein">
+        <item quantity="one">gram eiwit geregistreerd</item>
+        <item quantity="other">gram eiwit geregistreerd</item>
+    </plurals>
+    <plurals name="progress_recipes">
+        <item quantity="one">recept geregistreerd</item>
+        <item quantity="other">recepten geregistreerd</item>
+    </plurals>
+    <plurals name="progress_steps">
+        <item quantity="one">stap gelopen</item>
+        <item quantity="other">stappen gelopen</item>
+    </plurals>
+    <plurals name="progress_water">
+        <item quantity="one">glas water geregistreerd</item>
+        <item quantity="other">glazen water geregistreerd</item>
+    </plurals>
+    <plurals name="recipe_deleted">
+        <item quantity="one">Recept verwijderd.</item>
+        <item quantity="other">Recepten verwijderd.</item>
+    </plurals>
+    <plurals name="recipe_deleted_fail">
+        <item quantity="one">Niet mogelijk om %1$d recept te verwijderen. Probeer het later opnieuw.</item>
+        <item quantity="other">Niet mogelijk om %1$d recepten te verwijderen. Probeer het later opnieuw.</item>
+    </plurals>
+</resources>

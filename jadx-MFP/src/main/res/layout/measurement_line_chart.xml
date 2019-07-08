@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.shinobicontrols.charts.ChartView android:orientation="vertical" android:id="@+id/line_container" android:paddingTop="-13dp" android:layout_width="match_parent" android:layout_height="@dimen/measurement_line_chart_height" android:layout_marginLeft="5dp" android:layout_marginTop="6dp" android:layout_marginRight="5dp"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/llNoDataAvailable" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/measurement_line_chart_height" android:layout_weight="1">
+        <TextView android:textStyle="bold" android:textColor="@color/mfp_text_color" android:gravity="center" android:layout_gravity="center" android:id="@+id/no_data_available" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/you_have_no_prev_measurements"/>
+        <TextView android:textColor="@color/mfp_text_color" android:gravity="center" android:layout_gravity="center" android:id="@+id/no_data_available_subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/tap_plus_add_new_measurements"/>
+    </LinearLayout>
+</merge>

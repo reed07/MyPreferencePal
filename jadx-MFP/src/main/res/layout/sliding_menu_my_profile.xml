@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/drawer_header" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/drawer_header_margin" android:paddingTop="@dimen/drawer_header_margin" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.myfitnesspal.shared.ui.view.MfpImageView android:id="@+id/image" android:layout_width="@dimen/sliding_menu_profile_image_size" android:layout_height="@dimen/sliding_menu_profile_image_size" android:layout_marginBottom="@dimen/drawer_header_margin" android:src="@drawable/ic_profile" app:circular="true"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/user_name" android:drawablePadding="@dimen/premium_crown_drawable_padding" style="@style/DrawerHeaderMainText"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/user_info" style="@style/Body.WhiteText"/>
+    </LinearLayout>
+</LinearLayout>

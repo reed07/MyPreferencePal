@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" style="@style/DiaryItemBase.CardItem">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/sponsoredWaterListItemLayout" android:paddingLeft="@dimen/material_padding_16" android:paddingTop="@dimen/material_padding_16" android:paddingRight="@dimen/material_padding_24" android:paddingBottom="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/log_your_water" style="@style/Subheader.BlackText"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/drinking_water_throughout" style="@style/Body.BlackSecondaryText"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/iv_diary_sponsored_water" android:layout_width="50dp" android:layout_height="68dp" android:layout_marginLeft="@dimen/material_padding_24"/>
+    </LinearLayout>
+    <View android:id="@+id/divider" style="@style/HorizontalDivider"/>
+</LinearLayout>

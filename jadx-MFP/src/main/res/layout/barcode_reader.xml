@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/scanner" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.myfitnesspal.feature.barcode.ui.view.ScannerLiveViewParent android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.myfitnesspal.feature.barcode.ui.view.ScannerLiveView android:id="@+id/scanner_live_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+    </com.myfitnesspal.feature.barcode.ui.view.ScannerLiveViewParent>
+    <com.myfitnesspal.feature.barcode.ui.view.ScannerOverlay android:id="@+id/scanner_overlay" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+    <EditText android:id="@+id/manual_entry_edit" android:background="@color/white" android:padding="@dimen/material_padding_12" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/scanner_enter_barcode_hint" android:maxLines="1" android:layout_above="@+id/scan_info_text" android:inputType="number" style="@style/Subheader.Blue"/>
+    <TextView android:gravity="center" android:id="@+id/scan_info_text" android:background="@color/barcode_scanner_hint_background" android:padding="@dimen/material_padding_12" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/scanner_text" android:layout_alignParentBottom="true" style="@style/Body.WhiteText"/>
+</RelativeLayout>

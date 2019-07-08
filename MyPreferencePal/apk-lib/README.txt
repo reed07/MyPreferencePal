@@ -1,0 +1,1 @@
+I unlinked ./apklib and ./app by removing apklib from settings.gradle and then placing a modified ".apklib" file produced from ./apklib directly inside of ./app/apklib/ and modifying ./app/build.gradle to use ./app/apklib/*.apklib as its source. 

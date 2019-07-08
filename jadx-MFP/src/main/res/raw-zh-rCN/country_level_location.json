@@ -1,0 +1,994 @@
+[
+    {
+        "display_name": "阿富汗",
+        "iso_code": "AF"
+    },
+    {
+        "display_name": "奥兰群岛",
+        "iso_code": "AX"
+    },
+    {
+        "display_name": "阿尔巴尼亚",
+        "iso_code": "AL"
+    },
+    {
+        "display_name": "阿尔及利亚",
+        "iso_code": "DZ"
+    },
+    {
+        "display_name": "美属萨摩亚",
+        "iso_code": "AS"
+    },
+    {
+        "display_name": "安道尔",
+        "iso_code": "AD"
+    },
+    {
+        "display_name": "安哥拉",
+        "iso_code": "AO"
+    },
+    {
+        "display_name": "安圭拉",
+        "iso_code": "AI"
+    },
+    {
+        "display_name": "南极洲",
+        "iso_code": "AQ"
+    },
+    {
+        "display_name": "安提瓜和巴布达",
+        "iso_code": "AG"
+    },
+    {
+        "display_name": "阿根廷",
+        "iso_code": "AR"
+    },
+    {
+        "display_name": "亚美尼亚",
+        "iso_code": "AM"
+    },
+    {
+        "display_name": "阿鲁巴",
+        "iso_code": "AW"
+    },
+    {
+        "display_name": "澳大利亚",
+        "iso_code": "AU"
+    },
+    {
+        "display_name": "奥地利",
+        "iso_code": "AT"
+    },
+    {
+        "display_name": "阿塞拜疆",
+        "iso_code": "AZ"
+    },
+    {
+        "display_name": "巴哈马",
+        "iso_code": "BS"
+    },
+    {
+        "display_name": "巴林",
+        "iso_code": "BH"
+    },
+    {
+        "display_name": "孟加拉国",
+        "iso_code": "BD"
+    },
+    {
+        "display_name": "巴巴多斯",
+        "iso_code": "BB"
+    },
+    {
+        "display_name": "白俄罗斯",
+        "iso_code": "BY"
+    },
+    {
+        "display_name": "比利时",
+        "iso_code": "BE"
+    },
+    {
+        "display_name": "伯利兹",
+        "iso_code": "BZ"
+    },
+    {
+        "display_name": "贝宁",
+        "iso_code": "BJ"
+    },
+    {
+        "display_name": "百慕大",
+        "iso_code": "BM"
+    },
+    {
+        "display_name": "不丹",
+        "iso_code": "BT"
+    },
+    {
+        "display_name": "玻利维亚",
+        "iso_code": "BO"
+    },
+    {
+        "display_name": "博奈尔、圣尤斯特歇斯和萨巴",
+        "iso_code": "BQ"
+    },
+    {
+        "display_name": "波斯尼亚和黑塞哥维那",
+        "iso_code": "BA"
+    },
+    {
+        "display_name": "博茨瓦纳",
+        "iso_code": "BW"
+    },
+    {
+        "display_name": "布维岛",
+        "iso_code": "BV"
+    },
+    {
+        "display_name": "巴西",
+        "iso_code": "BR"
+    },
+    {
+        "display_name": "英属印度洋领地",
+        "iso_code": "IO"
+    },
+    {
+        "display_name": "英属维尔京群岛",
+        "iso_code": "VG"
+    },
+    {
+        "display_name": "文莱",
+        "iso_code": "BN"
+    },
+    {
+        "display_name": "保加利亚",
+        "iso_code": "BG"
+    },
+    {
+        "display_name": "布吉纳法索",
+        "iso_code": "BF"
+    },
+    {
+        "display_name": "布隆迪",
+        "iso_code": "BI"
+    },
+    {
+        "display_name": "柬埔寨",
+        "iso_code": "KH"
+    },
+    {
+        "display_name": "喀麦隆",
+        "iso_code": "CM"
+    },
+    {
+        "display_name": "加拿大",
+        "iso_code": "CA"
+    },
+    {
+        "display_name": "佛得角",
+        "iso_code": "CV"
+    },
+    {
+        "display_name": "开曼群岛",
+        "iso_code": "KY"
+    },
+    {
+        "display_name": "中非共和国",
+        "iso_code": "CF"
+    },
+    {
+        "display_name": "乍得",
+        "iso_code": "TD"
+    },
+    {
+        "display_name": "智利",
+        "iso_code": "CL"
+    },
+    {
+        "display_name": "中国",
+        "iso_code": "CN"
+    },
+    {
+        "display_name": "圣诞岛",
+        "iso_code": "CX"
+    },
+    {
+        "display_name": "科科斯 （基林） 群岛",
+        "iso_code": "CC"
+    },
+    {
+        "display_name": "哥伦比亚",
+        "iso_code": "CO"
+    },
+    {
+        "display_name": "科摩罗",
+        "iso_code": "KM"
+    },
+    {
+        "display_name": "刚果（布）",
+        "iso_code": "CG"
+    },
+    {
+        "display_name": "刚果（金）",
+        "iso_code": "CD"
+    },
+    {
+        "display_name": "库克群岛",
+        "iso_code": "CK"
+    },
+    {
+        "display_name": "哥斯达黎加",
+        "iso_code": "CR"
+    },
+    {
+        "display_name": "科特迪瓦",
+        "iso_code": "CI"
+    },
+    {
+        "display_name": "克罗地亚",
+        "iso_code": "HR"
+    },
+    {
+        "display_name": "库拉索",
+        "iso_code": "CW"
+    },
+    {
+        "display_name": "塞浦路斯",
+        "iso_code": "CY"
+    },
+    {
+        "display_name": "捷克共和国",
+        "iso_code": "CZ"
+    },
+    {
+        "display_name": "丹麦",
+        "iso_code": "DK"
+    },
+    {
+        "display_name": "吉布提",
+        "iso_code": "DJ"
+    },
+    {
+        "display_name": "多米尼克",
+        "iso_code": "DM"
+    },
+    {
+        "display_name": "多米尼加共和国",
+        "iso_code": "DO"
+    },
+    {
+        "display_name": "厄瓜多尔",
+        "iso_code": "EC"
+    },
+    {
+        "display_name": "埃及",
+        "iso_code": "EG"
+    },
+    {
+        "display_name": "萨尔瓦多",
+        "iso_code": "SV"
+    },
+    {
+        "display_name": "赤道几内亚",
+        "iso_code": "GQ"
+    },
+    {
+        "display_name": "厄立特里亚",
+        "iso_code": "ER"
+    },
+    {
+        "display_name": "爱沙尼亚",
+        "iso_code": "EE"
+    },
+    {
+        "display_name": "埃塞俄比亚",
+        "iso_code": "ET"
+    },
+    {
+        "display_name": "福克兰群岛（马尔维纳斯群岛）",
+        "iso_code": "FK"
+    },
+    {
+        "display_name": "法罗群岛",
+        "iso_code": "FO"
+    },
+    {
+        "display_name": "斐济",
+        "iso_code": "FJ"
+    },
+    {
+        "display_name": "芬兰",
+        "iso_code": "FI"
+    },
+    {
+        "display_name": "法国",
+        "iso_code": "FR"
+    },
+    {
+        "display_name": "法属圭亚那",
+        "iso_code": "GF"
+    },
+    {
+        "display_name": "法属波利尼西亚",
+        "iso_code": "PF"
+    },
+    {
+        "display_name": "法属南部和南极领地",
+        "iso_code": "TF"
+    },
+    {
+        "display_name": "加蓬",
+        "iso_code": "GA"
+    },
+    {
+        "display_name": "冈比亚",
+        "iso_code": "GM"
+    },
+    {
+        "display_name": "格鲁吉亚",
+        "iso_code": "GE"
+    },
+    {
+        "display_name": "德国",
+        "iso_code": "DE"
+    },
+    {
+        "display_name": "加纳",
+        "iso_code": "GH"
+    },
+    {
+        "display_name": "直布罗陀",
+        "iso_code": "GI"
+    },
+    {
+        "display_name": "希腊",
+        "iso_code": "GR"
+    },
+    {
+        "display_name": "格陵兰岛",
+        "iso_code": "GL"
+    },
+    {
+        "display_name": "格林纳达",
+        "iso_code": "GD"
+    },
+    {
+        "display_name": "瓜德罗普",
+        "iso_code": "GP"
+    },
+    {
+        "display_name": "关岛",
+        "iso_code": "GU"
+    },
+    {
+        "display_name": "危地马拉",
+        "iso_code": "GT"
+    },
+    {
+        "display_name": "根西岛",
+        "iso_code": "GG"
+    },
+    {
+        "display_name": "几内亚",
+        "iso_code": "GN"
+    },
+    {
+        "display_name": "几内亚比绍",
+        "iso_code": "GW"
+    },
+    {
+        "display_name": "圭亚那",
+        "iso_code": "GY"
+    },
+    {
+        "display_name": "海地",
+        "iso_code": "HT"
+    },
+    {
+        "display_name": "赫德岛和麦克唐纳群岛",
+        "iso_code": "HM"
+    },
+    {
+        "display_name": "教廷（梵蒂冈城邦）",
+        "iso_code": "VA"
+    },
+    {
+        "display_name": "洪都拉斯",
+        "iso_code": "HN"
+    },
+    {
+        "display_name": "香港",
+        "iso_code": "HK"
+    },
+    {
+        "display_name": "匈牙利",
+        "iso_code": "HU"
+    },
+    {
+        "display_name": "冰岛",
+        "iso_code": "IS"
+    },
+    {
+        "display_name": "印度",
+        "iso_code": "IN"
+    },
+    {
+        "display_name": "印度尼西亚",
+        "iso_code": "ID"
+    },
+    {
+        "display_name": "伊拉克",
+        "iso_code": "IQ"
+    },
+    {
+        "display_name": "爱尔兰",
+        "iso_code": "IE"
+    },
+    {
+        "display_name": "马恩岛",
+        "iso_code": "IM"
+    },
+    {
+        "display_name": "以色列",
+        "iso_code": "IL"
+    },
+    {
+        "display_name": "意大利",
+        "iso_code": "IT"
+    },
+    {
+        "display_name": "牙买加",
+        "iso_code": "JM"
+    },
+    {
+        "display_name": "日本",
+        "iso_code": "JP"
+    },
+    {
+        "display_name": "泽西岛",
+        "iso_code": "JE"
+    },
+    {
+        "display_name": "约旦",
+        "iso_code": "JO"
+    },
+    {
+        "display_name": "哈萨克斯坦",
+        "iso_code": "KZ"
+    },
+    {
+        "display_name": "肯尼亚",
+        "iso_code": "KE"
+    },
+    {
+        "display_name": "基里巴斯",
+        "iso_code": "KI"
+    },
+    {
+        "display_name": "韩国",
+        "iso_code": "KR"
+    },
+    {
+        "display_name": "科威特",
+        "iso_code": "KW"
+    },
+    {
+        "display_name": "吉尔吉斯斯坦",
+        "iso_code": "KG"
+    },
+    {
+        "display_name": "老挝",
+        "iso_code": "LA"
+    },
+    {
+        "display_name": "拉托维亚",
+        "iso_code": "LV"
+    },
+    {
+        "display_name": "黎巴嫩",
+        "iso_code": "LB"
+    },
+    {
+        "display_name": "莱索托",
+        "iso_code": "LS"
+    },
+    {
+        "display_name": "利比里亚",
+        "iso_code": "LR"
+    },
+    {
+        "display_name": "利比亚",
+        "iso_code": "LY"
+    },
+    {
+        "display_name": "列支敦士登",
+        "iso_code": "LI"
+    },
+    {
+        "display_name": "立陶宛",
+        "iso_code": "LT"
+    },
+    {
+        "display_name": "卢森堡",
+        "iso_code": "LU"
+    },
+    {
+        "display_name": "澳门",
+        "iso_code": "MO"
+    },
+    {
+        "display_name": "马其顿",
+        "iso_code": "MK"
+    },
+    {
+        "display_name": "马达加斯加",
+        "iso_code": "MG"
+    },
+    {
+        "display_name": "马拉维",
+        "iso_code": "MW"
+    },
+    {
+        "display_name": "马来西亚",
+        "iso_code": "MY"
+    },
+    {
+        "display_name": "马尔代夫",
+        "iso_code": "MV"
+    },
+    {
+        "display_name": "马里",
+        "iso_code": "ML"
+    },
+    {
+        "display_name": "马耳他",
+        "iso_code": "MT"
+    },
+    {
+        "display_name": "马绍尔群岛",
+        "iso_code": "MH"
+    },
+    {
+        "display_name": "马提尼克岛",
+        "iso_code": "MQ"
+    },
+    {
+        "display_name": "毛里塔尼亚",
+        "iso_code": "MR"
+    },
+    {
+        "display_name": "毛里求斯",
+        "iso_code": "MU"
+    },
+    {
+        "display_name": "马约特岛",
+        "iso_code": "YT"
+    },
+    {
+        "display_name": "墨西哥",
+        "iso_code": "MX"
+    },
+    {
+        "display_name": "密克罗尼西亚联邦",
+        "iso_code": "FM"
+    },
+    {
+        "display_name": "摩尔多瓦",
+        "iso_code": "MD"
+    },
+    {
+        "display_name": "摩纳哥",
+        "iso_code": "MC"
+    },
+    {
+        "display_name": "蒙古",
+        "iso_code": "MN"
+    },
+    {
+        "display_name": "黑山",
+        "iso_code": "ME"
+    },
+    {
+        "display_name": "蒙特塞拉特",
+        "iso_code": "MS"
+    },
+    {
+        "display_name": "摩洛哥",
+        "iso_code": "MA"
+    },
+    {
+        "display_name": "莫桑比克",
+        "iso_code": "MZ"
+    },
+    {
+        "display_name": "纳米比亚",
+        "iso_code": "NA"
+    },
+    {
+        "display_name": "瑙鲁",
+        "iso_code": "NR"
+    },
+    {
+        "display_name": "尼泊尔",
+        "iso_code": "NP"
+    },
+    {
+        "display_name": "荷兰",
+        "iso_code": "NL"
+    },
+    {
+        "display_name": "新喀里多尼亚",
+        "iso_code": "NC"
+    },
+    {
+        "display_name": "新西兰",
+        "iso_code": "NZ"
+    },
+    {
+        "display_name": "尼加拉瓜",
+        "iso_code": "NI"
+    },
+    {
+        "display_name": "尼日尔",
+        "iso_code": "NE"
+    },
+    {
+        "display_name": "尼日利亚",
+        "iso_code": "NG"
+    },
+    {
+        "display_name": "纽埃",
+        "iso_code": "NU"
+    },
+    {
+        "display_name": "诺福克岛",
+        "iso_code": "NF"
+    },
+    {
+        "display_name": "北马里亚纳群岛",
+        "iso_code": "MP"
+    },
+    {
+        "display_name": "挪威",
+        "iso_code": "NO"
+    },
+    {
+        "display_name": "阿曼",
+        "iso_code": "OM"
+    },
+    {
+        "display_name": "巴基斯坦",
+        "iso_code": "PK"
+    },
+    {
+        "display_name": "帕劳",
+        "iso_code": "PW"
+    },
+    {
+        "display_name": "巴勒斯坦领土",
+        "iso_code": "PS"
+    },
+    {
+        "display_name": "巴拿马",
+        "iso_code": "PA"
+    },
+    {
+        "display_name": "巴布亚新几内亚",
+        "iso_code": "PG"
+    },
+    {
+        "display_name": "巴拉圭",
+        "iso_code": "PY"
+    },
+    {
+        "display_name": "秘鲁",
+        "iso_code": "PE"
+    },
+    {
+        "display_name": "菲律宾",
+        "iso_code": "PH"
+    },
+    {
+        "display_name": "皮特凯恩群岛",
+        "iso_code": "PN"
+    },
+    {
+        "display_name": "波兰",
+        "iso_code": "PL"
+    },
+    {
+        "display_name": "葡萄牙",
+        "iso_code": "PT"
+    },
+    {
+        "display_name": "波多黎各",
+        "iso_code": "PR"
+    },
+    {
+        "display_name": "卡塔尔",
+        "iso_code": "QA"
+    },
+    {
+        "display_name": "留尼旺",
+        "iso_code": "RE"
+    },
+    {
+        "display_name": "罗马尼亚",
+        "iso_code": "RO"
+    },
+    {
+        "display_name": "俄罗斯",
+        "iso_code": "RU"
+    },
+    {
+        "display_name": "卢旺达",
+        "iso_code": "RW"
+    },
+    {
+        "display_name": "圣赫勒拿",
+        "iso_code": "SH"
+    },
+    {
+        "display_name": "圣基茨和尼维斯",
+        "iso_code": "KN"
+    },
+    {
+        "display_name": "圣卢西亚",
+        "iso_code": "LC"
+    },
+    {
+        "display_name": "圣皮埃尔和密克隆",
+        "iso_code": "PM"
+    },
+    {
+        "display_name": "圣文森特和格林纳丁斯",
+        "iso_code": "VC"
+    },
+    {
+        "display_name": "圣巴泰勒米",
+        "iso_code": "BL"
+    },
+    {
+        "display_name": "法属圣马丁",
+        "iso_code": "MF"
+    },
+    {
+        "display_name": "萨摩亚",
+        "iso_code": "WS"
+    },
+    {
+        "display_name": "圣马力诺",
+        "iso_code": "SM"
+    },
+    {
+        "display_name": "圣多美和普林西比",
+        "iso_code": "ST"
+    },
+    {
+        "display_name": "沙特阿拉伯",
+        "iso_code": "SA"
+    },
+    {
+        "display_name": "塞内加尔",
+        "iso_code": "SN"
+    },
+    {
+        "display_name": "塞尔维亚",
+        "iso_code": "RS"
+    },
+    {
+        "display_name": "塞舌尔",
+        "iso_code": "SC"
+    },
+    {
+        "display_name": "塞拉利昂",
+        "iso_code": "SL"
+    },
+    {
+        "display_name": "新加坡",
+        "iso_code": "SG"
+    },
+    {
+        "display_name": "荷属圣马丁",
+        "iso_code": "SX"
+    },
+    {
+        "display_name": "斯洛伐克",
+        "iso_code": "SK"
+    },
+    {
+        "display_name": "斯洛文尼亚",
+        "iso_code": "SI"
+    },
+    {
+        "display_name": "所罗门群岛",
+        "iso_code": "SB"
+    },
+    {
+        "display_name": "南非",
+        "iso_code": "ZA"
+    },
+    {
+        "display_name": "南乔治亚和南桑威奇群岛",
+        "iso_code": "GS"
+    },
+    {
+        "display_name": "南苏丹",
+        "iso_code": "SS"
+    },
+    {
+        "display_name": "西班牙",
+        "iso_code": "ES"
+    },
+    {
+        "display_name": "斯里兰卡",
+        "iso_code": "LK"
+    },
+    {
+        "display_name": "苏里南",
+        "iso_code": "SR"
+    },
+    {
+        "display_name": "斯瓦尔巴和扬马延岛",
+        "iso_code": "SJ"
+    },
+    {
+        "display_name": "斯威士兰",
+        "iso_code": "SZ"
+    },
+    {
+        "display_name": "瑞典",
+        "iso_code": "SE"
+    },
+    {
+        "display_name": "瑞士",
+        "iso_code": "CH"
+    },
+    {
+        "display_name": "台湾",
+        "iso_code": "TW"
+    },
+    {
+        "display_name": "塔吉克斯坦",
+        "iso_code": "TJ"
+    },
+    {
+        "display_name": "坦桑尼亚",
+        "iso_code": "TZ"
+    },
+    {
+        "display_name": "泰国",
+        "iso_code": "TH"
+    },
+    {
+        "display_name": "东帝汶",
+        "iso_code": "TL"
+    },
+    {
+        "display_name": "多哥",
+        "iso_code": "TG"
+    },
+    {
+        "display_name": "托克劳",
+        "iso_code": "TK"
+    },
+    {
+        "display_name": "汤加",
+        "iso_code": "TO"
+    },
+    {
+        "display_name": "特立尼达和多巴哥",
+        "iso_code": "TT"
+    },
+    {
+        "display_name": "突尼斯",
+        "iso_code": "TN"
+    },
+    {
+        "display_name": "土耳其",
+        "iso_code": "TR"
+    },
+    {
+        "display_name": "土库曼斯坦",
+        "iso_code": "TM"
+    },
+    {
+        "display_name": "特克斯和凯科斯群岛",
+        "iso_code": "TC"
+    },
+    {
+        "display_name": "图瓦卢",
+        "iso_code": "TV"
+    },
+    {
+        "display_name": "乌干达",
+        "iso_code": "UG"
+    },
+    {
+        "display_name": "乌克兰（非克里米亚）",
+        "iso_code": "UA"
+    },
+    {
+        "display_name": "阿拉伯联合酋长国",
+        "iso_code": "AE"
+    },
+    {
+        "display_name": "英国",
+        "iso_code": "GB"
+    },
+    {
+        "display_name": "美国",
+        "iso_code": "US"
+    },
+    {
+        "display_name": "乌拉圭",
+        "iso_code": "UY"
+    },
+    {
+        "display_name": "美国本土外小岛屿",
+        "iso_code": "UM"
+    },
+    {
+        "display_name": "乌兹别克斯坦",
+        "iso_code": "UZ"
+    },
+    {
+        "display_name": "瓦努阿图",
+        "iso_code": "VU"
+    },
+    {
+        "display_name": "委内瑞拉",
+        "iso_code": "VE"
+    },
+    {
+        "display_name": "越南",
+        "iso_code": "VN"
+    },
+    {
+        "display_name": "美属维尔京群岛",
+        "iso_code": "VI"
+    },
+    {
+        "display_name": "瓦利斯和富图纳群岛",
+        "iso_code": "WF"
+    },
+    {
+        "display_name": "西撒哈拉",
+        "iso_code": "EH"
+    },
+    {
+        "display_name": "也门",
+        "iso_code": "YE"
+    },
+    {
+        "display_name": "赞比亚",
+        "iso_code": "ZM"
+    },
+    {
+        "display_name": "津巴布韦",
+        "iso_code": "ZW"
+    },
+    {
+        "display_name": "古巴",
+        "iso_code": "CU"
+    },
+    {
+        "display_name": "伊朗",
+        "iso_code": "IR"
+    },
+    {
+        "display_name": "缅甸",
+        "iso_code": "MM"
+    },
+    {
+        "display_name": "索马里",
+        "iso_code": "SO"
+    },
+    {
+        "display_name": "苏丹",
+        "iso_code": "SD"
+    },
+    {
+        "display_name": "叙利亚",
+        "iso_code": "SY"
+    }
+]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt">
+    <TextView android:id="@+id/name_text" style="@style/Header.BlackText"/>
+    <TextView android:id="@+id/source_text" android:paddingTop="@dimen/recipe_details_info_vertical_spacing" style="@style/Subheader.Blue"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/recipe_details_info_vertical_spacing" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/num_servings" android:text="@string/num_servings" style="@style/Subheader.BlackText"/>
+        <View android:background="@drawable/grey_dot" android:layout_width="@dimen/ingredients_matching_dot_size" android:layout_height="@dimen/ingredients_matching_dot_size" android:layout_marginLeft="@dimen/ingredients_matching_overview_item_spacing" android:layout_marginRight="@dimen/ingredients_matching_overview_item_spacing"/>
+        <TextView android:id="@+id/calories_per_serving" android:text="@string/calories_per_servings" style="@style/Subheader.BlackText"/>
+    </LinearLayout>
+</merge>

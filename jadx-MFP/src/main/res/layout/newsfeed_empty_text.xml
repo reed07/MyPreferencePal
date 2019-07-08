@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:gravity="center_horizontal" android:id="@+id/message_text" android:padding="16dp" android:layout_width="match_parent" android:text="@string/noNewsFeeds" style="@style/Body.BlackSecondaryText"/>
+</LinearLayout>

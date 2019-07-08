@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/meal_name_item" android:paddingLeft="@dimen/material_padding_16" android:paddingTop="@dimen/material_padding_16" android:paddingBottom="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1">
+    <TextView android:gravity="center_vertical" android:id="@+id/meal_label" android:layout_width="0dp" android:singleLine="true" android:layout_weight="0.4" style="@style/Subheader.BlackText"/>
+    <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.6">
+        <View android:id="@+id/move_cursor_to_end" android:layout_width="@dimen/material_padding_16" android:layout_height="wrap_content" android:layout_alignTop="@+id/meal_name" android:layout_alignBottom="@+id/meal_name" android:layout_alignParentRight="true"/>
+        <EditText android:textColorHint="@color/black_hint_text" android:gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/meal_name" android:background="@null" android:layout_width="match_parent" android:hint="@string/new_meal_name" android:singleLine="true" android:maxLength="30" android:layout_toLeftOf="@+id/move_cursor_to_end" android:inputType="textCapWords" style="@style/Subheader.Blue"/>
+    </RelativeLayout>
+</LinearLayout>

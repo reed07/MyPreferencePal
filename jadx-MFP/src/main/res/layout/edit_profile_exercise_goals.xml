@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/LinearLayout01" android:layout_width="match_parent" style="@style/DialogContentBaseAlt">
+    <TableRow android:id="@+id/TableRow01" style="@style/EditExerciseGoalRowContainer">
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/txtWorkouts" android:text="@string/workoutsWeekTxt" style="@style/EditExerciseDialogText"/>
+        <Spinner android:gravity="right" android:id="@+id/workouts" android:drawSelectorOnTop="false" android:prompt="@string/workoutsWeekTxt" style="@style/EditExerciseDialogInput"/>
+    </TableRow>
+    <TableRow android:id="@+id/TableRow02" android:layout_marginTop="@dimen/edit_exercise_dialog_spacing" style="@style/EditExerciseGoalRowContainer">
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/txtMinutes" android:text="@string/workoutsMinutes" style="@style/EditExerciseDialogText"/>
+        <EditText android:id="@+id/minutes" android:hint="@string/minutes_hint" android:digits="1234567890" android:inputType="none|text|textCapWords|number|numberDecimal|phone" android:imeOptions="actionGo" style="@style/EditExerciseDialogInput.EditText"/>
+    </TableRow>
+</LinearLayout>

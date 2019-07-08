@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/action_bar_layout"/>
+    <TextView android:gravity="center" android:id="@+id/rollouts_list_empty_state" android:background="@color/ua_light_gray" android:visibility="visible" android:layout_width="match_parent" android:layout_height="125dp" android:text="@string/rollouts_list_empty_state"/>
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@+id/rollouts_list_swipe_container" android:background="@color/ua_light_gray" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <ListView android:id="@+id/rollouts_list_view" android:background="@color/ua_light_gray" android:paddingBottom="80dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

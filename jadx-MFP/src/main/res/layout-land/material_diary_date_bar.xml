@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:id="@+id/date" android:background="@color/blue_button_background" android:layout_width="match_parent" android:layout_height="@dimen/date_bar_height_blue">
+    <ImageView android:id="@+id/btnPrevious" android:src="@drawable/arrow_left_white" style="@style/DateNavigationArrow"/>
+    <com.myfitnesspal.shared.ui.view.StyledTextView android:textColor="@color/white" android:id="@+id/btnDate" android:layout_height="@dimen/material_control_height_44" style="@style/DateNavigationText"/>
+    <ImageView android:id="@+id/btnNext" android:src="@drawable/arrow_right_white" style="@style/DateNavigationArrow"/>
+</LinearLayout>

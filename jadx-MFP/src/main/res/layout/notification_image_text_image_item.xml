@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" style="@style/NotifItemLayout">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/notif_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.myfitnesspal.shared.ui.view.MfpImageView android:id="@+id/notif_user_image" style="@style/NotifPrimaryImage"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/status_container" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:id="@+id/tv_notif_status" style="@style/NotifStatusText"/>
+            <TextView android:id="@+id/tv_notif_time" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Body.BlackSecondaryText"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/notif_second_image" android:layout_width="@dimen/notif_primary_image_hw" android:layout_height="@dimen/notif_primary_image_hw" android:src="@drawable/ic_challenges_black_54_24dp"/>
+    </LinearLayout>
+</LinearLayout>

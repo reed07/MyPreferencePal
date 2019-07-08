@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/parent_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/venue_map_container" android:layout_width="match_parent" android:layout_height="@dimen/venue_map_height">
+        <com.google.android.gms.maps.MapView android:id="@+id/venue_map" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageButton android:id="@+id/my_location_btn" android:background="@drawable/circle_white_button" android:layout_width="@dimen/venue_button_size" android:layout_height="@dimen/venue_button_size" android:layout_marginRight="@dimen/venue_map_button_margin" android:layout_marginBottom="@dimen/venue_map_button_margin" android:src="@drawable/ic_my_location_btn" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:elevation="@dimen/venue_button_elevation"/>
+        <Button android:textSize="12sp" android:textColor="@color/blue" android:id="@+id/search_again_btn" android:background="@drawable/rounded_white_button" android:paddingLeft="@dimen/venue_map_button_margin" android:paddingRight="@dimen/venue_map_button_margin" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/venue_button_size" android:layout_marginRight="@dimen/venue_map_button_margin" android:layout_marginBottom="@dimen/venue_map_button_margin" android:text="@string/search_again" android:layout_toLeftOf="@+id/my_location_btn" android:layout_alignParentBottom="true" android:elevation="@dimen/venue_button_elevation" android:stateListAnimator="@null"/>
+    </RelativeLayout>
+    <com.myfitnesspal.feature.restaurantlogging.ui.view.VenuesListView android:id="@+id/venue_list" android:visibility="gone" android:layout_height="0dp" android:layout_weight="1" style="@style/ListWithPressedState.NoDividers"/>
+    <ProgressBar android:id="@+id/loading_venues" android:visibility="gone" style="@style/RLLoadingView"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/empty_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:text="@string/no_menus_available" style="@style/RLEmptyTextHeader"/>
+        <TextView android:text="@string/no_menus_info" style="@style/RLEmptyTextInfo"/>
+    </LinearLayout>
+</LinearLayout>

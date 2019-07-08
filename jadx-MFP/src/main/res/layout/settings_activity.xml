@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@color/mfp_background" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/CardBase.NewsFeedCard">
+            <LinearLayout android:orientation="vertical" android:id="@+id/myAccountCard" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/settings_my_account" style="@style/SettingsHeaderRow"/>
+                <TextView android:id="@+id/editProfile" android:text="@string/settings_edit_profile" style="@style/SettingsItemRow"/>
+                <View style="@style/HorizontalDivider"/>
+                <TextView android:id="@+id/myGoals" android:text="@string/settings_my_goals" style="@style/SettingsItemRow"/>
+                <View style="@style/HorizontalDivider"/>
+                <TextView android:id="@+id/premiumSubscription" android:text="@string/settings_premium_subscription" style="@style/SettingsItemRow"/>
+                <View style="@style/HorizontalDivider"/>
+                <TextView android:id="@+id/appsDevices" android:text="@string/settings_my_apps_devices" style="@style/SettingsItemRow"/>
+                <View style="@style/HorizontalDivider"/>
+                <TextView android:id="@+id/deleteAccount" android:text="@string/settings_delete_account" style="@style/SettingsItemRow"/>
+                <View style="@style/HorizontalDivider"/>
+                <TextView android:id="@+id/changePassword" android:text="@string/change_password" style="@style/SettingsItemRow"/>
+                <View style="@style/HorizontalDivider"/>
+                <TextView android:id="@+id/logOut" android:text="@string/settings_log_out" style="@style/SettingsItemRow"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/CardBase.NewsFeedCard">
+            <LinearLayout android:orientation="vertical" android:id="@+id/settingsCard" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/settings_setings" style="@style/SettingsHeaderRow"/>
+                <TextView android:id="@+id/diarySettings" android:text="@string/settings_diary_settings" style="@style/SettingsItemRow"/>
+                <View style="@style/HorizontalDivider"/>
+                <TextView android:id="@+id/reminders" android:text="@string/settings_reminders" style="@style/SettingsItemRow"/>
+                <View style="@style/HorizontalDivider"/>
+                <TextView android:id="@+id/privacyCenter" android:text="@string/privacy_center" style="@style/SettingsItemRow"/>
+                <View style="@style/HorizontalDivider"/>
+                <TextView android:id="@+id/weeklyNutrition" android:text="@string/settings_weekly_nutrition" style="@style/SettingsItemRow"/>
+                <View style="@style/HorizontalDivider"/>
+                <TextView android:id="@+id/steps" android:text="@string/settings_steps" style="@style/SettingsItemRow"/>
+                <View style="@style/HorizontalDivider"/>
+                <TextView android:id="@+id/pushNotifications" android:text="@string/settings_push_notifications" style="@style/SettingsItemRow"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/contextual_tip_bg" style="@style/CardBase.NewsFeedCard">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/shareCard" android:tag="selectable" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/share_icon" android:paddingLeft="@dimen/material_padding_24" android:paddingTop="@dimen/material_padding_24" android:paddingBottom="@dimen/material_padding_24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_share_mfp"/>
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/material_padding_12" android:paddingTop="@dimen/material_padding_12" android:paddingBottom="@dimen/material_padding_12" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:id="@+id/share_with_friends" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_title" style="@style/Subheader.BlackText"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_content" style="@style/ShareCardAction"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_margin_8" style="@style/CardBase.NewsFeedCard">
+            <LinearLayout android:orientation="vertical" android:id="@+id/helpCard" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:text="@string/settings_help" style="@style/SettingsHeaderRow"/>
+                    <LinearLayout android:layout_gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/syncButton" android:background="@drawable/transparent_button_selector" android:padding="@dimen/material_padding_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/material_margin_16">
+                        <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/material_margin_8" android:text="@string/sync" style="@style/Caption"/>
+                        <ImageView android:layout_gravity="center_vertical" android:id="@+id/syncIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sync_black_54_24dp"/>
+                    </LinearLayout>
+                </FrameLayout>
+                <TextView android:id="@+id/aboutUs" android:text="@string/settings_about_us" style="@style/SettingsItemRow"/>
+                <View style="@style/HorizontalDivider"/>
+                <TextView android:id="@+id/ourOtherApps" android:text="@string/settings_our_other_apps" style="@style/SettingsItemRow"/>
+                <View style="@style/HorizontalDivider"/>
+                <TextView android:id="@+id/betaJoin" android:text="@string/settings_beta_join" style="@style/SettingsItemRow"/>
+                <View style="@style/HorizontalDivider"/>
+                <TextView android:id="@+id/betaFeedback" android:text="@string/settings_beta_feedback" style="@style/SettingsItemRow"/>
+                <View style="@style/HorizontalDivider"/>
+                <TextView android:id="@+id/faq" android:text="@string/settings_faq" style="@style/SettingsItemRow"/>
+                <View style="@style/HorizontalDivider"/>
+                <TextView android:id="@+id/troubleshooting" android:text="@string/settings_troubleshooting" style="@style/SettingsItemRow"/>
+                <View style="@style/HorizontalDivider"/>
+                <TextView android:id="@+id/samsungGearHelp" android:text="@string/settings_samsung_gear_help" style="@style/SettingsItemRow"/>
+                <View style="@style/HorizontalDivider"/>
+                <TextView android:id="@+id/debugLogs" android:text="@string/settings_debug_logs" style="@style/SettingsItemRow"/>
+                <View style="@style/HorizontalDivider"/>
+                <TextView android:id="@+id/advancedDebugging" android:visibility="gone" android:text="@string/advanced_debugging" style="@style/SettingsItemRow"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

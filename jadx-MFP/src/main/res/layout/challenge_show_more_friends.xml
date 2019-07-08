@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/list_item_bg_selector" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/grey_separator_1dp_light"/>
+    <TextView android:id="@+id/tv_more_friends" android:padding="@dimen/challenge_list_item_padding" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Subheader.BlackText"/>
+    <include layout="@layout/grey_separator_1dp_light"/>
+</LinearLayout>

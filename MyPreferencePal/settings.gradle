@@ -1,1 +1,5 @@
-include ':source', ':patched'
+includeBuild 'patched-app'
+includeBuild 'multi-dex'
+includeBuild 'apk-lib'
+includeBuild 'patch-lib'
+includeBuild 'patched-dex'

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt">
+    <TableLayout android:layout_gravity="center_horizontal" android:id="@+id/legendTable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/legend_edge_margin" android:layout_marginRight="@dimen/legend_edge_margin" android:stretchColumns="*"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bottomRows" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/legend_center_margin"/>
+</merge>

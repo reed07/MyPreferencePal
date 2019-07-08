@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/summary_select_all_container" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/default_material_elevation">
+        <LinearLayout android:orientation="vertical" android:id="@+id/diary_summary_container" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:id="@+id/select_all_include" android:background="@color/diary_header_background_gray" android:paddingLeft="@dimen/material_padding_24" android:paddingTop="@dimen/material_padding_12" android:paddingRight="@dimen/material_padding_16" android:paddingBottom="@dimen/material_padding_4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/default_material_elevation">
+            <com.myfitnesspal.shared.ui.view.StyledTextView android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/select_all" android:layout_weight="1" style="@style/Header2A.BlackSecondaryText"/>
+            <CheckBox android:layout_gravity="center_vertical" android:id="@+id/select_all" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:gravity="center" android:id="@+id/empty_view" android:visibility="gone" android:layout_width="match_parent" android:layout_marginTop="32dp" style="@style/Body.BlackText"/>
+        <android.support.v7.widget.RecyclerView android:id="@+id/diary_recycler_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <include android:id="@+id/walkthrough_container" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/new_walkthrough_diary"/>
+    </FrameLayout>
+</LinearLayout>

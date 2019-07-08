@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/date" android:background="@color/white" android:layout_width="match_parent" android:layout_height="@dimen/date_bar_broad_height" android:elevation="@dimen/default_material_elevation">
+    <ImageView android:id="@+id/btnPrevious" android:src="@drawable/diary_prev_carat" style="@style/DateNavigationArrow"/>
+    <View style="@style/DateBarDivider"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/llDate" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:gravity="center" android:id="@+id/tvDailyOrWeekly" android:paddingLeft="14dp" android:text="@string/week_view" android:drawableRight="@drawable/ic_timespan_dropdown" android:drawablePadding="5dp" style="@style/Caption.BlackSecondaryText"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/btnDate" android:text="@string/week_view" style="@style/Header2B.BlackText"/>
+    </LinearLayout>
+    <View style="@style/DateBarDivider"/>
+    <ImageView android:id="@+id/btnNext" android:src="@drawable/diary_next_carat" style="@style/DateNavigationArrow"/>
+</LinearLayout>

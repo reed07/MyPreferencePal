@@ -1,0 +1,994 @@
+[
+    {
+        "display_name": "Afganistan",
+        "iso_code": "AF"
+    },
+    {
+        "display_name": "Alandské ostrovy",
+        "iso_code": "AX"
+    },
+    {
+        "display_name": "Albánsko",
+        "iso_code": "AL"
+    },
+    {
+        "display_name": "Alžírsko",
+        "iso_code": "DZ"
+    },
+    {
+        "display_name": "Americká Samoa",
+        "iso_code": "AS"
+    },
+    {
+        "display_name": "Andorra",
+        "iso_code": "AD"
+    },
+    {
+        "display_name": "Angola",
+        "iso_code": "AO"
+    },
+    {
+        "display_name": "Anguilla",
+        "iso_code": "AI"
+    },
+    {
+        "display_name": "Antarktída",
+        "iso_code": "AQ"
+    },
+    {
+        "display_name": "Antigua a Barbuda",
+        "iso_code": "AG"
+    },
+    {
+        "display_name": "Argentína",
+        "iso_code": "AR"
+    },
+    {
+        "display_name": "Arménsko",
+        "iso_code": "AM"
+    },
+    {
+        "display_name": "Aruba",
+        "iso_code": "AW"
+    },
+    {
+        "display_name": "Austrália",
+        "iso_code": "AU"
+    },
+    {
+        "display_name": "Rakúsko",
+        "iso_code": "AT"
+    },
+    {
+        "display_name": "Azerbajdžan",
+        "iso_code": "AZ"
+    },
+    {
+        "display_name": "Bahamy",
+        "iso_code": "BS"
+    },
+    {
+        "display_name": "Bahrajn",
+        "iso_code": "BH"
+    },
+    {
+        "display_name": "Bangladéš",
+        "iso_code": "BD"
+    },
+    {
+        "display_name": "Barbados",
+        "iso_code": "BB"
+    },
+    {
+        "display_name": "Bielorusko",
+        "iso_code": "BY"
+    },
+    {
+        "display_name": "Belgicko",
+        "iso_code": "BE"
+    },
+    {
+        "display_name": "Belize",
+        "iso_code": "BZ"
+    },
+    {
+        "display_name": "Benin",
+        "iso_code": "BJ"
+    },
+    {
+        "display_name": "Bermudy",
+        "iso_code": "BM"
+    },
+    {
+        "display_name": "Bhután",
+        "iso_code": "BT"
+    },
+    {
+        "display_name": "Bolívia",
+        "iso_code": "BO"
+    },
+    {
+        "display_name": "Bonaire, Sint Eustatius a Saba",
+        "iso_code": "BQ"
+    },
+    {
+        "display_name": "Bosna a Hercegovina",
+        "iso_code": "BA"
+    },
+    {
+        "display_name": "Botswana",
+        "iso_code": "BW"
+    },
+    {
+        "display_name": "Bouvetov ostrov",
+        "iso_code": "BV"
+    },
+    {
+        "display_name": "Brazília",
+        "iso_code": "BR"
+    },
+    {
+        "display_name": "Britské indickooceánske územie",
+        "iso_code": "IO"
+    },
+    {
+        "display_name": "Britské Panenské ostrovy",
+        "iso_code": "VG"
+    },
+    {
+        "display_name": "Brunej",
+        "iso_code": "BN"
+    },
+    {
+        "display_name": "Bulharsko",
+        "iso_code": "BG"
+    },
+    {
+        "display_name": "Burkina Faso",
+        "iso_code": "BF"
+    },
+    {
+        "display_name": "Burundi",
+        "iso_code": "BI"
+    },
+    {
+        "display_name": "Kambodža",
+        "iso_code": "KH"
+    },
+    {
+        "display_name": "Kamerun",
+        "iso_code": "CM"
+    },
+    {
+        "display_name": "Kanada",
+        "iso_code": "CA"
+    },
+    {
+        "display_name": "Cabo Verde",
+        "iso_code": "CV"
+    },
+    {
+        "display_name": "Kajmanské ostrovy",
+        "iso_code": "KY"
+    },
+    {
+        "display_name": "Stredoafrická republika",
+        "iso_code": "CF"
+    },
+    {
+        "display_name": "Čad",
+        "iso_code": "TD"
+    },
+    {
+        "display_name": "Čile",
+        "iso_code": "CL"
+    },
+    {
+        "display_name": "Čína",
+        "iso_code": "CN"
+    },
+    {
+        "display_name": "Vianočný ostrov",
+        "iso_code": "CX"
+    },
+    {
+        "display_name": "Kokosové (Keelingove) ostrovy",
+        "iso_code": "CC"
+    },
+    {
+        "display_name": "Kolumbia",
+        "iso_code": "CO"
+    },
+    {
+        "display_name": "Komory",
+        "iso_code": "KM"
+    },
+    {
+        "display_name": "Kongo (Brazzaville)",
+        "iso_code": "CG"
+    },
+    {
+        "display_name": "Kongo (Kinshasa)",
+        "iso_code": "CD"
+    },
+    {
+        "display_name": "Cookove ostrovy",
+        "iso_code": "CK"
+    },
+    {
+        "display_name": "Kostarika",
+        "iso_code": "CR"
+    },
+    {
+        "display_name": "Pobrežie Slonoviny",
+        "iso_code": "CI"
+    },
+    {
+        "display_name": "Chorvátsko",
+        "iso_code": "HR"
+    },
+    {
+        "display_name": "Curaçao",
+        "iso_code": "CW"
+    },
+    {
+        "display_name": "Cyprus",
+        "iso_code": "CY"
+    },
+    {
+        "display_name": "Česká republika",
+        "iso_code": "CZ"
+    },
+    {
+        "display_name": "Dánsko",
+        "iso_code": "DK"
+    },
+    {
+        "display_name": "Džibutsko",
+        "iso_code": "DJ"
+    },
+    {
+        "display_name": "Dominika",
+        "iso_code": "DM"
+    },
+    {
+        "display_name": "Dominikánska Republika",
+        "iso_code": "DO"
+    },
+    {
+        "display_name": "Ekvádor",
+        "iso_code": "EC"
+    },
+    {
+        "display_name": "Egypt",
+        "iso_code": "EG"
+    },
+    {
+        "display_name": "Salvádor",
+        "iso_code": "SV"
+    },
+    {
+        "display_name": "Rovníková Guinea",
+        "iso_code": "GQ"
+    },
+    {
+        "display_name": "Eritrea",
+        "iso_code": "ER"
+    },
+    {
+        "display_name": "Estónsko",
+        "iso_code": "EE"
+    },
+    {
+        "display_name": "Etiópia",
+        "iso_code": "ET"
+    },
+    {
+        "display_name": "Falklandské ostrovy (Malvíny)",
+        "iso_code": "FK"
+    },
+    {
+        "display_name": "Faerské ostrovy",
+        "iso_code": "FO"
+    },
+    {
+        "display_name": "Fidži",
+        "iso_code": "FJ"
+    },
+    {
+        "display_name": "Fínsko",
+        "iso_code": "FI"
+    },
+    {
+        "display_name": "Francúzsko",
+        "iso_code": "FR"
+    },
+    {
+        "display_name": "Francúzska Guyana",
+        "iso_code": "GF"
+    },
+    {
+        "display_name": "Francúzska Polynézia",
+        "iso_code": "PF"
+    },
+    {
+        "display_name": "Francúzske južné a antarktické územia",
+        "iso_code": "TF"
+    },
+    {
+        "display_name": "Gabon",
+        "iso_code": "GA"
+    },
+    {
+        "display_name": "Gambia",
+        "iso_code": "GM"
+    },
+    {
+        "display_name": "Gruzínsko",
+        "iso_code": "GE"
+    },
+    {
+        "display_name": "Nemecko",
+        "iso_code": "DE"
+    },
+    {
+        "display_name": "Ghana",
+        "iso_code": "GH"
+    },
+    {
+        "display_name": "Gibraltár",
+        "iso_code": "GI"
+    },
+    {
+        "display_name": "Grécko",
+        "iso_code": "GR"
+    },
+    {
+        "display_name": "Grónsko",
+        "iso_code": "GL"
+    },
+    {
+        "display_name": "Grenada",
+        "iso_code": "GD"
+    },
+    {
+        "display_name": "Guadeloupe",
+        "iso_code": "GP"
+    },
+    {
+        "display_name": "Guam",
+        "iso_code": "GU"
+    },
+    {
+        "display_name": "Guatemala",
+        "iso_code": "GT"
+    },
+    {
+        "display_name": "Guernsey",
+        "iso_code": "GG"
+    },
+    {
+        "display_name": "Guinea",
+        "iso_code": "GN"
+    },
+    {
+        "display_name": "Guinea-Bissau",
+        "iso_code": "GW"
+    },
+    {
+        "display_name": "Guyana",
+        "iso_code": "GY"
+    },
+    {
+        "display_name": "Haiti",
+        "iso_code": "HT"
+    },
+    {
+        "display_name": "Heardov ostrov a McDonaldove ostrovy",
+        "iso_code": "HM"
+    },
+    {
+        "display_name": "Svätá stolica (Vatikánsky mestský štát)",
+        "iso_code": "VA"
+    },
+    {
+        "display_name": "Honduras",
+        "iso_code": "HN"
+    },
+    {
+        "display_name": "Hong Kong",
+        "iso_code": "HK"
+    },
+    {
+        "display_name": "Maďarsko",
+        "iso_code": "HU"
+    },
+    {
+        "display_name": "Island",
+        "iso_code": "IS"
+    },
+    {
+        "display_name": "India",
+        "iso_code": "IN"
+    },
+    {
+        "display_name": "Indonézia",
+        "iso_code": "ID"
+    },
+    {
+        "display_name": "Irak",
+        "iso_code": "IQ"
+    },
+    {
+        "display_name": "Írsko",
+        "iso_code": "IE"
+    },
+    {
+        "display_name": "Ostrov Man",
+        "iso_code": "IM"
+    },
+    {
+        "display_name": "Izrael",
+        "iso_code": "IL"
+    },
+    {
+        "display_name": "Taliansko",
+        "iso_code": "IT"
+    },
+    {
+        "display_name": "Jamajka",
+        "iso_code": "JM"
+    },
+    {
+        "display_name": "Japonsko",
+        "iso_code": "JP"
+    },
+    {
+        "display_name": "Jersey",
+        "iso_code": "JE"
+    },
+    {
+        "display_name": "Jordánsko",
+        "iso_code": "JO"
+    },
+    {
+        "display_name": "Kazachstan",
+        "iso_code": "KZ"
+    },
+    {
+        "display_name": "Keňa",
+        "iso_code": "KE"
+    },
+    {
+        "display_name": "Kiribati",
+        "iso_code": "KI"
+    },
+    {
+        "display_name": "Južná Kórea",
+        "iso_code": "KR"
+    },
+    {
+        "display_name": "Kuvajt",
+        "iso_code": "KW"
+    },
+    {
+        "display_name": "Kirgizsko",
+        "iso_code": "KG"
+    },
+    {
+        "display_name": "Laos",
+        "iso_code": "LA"
+    },
+    {
+        "display_name": "Lotyšsko",
+        "iso_code": "LV"
+    },
+    {
+        "display_name": "Libanon",
+        "iso_code": "LB"
+    },
+    {
+        "display_name": "Lesotho",
+        "iso_code": "LS"
+    },
+    {
+        "display_name": "Libéria",
+        "iso_code": "LR"
+    },
+    {
+        "display_name": "Líbia",
+        "iso_code": "LY"
+    },
+    {
+        "display_name": "Lichtenštajnsko",
+        "iso_code": "LI"
+    },
+    {
+        "display_name": "Litva",
+        "iso_code": "LT"
+    },
+    {
+        "display_name": "Luxembursko",
+        "iso_code": "LU"
+    },
+    {
+        "display_name": "Macau",
+        "iso_code": "MO"
+    },
+    {
+        "display_name": "Macedónsko",
+        "iso_code": "MK"
+    },
+    {
+        "display_name": "Madagaskar",
+        "iso_code": "MG"
+    },
+    {
+        "display_name": "Malawi",
+        "iso_code": "MW"
+    },
+    {
+        "display_name": "Malajzia",
+        "iso_code": "MY"
+    },
+    {
+        "display_name": "Maledivy",
+        "iso_code": "MV"
+    },
+    {
+        "display_name": "Mali",
+        "iso_code": "ML"
+    },
+    {
+        "display_name": "Malta",
+        "iso_code": "MT"
+    },
+    {
+        "display_name": "Marshallove ostrovy",
+        "iso_code": "MH"
+    },
+    {
+        "display_name": "Martinik",
+        "iso_code": "MQ"
+    },
+    {
+        "display_name": "Mauritánia",
+        "iso_code": "MR"
+    },
+    {
+        "display_name": "Maurícius",
+        "iso_code": "MU"
+    },
+    {
+        "display_name": "Mayotte",
+        "iso_code": "YT"
+    },
+    {
+        "display_name": "Mexiko",
+        "iso_code": "MX"
+    },
+    {
+        "display_name": "Mikronézia",
+        "iso_code": "FM"
+    },
+    {
+        "display_name": "Moldavsko",
+        "iso_code": "MD"
+    },
+    {
+        "display_name": "Monaco",
+        "iso_code": "MC"
+    },
+    {
+        "display_name": "Mongolsko",
+        "iso_code": "MN"
+    },
+    {
+        "display_name": "Čierna Hora",
+        "iso_code": "ME"
+    },
+    {
+        "display_name": "Montserrat",
+        "iso_code": "MS"
+    },
+    {
+        "display_name": "Maroko",
+        "iso_code": "MA"
+    },
+    {
+        "display_name": "Mozambik",
+        "iso_code": "MZ"
+    },
+    {
+        "display_name": "Namíbia",
+        "iso_code": "NA"
+    },
+    {
+        "display_name": "Nauru",
+        "iso_code": "NR"
+    },
+    {
+        "display_name": "Nepál",
+        "iso_code": "NP"
+    },
+    {
+        "display_name": "Holandsko",
+        "iso_code": "NL"
+    },
+    {
+        "display_name": "Nová Kaledónia",
+        "iso_code": "NC"
+    },
+    {
+        "display_name": "Nový Zéland",
+        "iso_code": "NZ"
+    },
+    {
+        "display_name": "Nikaragua",
+        "iso_code": "NI"
+    },
+    {
+        "display_name": "Niger",
+        "iso_code": "NE"
+    },
+    {
+        "display_name": "Nigéria",
+        "iso_code": "NG"
+    },
+    {
+        "display_name": "Niue",
+        "iso_code": "NU"
+    },
+    {
+        "display_name": "Ostrov Norfolk",
+        "iso_code": "NF"
+    },
+    {
+        "display_name": "Severné Mariány",
+        "iso_code": "MP"
+    },
+    {
+        "display_name": "Nórsko",
+        "iso_code": "NO"
+    },
+    {
+        "display_name": "Omán",
+        "iso_code": "OM"
+    },
+    {
+        "display_name": "Pakistan",
+        "iso_code": "PK"
+    },
+    {
+        "display_name": "Palau",
+        "iso_code": "PW"
+    },
+    {
+        "display_name": "Palestínske územia",
+        "iso_code": "PS"
+    },
+    {
+        "display_name": "Panama",
+        "iso_code": "PA"
+    },
+    {
+        "display_name": "Papua-Nová Guinea",
+        "iso_code": "PG"
+    },
+    {
+        "display_name": "Paraguaj",
+        "iso_code": "PY"
+    },
+    {
+        "display_name": "Peru",
+        "iso_code": "PE"
+    },
+    {
+        "display_name": "Filipíny",
+        "iso_code": "PH"
+    },
+    {
+        "display_name": "Pitcairnove ostrovy",
+        "iso_code": "PN"
+    },
+    {
+        "display_name": "Poľsko",
+        "iso_code": "PL"
+    },
+    {
+        "display_name": "Portugalsko",
+        "iso_code": "PT"
+    },
+    {
+        "display_name": "Portoriko",
+        "iso_code": "PR"
+    },
+    {
+        "display_name": "Katar",
+        "iso_code": "QA"
+    },
+    {
+        "display_name": "Réunion",
+        "iso_code": "RE"
+    },
+    {
+        "display_name": "Rumunsko",
+        "iso_code": "RO"
+    },
+    {
+        "display_name": "Rusko",
+        "iso_code": "RU"
+    },
+    {
+        "display_name": "Rwanda",
+        "iso_code": "RW"
+    },
+    {
+        "display_name": "Svätá Helena",
+        "iso_code": "SH"
+    },
+    {
+        "display_name": "Svätý Krištof a Nevis",
+        "iso_code": "KN"
+    },
+    {
+        "display_name": "Svätá Lucia",
+        "iso_code": "LC"
+    },
+    {
+        "display_name": "Svätý Peter a Michal",
+        "iso_code": "PM"
+    },
+    {
+        "display_name": "Svätý Vincent a Grenadíny",
+        "iso_code": "VC"
+    },
+    {
+        "display_name": "Svätý Bartolomej",
+        "iso_code": "BL"
+    },
+    {
+        "display_name": "Svätý Martin (francúzska časť)",
+        "iso_code": "MF"
+    },
+    {
+        "display_name": "Samoa",
+        "iso_code": "WS"
+    },
+    {
+        "display_name": "San Maríno",
+        "iso_code": "SM"
+    },
+    {
+        "display_name": "Svätý Tomáš a Princov ostrov",
+        "iso_code": "ST"
+    },
+    {
+        "display_name": "Saudská Arábia",
+        "iso_code": "SA"
+    },
+    {
+        "display_name": "Senegal",
+        "iso_code": "SN"
+    },
+    {
+        "display_name": "Srbsko",
+        "iso_code": "RS"
+    },
+    {
+        "display_name": "Seychely",
+        "iso_code": "SC"
+    },
+    {
+        "display_name": "Sierra Leone",
+        "iso_code": "SL"
+    },
+    {
+        "display_name": "Singapur",
+        "iso_code": "SG"
+    },
+    {
+        "display_name": "Svätý Martin (holandská časť)",
+        "iso_code": "SX"
+    },
+    {
+        "display_name": "Slovensko",
+        "iso_code": "SK"
+    },
+    {
+        "display_name": "Slovinsko",
+        "iso_code": "SI"
+    },
+    {
+        "display_name": "Šalamúnove ostrovy",
+        "iso_code": "SB"
+    },
+    {
+        "display_name": "Južná Afrika",
+        "iso_code": "ZA"
+    },
+    {
+        "display_name": "Južná Georgia a Južné Sandwichove ostrovy",
+        "iso_code": "GS"
+    },
+    {
+        "display_name": "Južný Sudán",
+        "iso_code": "SS"
+    },
+    {
+        "display_name": "Španielsko",
+        "iso_code": "ES"
+    },
+    {
+        "display_name": "Srí Lanka",
+        "iso_code": "LK"
+    },
+    {
+        "display_name": "Surinam",
+        "iso_code": "SR"
+    },
+    {
+        "display_name": "Ostrovy Špicbergy a Jan Mayen",
+        "iso_code": "SJ"
+    },
+    {
+        "display_name": "Svazijsko",
+        "iso_code": "SZ"
+    },
+    {
+        "display_name": "Švédsko",
+        "iso_code": "SE"
+    },
+    {
+        "display_name": "Švajčiarsko",
+        "iso_code": "CH"
+    },
+    {
+        "display_name": "Taiwan",
+        "iso_code": "TW"
+    },
+    {
+        "display_name": "Tadžikistan",
+        "iso_code": "TJ"
+    },
+    {
+        "display_name": "Tanzánia",
+        "iso_code": "TZ"
+    },
+    {
+        "display_name": "Thajsko",
+        "iso_code": "TH"
+    },
+    {
+        "display_name": "Východný Timor",
+        "iso_code": "TL"
+    },
+    {
+        "display_name": "Togo",
+        "iso_code": "TG"
+    },
+    {
+        "display_name": "Tokelau",
+        "iso_code": "TK"
+    },
+    {
+        "display_name": "Tonga",
+        "iso_code": "TO"
+    },
+    {
+        "display_name": "Trinidad a Tobago",
+        "iso_code": "TT"
+    },
+    {
+        "display_name": "Tunisko",
+        "iso_code": "TN"
+    },
+    {
+        "display_name": "Turecko",
+        "iso_code": "TR"
+    },
+    {
+        "display_name": "Turkménsko",
+        "iso_code": "TM"
+    },
+    {
+        "display_name": "Turks a Caicos",
+        "iso_code": "TC"
+    },
+    {
+        "display_name": "Tuvalu",
+        "iso_code": "TV"
+    },
+    {
+        "display_name": "Uganda",
+        "iso_code": "UG"
+    },
+    {
+        "display_name": "Ukrajina (okrem Krymu)",
+        "iso_code": "UA"
+    },
+    {
+        "display_name": "Spojené Arabské Emiráty",
+        "iso_code": "AE"
+    },
+    {
+        "display_name": "Veľká Británia",
+        "iso_code": "GB"
+    },
+    {
+        "display_name": "Spojené štáty americké",
+        "iso_code": "US"
+    },
+    {
+        "display_name": "Uruguaj",
+        "iso_code": "UY"
+    },
+    {
+        "display_name": "Menšie odľahlé ostrovy USA",
+        "iso_code": "UM"
+    },
+    {
+        "display_name": "Uzbekistan",
+        "iso_code": "UZ"
+    },
+    {
+        "display_name": "Vanuatu",
+        "iso_code": "VU"
+    },
+    {
+        "display_name": "Venezuela",
+        "iso_code": "VE"
+    },
+    {
+        "display_name": "Vietnam",
+        "iso_code": "VN"
+    },
+    {
+        "display_name": "Panenské ostrovy, USA",
+        "iso_code": "VI"
+    },
+    {
+        "display_name": "Wallis a Futuna",
+        "iso_code": "WF"
+    },
+    {
+        "display_name": "Západná Sahara",
+        "iso_code": "EH"
+    },
+    {
+        "display_name": "Jemen",
+        "iso_code": "YE"
+    },
+    {
+        "display_name": "Zambia",
+        "iso_code": "ZM"
+    },
+    {
+        "display_name": "Zimbabwe",
+        "iso_code": "ZW"
+    },
+    {
+        "display_name": "Kuba",
+        "iso_code": "CU"
+    },
+    {
+        "display_name": "Irán",
+        "iso_code": "IR"
+    },
+    {
+        "display_name": "Mjanmarsko",
+        "iso_code": "MM"
+    },
+    {
+        "display_name": "Somálsko",
+        "iso_code": "SO"
+    },
+    {
+        "display_name": "Sudán",
+        "iso_code": "SD"
+    },
+    {
+        "display_name": "Sýria",
+        "iso_code": "SY"
+    }
+]

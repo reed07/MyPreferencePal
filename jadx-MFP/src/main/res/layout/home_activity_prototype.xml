@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/fragment_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bottom_bar" android:layout_alignParentTop="true"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/bottom_bar" android:background="#bbb" android:layout_width="match_parent" android:layout_height="54dp" android:layout_alignParentBottom="true">
+        <TextView android:gravity="center" android:id="@+id/buttonHome" android:background="@drawable/list_item_bg_selector" android:layout_width="0dp" android:layout_height="match_parent" android:layout_margin="4dp" android:text="home" android:layout_weight="1"/>
+        <TextView android:gravity="center" android:id="@+id/buttonDiary" android:background="@drawable/list_item_bg_selector" android:layout_width="0dp" android:layout_height="match_parent" android:layout_margin="4dp" android:text="diary" android:layout_weight="1"/>
+        <TextView android:gravity="center" android:id="@+id/buttonExplore" android:background="@drawable/list_item_bg_selector" android:layout_width="0dp" android:layout_height="match_parent" android:layout_margin="4dp" android:text="explore" android:layout_weight="1"/>
+        <TextView android:gravity="center" android:id="@+id/buttonMe" android:background="@drawable/list_item_bg_selector" android:layout_width="0dp" android:layout_height="match_parent" android:layout_margin="4dp" android:text="me" android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>

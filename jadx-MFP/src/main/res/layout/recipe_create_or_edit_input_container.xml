@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt">
+    <android.support.design.widget.TextInputLayout android:id="@+id/name_input_container" style="@style/FloatingHintLayout">
+        <android.support.design.widget.TextInputEditText android:id="@+id/name_input" android:hint="@string/recipe_title_hint" style="@style/RecipeInput"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:id="@+id/servings_input_container" style="@style/FloatingHintLayout">
+        <android.support.design.widget.TextInputEditText android:id="@+id/servings_input" android:hint="@string/servings" android:inputType="number" style="@style/RecipeInput"/>
+    </android.support.design.widget.TextInputLayout>
+</merge>

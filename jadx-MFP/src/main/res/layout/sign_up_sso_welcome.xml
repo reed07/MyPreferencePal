@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/sign_up_ua_sso_interstitial_bg" android:scaleType="centerCrop"/>
+        <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_padding_20" android:layout_marginBottom="@dimen/material_padding_8" android:text="@string/auth_sign_up_interstitial_title" style="@style/Header.BlackText"/>
+        <TextView android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/material_padding_36" android:layout_marginRight="@dimen/material_padding_36" android:layout_marginBottom="@dimen/material_padding_20" android:text="@string/auth_sign_up_interstitial_message" android:lineSpacingMultiplier="1.4" style="@style/Body.BlackSecondaryText"/>
+        <Button android:id="@+id/continue_button" android:paddingLeft="@dimen/material_padding_24" android:paddingRight="@dimen/material_padding_24" android:layout_height="@dimen/material_button_height_40" android:text="@string/continueBtn" style="@style/MaterialLoginButton"/>
+    </LinearLayout>
+</ScrollView>

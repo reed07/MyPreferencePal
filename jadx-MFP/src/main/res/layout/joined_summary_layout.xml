@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.myfitnesspal.shared.ui.view.StateAwareScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/joined_summary_scrollview" android:background="@color/challenges_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/flJoinedSummaryContainer" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/newsfeed_padding_8dp">
+            <FrameLayout android:id="@+id/flJoinedAchievementsContainer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </android.support.v7.widget.CardView>
+        <TextView android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/btnLeaveChallenge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/material_margin_16" android:layout_marginTop="@dimen/material_margin_16" android:layout_marginRight="@dimen/material_margin_16" android:layout_marginBottom="@dimen/material_padding_32" android:text="@string/leave_challenge" style="@style/Header2A.BlackText"/>
+    </LinearLayout>
+</com.myfitnesspal.shared.ui.view.StateAwareScrollView>

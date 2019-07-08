@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CollapsingToolbarLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" app:contentScrim="?attr/colorPrimary" app:layout_scrollFlags="13" app:titleEnabled="false">
+    <android.support.v7.widget.Toolbar android:id="@+id/toolbar" android:background="?attr/colorPrimary" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/actionBarSize" app:layout_collapseMode="1">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/toolbar_subview_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.myfitnesspal.shared.ui.view.MfpImageView android:id="@+id/toolbar_image" android:layout_width="@dimen/profile_small_image_size" android:layout_height="@dimen/profile_small_image_size" android:layout_marginTop="@dimen/material_margin_12" android:layout_marginRight="@dimen/material_margin_16" android:src="@drawable/ic_profile" app:circular="true"/>
+            <TextView android:layout_gravity="center_vertical" android:id="@+id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ToolbarTitle"/>
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+</android.support.design.widget.CollapsingToolbarLayout>

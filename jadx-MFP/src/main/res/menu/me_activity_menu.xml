@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/ic_act_bar_settings" android:id="@+id/action_settings" android:title="@string/settings" app:showAsAction="always"/>
+</menu>

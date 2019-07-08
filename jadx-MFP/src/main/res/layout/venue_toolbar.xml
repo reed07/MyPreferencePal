@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/toolbar" style="@style/ToolbarStyle">
+    <LinearLayout android:layout_gravity="left" android:orientation="vertical" android:id="@+id/input_container" android:paddingTop="@dimen/toolbar_input_text_margin" android:paddingRight="@dimen/toolbar_input_text_margin" android:paddingBottom="@dimen/toolbar_input_text_margin" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.myfitnesspal.shared.ui.view.ClearableEditText android:id="@+id/restaurant_input" android:hint="@string/search_restaurants" style="@style/ToolbarSearchEditText.RL.Venue"/>
+        <com.myfitnesspal.shared.ui.view.ClearableEditText android:id="@+id/location_input" android:layout_marginTop="@dimen/toolbar_input_text_margin" android:hint="@string/current_location" style="@style/ToolbarSearchEditText.RL.Venue"/>
+    </LinearLayout>
+    <TextView android:layout_gravity="left" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ToolbarTitle"/>
+</android.support.v7.widget.Toolbar>

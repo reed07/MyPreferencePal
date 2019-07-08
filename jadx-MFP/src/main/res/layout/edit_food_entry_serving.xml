@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true" style="@style/DialogContentBaseAlt">
+    <TableRow android:id="@+id/TableRow02" style="@style/EditServingsDialogRow">
+        <com.myfitnesspal.shared.ui.view.CustomLocalizedNumberEditText android:id="@+id/numOfServings" android:layout_width="0dp" android:layout_weight="2" style="@style/DialogEditText"/>
+        <TextView android:id="@+id/txtServingsOf" android:layout_width="0dp" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:text="@string/entryFoodEntryServingsTxt" android:layout_weight="3" style="@style/DialogContentSubHeaderText"/>
+    </TableRow>
+    <TableRow android:id="@+id/TableRow01" android:layout_marginTop="@dimen/edit_servings_dialog_content_spacing" style="@style/EditServingsDialogRow">
+        <Spinner android:gravity="right" android:layout_gravity="center_vertical" android:id="@+id/serving_size" android:layout_width="match_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="false"/>
+    </TableRow>
+    <TextView android:id="@+id/invalid_serving" android:visibility="gone" android:layout_marginTop="16dp" android:layout_marginRight="8dp" android:text="@string/alert_valid_serving" style="@style/Body.DarkOrange"/>
+</LinearLayout>

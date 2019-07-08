@@ -1,0 +1,12 @@
+<resources>
+
+    <!--Source and patched resources are merged according to standard build rules:
+        http://tools.android.com/tech-docs/new-build-system/resource-merging -->
+
+    <!--Override app name.-->
+    <string name="app_name">MyFitnessPal (MyPreferencePal)</string>
+    <string name="show_net_carbs">Show Net Carbs</string>
+    <string name="show_smart_carbs">Show Smart Carbs</string>
+    <string name="title_activity_my_preference_pal_settings">MyPreferencePalSettingsActivity</string>
+    <string name="net_carbs">Net Carbs</string>
+</resources>

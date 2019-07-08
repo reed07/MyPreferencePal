@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/white" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/friends_list_no_friends" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/friends_list_no_friends_layout_top_margin" android:layout_marginStart="@dimen/friends_list_no_friends_layout_margin" android:layout_marginEnd="@dimen/friends_list_no_friends_layout_margin" layout="@layout/friends_no_friends_layout"/>
+    <ProgressBar android:gravity="center_horizontal" android:id="@+id/friends_list_progress_bar" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ProgressBarSmall.Margin5"/>
+    <android.support.v7.widget.RecyclerView android:id="@+id/friends_list_recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" android:scrollingCache="true"/>
+</LinearLayout>

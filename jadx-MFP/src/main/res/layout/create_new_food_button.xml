@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center_horizontal" android:id="@+id/container" android:background="#ffffff" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <com.myfitnesspal.shared.ui.view.StyledButton android:id="@+id/createNewFoodExt" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="@string/new_food" android:layout_weight="4" style="@style/create_new_item_button"/>
+    <View android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+</LinearLayout>

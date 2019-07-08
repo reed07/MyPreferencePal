@@ -1,0 +1,994 @@
+[
+    {
+        "display_name": "아프가니스탄",
+        "iso_code": "AF"
+    },
+    {
+        "display_name": "올란드 제도",
+        "iso_code": "AX"
+    },
+    {
+        "display_name": "알바니아",
+        "iso_code": "AL"
+    },
+    {
+        "display_name": "알제리",
+        "iso_code": "DZ"
+    },
+    {
+        "display_name": "미국령 사모아",
+        "iso_code": "AS"
+    },
+    {
+        "display_name": "안도라",
+        "iso_code": "AD"
+    },
+    {
+        "display_name": "앙골라",
+        "iso_code": "AO"
+    },
+    {
+        "display_name": "앵귈라",
+        "iso_code": "AI"
+    },
+    {
+        "display_name": "남극 대륙",
+        "iso_code": "AQ"
+    },
+    {
+        "display_name": "앤티가 바부다",
+        "iso_code": "AG"
+    },
+    {
+        "display_name": "아르헨티나",
+        "iso_code": "AR"
+    },
+    {
+        "display_name": "아르메니아",
+        "iso_code": "AM"
+    },
+    {
+        "display_name": "아루바",
+        "iso_code": "AW"
+    },
+    {
+        "display_name": "호주",
+        "iso_code": "AU"
+    },
+    {
+        "display_name": "오스트리아",
+        "iso_code": "AT"
+    },
+    {
+        "display_name": "아제르바이잔",
+        "iso_code": "AZ"
+    },
+    {
+        "display_name": "바하마",
+        "iso_code": "BS"
+    },
+    {
+        "display_name": "바레인",
+        "iso_code": "BH"
+    },
+    {
+        "display_name": "방글라데시",
+        "iso_code": "BD"
+    },
+    {
+        "display_name": "바베이도스",
+        "iso_code": "BB"
+    },
+    {
+        "display_name": "벨라루스",
+        "iso_code": "BY"
+    },
+    {
+        "display_name": "벨기에",
+        "iso_code": "BE"
+    },
+    {
+        "display_name": "벨리즈",
+        "iso_code": "BZ"
+    },
+    {
+        "display_name": "베냉",
+        "iso_code": "BJ"
+    },
+    {
+        "display_name": "버뮤다",
+        "iso_code": "BM"
+    },
+    {
+        "display_name": "부탄",
+        "iso_code": "BT"
+    },
+    {
+        "display_name": "볼리비아",
+        "iso_code": "BO"
+    },
+    {
+        "display_name": "보네르, 세인트 유스타티유스, 사바",
+        "iso_code": "BQ"
+    },
+    {
+        "display_name": "보스니아 헤르체고비나",
+        "iso_code": "BA"
+    },
+    {
+        "display_name": "보츠와나",
+        "iso_code": "BW"
+    },
+    {
+        "display_name": "부베 섬",
+        "iso_code": "BV"
+    },
+    {
+        "display_name": "브라질",
+        "iso_code": "BR"
+    },
+    {
+        "display_name": "영국령 인도양 지역",
+        "iso_code": "IO"
+    },
+    {
+        "display_name": "영국령 버진아일랜드",
+        "iso_code": "VG"
+    },
+    {
+        "display_name": "브루나이",
+        "iso_code": "BN"
+    },
+    {
+        "display_name": "불가리아",
+        "iso_code": "BG"
+    },
+    {
+        "display_name": "부르키나파소",
+        "iso_code": "BF"
+    },
+    {
+        "display_name": "부룬디",
+        "iso_code": "BI"
+    },
+    {
+        "display_name": "캄보디아",
+        "iso_code": "KH"
+    },
+    {
+        "display_name": "카메룬",
+        "iso_code": "CM"
+    },
+    {
+        "display_name": "캐나다",
+        "iso_code": "CA"
+    },
+    {
+        "display_name": "카보베르데",
+        "iso_code": "CV"
+    },
+    {
+        "display_name": "케이맨 제도",
+        "iso_code": "KY"
+    },
+    {
+        "display_name": "중앙아프리카 공화국",
+        "iso_code": "CF"
+    },
+    {
+        "display_name": "차드",
+        "iso_code": "TD"
+    },
+    {
+        "display_name": "칠레",
+        "iso_code": "CL"
+    },
+    {
+        "display_name": "중국",
+        "iso_code": "CN"
+    },
+    {
+        "display_name": "크리스마스 섬",
+        "iso_code": "CX"
+    },
+    {
+        "display_name": "코코스(킬링) 제도",
+        "iso_code": "CC"
+    },
+    {
+        "display_name": "콜롬비아",
+        "iso_code": "CO"
+    },
+    {
+        "display_name": "코모로",
+        "iso_code": "KM"
+    },
+    {
+        "display_name": "콩고(브라자빌)",
+        "iso_code": "CG"
+    },
+    {
+        "display_name": "콩고(킨샤사)",
+        "iso_code": "CD"
+    },
+    {
+        "display_name": "쿡 제도",
+        "iso_code": "CK"
+    },
+    {
+        "display_name": "코스타리카",
+        "iso_code": "CR"
+    },
+    {
+        "display_name": "코트디부아르",
+        "iso_code": "CI"
+    },
+    {
+        "display_name": "크로아티아",
+        "iso_code": "HR"
+    },
+    {
+        "display_name": "퀴라소",
+        "iso_code": "CW"
+    },
+    {
+        "display_name": "키프로스",
+        "iso_code": "CY"
+    },
+    {
+        "display_name": "체코",
+        "iso_code": "CZ"
+    },
+    {
+        "display_name": "덴마크",
+        "iso_code": "DK"
+    },
+    {
+        "display_name": "지부티",
+        "iso_code": "DJ"
+    },
+    {
+        "display_name": "도미니카",
+        "iso_code": "DM"
+    },
+    {
+        "display_name": "도미니카 공화국",
+        "iso_code": "DO"
+    },
+    {
+        "display_name": "에콰도르",
+        "iso_code": "EC"
+    },
+    {
+        "display_name": "이집트",
+        "iso_code": "EG"
+    },
+    {
+        "display_name": "엘살바도르",
+        "iso_code": "SV"
+    },
+    {
+        "display_name": "적도 기니",
+        "iso_code": "GQ"
+    },
+    {
+        "display_name": "에리트레아",
+        "iso_code": "ER"
+    },
+    {
+        "display_name": "에스토니아",
+        "iso_code": "EE"
+    },
+    {
+        "display_name": "에티오피아",
+        "iso_code": "ET"
+    },
+    {
+        "display_name": "포클랜드 제도(말비나스 제도)",
+        "iso_code": "FK"
+    },
+    {
+        "display_name": "페로 제도",
+        "iso_code": "FO"
+    },
+    {
+        "display_name": "피지",
+        "iso_code": "FJ"
+    },
+    {
+        "display_name": "핀란드",
+        "iso_code": "FI"
+    },
+    {
+        "display_name": "프랑스",
+        "iso_code": "FR"
+    },
+    {
+        "display_name": "프랑스령 기아나",
+        "iso_code": "GF"
+    },
+    {
+        "display_name": "프랑스령 폴리네시아",
+        "iso_code": "PF"
+    },
+    {
+        "display_name": "프랑스령 남방 및 남극",
+        "iso_code": "TF"
+    },
+    {
+        "display_name": "가봉",
+        "iso_code": "GA"
+    },
+    {
+        "display_name": "감비아",
+        "iso_code": "GM"
+    },
+    {
+        "display_name": "그루지야",
+        "iso_code": "GE"
+    },
+    {
+        "display_name": "독일",
+        "iso_code": "DE"
+    },
+    {
+        "display_name": "가나",
+        "iso_code": "GH"
+    },
+    {
+        "display_name": "지브롤터",
+        "iso_code": "GI"
+    },
+    {
+        "display_name": "그리스",
+        "iso_code": "GR"
+    },
+    {
+        "display_name": "그린란드",
+        "iso_code": "GL"
+    },
+    {
+        "display_name": "그레나다",
+        "iso_code": "GD"
+    },
+    {
+        "display_name": "과들루프",
+        "iso_code": "GP"
+    },
+    {
+        "display_name": "괌",
+        "iso_code": "GU"
+    },
+    {
+        "display_name": "과테말라",
+        "iso_code": "GT"
+    },
+    {
+        "display_name": "건지",
+        "iso_code": "GG"
+    },
+    {
+        "display_name": "기니",
+        "iso_code": "GN"
+    },
+    {
+        "display_name": "기니비사우",
+        "iso_code": "GW"
+    },
+    {
+        "display_name": "가이아나",
+        "iso_code": "GY"
+    },
+    {
+        "display_name": "아이티",
+        "iso_code": "HT"
+    },
+    {
+        "display_name": "허드 맥도널드 제도",
+        "iso_code": "HM"
+    },
+    {
+        "display_name": "교황청(바티칸 시국)",
+        "iso_code": "VA"
+    },
+    {
+        "display_name": "온두라스",
+        "iso_code": "HN"
+    },
+    {
+        "display_name": "홍콩",
+        "iso_code": "HK"
+    },
+    {
+        "display_name": "헝가리",
+        "iso_code": "HU"
+    },
+    {
+        "display_name": "아이슬란드",
+        "iso_code": "IS"
+    },
+    {
+        "display_name": "인도",
+        "iso_code": "IN"
+    },
+    {
+        "display_name": "인도네시아",
+        "iso_code": "ID"
+    },
+    {
+        "display_name": "이라크",
+        "iso_code": "IQ"
+    },
+    {
+        "display_name": "아일랜드",
+        "iso_code": "IE"
+    },
+    {
+        "display_name": "맨 섬",
+        "iso_code": "IM"
+    },
+    {
+        "display_name": "이스라엘",
+        "iso_code": "IL"
+    },
+    {
+        "display_name": "이탈리아",
+        "iso_code": "IT"
+    },
+    {
+        "display_name": "자메이카",
+        "iso_code": "JM"
+    },
+    {
+        "display_name": "일본",
+        "iso_code": "JP"
+    },
+    {
+        "display_name": "저지",
+        "iso_code": "JE"
+    },
+    {
+        "display_name": "요르단",
+        "iso_code": "JO"
+    },
+    {
+        "display_name": "카자흐스탄",
+        "iso_code": "KZ"
+    },
+    {
+        "display_name": "케냐",
+        "iso_code": "KE"
+    },
+    {
+        "display_name": "키리바시",
+        "iso_code": "KI"
+    },
+    {
+        "display_name": "대한민국",
+        "iso_code": "KR"
+    },
+    {
+        "display_name": "쿠웨이트",
+        "iso_code": "KW"
+    },
+    {
+        "display_name": "키르기스스탄",
+        "iso_code": "KG"
+    },
+    {
+        "display_name": "라오스",
+        "iso_code": "LA"
+    },
+    {
+        "display_name": "라트비아",
+        "iso_code": "LV"
+    },
+    {
+        "display_name": "레바논",
+        "iso_code": "LB"
+    },
+    {
+        "display_name": "레소토",
+        "iso_code": "LS"
+    },
+    {
+        "display_name": "라이베이아",
+        "iso_code": "LR"
+    },
+    {
+        "display_name": "리비아",
+        "iso_code": "LY"
+    },
+    {
+        "display_name": "리히텐슈타인",
+        "iso_code": "LI"
+    },
+    {
+        "display_name": "리투아니아",
+        "iso_code": "LT"
+    },
+    {
+        "display_name": "룩셈부르크",
+        "iso_code": "LU"
+    },
+    {
+        "display_name": "마카오",
+        "iso_code": "MO"
+    },
+    {
+        "display_name": "마케도니아",
+        "iso_code": "MK"
+    },
+    {
+        "display_name": "마다가스카르",
+        "iso_code": "MG"
+    },
+    {
+        "display_name": "말라위",
+        "iso_code": "MW"
+    },
+    {
+        "display_name": "말레이시아",
+        "iso_code": "MY"
+    },
+    {
+        "display_name": "몰디브",
+        "iso_code": "MV"
+    },
+    {
+        "display_name": "말리",
+        "iso_code": "ML"
+    },
+    {
+        "display_name": "몰타",
+        "iso_code": "MT"
+    },
+    {
+        "display_name": "마샬 제도",
+        "iso_code": "MH"
+    },
+    {
+        "display_name": "마르티니크",
+        "iso_code": "MQ"
+    },
+    {
+        "display_name": "모리타니아",
+        "iso_code": "MR"
+    },
+    {
+        "display_name": "모리셔스",
+        "iso_code": "MU"
+    },
+    {
+        "display_name": "마요트",
+        "iso_code": "YT"
+    },
+    {
+        "display_name": "멕시코",
+        "iso_code": "MX"
+    },
+    {
+        "display_name": "미크로네시아 연방",
+        "iso_code": "FM"
+    },
+    {
+        "display_name": "몰도바",
+        "iso_code": "MD"
+    },
+    {
+        "display_name": "모나코",
+        "iso_code": "MC"
+    },
+    {
+        "display_name": "몽고",
+        "iso_code": "MN"
+    },
+    {
+        "display_name": "몬테네그로",
+        "iso_code": "ME"
+    },
+    {
+        "display_name": "몬세라트",
+        "iso_code": "MS"
+    },
+    {
+        "display_name": "모로코",
+        "iso_code": "MA"
+    },
+    {
+        "display_name": "모잠비크",
+        "iso_code": "MZ"
+    },
+    {
+        "display_name": "나미비아",
+        "iso_code": "NA"
+    },
+    {
+        "display_name": "나우루",
+        "iso_code": "NR"
+    },
+    {
+        "display_name": "네팔",
+        "iso_code": "NP"
+    },
+    {
+        "display_name": "네덜란드",
+        "iso_code": "NL"
+    },
+    {
+        "display_name": "뉴칼레도니아",
+        "iso_code": "NC"
+    },
+    {
+        "display_name": "뉴질랜드",
+        "iso_code": "NZ"
+    },
+    {
+        "display_name": "니카라과",
+        "iso_code": "NI"
+    },
+    {
+        "display_name": "니제르",
+        "iso_code": "NE"
+    },
+    {
+        "display_name": "나이지리아",
+        "iso_code": "NG"
+    },
+    {
+        "display_name": "니우에",
+        "iso_code": "NU"
+    },
+    {
+        "display_name": "노퍽 섬",
+        "iso_code": "NF"
+    },
+    {
+        "display_name": "북마리아나 제도",
+        "iso_code": "MP"
+    },
+    {
+        "display_name": "노르웨이",
+        "iso_code": "NO"
+    },
+    {
+        "display_name": "오만",
+        "iso_code": "OM"
+    },
+    {
+        "display_name": "파키스탄",
+        "iso_code": "PK"
+    },
+    {
+        "display_name": "팔라우",
+        "iso_code": "PW"
+    },
+    {
+        "display_name": "팔레스타인 영토",
+        "iso_code": "PS"
+    },
+    {
+        "display_name": "파나마",
+        "iso_code": "PA"
+    },
+    {
+        "display_name": "파푸아뉴기니",
+        "iso_code": "PG"
+    },
+    {
+        "display_name": "파라과이",
+        "iso_code": "PY"
+    },
+    {
+        "display_name": "페루",
+        "iso_code": "PE"
+    },
+    {
+        "display_name": "필리핀",
+        "iso_code": "PH"
+    },
+    {
+        "display_name": "핏케언 제도",
+        "iso_code": "PN"
+    },
+    {
+        "display_name": "폴란드",
+        "iso_code": "PL"
+    },
+    {
+        "display_name": "포르투갈",
+        "iso_code": "PT"
+    },
+    {
+        "display_name": "푸에르토리코",
+        "iso_code": "PR"
+    },
+    {
+        "display_name": "카타르",
+        "iso_code": "QA"
+    },
+    {
+        "display_name": "레위니옹",
+        "iso_code": "RE"
+    },
+    {
+        "display_name": "루마니아",
+        "iso_code": "RO"
+    },
+    {
+        "display_name": "러시아",
+        "iso_code": "RU"
+    },
+    {
+        "display_name": "르완다",
+        "iso_code": "RW"
+    },
+    {
+        "display_name": "세인트헬레나",
+        "iso_code": "SH"
+    },
+    {
+        "display_name": "세인트키츠 네비스",
+        "iso_code": "KN"
+    },
+    {
+        "display_name": "세인트루시아",
+        "iso_code": "LC"
+    },
+    {
+        "display_name": "생피에르 미클롱",
+        "iso_code": "PM"
+    },
+    {
+        "display_name": "세인트빈센트 그레나딘",
+        "iso_code": "VC"
+    },
+    {
+        "display_name": "생바르텔레미",
+        "iso_code": "BL"
+    },
+    {
+        "display_name": "세인트마틴(프랑스령)",
+        "iso_code": "MF"
+    },
+    {
+        "display_name": "사모아",
+        "iso_code": "WS"
+    },
+    {
+        "display_name": "산마리노",
+        "iso_code": "SM"
+    },
+    {
+        "display_name": "상투메 프린시페",
+        "iso_code": "ST"
+    },
+    {
+        "display_name": "사우디아라비아",
+        "iso_code": "SA"
+    },
+    {
+        "display_name": "세네갈",
+        "iso_code": "SN"
+    },
+    {
+        "display_name": "세르비아",
+        "iso_code": "RS"
+    },
+    {
+        "display_name": "세이셸",
+        "iso_code": "SC"
+    },
+    {
+        "display_name": "시에라리온",
+        "iso_code": "SL"
+    },
+    {
+        "display_name": "싱가포르",
+        "iso_code": "SG"
+    },
+    {
+        "display_name": "신트마르턴(네덜란드령)",
+        "iso_code": "SX"
+    },
+    {
+        "display_name": "슬로바키아",
+        "iso_code": "SK"
+    },
+    {
+        "display_name": "슬로베니아",
+        "iso_code": "SI"
+    },
+    {
+        "display_name": "솔로몬 제도",
+        "iso_code": "SB"
+    },
+    {
+        "display_name": "남아프리카 공화국",
+        "iso_code": "ZA"
+    },
+    {
+        "display_name": "사우스조지아 사우스샌드위치 제도",
+        "iso_code": "GS"
+    },
+    {
+        "display_name": "수단 남부",
+        "iso_code": "SS"
+    },
+    {
+        "display_name": "스페인",
+        "iso_code": "ES"
+    },
+    {
+        "display_name": "스리랑카",
+        "iso_code": "LK"
+    },
+    {
+        "display_name": "수리남",
+        "iso_code": "SR"
+    },
+    {
+        "display_name": "스발바르 얀마옌 제도",
+        "iso_code": "SJ"
+    },
+    {
+        "display_name": "스와질란드",
+        "iso_code": "SZ"
+    },
+    {
+        "display_name": "스웨덴",
+        "iso_code": "SE"
+    },
+    {
+        "display_name": "스위스",
+        "iso_code": "CH"
+    },
+    {
+        "display_name": "대만",
+        "iso_code": "TW"
+    },
+    {
+        "display_name": "타지키스탄",
+        "iso_code": "TJ"
+    },
+    {
+        "display_name": "탄자니아",
+        "iso_code": "TZ"
+    },
+    {
+        "display_name": "태국",
+        "iso_code": "TH"
+    },
+    {
+        "display_name": "동티모르",
+        "iso_code": "TL"
+    },
+    {
+        "display_name": "토고",
+        "iso_code": "TG"
+    },
+    {
+        "display_name": "토켈라우",
+        "iso_code": "TK"
+    },
+    {
+        "display_name": "통가",
+        "iso_code": "TO"
+    },
+    {
+        "display_name": "트리니다드 토바고",
+        "iso_code": "TT"
+    },
+    {
+        "display_name": "튀니지",
+        "iso_code": "TN"
+    },
+    {
+        "display_name": "터키",
+        "iso_code": "TR"
+    },
+    {
+        "display_name": "투르크메니스탄",
+        "iso_code": "TM"
+    },
+    {
+        "display_name": "터크스 케이커스 제도",
+        "iso_code": "TC"
+    },
+    {
+        "display_name": "투발루",
+        "iso_code": "TV"
+    },
+    {
+        "display_name": "우간다",
+        "iso_code": "UG"
+    },
+    {
+        "display_name": "우크라이나(크림 반도 이외)",
+        "iso_code": "UA"
+    },
+    {
+        "display_name": "아랍에미리트",
+        "iso_code": "AE"
+    },
+    {
+        "display_name": "영국",
+        "iso_code": "GB"
+    },
+    {
+        "display_name": "미국",
+        "iso_code": "US"
+    },
+    {
+        "display_name": "우루과이",
+        "iso_code": "UY"
+    },
+    {
+        "display_name": "미국령 군소 제도",
+        "iso_code": "UM"
+    },
+    {
+        "display_name": "우즈베키스탄",
+        "iso_code": "UZ"
+    },
+    {
+        "display_name": "바누아투",
+        "iso_code": "VU"
+    },
+    {
+        "display_name": "베네수엘라",
+        "iso_code": "VE"
+    },
+    {
+        "display_name": "베트남",
+        "iso_code": "VN"
+    },
+    {
+        "display_name": "버진 아일랜드, 미국",
+        "iso_code": "VI"
+    },
+    {
+        "display_name": "왈리스 퓌튀나",
+        "iso_code": "WF"
+    },
+    {
+        "display_name": "서사하라",
+        "iso_code": "EH"
+    },
+    {
+        "display_name": "예멘",
+        "iso_code": "YE"
+    },
+    {
+        "display_name": "잠비아",
+        "iso_code": "ZM"
+    },
+    {
+        "display_name": "짐바브웨",
+        "iso_code": "ZW"
+    },
+    {
+        "display_name": "쿠바",
+        "iso_code": "CU"
+    },
+    {
+        "display_name": "이란",
+        "iso_code": "IR"
+    },
+    {
+        "display_name": "미얀마",
+        "iso_code": "MM"
+    },
+    {
+        "display_name": "소말리아",
+        "iso_code": "SO"
+    },
+    {
+        "display_name": "수단",
+        "iso_code": "SD"
+    },
+    {
+        "display_name": "시리아",
+        "iso_code": "SY"
+    }
+]

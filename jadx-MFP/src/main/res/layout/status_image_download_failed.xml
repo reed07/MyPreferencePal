@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:background="@color/light_gray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/tvPhotoLoadFailed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photo_didnt_load" style="@style/Body.BlackText"/>
+    <TextView android:id="@+id/tvTryAgain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/try_again" style="@style/Body.Blue"/>
+</LinearLayout>

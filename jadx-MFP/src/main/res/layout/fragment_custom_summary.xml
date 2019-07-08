@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:background="@color/feed_background" android:paddingLeft="8dp" android:paddingTop="24dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/tvCustomSummaryHeader" android:layout_width="match_parent" android:text="@string/choose_three" android:layout_alignParentLeft="true" style="@style/Header.BlackText"/>
+            <TextView android:id="@+id/tvNutrientSelected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nutrients_x_of_3_selected" android:layout_below="@+id/tvCustomSummaryHeader" android:layout_alignParentLeft="true" style="@style/Subheader.BlackText"/>
+        </RelativeLayout>
+        <CheckBox android:id="@+id/cbFat" android:text="@string/fat" style="@style/custom_summary_checkbox"/>
+        <include layout="@layout/grey_separator_1dp"/>
+        <CheckBox android:id="@+id/cbSatFat" android:text="@string/saturated_fat" style="@style/custom_summary_checkbox"/>
+        <include layout="@layout/grey_separator_1dp"/>
+        <CheckBox android:id="@+id/cbPolyFat" android:text="@string/polyunsaturated_fat" style="@style/custom_summary_checkbox"/>
+        <include layout="@layout/grey_separator_1dp"/>
+        <CheckBox android:id="@+id/cbMonoFat" android:text="@string/monounsaturated_fat" style="@style/custom_summary_checkbox"/>
+        <include layout="@layout/grey_separator_1dp"/>
+        <CheckBox android:id="@+id/cbTransFat" android:text="@string/trans_fat" style="@style/custom_summary_checkbox"/>
+        <include layout="@layout/grey_separator_1dp"/>
+        <CheckBox android:id="@+id/cbCholesterol" android:text="@string/cholesterol_nutrient" style="@style/custom_summary_checkbox"/>
+        <include layout="@layout/grey_separator_1dp"/>
+        <CheckBox android:id="@+id/cbSodium" android:text="@string/sodium" style="@style/custom_summary_checkbox"/>
+        <include layout="@layout/grey_separator_1dp"/>
+        <CheckBox android:id="@+id/cbPotassium" android:text="@string/potassium" style="@style/custom_summary_checkbox"/>
+        <include layout="@layout/grey_separator_1dp"/>
+        <CheckBox android:id="@+id/cbCarbs" android:text="@string/carbohydrates_nutrient" style="@style/custom_summary_checkbox"/>
+        <include layout="@layout/grey_separator_1dp"/>
+        <CheckBox android:id="@+id/cbFiber" android:text="@string/fiber" style="@style/custom_summary_checkbox"/>
+        <include layout="@layout/grey_separator_1dp"/>
+        <CheckBox android:id="@+id/cbSugar" android:text="@string/macro_sugar" style="@style/custom_summary_checkbox"/>
+        <include layout="@layout/grey_separator_1dp"/>
+        <CheckBox android:id="@+id/cbProtein" android:text="@string/protein" style="@style/custom_summary_checkbox"/>
+        <include layout="@layout/grey_separator_1dp"/>
+        <CheckBox android:id="@+id/cbVitaminA" android:text="@string/vitamin_a" style="@style/custom_summary_checkbox"/>
+        <include layout="@layout/grey_separator_1dp"/>
+        <CheckBox android:id="@+id/cbVitaminC" android:text="@string/vitamin_c" style="@style/custom_summary_checkbox"/>
+        <include layout="@layout/grey_separator_1dp"/>
+        <CheckBox android:id="@+id/cbCalcium" android:text="@string/calcium" style="@style/custom_summary_checkbox"/>
+        <include layout="@layout/grey_separator_1dp"/>
+        <CheckBox android:id="@+id/cbIron" android:text="@string/iron" style="@style/custom_summary_checkbox"/>
+        <include layout="@layout/grey_separator_1dp"/>
+    </LinearLayout>
+</ScrollView>

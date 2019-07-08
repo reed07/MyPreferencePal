@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" style="@style/CardBase.NewsFeedCard">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/blog_margin">
+            <TextView android:ellipsize="end" android:id="@+id/title" android:layout_width="match_parent" android:layout_marginBottom="4dp" android:maxLines="2" style="@style/Header2A.BlackText"/>
+            <TextView android:id="@+id/timestamp" android:layout_below="@+id/title" style="@style/Caption.BlackSecondaryText"/>
+            <TextView android:id="@+id/blog_link" android:layout_marginLeft="4dp" android:layout_toRightOf="@+id/timestamp" android:layout_below="@+id/title" style="@style/Caption.BlueText"/>
+            <TextView android:ellipsize="end" android:id="@+id/description" android:layout_width="match_parent" android:layout_marginTop="12dp" android:maxLines="2" android:layout_below="@+id/timestamp" android:lineSpacingMultiplier="1.2" style="@style/Body.BlackText"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/blog_image" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="150dp"/>
+            <ProgressBar android:id="@+id/loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/food_list_item_margin_left_right" android:paddingRight="@dimen/food_list_item_margin_left_right" android:layout_width="match_parent" android:layout_height="@dimen/food_list_item_height">
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/name" android:layout_width="0dp" android:layout_weight="1.45" style="@style/FoodListItemName"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/times_eaten" android:layout_weight="0.25" style="@style/FoodListItemInfo"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/equals_sign" android:text="@string/equals_sign" android:layout_weight="0.11" style="@style/FoodListItemInfo"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/total" android:layout_weight="0.29" style="@style/FoodListItemInfo"/>
+    </LinearLayout>
+    <View style="@style/NutritionDivider"/>
+</LinearLayout>

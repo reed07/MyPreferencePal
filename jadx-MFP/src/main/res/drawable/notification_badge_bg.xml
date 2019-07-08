@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:shape="oval">
+    <solid android:color="@color/notification_badge_bg"/>
+    <padding android:left="@dimen/notification_badge_padding" android:top="@dimen/notification_badge_padding" android:right="@dimen/notification_badge_padding" android:bottom="@dimen/notification_badge_padding"/>
+    <size android:height="20.4dp" android:width="20.4dp"/>
+</shape>

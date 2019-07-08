@@ -1,0 +1,1452 @@
+[
+  {
+    "prettyName": "Reactivator Updated Age Flow",
+    "name": "updated-age-flow-android-2015-01",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Use Updated Age Flow"
+      }
+    ]
+  },
+  {
+    "prettyName": "Sync V2: Exercises, Exercise Entries, Steps",
+    "name": "sync-v2-android-2015-11-exercises",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Enable Sync V2 for exercises"
+      }
+    ]
+  },
+  {
+    "prettyName": "X-Promo: Interstitial",
+    "name": "xpromo-interstitial-android-2015-06",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Enable X-Promo Interstitial"
+      }
+    ]
+  },
+  {
+    "prettyName": "X-Promo: Our Apps",
+    "name": "xpromo-our-apps-android-2015-06",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Enable Our Apps Menu Item"
+      }
+    ]
+  },
+  {
+    "prettyName": "Partner App Disconnect",
+    "name": "app-disconnect-android-2015-06",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Enable App Disconnect"
+      }
+    ]
+  },
+  {
+    "prettyName": "Challenges: Region",
+    "name": "challenges-android-2015-10",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Challenges - US",
+        "properties": {
+          "supported_countries": "US"
+        }
+      },
+      {
+        "value": "variantA",
+        "displayName": "Challenges - US&FR",
+        "properties": {
+          "supported_countries": "US,FR"
+        }
+      },
+      {
+        "value": "variantB",
+        "displayName": "Challenges - nonUS",
+        "properties": {
+          "supported_countries": "CA,FR"
+        }
+      }
+    ]
+  },
+  {
+    "prettyName": "Challenges: Email Prefs",
+    "name": "challenges-email-preferences-android-2015-10",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Enable challenges email preferences"
+      }
+    ]
+  },
+  {
+    "prettyName": "Challenges: News Feed Cards",
+    "name": "challenges-newsfeed-cards-android-2015-10",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Enable challenges newsfeed cards"
+      }
+    ]
+  },
+  {
+    "prettyName": "Google Fit: Weight Data",
+    "name": "google-fit-weight-android-2015-11",
+    "legalVariants": [
+      {
+        "value": "control",
+        "displayName": "Control (do not read/write weight data)"
+      },
+      {
+        "value": "variantA",
+        "displayName": "Read weight data"
+      },
+      {
+        "value": "variantB",
+        "displayName": "Write weight data"
+      },
+      {
+        "value": "variantC",
+        "displayName": "Read & Write weight data"
+      }
+    ]
+  },
+  {
+    "prettyName": "Google Fit",
+    "name": "google-fit-android-2015-11",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Enable Google Fit"
+      }
+    ]
+  },
+  {
+    "prettyName": "Google Fit: Nutrition",
+    "name": "google-fit-nutrition-android-2015-11",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "write nutrition to Google Fit"
+      }
+    ]
+  },
+  {
+    "prettyName": "Google Fit: Steps",
+    "name": "google-fit-steps-android-2015-11",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Read steps from Google Fit"
+      }
+    ]
+  },
+  {
+    "prettyName": "Google Fit: Activity",
+    "name": "google-fit-activity-android-2015-11",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Read activity to Google Fit"
+      }
+    ]
+  },
+  {
+    "prettyName": "Notifications: Weight Reminders",
+    "name": "track-weight-notifications-android-2015-10",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Enable weight reminders"
+      }
+    ]
+  },
+  {
+    "prettyName": "Notifications: Friend Logged Exercise",
+    "name": "friend-logged-exercise-notification-android-2015-10",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Users receive friend logged workout or steps"
+      }
+    ]
+  },
+  {
+    "prettyName": "Notifications: Friend Joined",
+    "name": "friend-joined-notification-android-2015-10",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "User receives notifications about friends who joined"
+      }
+    ]
+  },
+  {
+    "prettyName": "Notifications: Friend Login Streak",
+    "name": "friend-login-streak-notification-android-2015-10",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "User receives streak notifications"
+      }
+    ]
+  },
+  {
+    "prettyName": "Complete Diary Ads",
+    "name": "complete-diary-ad-android-2016-03",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Show Ads"
+      }
+    ]
+  },
+  {
+    "prettyName": "Banner Ads: New User",
+    "name": "new-user-banner-ads-android-2015-07",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Do not show banner ads"
+      }
+    ]
+  },
+  {
+    "prettyName": "Banner Ads: Reactivating User",
+    "name": "reactivating_user_banner_ads-android-2015-07",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Do not show banner ads"
+      }
+    ]
+  },
+  {
+    "prettyName": "App Indexing Quicksearch",
+    "name": "app-indexing-quicksearch-android-2015-08",
+    "legalVariants": [
+      {
+        "value": "control",
+        "displayName": "No quick search indexing"
+      },
+      {
+        "value": "on",
+        "displayName": "Foods and exercises indexed with quicksearch"
+      }
+    ]
+  },
+  {
+    "prettyName": "Paired Foods",
+    "name": "paired-foods-android-2015-08",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Show paired foods"
+      },
+      {
+        "value": "control",
+        "displayName": "Do not show paired foods"
+      }
+    ]
+  },
+  {
+    "prettyName": "Progress photos",
+    "name": "progress-photos-android-2015-12",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Enable progress photos functionality"
+      }
+    ]
+  },
+  {
+    "prettyName": "Food info expand caret",
+    "name": "food-info-expand-caret-android-2015-10",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Show text"
+      },
+      {
+        "value": "control",
+        "displayName": "Show icon"
+      }
+    ]
+  },
+  {
+    "prettyName": "UA Shop Drawer Menu Item",
+    "name": "ua-shop-android-11-2015",
+    "legalVariants": [
+      {
+        "value": "atf",
+        "displayName": "Enable menu item above the fold"
+      },
+      {
+        "value": "btf",
+        "displayName": "Enable menu item below the fold"
+      }
+    ]
+  },
+  {
+    "prettyName": "Restaurant Logging",
+    "name": "restaurant-logging-android-2016-02",
+    "legalVariants": [
+      {
+        "value": "control",
+        "displayName": "Don't show RL"
+      },
+      {
+        "value": "on",
+        "displayName": "Show RL for US users",
+        "properties": {
+          "supported_countries": "US"
+        }
+      }
+    ]
+  },
+  {
+    "prettyName": "Material Accidental Deletes",
+    "name": "material-accidental-delete-android-2016-03",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Enable new delete confirmation dialog."
+      }
+    ]
+  },
+  {
+    "prettyName": "Fire an event when the old banner ads are requested",
+    "name": "banner-ad-count-android-2016-02",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Send event when the ad is requested"
+      }
+    ]
+  },
+  {
+    "prettyName": "Beta Program Signup Test",
+    "name": "beta-signup-android-2016-02",
+    "legalVariants": [
+      {
+        "value": "control",
+        "displayName": "Hide beta signup link"
+      },
+      {
+        "value": "on",
+        "displayName": "Show beta signup link"
+      }
+    ]
+  },
+  {
+    "prettyName": "Single item blog posts in news feed",
+    "name": "blog-in-newsfeed-v2-android-2016-03",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Will see the the new blog changes"
+      },
+      {
+        "value": "control",
+        "displayName": "Will not see the new blog changes"
+      }
+    ]
+  },
+  {
+    "prettyName": "Premium Feature List Order",
+    "name": "premium-feature-list-order-android-2016-03",
+    "legalVariants": [
+      {
+        "value": "control",
+        "displayName": "Use existing feature list order"
+      },
+      {
+        "value": "on",
+        "displayName": "Use new feature list order"
+      }
+    ]
+  },
+  {
+    "prettyName": "Premium Interstitial Update",
+    "name": "premium-interstitial-fixes-android-2016-03",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Show Updated Interstitial"
+      }
+    ]
+  },
+  {
+    "prettyName": "Starting Weight",
+    "name": "starting-weight-android-2016-03",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Show Starting Weight"
+      }
+    ]
+  },
+  {
+    "prettyName": "Progress Photos Newsfeed",
+    "name": "progress-photos-newsfeed-android-2016-03",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Progress Pics Newsfeed"
+      }
+    ]
+  },
+  {
+    "prettyName": "Restaurant Logging Search Integration",
+    "name": "restaurant-logging-search-integration-android-2016-04",
+    "legalVariants": [
+      {
+        "value": "control",
+        "displayName": "No venue search results in the food search screen"
+      },
+      {
+        "value": "on",
+        "displayName": "Turn on venue search results in the food search screen"
+      }
+    ]
+  },
+  {
+    "prettyName": "Enable localytics",
+    "name": "localytics-android-2016-04",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Enable localytics"
+      }
+    ]
+  },
+  {
+    "prettyName": "Disable Google Analytics Screen View",
+    "name": "disable-google-analytics-screen-view-2016-05",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Disable Google Analytics Screen View"
+      }
+    ]
+  },
+  {
+    "prettyName": "Share Congratulations",
+    "name": "share-congratulations-android-2016-03",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Share Congratulations flow"
+      }
+    ]
+  },
+  {
+    "prettyName": "Amplitude Analytics",
+    "name": "amplitude-android-2016-06",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Enable Amplitude Analytics"
+      }
+    ]
+  },
+  {
+    "prettyName": "Smart Water Phase 1",
+    "name": "smart-water-phase-1-android-2016-07",
+    "legalVariants": [
+      {
+        "value": "A",
+        "displayName": "Show Smart Water Branding"
+      },
+      {
+        "value": "B",
+        "displayName": "Hide Smart Water Branding"
+      },
+      {
+        "value": "control",
+        "displayName": "No Change (Control)"
+      }
+    ]
+  },
+  {
+    "prettyName": "Banner Ads Dfp",
+    "name": "banner-ads-dfp-android-2016-06",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Banner Ads Dfp"
+      }
+    ]
+  },
+  {
+    "prettyName": "Moat Refresh Rate",
+    "name": "moat-sdk-android-refresh-rate-2017-07",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Moat Refresh Rate"
+      }
+    ]
+  },
+  {
+    "prettyName": "Weight Logging Flow",
+    "name": "weight-logging-flow-android-2016-08",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Weight Logging Flow"
+      }
+    ]
+  },
+  {
+    "prettyName": "Edit Sharethrough Ads position",
+    "name": "sharethrough-test-android-2016-08",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Set new positions (start index = 0, display interval = 10)",
+        "properties": {
+          "start_index": "0",
+          "display_interval": "10"
+        }
+      }
+    ]
+  },
+  {
+    "prettyName": "Reactivation Marketing Opt-in Optimization",
+    "name": "reactivation-marketing-optin-optimization-android-2016-09",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Show Checkbox/Interstitial"
+      }
+    ]
+  },
+  {
+    "prettyName": "Weekly Digest",
+    "name": "weekly_digest_android_2016_08",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Show Weekly Digest setting",
+        "properties": {
+          "supported_countries": "US"
+        }
+      }
+    ]
+  },
+  {
+    "prettyName": "Show a Premium Upsell entry point in the Profile screen",
+    "name": "profile-screen-premium-cta-android-2016-10",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Show the entry point"
+      }
+    ]
+  },
+  {
+    "prettyName": "Indicate the premium features are clickable",
+    "name": "premium-feature-list-ripple-effect-android-2016-10",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Show the click effect"
+      }
+    ]
+  },
+  {
+    "prettyName": "Show Macros by Meal setting in the Goals screen",
+    "name": "macros-by-meal-goalscreen-setting-android-2016-10",
+    "legalVariants": [
+      {
+        "value": "a",
+        "displayName": "Show existing subtext"
+      },
+      {
+        "value": "b",
+        "displayName": "Show updated subtext"
+      },
+      {
+        "value": "control",
+        "displayName": "No Change (Control)"
+      }
+    ]
+  },
+  {
+    "prettyName": "Show Premium CTA in the Goals screen",
+    "name": "goals-screen-premium-cta-android-2016-10",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Show CTA"
+      }
+    ]
+  },
+  {
+    "prettyName": "Diary Copy Update",
+    "name": "diary-copy-update-android-2016-12",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Users sees prompt to save copied items",
+        "properties": {
+          "supported_countries": "US"
+        }
+      }
+    ]
+  },
+  {
+    "prettyName": "Premium Upsell Examples in Food List",
+    "name": "food-list-with-examples-android-2016-10",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Show the examples"
+      }
+    ]
+  },
+  {
+    "prettyName": "Show Premium CTA in the Settings screen",
+    "name": "settings-screen-premium-cta-android-2016-10",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Show CTA"
+      }
+    ]
+  },
+  {
+    "prettyName": "Premium Conversion Feature List Order",
+    "name": "premium-feature-list-order-android-2016-10",
+    "legalVariants": [
+      {
+        "value": "control",
+        "displayName": "Use existing feature list order"
+      },
+      {
+        "value": "on",
+        "displayName": "Use new feature list order"
+      }
+    ]
+  },
+  {
+    "prettyName": "Explore Premium Copy Test",
+    "name": "explore-premium-copy-test-android-2016-10",
+    "legalVariants": [
+      {
+        "value": "explore",
+        "displayName": "Explore Premium"
+      },
+      {
+        "value": "go",
+        "displayName": "Go Premium"
+      },
+      {
+        "value": "upgrade",
+        "displayName": "Upgrade to Premium"
+      },
+      {
+        "value": "control",
+        "displayName": "No Change (Control)"
+      }
+    ]
+  },
+  {
+    "prettyName": "Samsung SHealth",
+    "name": "samsung-shealth-android-2016-12",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "SHealth integration active"
+      }
+    ]
+  },
+  {
+    "prettyName": "Samsung SHealth App Gallery",
+    "name": "samsung-shealth-app-gallery-android-2016-12",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "SHealth integration active"
+      }
+    ]
+  },
+  {
+    "prettyName": "Premium UpSell October 2016 Order and Copy",
+    "name": "premium-upsell-copy-ordering-test-android-2016-10",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "New Order and Copy"
+      }
+    ]
+  },
+  {
+    "prettyName": "Samsung Gear Integration",
+    "name": "samsung-gear-integration-2016-12",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Samsung gear enabled"
+      }
+    ]
+  },
+  {
+    "prettyName": "Samsung Gear Device Activation",
+    "name": "samsung-gear-device-activation-2016-12",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Device activation enabled"
+      }
+    ]
+  },
+  {
+    "prettyName": "Premium Upsell WebView",
+    "name": "show-premium-webview-from-features-android-2017-03",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "User Premium Upsell WebView"
+      }
+    ]
+  },
+  {
+    "prettyName": "Premium Upsell WebView Tests",
+    "name": "webview-upsell-tests-android-2017-03",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "On Variant",
+        "properties": {
+          "url": "http://webview.myfitnesspal.com/#!/upsell/"
+        }
+      },
+      {
+        "value": "old_layout_old_copy",
+        "displayName": "Old layout, old copy"
+      },
+      {
+        "value": "old_layout_new_copy",
+        "displayName": "Old layout, new copy"
+      },
+      {
+        "value": "new_layout_new_copy",
+        "displayName": "New layout, new copy"
+      },
+      {
+        "value": "social_validation",
+        "displayName": "Social validation"
+      },
+      {
+        "value": "stacked_buttons",
+        "displayName": "Stacked Buttons"
+      }
+    ]
+  },
+  {
+    "prettyName": "Meal Sharing",
+    "name": "meal-improvements-sharing-android-2016-11",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Enable meal sharing"
+      }
+    ]
+  },
+  {
+    "prettyName": "News Feed Video",
+    "name": "videos-in-newsfeed-android-2017",
+    "legalVariants": [
+      {
+        "value": "control",
+        "displayName": "Control Users will not see videos in the newsfeed"
+      },
+      {
+        "value": "auto-play",
+        "displayName": "Users will see the auto-play video cards in the newsfeed"
+      },
+      {
+        "value": "click-to-play",
+        "displayName": "Users will see the click-to-play video cards in the newsfeed"
+      }
+    ]
+  },
+  {
+    "prettyName": "Show the view button in meal share card",
+    "name": "meal-in-newsfeed-view-button-android-2017-01",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Show view button"
+      }
+    ]
+  },
+  {
+    "prettyName": "Show the meal share tool tip",
+    "name": "meal-show-share-tooltip-android-2017-01",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Show the tool tip"
+      }
+    ]
+  },
+  {
+    "prettyName": "File Export Feature Preview",
+    "name": "file-export-feature-preview-android-2017-01",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Show File Export Preview"
+      },
+      {
+        "value": "new_design",
+        "displayName": "Show Updated design Preview"
+      }
+    ]
+  },
+  {
+    "prettyName": "Enable image deletion",
+    "name": "enable-image-deletion-2017-02",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Images (not just associations) will be deleted."
+      }
+    ]
+  },
+  {
+    "prettyName": "Nutrient Dashboard Icons",
+    "name": "nutrient-dashboard-icons-android-2017-03",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Show new icons and copy"
+      }
+    ]
+  },
+  {
+    "prettyName": "Nutrient Dashboard Diary Setting",
+    "name": "nutrient-dashboard-diary-setting-android-2017-03",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Show diary setting"
+      }
+    ]
+  },
+  {
+    "prettyName": "Water Logging Sponsorship",
+    "name": "water-logging-sponsorship-android-2017-03",
+    "legalVariants": [
+      {
+        "value": "control",
+        "displayName": "Hide all sponsored branding and ads"
+      },
+      {
+        "value": "on",
+        "displayName": "Show sponsored branding and ads",
+        "properties": {
+          "supported_countries": "US",
+          "sponsor": "aquafina"
+        }
+      }
+    ]
+  },
+  {
+    "prettyName": "AddFoodSummaryView refactor",
+    "name": "add-food-summary-android-2017-04",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Switch on new flow for AddFoodSummaryView and V2 entry points"
+      }
+    ]
+  },
+  {
+    "prettyName": "International Community Support",
+    "name": "community-international-android-2017-04",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Enable communities for non-English languages",
+        "properties": {
+          "supported_languages": "en,fr,es,de,nl,da,it,sv,pt,ru,no,jp,ko,zh,zhtw"
+        }
+      }
+    ]
+  },
+  {
+    "prettyName": "Post Image To Status",
+    "name": "post-image-to-status-android-2017-04",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Enable Post Image To Status"
+      }
+    ]
+  },
+  {
+    "prettyName": "Meal Directions",
+    "name": "meal-details-notes-android-2017-04-v2",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Enable meal directions"
+      }
+    ]
+  },
+  {
+    "prettyName": "Meal Directions Share Tip",
+    "name": "meal-sharing-status-tips-android-2017-05",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Enable entry point from share screen"
+      }
+    ]
+  },
+  {
+    "prettyName": "Meal Directions FoodEditor Tip",
+    "name": "meal-directions-tip-android-2017-05",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Enable entry point from food editor screen"
+      }
+    ]
+  },
+  {
+    "prettyName": "MOAT SDK Integration",
+    "name": "moat-sdk-android-2017-07",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "MOAT SDK enabled"
+      }
+    ]
+  },
+  {
+    "prettyName": "Food Details Screen Update",
+    "name": "food-details-screen-update-android-2017-04",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Show food details updated design"
+      }
+    ]
+  },
+  {
+    "prettyName": "Weekly Digest In Premium Feature List",
+    "name": "weekly-digest-premium-features-android-2017-01",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Weekly Digest Feature List",
+        "properties": {
+          "supported_countries": "US",
+          "supported_languages": "en"
+        }
+      }
+    ]
+  },
+  {
+    "prettyName": "Enable Google Play Purchase Recovery",
+    "name": "premium-enable-google-play-purchase-recovery-android-2017-06",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Enable Google Play purchase recovery"
+      }
+    ]
+  },
+  {
+    "prettyName": "Display delete account option in help",
+    "name": "account-delete-android-2017-02",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Display delete account"
+      }
+    ]
+  },
+  {
+    "prettyName": "Weekly Digest In Premium Upsell List",
+    "name": "weekly-digest-premium-upsell-android-2017-01",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Weekly Digest Upsell List",
+        "properties": {
+          "supported_countries": "US",
+          "supported_languages": "en"
+        }
+      }
+    ]
+  },
+  {
+    "prettyName": "Challenge Share Email",
+    "name": "challenges-share-my-email-test-android-2017-05",
+    "legalVariants": [
+      {
+        "value": "control",
+        "displayName": "Control - No share email test"
+      },
+      {
+        "value": "on",
+        "displayName": "Share Email Test"
+      }
+    ]
+  },
+  {
+    "prettyName": "Free trial for new users",
+    "name": "premium-free-trial-new-users-android-2017-03",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Enable free trial for new users"
+      }
+    ]
+  },
+  {
+    "prettyName": "Free trial for reactivating users",
+    "name": "premium-free-trial-reactivating-users-android-2017-03",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Enable free trial for reactivating users"
+      }
+    ]
+  },
+  {
+    "prettyName": "Free trial for continuing users",
+    "name": "premium-free-trial-continuing-users-android-2017-10",
+    "legalVariants": [
+      {
+        "value": "7_day_trial",
+        "displayName": "Enable trial for 7 days",
+        "properties": {
+          "sku-month": "mfp_1m_android_999_7d_trial",
+          "sku-year" : "mfp_12m_android_4999_7d_trial"
+        }
+      },
+      {
+        "value":"14_day_trial",
+        "displayName":"Enable trial for 14 days",
+        "properties": {
+          "sku-month": "mfp_1m_android_999_14d_trial",
+          "sku-year" : "mfp_12m_android_4999_14d_trial"
+        }
+      },
+      {
+        "value":"1_month_trial",
+        "displayName":"Enable trial for 30 days",
+        "properties": {
+          "sku-month": "mfp_1m_and_999_1m_trial",
+          "sku-year" : "mfp_12m_and_4999_1m_trial"
+        }
+      }
+    ]
+  },
+  {
+    "prettyName": "Hit the new products catalog endpoint",
+    "name": "new-products-catalog-android-2017-06",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "New products catalog"
+      }
+    ]
+  },
+  {
+    "prettyName": "Show promo in upsell",
+    "name": "premium-upsell-webview-promo-android-2016-06",
+    "legalVariants": [
+      {
+        "value": "google_play",
+        "displayName": "Show google promo",
+        "properties": {
+          "supported_countries": "US,FR"
+        }
+      }
+    ]
+  },
+  {
+    "prettyName": "Show the new recipes design",
+    "name": "recipe-redesign-android-2017-06",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Show new design"
+      }
+    ]
+  },
+  {
+    "prettyName": "Navigation Updates for Diary",
+    "name": "nav-update-diary-2017-08",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Diary updates enabled"
+      }
+    ]
+  },
+  {
+    "prettyName": "Navigation Updates for Home",
+    "name": "nav-update-home-2017-09",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Home updates enabled"
+      }
+    ]
+  },
+  {
+    "prettyName": "Navigation Updates for BottomBar",
+    "name": "nav-update-bottom-nav-1-2017-10",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "BottomBar updates enabled"
+      }
+    ]
+  },
+  {
+    "prettyName": "Navigation Updates for Me",
+    "name": "nav-update-me-2017-10",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Me updates enabled"
+      }
+    ]
+  },
+  {
+    "prettyName": "Navigation Updates for Explore",
+    "name": "nav-update-bottom-nav-2-2017-10-v2",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Explore enabled"
+      }
+    ]
+  },
+  {
+    "prettyName": "Navigation Updates for Drawer Menu",
+    "name": "nav-update-menu-2017-10",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Drawer Menu hidden"
+      }
+    ]
+  },
+  {
+    "prettyName": "Rush Week UA Account Log In Description",
+    "name": "rush-week-ua-account-description-login-android-2017-11",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "UA Account Log In Description Enabled"
+      }
+    ]
+  },
+  {
+    "prettyName": "Rush Week UA Account Sign Up Description",
+    "name": "rush-week-ua-account-description-signup-android-2017-11",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "UA Account Sign Up Description Enabled"
+      }
+    ]
+  },
+  {
+    "prettyName": "Activity level updated question",
+    "name": "rush-week-exercise-goal-android-2017-11",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Use updated question"
+      }
+    ]
+  },
+  {
+    "prettyName": "Nearby Restaurants explore card",
+    "name": "explore-rl-android-2017-11",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Nearby Restaurants explore card enabled"
+      }
+    ]
+  },
+  {
+    "prettyName": "Newsfeed Videos Setting",
+    "name": "newsfeed-videos-setting-android-2017-11",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Show option for newsfeed videos setting"
+      }
+    ]
+  },
+  {
+    "prettyName": "Hide Banner Ads Diary",
+    "name": "hide-banner-ads-diary-android-2018-01",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Hide Banner Ads in Diary"
+      }
+    ]
+  },
+  {
+    "prettyName": "Food Timestamp",
+    "name": "food-timestamps-android-2018-01",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Feature enabled"
+      }
+    ]
+  },
+  {
+    "prettyName": "Food Search Ads V1",
+    "name": "food_search_ads_v1.1_android_2018_04",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Feature enabled",
+        "properties": {
+          "supported_countries": "US",
+          "supported_languages": "en"
+        }
+      }
+    ]
+  },
+  {
+    "prettyName": "Generic Web View",
+    "name": "generic-webview-interstitial-android",
+    "legalVariants": [
+      {
+        "value": "variant_1",
+        "displayName": "Mid year webview",
+        "properties": {
+          "supported_countries": "US",
+          "webview_key": "mid_year_review_test",
+          "webview_url": "http://webview-integ.myfitnesspal.com/en/en-US/mid-year-review/landing.html",
+          "sl": "https://www.google.com/images/logo.png",
+          "slu": "https://www.google.com",
+          "sbc": "Click Here!",
+          "sbu": "https://www.google.com",
+          "st": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+        }
+      },
+      {
+        "value": "variant_2",
+        "displayName": "Google search result",
+        "properties": {
+          "supported_countries": "US",
+          "webview_key": "mid_year_review_test",
+          "webview_url": "https://www.google.com/search",
+          "q": "pixel"
+        }
+      }
+    ]
+  },
+  {
+    "prettyName": "New nutrients and ordering US",
+    "name": "new-nutrients-copy-order-android-2018-07",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Enable new nutrients and ordering for US",
+        "properties": {
+          "supported_countries": "US"
+        }
+      }
+    ]
+  },
+  {
+    "prettyName": "Food Feedback",
+    "name": "food-feedback-android-2018-07",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Enable Food Feedback"
+      }
+    ]
+  },
+  {
+    "prettyName": "Change Password",
+    "name": "change-password-android-2018-09",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Feature enabled"
+      }
+    ]
+  },
+  {
+    "prettyName": "Change Password Settings",
+    "name": "change-password-setting-android-2018-09",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Feature enabled"
+      }
+    ]
+  },
+  {
+    "prettyName": "Phase 1 Food Search Improvements",
+    "name": "search-redesign-v1-android-2018-07",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "User sees new experience"
+      }
+    ]
+  },
+  {
+    "prettyName": "Search walkthrough for existing users",
+    "name": "search-existing-user-walkthrough-v1-android-2018-07",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "User sees new experience"
+      }
+    ]
+  },
+  {
+    "prettyName": "Personalized Consents Settings",
+    "name": "optional-ad-consents-settings-2018-Q4-android",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Feature enabled"
+      }
+    ]
+  },
+  {
+    "prettyName": "Personalized Consents Interstitial",
+    "name": "optional-ad-consents-interstitial-2018-Q4-android",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Feature enabled",
+        "properties": {
+          "minimum_account_age_in_days": "3",
+          "minimum_days_between_requests": "0"
+        }
+      }
+    ]
+  },
+  {
+    "prettyName": "Streak Ad interstitial",
+    "name": "streak-interstitial-android-2019-03",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Feature enabled",
+        "properties": {
+          "supported_countries": "US",
+          "supported_languages": "en"
+        }
+      },
+      {
+        "value": "control",
+        "displayName": "Feature disabled"
+      }
+    ]
+  },
+  {
+    "prettyName": "Premium Onboarding",
+    "name": "premium-onboarding-android-2019-04",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "User should see new Premium onboarding screens",
+        "properties": {
+          "supported_countries": "US",
+          "supported_languages": "en"
+        }
+      },
+      {
+        "value": "control",
+        "displayName": "User should see the old Welcome to Premium screen"
+      }
+    ]
+  },
+  {
+    "prettyName": "Premium Crown Header",
+    "name": "premium-crown-header-android-2019-04",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "User should see Premium crown on home screen header"
+      },
+      {
+        "value": "control",
+        "displayName": "User should NOT see Premium crown on home screen header"
+      }
+    ]
+  }, {
+    "prettyName": "Premium Upsell Screens Optimizations",
+    "name": "premium-upsell-droid-2019-05",
+    "legalVariants": [
+      {
+        "value": "price",
+        "displayName": "price - User sees upsell screen with skus displayed immediately"
+      }, {
+        "value": "price_benefit",
+        "displayName": "price_benefit - User sees upsell screen with skus hidden"
+      }, {
+        "value": "price_features",
+        "displayName": "price_features - User sees webview upsell screen"
+      }, {
+        "value": "benefit",
+        "displayName": "benefit - User sees upsell screen with skus hidden"
+      }, {
+        "value": "benefit_price",
+        "displayName": "benefit_price - User sees upsell screen with skus displayed immediately"
+      }, {
+        "value": "benefit_features",
+        "displayName": "benefit_features - User sees webview upsell screen"
+      }, {
+        "value": "features",
+        "displayName": "features - User sees webview upsell screen"
+      }, {
+        "value": "features_price",
+        "displayName": "features_price - User sees upsell screen with skus displayed immediately"
+      }, {
+        "value": "features_benefit",
+        "displayName": "features_benefit - User sees upsell screen with skus hidden"
+      }
+    ]
+  },
+  {
+    "prettyName": "Alexa interstitial",
+    "name": "alexa-interstitial-android-2019-04",
+    "legalVariants": [
+      {
+        "value": "on",
+        "displayName": "Feature enabled",
+        "properties": {
+          "supported_countries": "US",
+          "supported_languages": "en"
+        }
+      }
+    ]
+  }
+]

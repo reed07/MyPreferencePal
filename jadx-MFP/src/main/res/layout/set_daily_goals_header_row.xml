@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="bottom" android:orientation="vertical" android:background="@color/feed_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="50dp" style="@style/preference_row">
+    <TextView android:id="@+id/title" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="22dp" android:layout_marginBottom="2dp" android:text="@string/set_daily_goals" style="@style/Header.BlackText"/>
+    <TextView android:textSize="13sp" android:textColor="@color/list_view_subtitle_grey" android:id="@+id/tvSubtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:text="@string/set_daily_goals_subtitle" style="@style/Body.BlackSecondaryText"/>
+</LinearLayout>

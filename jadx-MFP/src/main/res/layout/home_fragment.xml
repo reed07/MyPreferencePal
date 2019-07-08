@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/fab_fragment_root" android:background="@color/mfp_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.myfitnesspal.shared.ui.view.CustomSwipeRefreshLayout android:id="@+id/refreshLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView android:id="@+id/news_feed" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.myfitnesspal.shared.ui.view.CustomSwipeRefreshLayout>
+    <com.myfitnesspal.shared.ui.view.EmptyStateView android:id="@+id/empty_view" android:background="@color/white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

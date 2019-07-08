@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/button_container" android:layout_width="match_parent" android:layout_height="72dp" android:layout_alignParentBottom="true">
+        <Button android:layout_gravity="center" android:id="@+id/accept_btn" android:background="@drawable/blue_rounded_rectangle_button" android:layout_width="144dp" android:layout_height="40dp" android:text="@string/accept" style="@style/ButtonText.WhiteText"/>
+    </FrameLayout>
+    <View android:id="@+id/divider" android:layout_above="@+id/button_container" android:layout_alignWithParentIfMissing="true" style="@style/HorizontalDivider"/>
+    <TextView android:id="@+id/error_disclaimer" android:paddingLeft="@dimen/updated_terms_paddingLeft" android:paddingRight="@dimen/updated_terms_paddingRight" android:paddingBottom="@dimen/updated_terms_vertical_padding" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/updated_terms_disclaimer_us" android:layout_above="@+id/divider" style="@style/Caption.BlackSecondaryText"/>
+    <ScrollView android:id="@+id/content_container" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="false" android:layout_above="@+id/divider" android:layout_alignWithParentIfMissing="true">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/updated_terms_paddingLeft" android:paddingTop="@dimen/updated_terms_vertical_padding" android:paddingRight="@dimen/updated_terms_paddingRight" android:paddingBottom="@dimen/updated_terms_vertical_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/updated_terms_title" android:paddingBottom="@dimen/updated_terms_vertical_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/updated_terms_title" style="@style/Subheader.BlackText"/>
+            <TextView android:gravity="center_vertical" android:id="@+id/updated_terms_summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/updated_terms_summary" style="@style/Body.BlackText"/>
+            <TextView android:id="@+id/updated_terms_disclaimer" android:paddingTop="@dimen/updated_terms_vertical_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/updated_terms_disclaimer_us" style="@style/Caption.BlackSecondaryText"/>
+        </LinearLayout>
+    </ScrollView>
+    <ProgressBar android:id="@+id/loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+</RelativeLayout>

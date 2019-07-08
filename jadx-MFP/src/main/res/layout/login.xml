@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.myfitnesspal.feature.registration.ui.view.SplashScreenGradientView android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <TextView android:textColor="@color/white" android:id="@+id/login_notification_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/material_padding_24">
+        <LinearLayout style="@style/WelcomeViewContainers.TopLogo">
+            <ImageView style="@style/WelcomeTopLogo"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:weightSum="3" style="@style/WelcomeViewContainers.Center">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1.5">
+                <View android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="2"/>
+                <FrameLayout android:id="@+id/center_fragment_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0"/>
+                <View android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="3"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout style="@style/WelcomeViewContainers.BottomLogo">
+            <ImageView style="@style/WelcomeBottomLogo"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@+id/advanced_debugging" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/advanced_debugging_text"/>
+    <FrameLayout android:id="@+id/full_screen_fragment_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

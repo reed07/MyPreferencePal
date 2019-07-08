@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:color="?attr/colorControlHighlight">
+    <item>
+        <selector>
+            <item android:state_enabled="false" android:drawable="@drawable/black_12_rectangle"/>
+            <item android:drawable="@drawable/blue_rectangle"/>
+        </selector>
+    </item>
+</ripple>

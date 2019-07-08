@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/create_new_container" android:background="@color/white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View style="@style/HorizontalDivider"/>
+        <Button android:id="@+id/create_new_btn" android:background="@drawable/add_recipe_btn" android:layout_width="match_parent" android:layout_height="40dp" android:layout_margin="@dimen/food_search_add_recipe_container_padding" style="@style/Subheader.BlackSecondaryText"/>
+    </FrameLayout>
+    <com.myfitnesspal.shared.ui.view.EmptyStateView android:id="@+id/empty_state" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ListView android:id="@+id/list_food_search" android:layout_above="@+id/create_new_container" style="@style/FoodSearchList"/>
+    <FrameLayout android:id="@+id/search_fragment_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/create_new_container"/>
+</RelativeLayout>

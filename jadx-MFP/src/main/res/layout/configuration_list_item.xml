@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="8dp" android:paddingEnd="8dp">
+    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@+id/card_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="4dp" app:cardElevation="5dp" app:contentPadding="5dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/configuration_item"/>
+            <ImageView android:id="@+id/configuration_edit" android:background="?android:attr/selectableItemBackground" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_edit_black_24dp" android:layout_toLeftOf="@+id/configuration_delete" android:layout_alignParentTop="true" android:layout_toStartOf="@+id/configuration_delete"/>
+            <ImageView android:id="@+id/configuration_delete" android:background="?android:attr/selectableItemBackground" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_delete_black_24dp" android:layout_alignParentRight="true" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

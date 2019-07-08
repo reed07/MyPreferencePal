@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt">
+    <android.support.v4.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/material_margin_16" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/empty_state_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_margin_32" android:layout_marginBottom="@dimen/material_margin_16"/>
+            <TextView android:gravity="center" android:id="@+id/empty_state_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/material_margin_32" android:layout_marginRight="@dimen/material_margin_32" android:layout_marginBottom="@dimen/material_margin_8" style="@style/Title.BlackText"/>
+            <TextView android:gravity="center" android:id="@+id/empty_state_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/material_margin_32" android:layout_marginRight="@dimen/material_margin_32" android:layout_marginBottom="@dimen/material_margin_24" style="@style/Subheader.BlackSecondaryText"/>
+            <TextView android:gravity="center" android:id="@+id/empty_state_button_primary" android:background="@drawable/blue_rounded_rectangle_button" android:padding="@dimen/material_padding_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text" style="@style/ButtonText.WhiteText"/>
+            <TextView android:gravity="center" android:id="@+id/empty_state_button_secondary" android:background="@drawable/btn_white_blue_stroke_bg_selector" android:padding="@dimen/material_padding_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_margin_16" android:text="@string/text" style="@style/ButtonText.Blue"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</merge>

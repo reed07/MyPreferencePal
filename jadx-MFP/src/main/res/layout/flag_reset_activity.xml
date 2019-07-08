@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <Button android:id="@+id/resetAcceptedTerms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="reset accepted terms (current: 2, accepted: 2)"/>
+        <Button android:id="@+id/resetMealMacrosTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="reset meal macros tip"/>
+        <Button android:id="@+id/resetMealGoalsTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="reset meal goals tip"/>
+        <Button android:id="@+id/resetMealGoalsPromoCard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="reset meal goals promo card"/>
+        <Button android:id="@+id/resetPremiumInterstitialShown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="reset premium interstitial shown"/>
+        <Button android:id="@+id/resetBottomBarTipShown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="reset bottom bar tip shown"/>
+        <Button android:id="@+id/resetAppSettings" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="reset &apos;AppSettings&apos;"/>
+        <Button android:id="@+id/toggleFreeTrialFlag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="toggle free trial flag (current: true)"/>
+        <Button android:id="@+id/resetChangePasswordFlag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="reset change password flag"/>
+        <Button android:id="@+id/resetEmailVerificationAppLaunchCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="reset email verification app launch count"/>
+        <Button android:id="@+id/resetEmailVerificationLastShownTimestamp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="reset email verification last shown timestamp"/>
+        <Button android:id="@+id/resetUserSawTimestampFeature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="reset timestamp feature tooltip"/>
+        <Button android:id="@+id/resetLoginStreakDays" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="reset login streak days"/>
+        <Button android:id="@+id/resetUserSeenPremiumCrownTooltip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="reset premium crown tooltip visiblity"/>
+        <Button android:id="@+id/resetAlexaInterstialLogWaterSeen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Reset alexa interstitial seen for log water"/>
+        <Button android:id="@+id/resetAlexaInterstialLogWeightSeen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Reset alexa interstitial seen for log weight"/>
+    </LinearLayout>
+</ScrollView>

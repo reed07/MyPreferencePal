@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="General">
+        <Preference android:title="Endpoints" android:key="app.authDebugMenu"/>
+        <Preference android:title="Rollouts" android:key="app.abtests.overrides"/>
+        <ListPreference android:title="Mock Data" android:key="app.mockdata"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Feature Debug">
+        <Preference android:title="Walk Through Food Logging" android:key="app.walkthrough.logging" android:summary="The walk through for food logging for first time users."/>
+        <Preference android:title="Food Search Walk Through" android:key="app.walkthrough.foodSearch" android:summary="Food Search walk through for existing user."/>
+        <Preference android:title="Retrieve Meal Food" android:key="app.retrieveMealFoodDebugMenu"/>
+        <Preference android:title="Notifications" android:key="app.notificationsDebugMenu"/>
+        <Preference android:title="Progress Photos" android:key="app.progressPhotosDebugMenu"/>
+        <Preference android:title="Premium" android:key="app.premiumDevMenu"/>
+        <Preference android:title="Payments" android:key="app.paymentDebug" android:summary="Service testing and health checks for payments"/>
+        <Preference android:title="New Privacy Flow" android:key="app.privacyFlow" android:summary="Testing out the new privacy interstitial"/>
+        <Preference android:title="Signup Congrats" android:key="app.signUpCongrats" android:summary="Testing out the Signup Congrats screen for GDPR"/>
+        <Preference android:title="Personalized Consents" android:key="app.personalizedConsents" android:summary="Testing out Personalized Consents"/>
+        <Preference android:title="Flag Reset" android:key="app.flagToggle" android:summary="Click here if there&apos;s a flag you need to toggle or reset"/>
+        <Preference android:title="Premium Onboarding" android:key="app.walkthrough.premiumOnboarding" android:summary="Walk through Premium Onboarding flow"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="App Settings" android:key="category_app" android:summary="Settings related to the app">
+        <Preference android:title="Locale Override" android:key="app.localeOverride" android:summary="Override the locale used when sending requests to the backend"/>
+        <Preference android:title="Analytics Events" android:key="app.analytics" android:summary="Show analytics events from the current app session"/>
+        <CheckBoxPreference android:title="Use text file for log output" android:key="app.logging.privateFileLogging" android:summary="Check this box if you want to enable logs to go to a file" android:defaultValue="false"/>
+        <Preference android:title="Clear private log file" android:key="app.logging.privateLogFileClear" android:summary="Tap to erase all contents of private log file"/>
+        <Preference android:title="Current Auth Token" android:key="app.auth_token" android:summary=""/>
+        <Preference android:title="Current GCM Push Token" android:key="app.gcm_push_token" android:summary=""/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Ads Settings" android:key="category_ads">
+        <CheckBoxPreference android:title="Test Mode" android:key="ads.testMode" android:summary="Check this to use debugging/logging mode for ads" android:defaultValue="false"/>
+        <ListPreference android:entries="@array/ads_test_network_entries" android:title="Test Network" android:key="ads.testNetwork" android:entryValues="@array/ads_test_network_values"/>
+        <Preference android:title="Login streak days" android:key="ads.loginStreak" android:summary="Override login streak param"/>
+        <Preference android:title="Last shown date for streak" android:key="ads.streakLastShownDate" android:summary="Override last shown date value"/>
+        <Preference android:title="Ads tracking ID" android:key="ads.tracking_id" android:summary=""/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Misc">
+        <Preference android:title="Force crash" android:key="app.misc.forceCrash" android:summary="Clicking this forces the app to crash. Really."/>
+        <Preference android:title="Expire the sync token to test re-import" android:key="app.misc.expireSyncToken" android:summary="Clicking this expires the sync token so that you re-import."/>
+        <Preference android:title="Remove the sync token to test re-import" android:key="app.misc.removeSyncToken" android:summary="Clicking this removes the sync token so that you re-import."/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Uacf">
+        <Preference android:title="Rollouts Dev Tool" android:key="@string/key_uacf_rollout_dev_tool"/>
+        <Preference android:title="Configuration Dev Tool" android:key="@string/key_uacf_configuration_dev_tool"/>
+        <Preference android:title="Notification Inbox Dev Tool" android:key="@string/key_uacf_notification_inbox_dev_tool"/>
+    </PreferenceCategory>
+</PreferenceScreen>

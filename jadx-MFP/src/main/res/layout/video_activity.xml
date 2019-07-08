@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="0dp">
+    <android.support.constraint.ConstraintLayout android:id="@+id/video_container" android:background="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/video_view">
+        <FrameLayout android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintDimensionRatio="h,16:9" app:layout_constraintHorizontal_bias="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0">
+            <com.brightcove.player.view.BrightcoveVideoView android:layout_gravity="center" android:id="@+id/video" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <FrameLayout android:id="@+id/video_image_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:id="@+id/video_image" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ProgressBar android:layout_gravity="center" android:layout_width="@dimen/progress_video_spinner" android:layout_height="@dimen/progress_video_spinner" android:indeterminate="true" style="?android:attr/progressBarStyle"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/active_video_error_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <Button android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/close_on_error" android:background="@drawable/ic_nav_close" android:layout_width="@dimen/video_close_hw" android:layout_height="@dimen/video_close_hw" android:layout_margin="@dimen/material_margin_18"/>
+                <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_noplay"/>
+                <TextView android:layout_gravity="center" android:id="@+id/active_video_error_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Header2B"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/ad_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+    </android.support.constraint.ConstraintLayout>
+    <FrameLayout android:id="@+id/list_container" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <android.support.v7.widget.RecyclerView android:id="@+id/videos" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/material_margin_16"/>
+        <ScrollView android:id="@+id/empty_list_container" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/video_alert_size" android:layout_height="@dimen/video_alert_size" android:layout_margin="@dimen/video_alert_margin" android:src="@drawable/ic_alert"/>
+                <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/list_error_message" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/material_margin_16" android:layout_marginRight="@dimen/material_margin_16" style="@style/Header2B"/>
+            </LinearLayout>
+        </ScrollView>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/loading" android:visibility="gone" android:layout_width="@dimen/progress_video_spinner" android:layout_height="@dimen/progress_video_spinner" android:indeterminate="true" style="?android:attr/progressBarStyle"/>
+    </FrameLayout>
+</LinearLayout>

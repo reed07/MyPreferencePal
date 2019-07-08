@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:padding="@dimen/challenge_list_item_padding" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/achievements" android:layout_weight="1" style="@style/Header.BlackText"/>
+        <TextView android:id="@+id/tv_metric_logged" android:paddingRight="@dimen/challenge_list_item_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/join_to_see_more" style="@style/Body.BlackSecondaryText"/>
+    </LinearLayout>
+    <View android:background="@color/separator_light_grey" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:orientation="horizontal" android:padding="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="3">
+        <ImageView android:id="@+id/iv_ach1" style="@style/ChallengesAchievementPreview"/>
+        <ImageView android:id="@+id/iv_ach2" style="@style/ChallengesAchievementPreview"/>
+        <ImageView android:id="@+id/iv_ach3" style="@style/ChallengesAchievementPreview"/>
+    </LinearLayout>
+</LinearLayout>

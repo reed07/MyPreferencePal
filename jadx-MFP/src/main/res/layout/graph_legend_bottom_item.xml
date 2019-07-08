@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/nutrition_item_selector" android:layout_width="match_parent" android:layout_height="@dimen/legend_bottom_item_height">
+    <View style="@style/NutritionDivider"/>
+    <LinearLayout style="@style/LegendBottomItemContainer">
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:gravity="center_vertical" android:id="@+id/tvLabel" android:layout_width="match_parent" android:layout_height="@dimen/legend_bottom_rows_height" android:layout_weight="1" style="@style/Body.BlackText"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:gravity="center" android:id="@+id/tvValue" android:layout_height="@dimen/legend_bottom_rows_height" android:layout_marginLeft="16dp" style="@style/Body.BlackSecondaryText"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:gravity="center" android:id="@+id/tvGoalValue" android:visibility="gone" android:layout_height="@dimen/legend_bottom_rows_height" android:layout_marginLeft="16dp" style="@style/Body.Blue"/>
+    </LinearLayout>
+</LinearLayout>

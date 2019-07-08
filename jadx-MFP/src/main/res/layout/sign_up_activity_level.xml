@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/material_padding_16" android:paddingRight="@dimen/material_padding_16" android:paddingBottom="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.myfitnesspal.feature.registration.ui.view.PageIndicatorBar android:id="@+id/page_indicator" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_padding_24" android:layout_marginBottom="@dimen/material_padding_24" app:max_progress="5" app:progress="2"/>
+            <TextView android:id="@+id/activity_level_question" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/how_active_are_you" style="@style/Header.BlackText"/>
+            <TextView android:id="@+id/activity_level_question_subtext" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/activity_level_question_text" style="@style/Body.BlackSecondaryText"/>
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@+id/not_active_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_padding_20" android:layout_marginBottom="@dimen/material_padding_24">
+                <RadioButton android:id="@+id/radioNotActive" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MaterialSignUpLifestyleRadioButton"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/not_very_active" style="@style/Subheader.BlackText"/>
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sedentary" style="@style/Body.BlackSecondaryText"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@+id/light_active_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_padding_24">
+                <RadioButton android:id="@+id/radioLightActive" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MaterialSignUpLifestyleRadioButton"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/lightActivetxt" style="@style/Subheader.BlackText"/>
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/lightlyActive" style="@style/Body.BlackSecondaryText"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@+id/active_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_padding_24">
+                <RadioButton android:id="@+id/radioActive" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MaterialSignUpLifestyleRadioButton"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/activetxt" style="@style/Subheader.BlackText"/>
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/active" style="@style/Body.BlackSecondaryText"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@+id/very_active_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_padding_24">
+                <RadioButton android:id="@+id/radioVeryActive" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MaterialSignUpLifestyleRadioButton"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/veryActivetxt" style="@style/Subheader.BlackText"/>
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/veryActive" style="@style/Body.BlackSecondaryText"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

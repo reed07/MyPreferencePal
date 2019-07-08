@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" style="@style/DialogContentBaseAlt">
+    <com.myfitnesspal.shared.ui.view.CustomLocalizedNumberEditText android:id="@+id/txtValue" android:layout_width="@dimen/edit_dialog_edit_text_width_first" android:layout_marginLeft="@dimen/measurement_dialog_edit_text_marginLeft" android:imeOptions="actionGo" style="@style/DialogEditText"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/file_export_complete_container" android:visibility="gone" style="@style/FileExportInfoContainer">
+        <TextView android:text="@string/info_on_way" style="@style/FileExportTextQuestion"/>
+        <TextView android:id="@+id/check_email" android:text="@string/check_email" style="@style/FileExportTextAnswer"/>
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/file_export_text_top_margin_large" android:layout_marginBottom="@dimen/file_export_text_top_margin_large" android:src="@drawable/ic_emailcheck"/>
+        <TextView android:id="@+id/export_confirmation_text" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/delete_export_confirmation" style="@style/Body.BlackText"/>
+    </LinearLayout>
+</ScrollView>

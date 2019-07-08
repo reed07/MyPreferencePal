@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_grey_small" android:showDividers="middle">
+            <TextView android:id="@+id/tos" android:text="@string/settings_tos" style="@style/SettingsItemRow"/>
+            <TextView android:id="@+id/privacy_policy" android:text="@string/settings_privacy_policy" style="@style/SettingsItemRow"/>
+            <TextView android:id="@+id/manage_consents" android:text="@string/settings_manage_consents" style="@style/SettingsItemRow"/>
+            <TextView android:id="@+id/personalization" android:text="@string/personalization" style="@style/SettingsItemRow"/>
+            <TextView android:id="@+id/sharing_and_privacy" android:text="@string/settings_sharing_and_privacy" style="@style/SettingsItemRow"/>
+            <TextView android:id="@+id/contact_support" android:text="@string/settings_contact_support" style="@style/SettingsItemRow"/>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

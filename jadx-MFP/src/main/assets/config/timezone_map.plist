@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <array>
+    <dict>
+      <key>timezone_name</key>
+      <string>Abu Dhabi</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Muscat</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Adelaide</string>
+      <key>timezone_identifier</key>
+      <string>Australia/Adelaide</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Alaska</string>
+      <key>timezone_identifier</key>
+      <string>America/Juneau</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Almaty</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Almaty</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Amsterdam</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Amsterdam</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Arizona</string>
+      <key>timezone_identifier</key>
+      <string>America/Phoenix</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Astana</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Dhaka</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Athens</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Athens</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Atlantic Time (Canada)</string>
+      <key>timezone_identifier</key>
+      <string>America/Halifax</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Auckland</string>
+      <key>timezone_identifier</key>
+      <string>Pacific/Auckland</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Azores</string>
+      <key>timezone_identifier</key>
+      <string>Atlantic/Azores</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Baghdad</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Baghdad</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Baku</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Baku</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Bangkok</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Bangkok</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Beijing</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Shanghai</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Belgrade</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Belgrade</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Berlin</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Berlin</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Bern</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Berlin</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Bogota</string>
+      <key>timezone_identifier</key>
+      <string>America/Bogota</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Brasilia</string>
+      <key>timezone_identifier</key>
+      <string>America/Sao_Paulo</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Bratislava</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Bratislava</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Brisbane</string>
+      <key>timezone_identifier</key>
+      <string>Australia/Brisbane</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Brussels</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Brussels</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Bucharest</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Bucharest</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Budapest</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Budapest</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Buenos Aires</string>
+      <key>timezone_identifier</key>
+      <string>America/Argentina/Buenos_Aires</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Cairo</string>
+      <key>timezone_identifier</key>
+      <string>Africa/Cairo</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Canberra</string>
+      <key>timezone_identifier</key>
+      <string>Australia/Melbourne</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Cape Verde Is.</string>
+      <key>timezone_identifier</key>
+      <string>Atlantic/Cape_Verde</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Caracas</string>
+      <key>timezone_identifier</key>
+      <string>America/Caracas</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Casablanca</string>
+      <key>timezone_identifier</key>
+      <string>Africa/Casablanca</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Central America</string>
+      <key>timezone_identifier</key>
+      <string>America/Guatemala</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Central Time (US &amp; Canada)</string>
+      <key>timezone_identifier</key>
+      <string>America/Chicago</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Chennai</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Kolkata</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Chihuahua</string>
+      <key>timezone_identifier</key>
+      <string>America/Chihuahua</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Chongqing</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Chongqing</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Copenhagen</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Copenhagen</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Darwin</string>
+      <key>timezone_identifier</key>
+      <string>Australia/Darwin</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Dhaka</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Dhaka</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Dublin</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Dublin</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Eastern Time (US &amp; Canada)</string>
+      <key>timezone_identifier</key>
+      <string>America/New_York</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Edinburgh</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Dublin</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Ekaterinburg</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Yekaterinburg</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Fiji</string>
+      <key>timezone_identifier</key>
+      <string>Pacific/Fiji</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Georgetown</string>
+      <key>timezone_identifier</key>
+      <string>America/Argentina/San_Juan</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Greenland</string>
+      <key>timezone_identifier</key>
+      <string>America/Godthab</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Guadalajara</string>
+      <key>timezone_identifier</key>
+      <string>America/Mexico_City</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Guam</string>
+      <key>timezone_identifier</key>
+      <string>Pacific/Guam</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Hanoi</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Bangkok</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Harare</string>
+      <key>timezone_identifier</key>
+      <string>Africa/Harare</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Hawaii</string>
+      <key>timezone_identifier</key>
+      <string>Pacific/Honolulu</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Helsinki</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Helsinki</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Hobart</string>
+      <key>timezone_identifier</key>
+      <string>Australia/Hobart</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Hong Kong</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Hong_Kong</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Indiana (East)</string>
+      <key>timezone_identifier</key>
+      <string>America/Indiana/Indianapolis</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>International Date Line West</string>
+      <key>timezone_identifier</key>
+      <string>Pacific/Midway</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Irkutsk</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Irkutsk</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Islamabad</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Karachi</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Istanbul</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Istanbul</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Jakarta</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Jakarta</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Jerusalem</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Jerusalem</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Kabul</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Kabul</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Kamchatka</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Kamchatka</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Karachi</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Karachi</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Kathmandu</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Katmandu</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Kolkata</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Kolkata</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Krasnoyarsk</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Krasnoyarsk</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Kuala Lumpur</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Kuala_Lumpur</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Kuwait</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Kuwait</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Kyev</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Kiev</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>La Paz</string>
+      <key>timezone_identifier</key>
+      <string>America/La_Paz</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Lima</string>
+      <key>timezone_identifier</key>
+      <string>America/Lima</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Lisbon</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Lisbon</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Ljubljana</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Ljubljana</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>London</string>
+      <key>timezone_identifier</key>
+      <string>Europe/London</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Madrid</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Madrid</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Magadan</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Magadan</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Marshall Is.</string>
+      <key>timezone_identifier</key>
+      <string>Pacific/Majuro</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Mazatlan</string>
+      <key>timezone_identifier</key>
+      <string>America/Mazatlan</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Melbourne</string>
+      <key>timezone_identifier</key>
+      <string>Australia/Melbourne</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Mexico City</string>
+      <key>timezone_identifier</key>
+      <string>America/Mexico_City</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Mid-Atlantic</string>
+      <key>timezone_identifier</key>
+      <string>Atlantic/South_Georgia</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Midway Island</string>
+      <key>timezone_identifier</key>
+      <string>Pacific/Midway</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Minsk</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Minsk</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Monrovia</string>
+      <key>timezone_identifier</key>
+      <string>Africa/Monrovia</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Monterrey</string>
+      <key>timezone_identifier</key>
+      <string>America/Monterrey</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Moscow</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Moscow</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Mountain Time (US &amp; Canada)</string>
+      <key>timezone_identifier</key>
+      <string>America/Denver</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Mumbai</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Kolkata</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Muscat</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Muscat</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Nairobi</string>
+      <key>timezone_identifier</key>
+      <string>Africa/Nairobi</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>New Caledonia</string>
+      <key>timezone_identifier</key>
+      <string>Pacific/Noumea</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>New Delhi</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Kolkata</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Newfoundland</string>
+      <key>timezone_identifier</key>
+      <string>America/St_Johns</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Novosibirsk</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Novosibirsk</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Nuku'alofa</string>
+      <key>timezone_identifier</key>
+      <string>Pacific/Tongatapu</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Osaka</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Tokyo</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Pacific Time (US &amp; Canada)</string>
+      <key>timezone_identifier</key>
+      <string>America/Los_Angeles</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Paris</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Paris</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Perth</string>
+      <key>timezone_identifier</key>
+      <string>Australia/Perth</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Port Moresby</string>
+      <key>timezone_identifier</key>
+      <string>Pacific/Port_Moresby</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Prague</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Prague</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Pretoria</string>
+      <key>timezone_identifier</key>
+      <string>Africa/Johannesburg</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Quito</string>
+      <key>timezone_identifier</key>
+      <string>America/Lima</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Rangoon</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Rangoon</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Riga</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Riga</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Riyadh</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Riyadh</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Rome</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Rome</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Samoa</string>
+      <key>timezone_identifier</key>
+      <string>Pacific/Pago_Pago</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Santiago</string>
+      <key>timezone_identifier</key>
+      <string>America/Santiago</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Sapporo</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Tokyo</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Sarajevo</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Sarajevo</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Saskatchewan</string>
+      <key>timezone_identifier</key>
+      <string>America/Regina</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Seoul</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Seoul</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Singapore</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Singapore</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Skopje</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Skopje</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Sofia</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Sofia</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Solomon Is.</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Magadan</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Sri Jayawardenepura</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Colombo</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>St. Petersburg</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Moscow</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Stockholm</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Stockholm</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Sydney</string>
+      <key>timezone_identifier</key>
+      <string>Australia/Sydney</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Taipei</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Taipei</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Tallinn</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Tallinn</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Tashkent</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Tashkent</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Tbilisi</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Tbilisi</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Tehran</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Tehran</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Tijuana</string>
+      <key>timezone_identifier</key>
+      <string>America/Tijuana</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Tokyo</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Tokyo</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>UTC</string>
+      <key>timezone_identifier</key>
+      <string>Etc/UTC</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Ulaan Bataar</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Ulaanbaatar</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Urumqi</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Urumqi</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Vienna</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Vienna</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Vilnius</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Vilnius</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Vladivostok</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Vladivostok</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Volgograd</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Moscow</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Warsaw</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Warsaw</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Wellington</string>
+      <key>timezone_identifier</key>
+      <string>Pacific/Auckland</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>West Central Africa</string>
+      <key>timezone_identifier</key>
+      <string>Africa/Algiers</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Yakutsk</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Yakutsk</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Yerevan</string>
+      <key>timezone_identifier</key>
+      <string>Asia/Yerevan</string>
+    </dict>
+
+    <dict>
+      <key>timezone_name</key>
+      <string>Zagreb</string>
+      <key>timezone_identifier</key>
+      <string>Europe/Zagreb</string>
+    </dict>
+
+  </array>
+</plist>

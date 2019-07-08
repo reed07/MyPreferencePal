@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/material_padding_16" android:paddingRight="@dimen/material_padding_16" android:paddingBottom="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.myfitnesspal.feature.registration.ui.view.PageIndicatorBar android:id="@+id/page_indicator" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_padding_24" android:layout_marginBottom="@dimen/material_padding_24" app:max_progress="8" app:progress="7"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/goal_weight_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_padding_48">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_padding_8" android:text="@string/goal_weight" style="@style/Header.BlackText"/>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <EditText android:id="@+id/goal_weight" android:hint="@string/zero_lbs" style="@style/MaterialSignUpEditTextForDialogHalf"/>
+                    <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+                </LinearLayout>
+                <TextView android:id="@+id/error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a_normal_weight_range_pounds" style="@style/Caption.DarkOrange"/>
+            </LinearLayout>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/what_is_your_weekly_goal" style="@style/Header.BlackText"/>
+            <TextView android:id="@+id/impact_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/dont_worry_you_can_change_this" style="@style/Caption.BlackSecondaryText"/>
+            <RadioGroup android:id="@+id/lose_weekly_goal_group" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/lose_half_pw" android:layout_width="match_parent" android:layout_marginTop="@dimen/material_padding_20" android:layout_marginBottom="@dimen/material_padding_8" style="@style/MaterialSignUpRadio"/>
+                <RadioButton android:gravity="center_vertical" android:id="@+id/lose_one_pw" android:layout_width="match_parent" style="@style/MaterialSignUpRadio"/>
+                <RadioButton android:id="@+id/lose_one_half_pw" android:layout_width="match_parent" android:layout_marginTop="@dimen/material_padding_8" android:layout_marginBottom="@dimen/material_padding_8" style="@style/MaterialSignUpRadio"/>
+                <RadioButton android:id="@+id/lose_two_pw" android:layout_width="match_parent" android:layout_marginBottom="@dimen/material_padding_8" style="@style/MaterialSignUpRadio"/>
+            </RadioGroup>
+            <RadioGroup android:id="@+id/gain_weekly_goal_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+                <RadioButton android:id="@+id/gain_half_pw" android:layout_width="match_parent" android:layout_marginBottom="@dimen/material_padding_8" style="@style/MaterialSignUpRadio"/>
+                <RadioButton android:id="@+id/gain_one_pw" android:layout_width="match_parent" style="@style/MaterialSignUpRadio"/>
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

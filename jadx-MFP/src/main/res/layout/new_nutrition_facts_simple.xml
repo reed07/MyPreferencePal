@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/nutritionFactsSimple" android:background="@color/nutrition_main_summary_background" android:layout_width="match_parent" android:layout_height="72dp">
+    <LinearLayout style="@style/NutritionFactMainInfoContainer">
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/txtTotalCarbs" style="@style/NutritionFactMainInfoValueText"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/totalCarbs" android:text="@string/carbs_g" style="@style/NutritionFactMainInfoLabelText"/>
+    </LinearLayout>
+    <LinearLayout style="@style/NutritionFactMainInfoContainer">
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/txtTotalFat" style="@style/NutritionFactMainInfoValueText"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/totalFat" android:text="@string/fatTxt" style="@style/NutritionFactMainInfoLabelText"/>
+    </LinearLayout>
+    <LinearLayout style="@style/NutritionFactMainInfoContainer">
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/txtProtein" style="@style/NutritionFactMainInfoValueText"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/protein" android:text="@string/proteinTxt" style="@style/NutritionFactMainInfoLabelText"/>
+    </LinearLayout>
+    <View android:background="@color/black_divider" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="@dimen/nutrition_summary_vertical_divider_margin" android:layout_marginBottom="@dimen/nutrition_summary_vertical_divider_margin"/>
+    <LinearLayout style="@style/NutritionFactMainInfoContainer">
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/txtCalories" style="@style/NutritionFactMainInfoValueText"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/calories" style="@style/NutritionFactMainInfoLabelText"/>
+    </LinearLayout>
+</LinearLayout>

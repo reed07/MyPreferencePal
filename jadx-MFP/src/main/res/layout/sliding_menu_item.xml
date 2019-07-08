@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.myfitnesspal.shared.ui.view.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/sliding_menu_item_background_selector" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/top_padding" android:visibility="gone" android:layout_width="1dp" android:layout_height="8dp"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/nav_drawer_item_height">
+        <ImageView android:id="@+id/icon" style="@style/NavDrawerImage"/>
+        <TextView android:id="@+id/text" android:layout_toLeftOf="@+id/drawer_item_decoration_container" android:layout_toRightOf="@+id/icon" style="@style/NavDrawerText"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/drawer_item_decoration_container" android:paddingRight="@dimen/material_padding_16" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:id="@+id/text_badge" android:background="@drawable/rounded_flat_button_actionbarblue" android:paddingLeft="@dimen/material_padding_12" android:paddingTop="@dimen/material_margin_4" android:paddingRight="@dimen/material_padding_12" android:paddingBottom="@dimen/material_margin_4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/material_padding_8" style="@style/Subheader.WhiteText"/>
+            <TextView android:textSize="10sp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/drawer_notification_count" android:background="@drawable/notification_badge_bg" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/material_padding_8" android:text="0" android:layout_alignParentRight="true"/>
+        </LinearLayout>
+    </RelativeLayout>
+</com.myfitnesspal.shared.ui.view.CheckableLinearLayout>

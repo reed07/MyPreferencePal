@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="challenge_ends_in_format">
+        <item quantity="other">Berakhir pada %1$s hari</item>
+    </plurals>
+    <plurals name="days_remaining_format">
+        <item quantity="other">%1$s Hari Lagi</item>
+    </plurals>
+    <plurals name="friend_just_joined">
+        <item quantity="other">%1$d rakan Facebook baru sahaja menyertai MyFitnessPal</item>
+    </plurals>
+    <plurals name="hours_remaining_format">
+        <item quantity="other">%1$s Jam Lagi</item>
+    </plurals>
+    <plurals name="ingredients_deleted_plural">
+        <item quantity="other">Bahan-bahan dipadam.</item>
+    </plurals>
+    <plurals name="me_header_streak">
+        <item quantity="other">Berturutan: %1$d hari</item>
+    </plurals>
+    <plurals name="me_my_cardio_count">
+        <item quantity="other">%1$d Kardio</item>
+    </plurals>
+    <plurals name="me_my_foods_count">
+        <item quantity="other">%1$d Makanan</item>
+    </plurals>
+    <plurals name="me_my_meals_count">
+        <item quantity="other">%1$d Hidangan</item>
+    </plurals>
+    <plurals name="me_my_recipes_count">
+        <item quantity="other">%1$d Resipi</item>
+    </plurals>
+    <plurals name="me_my_strength_count">
+        <item quantity="other">%1$d Kekuatan</item>
+    </plurals>
+    <plurals name="more_friends">
+        <item quantity="other">+%1$d Lebih Ramai Rakan…</item>
+    </plurals>
+    <plurals name="progress_breakfast">
+        <item quantity="other">sarapan dilog</item>
+    </plurals>
+    <plurals name="progress_daily_fiber">
+        <item quantity="other">matlamat serat dicapai</item>
+    </plurals>
+    <plurals name="progress_daily_protein">
+        <item quantity="other">matlamat protein dicapai</item>
+    </plurals>
+    <plurals name="progress_dinner">
+        <item quantity="other">makan malam dilog</item>
+    </plurals>
+    <plurals name="progress_exercise">
+        <item quantity="other">senaman dilog</item>
+    </plurals>
+    <plurals name="progress_fiber">
+        <item quantity="other">gram serat dilog</item>
+    </plurals>
+    <plurals name="progress_food">
+        <item quantity="other">makanan dilog</item>
+    </plurals>
+    <plurals name="progress_lunch">
+        <item quantity="other">makan tengahari dilog</item>
+    </plurals>
+    <plurals name="progress_meals">
+        <item quantity="other">hidangan dilog</item>
+    </plurals>
+    <plurals name="progress_nutrient_goals">
+        <item quantity="other">matlamat nutrien dicapai</item>
+    </plurals>
+    <plurals name="progress_protein">
+        <item quantity="other">gram protin dilog</item>
+    </plurals>
+    <plurals name="progress_recipes">
+        <item quantity="other">resipi dilog</item>
+    </plurals>
+    <plurals name="progress_steps">
+        <item quantity="other">langkah diambil</item>
+    </plurals>
+    <plurals name="progress_water">
+        <item quantity="other">minuman dilog</item>
+    </plurals>
+    <plurals name="recipe_deleted">
+        <item quantity="other">Resipi dipadam.</item>
+    </plurals>
+    <plurals name="recipe_deleted_fail">
+        <item quantity="other">Tidak dapat memadam %1$d resipi. Cuba lagi kemudian.</item>
+    </plurals>
+</resources>

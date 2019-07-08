@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bottom_bar_container">
+        <LinearLayout android:orientation="vertical" android:id="@+id/parentLayout" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@+id/date" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <View android:id="@+id/divider" android:layout_width="match_parent" android:layout_height="1dp" style="@style/DateBarDivider"/>
+            <LinearLayout android:id="@+id/top_ads_container" android:background="@color/white" android:visibility="gone" style="@style/TopAdContainer"/>
+            <include android:id="@+id/landscape_unit_header" android:layout_width="match_parent" android:layout_height="@dimen/material_control_height_56" layout="@layout/diary_landscape_unit_header"/>
+            <com.myfitnesspal.shared.ui.view.CustomSwipeableViewPager android:id="@+id/content_pager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" android:layout_alignWithParentIfMissing="true"/>
+        </LinearLayout>
+    </FrameLayout>
+    <include android:id="@+id/bottom_bar_container" layout="@layout/bottom_bar_layout"/>
+</RelativeLayout>

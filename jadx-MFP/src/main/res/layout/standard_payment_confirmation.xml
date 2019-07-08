@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/standard_payment_confirmation_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:visibility="visible" layout="@layout/premium_upsell_header"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/info_details_container" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/plan_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/payment_confirm_plan_label"/>
+        <TextView android:textStyle="bold" android:id="@+id/plan_value" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/renew_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/payment_confirm_renew_label"/>
+        <TextView android:textStyle="bold" android:id="@+id/renew_value" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/email_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/payment_confirm_email_label"/>
+        <TextView android:textStyle="bold" android:id="@+id/email_value" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <com.myfitnesspal.shared.ui.view.StyledTextView android:gravity="center" android:id="@+id/unable_to_post_text" android:paddingLeft="32dp" android:paddingTop="16dp" android:paddingRight="32dp" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="match_parent" android:text="@string/payment_success_unable_to_post_server" style="@style/Header2A.BlackText"/>
+</LinearLayout>

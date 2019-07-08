@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/legend_item" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+    <LinearLayout android:id="@+id/macro_content_container" android:background="@drawable/nutrition_item_selector" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="@dimen/macro_legend_label_plus_total_weight">
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="@dimen/macro_legend_label_weight">
+            <TextView android:id="@+id/label" android:drawablePadding="@dimen/legend_label_drawable_padding" style="@style/Body.BlackText"/>
+            <TextView android:id="@+id/label_value" android:layout_marginLeft="2dp" style="@style/Body.BlackSecondaryText"/>
+        </LinearLayout>
+        <TextView android:gravity="center" android:id="@+id/total_value" android:paddingLeft="4dp" android:layout_width="0dp" android:layout_weight="@dimen/macro_legend_total_weight" style="@style/Body.BlackSecondaryText"/>
+    </LinearLayout>
+    <TextView android:gravity="center" android:id="@+id/goal_value" android:background="@drawable/nutrition_item_selector" android:paddingLeft="4dp" android:layout_width="0dp" android:layout_weight="@dimen/macro_legend_goal_weight" style="@style/Body.Blue"/>
+</LinearLayout>

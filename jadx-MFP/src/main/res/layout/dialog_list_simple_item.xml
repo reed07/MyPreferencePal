@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="@dimen/single_line_item_height">
+    <ImageView android:id="@+id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/image_dialog_icon_margin"/>
+    <com.myfitnesspal.shared.ui.view.StyledTextView android:gravity="center_vertical" android:id="@+id/text" android:layout_width="match_parent" android:layout_marginLeft="@dimen/dialog_text_left_margin" style="@style/DialogMainListItemText"/>
+</RelativeLayout>

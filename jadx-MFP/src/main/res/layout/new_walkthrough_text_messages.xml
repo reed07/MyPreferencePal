@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical">
+    <TextView android:id="@+id/title" android:text="Title Text" android:layout_alignParentLeft="true" style="@style/WalkthroughTitleText"/>
+    <TextView android:id="@+id/description" android:visibility="visible" android:layout_marginTop="8dp" android:text="Description Text" android:layout_below="@+id/title" android:layout_alignParentLeft="true" style="@style/WalkthroughDescText"/>
+</merge>

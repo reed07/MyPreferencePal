@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/challenges_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.myfitnesspal.feature.challenges.ui.view.ChallengeBannerImageView android:id="@+id/challenge_banner" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/newsfeed_padding_8dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@+id/challenge_details_item1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <include android:id="@+id/challenge_grand_prize_container" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/challenge_prize_summary_item"/>
+            <View android:background="@color/separator_light_grey" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@+id/tvDaysRemaining" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="6dp" style="@style/Header2A.BlackText"/>
+                <ProgressBar android:id="@+id/pbProgress" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="100" android:progress="50" android:indeterminate="false" style="@style/challenges_ProgressBar_green"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/llProgressContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+                    <TextView android:id="@+id/tvDayCount" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="@style/Caption.BlackSecondaryText"/>
+                    <TextView android:id="@+id/tvTotalDays" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Caption.BlackSecondaryText"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:background="@color/separator_light_grey" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <LinearLayout android:background="@color/white" android:padding="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/total_participants" style="@style/Body.BlackText"/>
+                <TextView android:gravity="right" android:id="@+id/tvParticipantCount" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="65,536" android:layout_weight="1" style="@style/Body.BlackText"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/llVanityMetricsContainer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

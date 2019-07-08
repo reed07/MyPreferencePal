@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@+id/invite_mfp_friends" layout="@layout/fragment_challenge_invite_source_row"/>
+        <include android:id="@+id/invite_email" layout="@layout/fragment_challenge_invite_source_row"/>
+        <include android:id="@+id/invite_facebook" layout="@layout/fragment_challenge_invite_source_row"/>
+        <include android:id="@+id/invite_twitter" layout="@layout/fragment_challenge_invite_source_row"/>
+    </LinearLayout>
+</ScrollView>

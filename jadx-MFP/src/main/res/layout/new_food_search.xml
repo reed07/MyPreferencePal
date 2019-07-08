@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/offline_search_container" android:background="@color/black" android:visibility="gone" android:layout_width="match_parent" android:layout_height="32dp" android:layout_alignParentBottom="true">
+        <TextView android:id="@+id/offline_search_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/offline_search_status_txt_view_10"/>
+        <ImageButton android:id="@+id/arrow" android:background="@drawable/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/offline_search_container">
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/default_material_elevation">
+            <include layout="@layout/new_food_search_input"/>
+            <View style="@style/HorizontalDivider"/>
+            <android.support.design.widget.TabLayout android:id="@+id/new_tabs_container" style="@style/TabsAppearance.White"/>
+        </LinearLayout>
+        <android.support.v4.view.ViewPager android:id="@+id/content_pager" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</RelativeLayout>

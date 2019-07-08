@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="@dimen/sign_up_view_padding_material" android:paddingRight="@dimen/sign_up_view_padding_material" android:paddingBottom="@dimen/sign_up_view_padding_material" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.myfitnesspal.feature.registration.ui.view.PageIndicatorBar android:id="@+id/page_indicator" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_padding_24" android:layout_marginBottom="@dimen/material_padding_24" app:max_progress="5" app:progress="1"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sign_up_view_padding" android:text="@string/whats_your_goal" style="@style/Header.BlackText"/>
+            <RadioGroup android:id="@+id/goal_group" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/lose" android:layout_width="match_parent" android:text="@string/lose_weight" style="@style/MaterialSignUpRadio"/>
+                <RadioButton android:id="@+id/maintain" android:layout_width="match_parent" android:text="@string/maintain_weight" style="@style/MaterialSignUpRadio"/>
+                <RadioButton android:id="@+id/gain" android:layout_width="match_parent" android:text="@string/gain_weight" style="@style/MaterialSignUpRadio"/>
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

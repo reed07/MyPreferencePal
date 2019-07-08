@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.myfitnesspal.shared.ui.view.MfpWebView android:id="@+id/ach_webview" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:id="@+id/ach_container" android:paddingLeft="@dimen/material_padding_32" android:paddingRight="@dimen/material_padding_32" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/ach_image" android:layout_width="@dimen/challenge_achievement_image_hw" android:layout_height="@dimen/challenge_achievement_image_hw" android:layout_marginTop="@dimen/material_margin_48" android:layout_centerHorizontal="true"/>
+        <TextView android:id="@+id/ach_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_padding_32" android:maxLines="2" android:layout_below="@+id/ach_image" android:layout_centerHorizontal="true" style="@style/Header.BlackText"/>
+        <TextView android:gravity="center" android:id="@+id/ach_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_margin_24" android:includeFontPadding="false" android:layout_below="@+id/ach_title" android:layout_centerHorizontal="true" style="@style/Header2B.BlackSecondary"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/progress_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/ach_description">
+            <ProgressBar android:id="@+id/ach_progressbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/challenge_text_separator" android:layout_marginBottom="2dp" android:indeterminate="false" style="@style/challenges_ProgressBar_blue"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@+id/ach_progression" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Caption.BlackText"/>
+                <TextView android:id="@+id/ach_progression_type" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/material_padding_4" android:layout_weight="1" style="@style/Caption.BlackSecondaryText"/>
+                <TextView android:id="@+id/ach_target" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Caption.BlackSecondaryText"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

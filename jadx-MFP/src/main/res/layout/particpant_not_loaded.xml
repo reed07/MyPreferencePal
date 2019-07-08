@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/tvFriendsInChallenge" android:padding="@dimen/challenge_list_item_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/challenge_text_header_extra_margin" android:text="@string/friends_in_challenge" style="@style/Header.BlackText"/>
+    <include layout="@layout/grey_separator_1dp_light"/>
+    <TextView android:gravity="center" android:id="@+id/error" android:padding="@dimen/challenge_list_item_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/participant_not_loaded" style="@style/Body.BlackSecondaryText"/>
+</LinearLayout>

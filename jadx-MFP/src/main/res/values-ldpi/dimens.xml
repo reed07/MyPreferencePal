@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="meal_photo_row_thumbnail">32dp</dimen>
+    <dimen name="rl_interstitial_height">144dp</dimen>
+    <dimen name="welcome_controls_loginButton_marginTop">7dp</dimen>
+</resources>

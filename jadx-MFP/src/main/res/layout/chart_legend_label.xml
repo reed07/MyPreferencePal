@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/rlLegendItem" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/legend_center_margin">
+    <View android:id="@+id/legend" android:layout_width="@dimen/legend_label_size" android:layout_height="@dimen/legend_label_size" android:layout_marginTop="3dp"/>
+    <TextView android:id="@+id/tvLabel" android:layout_toRightOf="@+id/legend" style="@style/LegendTitleText"/>
+    <TextView android:id="@+id/tvSubtitle" android:layout_below="@+id/tvLabel" android:layout_alignLeft="@+id/tvLabel" android:layout_alignStart="@+id/tvLabel" style="@style/Body.BlackSecondaryText"/>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="left" android:layout_marginTop="0dp" style="@style/GraphContainer">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/header_container" android:paddingLeft="@dimen/food_list_item_margin_left_right" android:paddingRight="@dimen/food_list_item_margin_left_right" android:layout_width="match_parent" android:layout_height="@dimen/food_list_item_height">
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:ellipsize="end" android:id="@+id/header" android:text="@string/highest_in_calories" android:singleLine="true" android:layout_centerVertical="true" style="@style/Header.BlackText"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/unit" android:layout_marginLeft="5dp" android:text="(g)" android:singleLine="true" android:layout_toRightOf="@+id/header" android:layout_centerVertical="true" style="@style/Body.BlackSecondaryText"/>
+        <ImageView android:id="@+id/premium_lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_premium_lock" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <View style="@style/NutritionDivider"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/example_food_list_upsell_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/food_list_item_margin_left_right">
+            <TextView android:paddingLeft="@dimen/food_list_item_margin_left_right" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/example_rice_bowl" android:layout_weight="1" style="@style/Subheader.BlackText"/>
+            <TextView android:id="@+id/upsell_example_rice_bowl_value" android:paddingRight="@dimen/food_list_item_margin_left_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="900" style="@style/Subheader.BlackSecondaryText"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/food_list_item_margin_left_right">
+            <TextView android:paddingLeft="@dimen/food_list_item_margin_left_right" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/example_tomateo_soup" android:layout_weight="1" style="@style/Subheader.BlackText"/>
+            <TextView android:id="@+id/upsell_example_tomato_soup_value" android:paddingRight="@dimen/food_list_item_margin_left_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="185" style="@style/Subheader.BlackSecondaryText"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/content_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <View android:id="@+id/bottom_divider" style="@style/NutritionDivider"/>
+    <com.myfitnesspal.shared.ui.view.StyledTextView android:gravity="center_vertical" android:id="@+id/clickable_text" android:background="@drawable/nutrition_item_selector" android:paddingLeft="@dimen/food_list_item_margin_left_right" android:layout_width="match_parent" android:layout_height="@dimen/food_list_item_height" android:text="@string/upgrade_now" style="@style/Subheader.Blue"/>
+</LinearLayout>

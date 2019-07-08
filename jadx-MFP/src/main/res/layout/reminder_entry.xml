@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/foodSearchViewFoodItem" android:padding="@dimen/material_margin_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/reminder_row_height">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/detailsLinearLayout" android:clickable="false" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:id="@+id/txtReminderDescription" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reminder_description" style="@style/Header2B.BlackText"/>
+            <TextView android:id="@+id/txtReminderTime" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ten_am" style="@style/Subheader.BlackSecondaryText"/>
+        </LinearLayout>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <CheckBox android:id="@+id/select_reminder" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/material_padding_16"/>
+            <Switch android:id="@+id/is_active" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/on_upper" android:textOff="@string/off_upper"/>
+        </FrameLayout>
+    </LinearLayout>
+    <include layout="@layout/grey_separator_1dp_light"/>
+</LinearLayout>

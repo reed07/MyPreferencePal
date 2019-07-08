@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="challenge_ends_in_format">
+        <item quantity="other">あと%1$s日で終了</item>
+    </plurals>
+    <plurals name="days_remaining_format">
+        <item quantity="other">あと%1$s日</item>
+    </plurals>
+    <plurals name="friend_just_joined">
+        <item quantity="other">%1$d人の Facebook 友達がたった今 MyFitnessPal に登録しました</item>
+    </plurals>
+    <plurals name="hours_remaining_format">
+        <item quantity="other">残り%1$s時間</item>
+    </plurals>
+    <plurals name="ingredients_deleted_plural">
+        <item quantity="other">材料が削除されました。</item>
+    </plurals>
+    <plurals name="me_header_streak">
+        <item quantity="other">ストリーク：%1$d日間</item>
+    </plurals>
+    <plurals name="me_my_cardio_count">
+        <item quantity="other">%1$d 件の有酸素運動</item>
+    </plurals>
+    <plurals name="me_my_foods_count">
+        <item quantity="other">%1$d 件のフード</item>
+    </plurals>
+    <plurals name="me_my_meals_count">
+        <item quantity="other">%1$d 件の食事</item>
+    </plurals>
+    <plurals name="me_my_recipes_count">
+        <item quantity="other">%1$d 件のレシピ</item>
+    </plurals>
+    <plurals name="me_my_strength_count">
+        <item quantity="other">%1$d 件の筋トレ</item>
+    </plurals>
+    <plurals name="more_friends">
+        <item quantity="other">他%1$d人の友達…</item>
+    </plurals>
+    <plurals name="progress_breakfast">
+        <item quantity="other">件の朝食を記録しました</item>
+    </plurals>
+    <plurals name="progress_daily_fiber">
+        <item quantity="other">目標繊維量を達成しました</item>
+    </plurals>
+    <plurals name="progress_daily_protein">
+        <item quantity="other">目標タンパク質量を達成しました</item>
+    </plurals>
+    <plurals name="progress_dinner">
+        <item quantity="other">件の夕食を記録しました</item>
+    </plurals>
+    <plurals name="progress_exercise">
+        <item quantity="other">件のエクササイズを記録済み</item>
+    </plurals>
+    <plurals name="progress_fiber">
+        <item quantity="other">グラムの食物繊維を記録しました</item>
+    </plurals>
+    <plurals name="progress_food">
+        <item quantity="other">件のフードを記録済み</item>
+    </plurals>
+    <plurals name="progress_lunch">
+        <item quantity="other">件の昼食を記録しました</item>
+    </plurals>
+    <plurals name="progress_meals">
+        <item quantity="other">件のミールを記録済み</item>
+    </plurals>
+    <plurals name="progress_nutrient_goals">
+        <item quantity="other">件の栄養目標を達成済み</item>
+    </plurals>
+    <plurals name="progress_protein">
+        <item quantity="other">グラムのタンパク質を記録しました</item>
+    </plurals>
+    <plurals name="progress_recipes">
+        <item quantity="other">件のレシピを記録済み</item>
+    </plurals>
+    <plurals name="progress_steps">
+        <item quantity="other">歩記録済み</item>
+    </plurals>
+    <plurals name="progress_water">
+        <item quantity="other">杯の水を記録済み</item>
+    </plurals>
+    <plurals name="recipe_deleted">
+        <item quantity="other">レシピを削除しました。</item>
+    </plurals>
+    <plurals name="recipe_deleted_fail">
+        <item quantity="other">%1$d件のレシピを削除できません。後ほどもう一度お試しください。</item>
+    </plurals>
+</resources>

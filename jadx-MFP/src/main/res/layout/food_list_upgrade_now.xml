@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt">
+    <TextView android:gravity="center_vertical" android:id="@+id/upgrade_text" android:layout_margin="@dimen/food_list_item_margin_left_right" android:text="@string/upgrade_for_highest_in_calories" style="@style/Subheader.BlackSecondaryText"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/upgrade_btn" android:background="@drawable/rounded_flat_button_actionbarblue" android:layout_width="match_parent" android:layout_height="36dp" android:layout_marginLeft="@dimen/food_list_item_margin_left_right" android:layout_marginRight="@dimen/food_list_item_margin_left_right" android:layout_marginBottom="@dimen/food_list_item_margin_left_right" android:layout_below="@+id/upgrade_text">
+        <ImageView android:id="@+id/iv_upgrade_crown" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/material_padding_4" android:src="@drawable/ic_crown_small"/>
+        <TextView android:id="@+id/tv_upgrade_crown" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/analyze_my_foods" style="@style/ButtonText.WhiteText"/>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="@drawable/list_item_bg_selector" android:paddingLeft="@dimen/change_summary_padding_left_right" android:paddingTop="@dimen/change_summary_padding_top_bottom" android:paddingRight="@dimen/change_summary_padding_left_right" android:paddingBottom="@dimen/change_summary_padding_top_bottom" android:layout_width="match_parent" android:layout_height="@dimen/change_summary_row_height">
+    <ImageView android:id="@+id/icon" android:layout_width="@dimen/custom_nutrient_dashboard_icon_size" android:layout_height="@dimen/custom_nutrient_dashboard_icon_size" android:layout_marginTop="8dp" android:layout_marginRight="16dp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/radio_calories_remaining" style="@style/Header2A.BlackText"/>
+        <TextView android:id="@+id/summary1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/radio_custom_summary_tip" style="@style/Body.BlackSecondaryText"/>
+        <TextView android:id="@+id/summary2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Body.BlackSecondaryText"/>
+    </LinearLayout>
+    <RadioButton android:layout_gravity="center_vertical" android:id="@+id/radio" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" style="@style/change_summary_radio"/>
+</LinearLayout>

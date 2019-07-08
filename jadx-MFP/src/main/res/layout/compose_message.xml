@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/message_padding" android:paddingRight="@dimen/message_padding" android:layout_width="match_parent" android:layout_height="match_parent">
+        <EditText android:id="@+id/user_name_input" android:hint="@string/friendsUsernameHint" style="@style/ComposeMessageHeaderEditText"/>
+        <EditText android:id="@+id/subject_input" android:hint="@string/subjectHint" style="@style/ComposeMessageHeaderEditText"/>
+        <EditText android:gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/message_input" android:layout_width="match_parent" android:layout_height="144dp" android:hint="@string/messageBodyHint" style="@style/Subheader.BlackText"/>
+        <TextView android:id="@+id/previous_message_user_name_text" android:layout_width="match_parent" android:layout_marginTop="8dp" android:text="@string/previously_wrote" style="@style/Caption.BlackSecondaryText"/>
+        <TextView android:id="@+id/previous_message_text" android:paddingBottom="@dimen/message_padding" android:layout_width="match_parent" android:layout_marginTop="4dp" style="@style/Caption.BlackText"/>
+    </LinearLayout>
+</ScrollView>

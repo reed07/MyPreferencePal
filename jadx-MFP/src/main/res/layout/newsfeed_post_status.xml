@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/CardBase.NewsFeedCard">
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/new_status_container" android:paddingLeft="@dimen/newsfeed_padding_15dp" android:layout_width="match_parent" android:layout_height="@dimen/material_control_height_60">
+        <com.myfitnesspal.shared.ui.view.MfpImageView android:id="@+id/profile_image_view" android:layout_width="@dimen/progress_pics_padding_40dp" android:layout_height="@dimen/progress_pics_padding_40dp" android:src="@drawable/ic_profile" android:scaleType="centerCrop" android:adjustViewBounds="true"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/newsfeed_padding_15dp" android:text="@string/share_something" android:layout_weight="1" style="@style/Body.BlackSecondaryText"/>
+        <ImageView android:id="@+id/camera_button" android:padding="@dimen/material_padding_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_photo_camera_black_24dp"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

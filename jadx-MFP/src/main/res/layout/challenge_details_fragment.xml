@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.myfitnesspal.shared.ui.view.StateAwareScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/challenge_details_scrollview" android:background="@color/challenges_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/flChallengeDetailsSummaryContainer" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <FrameLayout android:id="@+id/flChallengeDetailsFriendsContainer" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <android.support.v7.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/material_margin_8">
+            <include android:id="@+id/ch_ach_preview" layout="@layout/challenge_achievement_preview"/>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:id="@+id/dynamic_links_card_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/material_margin_8" android:layout_marginTop="@dimen/material_margin_8" android:layout_marginRight="@dimen/material_margin_8" android:layout_marginBottom="@dimen/material_margin_16">
+            <LinearLayout android:orientation="vertical" android:id="@+id/dynamic_links_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</com.myfitnesspal.shared.ui.view.StateAwareScrollView>

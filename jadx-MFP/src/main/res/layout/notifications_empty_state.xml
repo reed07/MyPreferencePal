@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/material_padding_36" android:paddingRight="@dimen/material_padding_36" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="@dimen/progress_pics_height_80dp" android:layout_height="@dimen/progress_pics_height_80dp" android:layout_marginTop="@dimen/material_padding_32" android:layout_marginBottom="@dimen/material_padding_32" android:src="@drawable/ic_empty_bell"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_padding_12" android:text="@string/no_notifications" style="@style/Body.BlackText"/>
+    <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_padding_32" android:text="@string/no_notifications_subtext" style="@style/Body.BlackSecondaryText"/>
+    <TextView android:id="@+id/tv_add_friends" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/addfriends_title" android:textAllCaps="true" style="@style/Body.Blue"/>
+</LinearLayout>

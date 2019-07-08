@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AdBannerContainer">
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Widget.Design.TabLayout">
+        <item name="tabGravity">1</item>
+        <item name="tabMode">1</item>
+    </style>
+    <style name="macronutrient_editor_header_container">
+        <item name="android:orientation">@null</item>
+        <item name="android:background">@color/anti_flash_white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:baselineAligned">false</item>
+    </style>
+</resources>

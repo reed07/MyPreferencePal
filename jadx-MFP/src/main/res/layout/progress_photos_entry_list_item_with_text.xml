@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/list_item_bg_selector" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/progress_row_default_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/value" android:layout_centerVertical="true">
+        <TextView android:id="@+id/entry_date" android:text="@string/settings_title_profile" style="@style/Subheader.BlackText"/>
+        <TextView android:id="@+id/entry_day" android:text="@string/settings_title_profile" style="@style/Body.BlackSecondaryText"/>
+    </LinearLayout>
+    <TextView android:id="@+id/value" android:layout_margin="@dimen/progress_row_default_padding" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/Body.Blue"/>
+</RelativeLayout>

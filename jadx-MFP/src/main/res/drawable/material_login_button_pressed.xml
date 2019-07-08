@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <shape>
+            <solid android:color="@color/material_login_button_bg_pressed"/>
+            <corners android:radius="@dimen/cards_corner_inner_radius"/>
+        </shape>
+    </item>
+</layer-list>

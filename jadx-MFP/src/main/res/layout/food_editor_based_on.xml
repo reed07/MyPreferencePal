@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/food_based_on_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/based_on_container" android:background="@color/background_light_blue" android:paddingTop="@dimen/based_on_container_vertical_padding" android:paddingBottom="@dimen/based_on_container_vertical_padding" android:layout_height="wrap_content" style="@style/FoodInfoContainer">
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:layout_width="match_parent" android:text="@string/rl_based_on_title" android:singleLine="false" style="@style/Subheader.BlackText"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/food_based_on_text" android:layout_width="match_parent" android:singleLine="false" style="@style/Body.BlackText"/>
+    </LinearLayout>
+    <View android:id="@+id/divider" android:background="@color/divider_light_blue" android:layout_below="@+id/based_on_container" style="@style/HorizontalDivider"/>
+</RelativeLayout>

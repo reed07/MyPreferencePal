@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/feed_background" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <com.myfitnesspal.shared.ui.view.StyledTextView android:textSize="14sp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center_vertical" android:layout_gravity="left|center_vertical|center_horizontal|center" android:paddingLeft="10dp" android:text="@string/choose_a_device" app:font="@string/roboto_medium" style="@style/grey_bar"/>
+    <ListView android:id="@+id/device_list" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>

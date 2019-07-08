@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:padding="@dimen/challenge_list_item_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:id="@+id/tvChallengeSponsor" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/challenge_list_item_text_separator" android:singleLine="true" android:includeFontPadding="false" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/Body.BlackSecondaryText"/>
+            <TextView android:id="@+id/tvChallengeName" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:layout_below="@+id/tvChallengeSponsor" style="@style/Subheader.BlackText"/>
+            <TextView android:id="@+id/tvChallengeStart" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_below="@+id/tvChallengeName" style="@style/Caption.BlackSecondaryText"/>
+        </RelativeLayout>
+        <com.myfitnesspal.shared.ui.view.MfpImageView android:layout_gravity="center_vertical" android:id="@+id/ivChallenge" android:background="@color/white" android:layout_width="@dimen/ended_challenge_image_height_width" android:layout_height="@dimen/ended_challenge_image_height_width"/>
+    </LinearLayout>
+    <include layout="@layout/grey_separator_1dp_light"/>
+</LinearLayout>

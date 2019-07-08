@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/feed_background" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/display_important_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/material_margin_16" android:layout_marginTop="@dimen/material_margin_32" android:layout_marginRight="@dimen/material_margin_16" android:layout_marginBottom="@dimen/material_margin_8" android:text="@string/display_the_info_most_important_to_you" style="@style/Header.BlackText"/>
+        <include android:id="@+id/rbCaloriesRem" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/change_summary_radio"/>
+        <View android:background="@color/mfp_grey" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <include android:id="@+id/rbMacrosRem" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/change_summary_radio"/>
+        <View android:background="@color/mfp_grey" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <include android:id="@+id/rbHeartHealthy" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/change_summary_radio"/>
+        <View android:background="@color/mfp_grey" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <include android:id="@+id/rbLowCarb" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/change_summary_radio"/>
+        <View android:background="@color/mfp_grey" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <include android:id="@+id/rbCustomSummary" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/change_summary_radio"/>
+    </LinearLayout>
+</ScrollView>

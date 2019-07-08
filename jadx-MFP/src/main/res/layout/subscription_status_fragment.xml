@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/list" android:background="@color/feed_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/billing_info_row">
+            <TextView android:id="@+id/current_plan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/billing_information_current_plan" style="@style/billing_info_row_key"/>
+            <TextView android:id="@+id/current_plan_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="..." android:layout_toRightOf="@+id/current_plan" style="@style/billing_info_row_value"/>
+        </RelativeLayout>
+        <View android:background="@color/separator_light_grey" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <LinearLayout android:id="@+id/native_manage_panel" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/billing_info_row">
+            <TextView android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/billing_information_manage_subscription" style="@style/Link2.Blue"/>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/external_manage_panel" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@+id/payment_platform_row" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/billing_info_row">
+                <TextView android:id="@+id/next_cycle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/billing_information_payment_platform" style="@style/billing_info_row_key"/>
+                <TextView android:id="@+id/payment_platform_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="..." android:layout_toRightOf="@+id/next_cycle" style="@style/billing_info_row_value"/>
+            </RelativeLayout>
+            <TextView android:gravity="center_horizontal" android:id="@+id/external_manage_text" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/billing_information_manage_subscription_web" android:layout_below="@+id/payment_platform_row" style="@style/billing_info_row"/>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

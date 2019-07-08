@@ -1,0 +1,994 @@
+[
+    {
+        "display_name": "アフガニスタン",
+        "iso_code": "AF"
+    },
+    {
+        "display_name": "オーランド諸島",
+        "iso_code": "AX"
+    },
+    {
+        "display_name": "アルバニア",
+        "iso_code": "AL"
+    },
+    {
+        "display_name": "アルジェリア",
+        "iso_code": "DZ"
+    },
+    {
+        "display_name": "アメリカ領サモア",
+        "iso_code": "AS"
+    },
+    {
+        "display_name": "アンドラ",
+        "iso_code": "AD"
+    },
+    {
+        "display_name": "アンゴラ",
+        "iso_code": "AO"
+    },
+    {
+        "display_name": "アンギラ",
+        "iso_code": "AI"
+    },
+    {
+        "display_name": "南極大陸",
+        "iso_code": "AQ"
+    },
+    {
+        "display_name": "アンティグア・バーブーダ",
+        "iso_code": "AG"
+    },
+    {
+        "display_name": "アルゼンチン",
+        "iso_code": "AR"
+    },
+    {
+        "display_name": "アルメニア",
+        "iso_code": "AM"
+    },
+    {
+        "display_name": "アルバ",
+        "iso_code": "AW"
+    },
+    {
+        "display_name": "オーストラリア",
+        "iso_code": "AU"
+    },
+    {
+        "display_name": "オーストリア",
+        "iso_code": "AT"
+    },
+    {
+        "display_name": "アゼルバイジャン",
+        "iso_code": "AZ"
+    },
+    {
+        "display_name": "バハマ",
+        "iso_code": "BS"
+    },
+    {
+        "display_name": "バーレーン",
+        "iso_code": "BH"
+    },
+    {
+        "display_name": "バングラデシュ",
+        "iso_code": "BD"
+    },
+    {
+        "display_name": "バルバドス",
+        "iso_code": "BB"
+    },
+    {
+        "display_name": "ベラルーシ",
+        "iso_code": "BY"
+    },
+    {
+        "display_name": "ベルギー",
+        "iso_code": "BE"
+    },
+    {
+        "display_name": "ベリーズ",
+        "iso_code": "BZ"
+    },
+    {
+        "display_name": "ベナン",
+        "iso_code": "BJ"
+    },
+    {
+        "display_name": "バミューダ",
+        "iso_code": "BM"
+    },
+    {
+        "display_name": "ブータン",
+        "iso_code": "BT"
+    },
+    {
+        "display_name": "ボリビア",
+        "iso_code": "BO"
+    },
+    {
+        "display_name": "ボネール、シント ・ ユースタティウス、およびサバ",
+        "iso_code": "BQ"
+    },
+    {
+        "display_name": "ボスニア・ヘルツェゴビナ",
+        "iso_code": "BA"
+    },
+    {
+        "display_name": "ボツワナ",
+        "iso_code": "BW"
+    },
+    {
+        "display_name": "ブーベ島",
+        "iso_code": "BV"
+    },
+    {
+        "display_name": "ブラジル",
+        "iso_code": "BR"
+    },
+    {
+        "display_name": "英領インド洋地域",
+        "iso_code": "IO"
+    },
+    {
+        "display_name": "イギリス領ヴァージン諸島",
+        "iso_code": "VG"
+    },
+    {
+        "display_name": "ブルネイ",
+        "iso_code": "BN"
+    },
+    {
+        "display_name": "ブルガリア",
+        "iso_code": "BG"
+    },
+    {
+        "display_name": "ブルキナ・ファソ",
+        "iso_code": "BF"
+    },
+    {
+        "display_name": "ブルンジ",
+        "iso_code": "BI"
+    },
+    {
+        "display_name": "カンボジア",
+        "iso_code": "KH"
+    },
+    {
+        "display_name": "カメルーン",
+        "iso_code": "CM"
+    },
+    {
+        "display_name": "カナダ",
+        "iso_code": "CA"
+    },
+    {
+        "display_name": "カーボベルデ",
+        "iso_code": "CV"
+    },
+    {
+        "display_name": "ケイマン諸島",
+        "iso_code": "KY"
+    },
+    {
+        "display_name": "中央アフリカ共和国",
+        "iso_code": "CF"
+    },
+    {
+        "display_name": "チャド",
+        "iso_code": "TD"
+    },
+    {
+        "display_name": "チリ",
+        "iso_code": "CL"
+    },
+    {
+        "display_name": "中国",
+        "iso_code": "CN"
+    },
+    {
+        "display_name": "クリスマス島",
+        "iso_code": "CX"
+    },
+    {
+        "display_name": "ココス（キーリング）諸島",
+        "iso_code": "CC"
+    },
+    {
+        "display_name": "コロンビア",
+        "iso_code": "CO"
+    },
+    {
+        "display_name": "コモロ",
+        "iso_code": "KM"
+    },
+    {
+        "display_name": "コンゴ共和国（ブラザヴィル）",
+        "iso_code": "CG"
+    },
+    {
+        "display_name": "コンゴ民主共和国（キンシャサ）",
+        "iso_code": "CD"
+    },
+    {
+        "display_name": "クック諸島",
+        "iso_code": "CK"
+    },
+    {
+        "display_name": "コスタリカ",
+        "iso_code": "CR"
+    },
+    {
+        "display_name": "コートジボワール",
+        "iso_code": "CI"
+    },
+    {
+        "display_name": "クロアチア",
+        "iso_code": "HR"
+    },
+    {
+        "display_name": "キュラソー島",
+        "iso_code": "CW"
+    },
+    {
+        "display_name": "キプロス",
+        "iso_code": "CY"
+    },
+    {
+        "display_name": "チェコ共和国",
+        "iso_code": "CZ"
+    },
+    {
+        "display_name": "デンマーク",
+        "iso_code": "DK"
+    },
+    {
+        "display_name": "ジブチ",
+        "iso_code": "DJ"
+    },
+    {
+        "display_name": "ドミニカ国",
+        "iso_code": "DM"
+    },
+    {
+        "display_name": "ドミニカ共和国",
+        "iso_code": "DO"
+    },
+    {
+        "display_name": "エクアドル",
+        "iso_code": "EC"
+    },
+    {
+        "display_name": "エジプト",
+        "iso_code": "EG"
+    },
+    {
+        "display_name": "エルサルバドル",
+        "iso_code": "SV"
+    },
+    {
+        "display_name": "赤道ギニア",
+        "iso_code": "GQ"
+    },
+    {
+        "display_name": "エリトリア",
+        "iso_code": "ER"
+    },
+    {
+        "display_name": "エストニア",
+        "iso_code": "EE"
+    },
+    {
+        "display_name": "エチオピア",
+        "iso_code": "ET"
+    },
+    {
+        "display_name": "フォークランド諸島 （マルビナス諸島）",
+        "iso_code": "FK"
+    },
+    {
+        "display_name": "フェロー諸島",
+        "iso_code": "FO"
+    },
+    {
+        "display_name": "フィジー",
+        "iso_code": "FJ"
+    },
+    {
+        "display_name": "フィンランド",
+        "iso_code": "FI"
+    },
+    {
+        "display_name": "フランス",
+        "iso_code": "FR"
+    },
+    {
+        "display_name": "フランス領ギアナ",
+        "iso_code": "GF"
+    },
+    {
+        "display_name": "フランス領ポリネシア",
+        "iso_code": "PF"
+    },
+    {
+        "display_name": "フランス領南方・南極地域",
+        "iso_code": "TF"
+    },
+    {
+        "display_name": "ガボン",
+        "iso_code": "GA"
+    },
+    {
+        "display_name": "ガンビア",
+        "iso_code": "GM"
+    },
+    {
+        "display_name": "グルジア",
+        "iso_code": "GE"
+    },
+    {
+        "display_name": "ドイツ",
+        "iso_code": "DE"
+    },
+    {
+        "display_name": "ガーナ",
+        "iso_code": "GH"
+    },
+    {
+        "display_name": "ジブラルタル",
+        "iso_code": "GI"
+    },
+    {
+        "display_name": "ギリシャ",
+        "iso_code": "GR"
+    },
+    {
+        "display_name": "グリーンランド",
+        "iso_code": "GL"
+    },
+    {
+        "display_name": "グレナダ",
+        "iso_code": "GD"
+    },
+    {
+        "display_name": "グアドループ",
+        "iso_code": "GP"
+    },
+    {
+        "display_name": "グアム",
+        "iso_code": "GU"
+    },
+    {
+        "display_name": "グアテマラ",
+        "iso_code": "GT"
+    },
+    {
+        "display_name": "ガーンジー",
+        "iso_code": "GG"
+    },
+    {
+        "display_name": "ギニア",
+        "iso_code": "GN"
+    },
+    {
+        "display_name": "ギニアビサウ",
+        "iso_code": "GW"
+    },
+    {
+        "display_name": "ガイアナ",
+        "iso_code": "GY"
+    },
+    {
+        "display_name": "ハイチ",
+        "iso_code": "HT"
+    },
+    {
+        "display_name": "ハード島とマクドナルド諸島",
+        "iso_code": "HM"
+    },
+    {
+        "display_name": "聖座 （バチカン市国）",
+        "iso_code": "VA"
+    },
+    {
+        "display_name": "ホンジュラス",
+        "iso_code": "HN"
+    },
+    {
+        "display_name": "香港",
+        "iso_code": "HK"
+    },
+    {
+        "display_name": "ハンガリー",
+        "iso_code": "HU"
+    },
+    {
+        "display_name": "アイスランド",
+        "iso_code": "IS"
+    },
+    {
+        "display_name": "インド",
+        "iso_code": "IN"
+    },
+    {
+        "display_name": "インドネシア",
+        "iso_code": "ID"
+    },
+    {
+        "display_name": "イラク",
+        "iso_code": "IQ"
+    },
+    {
+        "display_name": "アイルランド",
+        "iso_code": "IE"
+    },
+    {
+        "display_name": "マン島",
+        "iso_code": "IM"
+    },
+    {
+        "display_name": "イスラエル",
+        "iso_code": "IL"
+    },
+    {
+        "display_name": "イタリア",
+        "iso_code": "IT"
+    },
+    {
+        "display_name": "ジャマイカ",
+        "iso_code": "JM"
+    },
+    {
+        "display_name": "日本",
+        "iso_code": "JP"
+    },
+    {
+        "display_name": "ジャージー",
+        "iso_code": "JE"
+    },
+    {
+        "display_name": "ヨルダン",
+        "iso_code": "JO"
+    },
+    {
+        "display_name": "カザフスタン",
+        "iso_code": "KZ"
+    },
+    {
+        "display_name": "ケニア",
+        "iso_code": "KE"
+    },
+    {
+        "display_name": "キリバス",
+        "iso_code": "KI"
+    },
+    {
+        "display_name": "大韓民国",
+        "iso_code": "KR"
+    },
+    {
+        "display_name": "クウェート",
+        "iso_code": "KW"
+    },
+    {
+        "display_name": "キルギス",
+        "iso_code": "KG"
+    },
+    {
+        "display_name": "ラオス",
+        "iso_code": "LA"
+    },
+    {
+        "display_name": "ラトビア",
+        "iso_code": "LV"
+    },
+    {
+        "display_name": "レバノン",
+        "iso_code": "LB"
+    },
+    {
+        "display_name": "レソト",
+        "iso_code": "LS"
+    },
+    {
+        "display_name": "リベリア",
+        "iso_code": "LR"
+    },
+    {
+        "display_name": "リビア",
+        "iso_code": "LY"
+    },
+    {
+        "display_name": "リヒテンシュタイン",
+        "iso_code": "LI"
+    },
+    {
+        "display_name": "リトアニア",
+        "iso_code": "LT"
+    },
+    {
+        "display_name": "ルクセンブルク",
+        "iso_code": "LU"
+    },
+    {
+        "display_name": "マカオ",
+        "iso_code": "MO"
+    },
+    {
+        "display_name": "マケドニア",
+        "iso_code": "MK"
+    },
+    {
+        "display_name": "マダガスカル",
+        "iso_code": "MG"
+    },
+    {
+        "display_name": "マラウイ",
+        "iso_code": "MW"
+    },
+    {
+        "display_name": "マレーシア",
+        "iso_code": "MY"
+    },
+    {
+        "display_name": "モルディブ",
+        "iso_code": "MV"
+    },
+    {
+        "display_name": "マリ",
+        "iso_code": "ML"
+    },
+    {
+        "display_name": "マルタ",
+        "iso_code": "MT"
+    },
+    {
+        "display_name": "マーシャル諸島",
+        "iso_code": "MH"
+    },
+    {
+        "display_name": "マルティニーク島",
+        "iso_code": "MQ"
+    },
+    {
+        "display_name": "モーリタニア",
+        "iso_code": "MR"
+    },
+    {
+        "display_name": "モーリシャス",
+        "iso_code": "MU"
+    },
+    {
+        "display_name": "マヨット島",
+        "iso_code": "YT"
+    },
+    {
+        "display_name": "メキシコ",
+        "iso_code": "MX"
+    },
+    {
+        "display_name": "ミクロネシア連邦",
+        "iso_code": "FM"
+    },
+    {
+        "display_name": "モルドバ",
+        "iso_code": "MD"
+    },
+    {
+        "display_name": "モナコ",
+        "iso_code": "MC"
+    },
+    {
+        "display_name": "モンゴル国",
+        "iso_code": "MN"
+    },
+    {
+        "display_name": "モンテネグロ",
+        "iso_code": "ME"
+    },
+    {
+        "display_name": "モントセラト",
+        "iso_code": "MS"
+    },
+    {
+        "display_name": "モロッコ",
+        "iso_code": "MA"
+    },
+    {
+        "display_name": "モザンビーク",
+        "iso_code": "MZ"
+    },
+    {
+        "display_name": "ナミビア",
+        "iso_code": "NA"
+    },
+    {
+        "display_name": "ナウル",
+        "iso_code": "NR"
+    },
+    {
+        "display_name": "ネパール",
+        "iso_code": "NP"
+    },
+    {
+        "display_name": "オランダ",
+        "iso_code": "NL"
+    },
+    {
+        "display_name": "ニューカレドニア",
+        "iso_code": "NC"
+    },
+    {
+        "display_name": "ニュージーランド",
+        "iso_code": "NZ"
+    },
+    {
+        "display_name": "ニカラグア",
+        "iso_code": "NI"
+    },
+    {
+        "display_name": "ニジェール",
+        "iso_code": "NE"
+    },
+    {
+        "display_name": "ナイジェリア",
+        "iso_code": "NG"
+    },
+    {
+        "display_name": "ニウエ",
+        "iso_code": "NU"
+    },
+    {
+        "display_name": "ノーフォーク島",
+        "iso_code": "NF"
+    },
+    {
+        "display_name": "北マリアナ諸島",
+        "iso_code": "MP"
+    },
+    {
+        "display_name": "ノルウェー",
+        "iso_code": "NO"
+    },
+    {
+        "display_name": "オマーン",
+        "iso_code": "OM"
+    },
+    {
+        "display_name": "パキスタン",
+        "iso_code": "PK"
+    },
+    {
+        "display_name": "パラオ",
+        "iso_code": "PW"
+    },
+    {
+        "display_name": "パレスチナ自治区",
+        "iso_code": "PS"
+    },
+    {
+        "display_name": "パナマ",
+        "iso_code": "PA"
+    },
+    {
+        "display_name": "パプア ニューギニア",
+        "iso_code": "PG"
+    },
+    {
+        "display_name": "パラグアイ",
+        "iso_code": "PY"
+    },
+    {
+        "display_name": "ペルー",
+        "iso_code": "PE"
+    },
+    {
+        "display_name": "フィリピン",
+        "iso_code": "PH"
+    },
+    {
+        "display_name": "ピトケアン諸島",
+        "iso_code": "PN"
+    },
+    {
+        "display_name": "ポーランド",
+        "iso_code": "PL"
+    },
+    {
+        "display_name": "ポルトガル",
+        "iso_code": "PT"
+    },
+    {
+        "display_name": "プエルトリコ",
+        "iso_code": "PR"
+    },
+    {
+        "display_name": "カタール",
+        "iso_code": "QA"
+    },
+    {
+        "display_name": "レユニオン",
+        "iso_code": "RE"
+    },
+    {
+        "display_name": "ルーマニア",
+        "iso_code": "RO"
+    },
+    {
+        "display_name": "ロシア",
+        "iso_code": "RU"
+    },
+    {
+        "display_name": "ルワンダ",
+        "iso_code": "RW"
+    },
+    {
+        "display_name": "セントヘレナ",
+        "iso_code": "SH"
+    },
+    {
+        "display_name": "セントクリストファー・ネイビス",
+        "iso_code": "KN"
+    },
+    {
+        "display_name": "セントルシア",
+        "iso_code": "LC"
+    },
+    {
+        "display_name": "サンピエール島及びミクロン島",
+        "iso_code": "PM"
+    },
+    {
+        "display_name": "セントビンセント及びグレナディーン諸島",
+        "iso_code": "VC"
+    },
+    {
+        "display_name": "サン ・ バルテルミー島",
+        "iso_code": "BL"
+    },
+    {
+        "display_name": "サン ・ マルタン（フランス領）",
+        "iso_code": "MF"
+    },
+    {
+        "display_name": "サモア",
+        "iso_code": "WS"
+    },
+    {
+        "display_name": "サンマリノ",
+        "iso_code": "SM"
+    },
+    {
+        "display_name": "サントメ・プリンシペ",
+        "iso_code": "ST"
+    },
+    {
+        "display_name": "サウジアラビア",
+        "iso_code": "SA"
+    },
+    {
+        "display_name": "セネガル",
+        "iso_code": "SN"
+    },
+    {
+        "display_name": "セルビア",
+        "iso_code": "RS"
+    },
+    {
+        "display_name": "セーシェル",
+        "iso_code": "SC"
+    },
+    {
+        "display_name": "シエラレオネ",
+        "iso_code": "SL"
+    },
+    {
+        "display_name": "シンガポール",
+        "iso_code": "SG"
+    },
+    {
+        "display_name": "シント・マールテン（オランダ領）",
+        "iso_code": "SX"
+    },
+    {
+        "display_name": "スロバキア",
+        "iso_code": "SK"
+    },
+    {
+        "display_name": "スロベニア",
+        "iso_code": "SI"
+    },
+    {
+        "display_name": "ソロモン諸島",
+        "iso_code": "SB"
+    },
+    {
+        "display_name": "南アフリカ",
+        "iso_code": "ZA"
+    },
+    {
+        "display_name": "南ジョージア島・南サンドイッチ諸島",
+        "iso_code": "GS"
+    },
+    {
+        "display_name": "南スーダン",
+        "iso_code": "SS"
+    },
+    {
+        "display_name": "スペイン",
+        "iso_code": "ES"
+    },
+    {
+        "display_name": "スリランカ",
+        "iso_code": "LK"
+    },
+    {
+        "display_name": "スリナム",
+        "iso_code": "SR"
+    },
+    {
+        "display_name": "スバールバル諸島およびヤンマイエン島",
+        "iso_code": "SJ"
+    },
+    {
+        "display_name": "スワジランド",
+        "iso_code": "SZ"
+    },
+    {
+        "display_name": "スウェーデン",
+        "iso_code": "SE"
+    },
+    {
+        "display_name": "スイス",
+        "iso_code": "CH"
+    },
+    {
+        "display_name": "台湾",
+        "iso_code": "TW"
+    },
+    {
+        "display_name": "タジキスタン",
+        "iso_code": "TJ"
+    },
+    {
+        "display_name": "タンザニア",
+        "iso_code": "TZ"
+    },
+    {
+        "display_name": "タイ",
+        "iso_code": "TH"
+    },
+    {
+        "display_name": "東ティモール",
+        "iso_code": "TL"
+    },
+    {
+        "display_name": "トーゴ",
+        "iso_code": "TG"
+    },
+    {
+        "display_name": "トケラウ諸島",
+        "iso_code": "TK"
+    },
+    {
+        "display_name": "トンガ",
+        "iso_code": "TO"
+    },
+    {
+        "display_name": "トリニダード・トバゴ",
+        "iso_code": "TT"
+    },
+    {
+        "display_name": "チュニジア",
+        "iso_code": "TN"
+    },
+    {
+        "display_name": "トルコ",
+        "iso_code": "TR"
+    },
+    {
+        "display_name": "トルクメニスタン",
+        "iso_code": "TM"
+    },
+    {
+        "display_name": "タークス・カイコス諸島",
+        "iso_code": "TC"
+    },
+    {
+        "display_name": "ツバル",
+        "iso_code": "TV"
+    },
+    {
+        "display_name": "ウガンダ",
+        "iso_code": "UG"
+    },
+    {
+        "display_name": "ウクライナ（クリミア除く）",
+        "iso_code": "UA"
+    },
+    {
+        "display_name": "アラブ首長国連邦",
+        "iso_code": "AE"
+    },
+    {
+        "display_name": "英国",
+        "iso_code": "GB"
+    },
+    {
+        "display_name": "米国",
+        "iso_code": "US"
+    },
+    {
+        "display_name": "ウルグアイ",
+        "iso_code": "UY"
+    },
+    {
+        "display_name": "合衆国領有小離島",
+        "iso_code": "UM"
+    },
+    {
+        "display_name": "ウズベキスタン",
+        "iso_code": "UZ"
+    },
+    {
+        "display_name": "バヌアツ",
+        "iso_code": "VU"
+    },
+    {
+        "display_name": "ベネズエラ",
+        "iso_code": "VE"
+    },
+    {
+        "display_name": "ベトナム",
+        "iso_code": "VN"
+    },
+    {
+        "display_name": "アメリカ領バージン諸島",
+        "iso_code": "VI"
+    },
+    {
+        "display_name": "ウォリス・フツナ",
+        "iso_code": "WF"
+    },
+    {
+        "display_name": "西サハラ",
+        "iso_code": "EH"
+    },
+    {
+        "display_name": "イエメン",
+        "iso_code": "YE"
+    },
+    {
+        "display_name": "ザンビア",
+        "iso_code": "ZM"
+    },
+    {
+        "display_name": "ジンバブエ",
+        "iso_code": "ZW"
+    },
+    {
+        "display_name": "キューバ",
+        "iso_code": "CU"
+    },
+    {
+        "display_name": "イラン",
+        "iso_code": "IR"
+    },
+    {
+        "display_name": "ミャンマー",
+        "iso_code": "MM"
+    },
+    {
+        "display_name": "ソマリア",
+        "iso_code": "SO"
+    },
+    {
+        "display_name": "スーダン",
+        "iso_code": "SD"
+    },
+    {
+        "display_name": "シリア",
+        "iso_code": "SY"
+    }
+]

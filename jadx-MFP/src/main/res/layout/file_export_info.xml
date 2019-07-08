@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/file_export_info_container" style="@style/FileExportInfoContainer">
+    <TextView android:text="@string/what_data_exported" style="@style/FileExportTextQuestion"/>
+    <TextView android:text="@string/what_data_exported_info" style="@style/FileExportTextAnswer"/>
+    <TextView android:text="@string/where_data_sent" style="@style/FileExportTextQuestion"/>
+    <TextView android:id="@+id/where_data_sent_info" android:text="@string/where_data_sent_info" style="@style/FileExportTextAnswer"/>
+    <TextView android:id="@+id/how_change_email_title" android:text="@string/how_change_email" style="@style/FileExportTextQuestion"/>
+    <TextView android:id="@+id/how_change_email_info" android:text="@string/how_change_email_info" style="@style/FileExportTextAnswer"/>
+</LinearLayout>

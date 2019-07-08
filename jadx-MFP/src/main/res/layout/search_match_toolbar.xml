@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/toolbar" style="@style/ToolbarStyle">
+    <com.myfitnesspal.shared.ui.view.ClearableEditText android:layout_gravity="left" android:id="@+id/input" android:layout_marginTop="@dimen/toolbar_input_text_margin" android:layout_marginRight="@dimen/toolbar_input_text_margin" android:layout_marginBottom="@dimen/toolbar_input_text_margin" android:hint="@string/search_similar_item" style="@style/ToolbarSearchEditText.RL"/>
+</android.support.v7.widget.Toolbar>

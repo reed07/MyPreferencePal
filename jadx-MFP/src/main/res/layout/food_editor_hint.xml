@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/black_overlay_54_percent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_gravity="bottom" android:id="@+id/food_editor_hint_container" android:background="@color/white" android:padding="@dimen/material_margin_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/material_padding_8">
+        <TextView android:id="@+id/food_editor_hint_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/meal_sharing_editor_notes_tip_title" android:layout_toLeftOf="@+id/food_editor_hint_close" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/Header.BlackText"/>
+        <FrameLayout android:id="@+id/food_editor_hint_close" android:layout_width="@dimen/food_details_hint_close_size" android:layout_height="@dimen/food_details_hint_close_size" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close_black_26_24dp"/>
+        </FrameLayout>
+        <TextView android:id="@+id/food_editor_hint_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_margin_16" android:text="@string/meal_sharing_editor_notes_tip_message" android:layout_below="@+id/food_editor_hint_title" style="@style/Body.BlackText"/>
+        <TextView android:id="@+id/food_editor_hint_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_margin_16" android:text="@string/meal_sharing_editor_notes_tip_button_add_now" android:layout_below="@+id/food_editor_hint_message" style="@style/interstitial_positive_button"/>
+    </RelativeLayout>
+</FrameLayout>

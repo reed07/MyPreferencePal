@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/diary_shortcut" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/diary_summary_padding_left" android:layout_marginTop="@dimen/diary_summary_padding_top" layout="@layout/nutrient_dashboard_header"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/goal_headers" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/diary_summary_padding_top" android:layout_marginTop="@dimen/diary_summary_padding_top" android:layout_marginRight="@dimen/diary_summary_padding_top" android:layout_marginBottom="@dimen/daily_summary_padding_bottom" android:weightSum="4">
+        <include android:id="@+id/progress1" layout="@layout/donut_progress_bar"/>
+        <include android:id="@+id/progress2" layout="@layout/donut_progress_bar"/>
+        <include android:id="@+id/progress3" layout="@layout/donut_progress_bar"/>
+        <include android:id="@+id/progress4" layout="@layout/donut_progress_bar"/>
+    </LinearLayout>
+    <include layout="@layout/nutrient_dashboard_steps"/>
+</LinearLayout>

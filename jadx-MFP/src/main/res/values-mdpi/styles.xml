@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RLInterstitialImage.Style">
+        <item name="android:layout_height">@dimen/rl_interstitial_height</item>
+    </style>
+</resources>

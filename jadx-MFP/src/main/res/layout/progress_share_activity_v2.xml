@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <FrameLayout android:id="@+id/artifacts_pager_container" android:layout_width="match_parent" android:layout_height="296dp">
+            <android.support.v4.view.ViewPager android:id="@+id/view_pager" android:paddingLeft="@dimen/material_padding_32" android:paddingRight="@dimen/material_padding_32" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ProgressBar android:layout_gravity="center" android:id="@+id/progress" android:layout_width="@dimen/progress_photo_image_spinner" android:layout_height="@dimen/progress_photo_image_spinner" android:indeterminate="true" style="?android:attr/progressBarStyle"/>
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/dots_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/progress_pics_padding_8dp"/>
+    </LinearLayout>
+</RelativeLayout>

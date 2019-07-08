@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt">
+    <application name="MyFitnessPal">
+        <serviceProfile id="/uacf/myfitnesspal" name="myfitnesspal" role="provider" serviceImpl="com.myfitnesspal.feature.tizen.service.MfpGearMessageBridge" serviceLimit="ANY" serviceTimeout="10" version="1">
+            <supportedTransports>
+                <transport type="TRANSPORT_BT"/>
+                <transport type="TRANSPORT_WIFI"/>
+            </supportedTransports>
+            <serviceChannel dataRate="low" id="200" priority="low" reliability="enable"/>
+        </serviceProfile>
+    </application>
+</resources>

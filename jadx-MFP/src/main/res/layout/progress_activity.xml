@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/white" android:layout_width="match_parent" android:layout_height="56dp" android:elevation="@dimen/default_material_elevation">
+        <include android:id="@+id/button_measurement_type" layout="@layout/progress_header_button"/>
+        <View style="@style/VerticalDivider"/>
+        <include android:id="@+id/button_time_period" layout="@layout/progress_header_button"/>
+    </LinearLayout>
+    <ListView android:id="@+id/entries_list" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:headerDividersEnabled="true"/>
+</LinearLayout>

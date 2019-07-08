@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="@dimen/delete_diary_entry_confirm_padding" android:paddingRight="@dimen/delete_diary_entry_confirm_padding_right" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="@dimen/delete_diary_entry_confirm_padding" android:layout_marginBottom="@dimen/delete_diary_entry_confirm_padding" android:text="@string/are_you_sure_you_want_to_delete_item" style="@style/Header2A.BlackText"/>
+    <CheckBox android:id="@+id/dont_ask" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/dont_ask_me_again"/>
+</LinearLayout>

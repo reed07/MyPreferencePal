@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/configuration_edit" android:rowCount="2" android:columnCount="3" android:paddingStart="16dp" android:layout_toStartOf="@+id/configuration_edit">
+    <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/ua_black" android:id="@+id/configuration_key_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:layout_column="0" android:text="@string/configuration_key_label" android:layout_row="0"/>
+    <TextView android:textColor="@color/ua_dark_gray" android:id="@+id/configuration_key" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_column="1" android:layout_row="0" android:layout_marginStart="16dp"/>
+    <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/ua_black" android:id="@+id/configuration_value_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="0" android:text="@string/configuration_value_label" android:layout_row="1"/>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginStart="16dp">
+        <TextView android:textColor="@color/ua_dark_gray" android:id="@+id/configuration_value_text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/configuration_value_layout" android:background="@color/ua_light_gray" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    </FrameLayout>
+</GridLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" style="@style/DialogContentBaseAlt">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.myfitnesspal.shared.ui.view.CustomLocalizedNumberEditText android:gravity="right" android:id="@+id/txtValue" android:imeOptions="actionUnspecified|actionNone|actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious|flagNoExtractUi" style="@style/MeasurementDialogEditText"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/txtUnit" android:layout_marginLeft="@dimen/edit_dialog_text_margin" android:layout_marginRight="@dimen/edit_dialog_text_margin" android:text="@string/unit_lower_case" style="@style/DialogContentSubHeaderText"/>
+        <com.myfitnesspal.shared.ui.view.CustomLocalizedNumberEditText android:gravity="right" android:id="@+id/weightLbs" android:visibility="gone" android:imeOptions="actionUnspecified|actionNone|actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious|flagNoExtractUi" style="@style/MeasurementDialogEditText"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/lbs" android:visibility="gone" android:layout_marginLeft="@dimen/edit_dialog_text_margin" android:text="@string/lbs" style="@style/DialogContentSubHeaderText"/>
+    </LinearLayout>
+    <EditText android:gravity="right" android:id="@+id/etSWDate" android:visibility="gone" android:layout_width="120dp" android:editable="false" style="@style/MeasurementDialogEditText"/>
+</LinearLayout>

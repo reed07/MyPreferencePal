@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" style="@style/CardBase.NewsFeedCard">
+    <LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/hero_name" style="@style/HeroCardName"/>
+            <include layout="@layout/news_feed_card_close"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/hero_description" android:layout_width="match_parent" style="@style/HeroCardDescription"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/cta_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp"/>
+            </LinearLayout>
+            <com.myfitnesspal.shared.ui.view.MfpImageView android:layout_gravity="center_vertical" android:id="@+id/hero_image" android:layout_width="@dimen/hero_card_size" android:layout_height="@dimen/hero_card_size" android:layout_marginLeft="16dp" android:layout_marginRight="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

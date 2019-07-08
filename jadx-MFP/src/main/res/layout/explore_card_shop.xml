@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt">
+    <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/shop_card_ua_logo_bg"/>
+    <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/material_padding_16" android:layout_marginRight="@dimen/material_padding_16" android:layout_marginBottom="@dimen/material_margin_20">
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/shopWomen" android:text="@string/explore_card_button_shop_women" style="@style/ShopCardButton"/>
+            <TextView android:id="@+id/shopGirls" android:text="@string/explore_card_button_shop_girls" style="@style/ShopCardButton"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/shopMen" android:text="@string/explore_card_button_shop_men" style="@style/ShopCardButton"/>
+            <TextView android:id="@+id/shopBoys" android:text="@string/explore_card_button_shop_boys" style="@style/ShopCardButton"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/shopShoes" android:text="@string/explore_card_button_shop_shoes" style="@style/ShopCardButton"/>
+            <TextView android:id="@+id/shopTechnology" android:text="@string/explore_card_button_shop_technology" style="@style/ShopCardButton"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/shopNewArrivals" android:text="@string/explore_card_button_shop_new_arrivals" style="@style/ShopCardButton"/>
+            <TextView android:id="@+id/shopOutlet" android:text="@string/explore_card_button_shop_outlet" style="@style/ShopCardButton"/>
+        </TableRow>
+    </TableLayout>
+</merge>

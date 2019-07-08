@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/list_item_bg_selector" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:orientation="vertical" android:paddingLeft="@dimen/message_padding" android:paddingTop="@dimen/message_padding_top" android:paddingRight="@dimen/message_padding" android:paddingBottom="@dimen/message_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.myfitnesspal.shared.ui.view.MfpImageView android:id="@+id/avatar_image" style="@style/StandardAvatar"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/date_and_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/replied_indicator" android:paddingRight="@dimen/material_margin_4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_reply_sm"/>
+            <TextView android:layout_gravity="center_vertical" android:id="@+id/date_text" android:text="12:00 am" style="@style/Caption.BlackSecondaryText"/>
+        </LinearLayout>
+        <TextView android:ellipsize="end" android:id="@+id/user_name_text" android:paddingLeft="@dimen/message_padding" android:paddingRight="@dimen/message_padding" android:text="Qwerty Uiop" android:maxLines="1" android:layout_toLeftOf="@+id/date_and_badge" android:layout_toRightOf="@+id/avatar_image" style="@style/Header.BlackText"/>
+        <TextView android:ellipsize="end" android:id="@+id/subject_text" android:paddingLeft="@dimen/message_padding" android:paddingTop="2dp" android:text="This is a subject" android:maxLines="1" android:layout_below="@+id/user_name_text" android:layout_alignLeft="@+id/user_name_text" style="@style/Subheader.BlackText"/>
+        <TextView android:ellipsize="end" android:id="@+id/message_text" android:paddingLeft="@dimen/message_padding" android:paddingTop="4dp" android:text="This is the message. Lets make it a long message to test ellipsizing" android:maxLines="1" android:layout_below="@+id/subject_text" android:layout_alignLeft="@+id/user_name_text" style="@style/Subheader.BlackSecondaryText"/>
+    </RelativeLayout>
+    <View style="@style/HorizontalDivider"/>
+</LinearLayout>

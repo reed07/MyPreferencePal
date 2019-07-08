@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/walkthrough_container" android:paddingTop="@dimen/walkthrough_diary_vertical_padding" android:paddingBottom="@dimen/walkthrough_diary_vertical_padding" android:visibility="gone" style="@style/WalkthroughContainer">
+    <ImageView android:id="@+id/arrow_left" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/walkthrough_diary_arrow_button_vertical_margin" android:src="@drawable/ic_scaffolding_arrow_short_white_24dp" style="@style/WalkthroughArrow"/>
+    <TextView android:id="@+id/title" android:text="Title Text" android:layout_below="@+id/arrow_left" style="@style/WalkthroughTitleText"/>
+    <TextView android:id="@+id/description" android:text="Description Text" android:layout_below="@+id/title" style="@style/WalkthroughDescText"/>
+    <Button android:id="@+id/skip" android:layout_marginTop="@dimen/walkthrough_diary_arrow_button_vertical_margin" android:text="@string/ok_done" android:layout_alignParentBottom="true" style="@style/WalkthroughSkipButton.Diary"/>
+</RelativeLayout>

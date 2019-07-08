@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/bottom_bar_onboard" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="@dimen/explore_onboard_elevation">
+    <FrameLayout android:background="@color/black_overlay_54_percent" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/explore_onboard_scrim_bottom_margin"/>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/explore_onboard_bg" android:padding="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/material_padding_16" android:layout_marginRight="@dimen/material_padding_16" android:elevation="@dimen/card_elevation">
+            <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/explore_onboard_title" style="@style/Body.BlackText"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/explore_onboard_message" style="@style/Body.BlackSecondaryText"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/card_elevation">
+            <View android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="0.75"/>
+            <FrameLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.25">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottom_bar_onboarding_arrow"/>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

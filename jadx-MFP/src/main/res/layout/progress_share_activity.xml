@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+    <LinearLayout android:orientation="vertical" android:id="@+id/custom_caption_switch_container" android:paddingBottom="@dimen/progress_share_pager_padding_small_half" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Switch android:id="@+id/custom_caption_switch" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/progress_share_custom_caption" android:layout_alignParentTop="true" style="@style/Body.BlackText"/>
+        <View android:layout_below="@+id/custom_caption_switch" style="@style/HorizontalDivider"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bottom_button_bar" android:layout_below="@+id/custom_caption_switch_container">
+        <android.support.v4.view.ViewPager android:id="@+id/view_pager" android:paddingLeft="@dimen/progress_share_pager_padding_small" android:paddingTop="@dimen/progress_share_pager_padding_small_half" android:paddingRight="@dimen/progress_share_pager_padding_small" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/progress" android:layout_width="@dimen/progress_photo_image_spinner" android:layout_height="@dimen/progress_photo_image_spinner" android:indeterminate="true" style="?android:attr/progressBarStyle"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/bottom_button_bar" android:paddingTop="@dimen/progress_share_pager_padding" android:paddingBottom="@dimen/progress_share_pager_padding_small" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include android:id="@+id/instagram_button" layout="@layout/progress_share_button" style="@style/ProgressPhotosShareButton"/>
+        <View android:id="@+id/instagram_divider" style="@style/VerticalDivider"/>
+        <include android:id="@+id/facebook_button" layout="@layout/progress_share_button" style="@style/ProgressPhotosShareButton"/>
+        <View android:id="@+id/facebook_divider" style="@style/VerticalDivider"/>
+        <include android:id="@+id/twitter_button" layout="@layout/progress_share_button" style="@style/ProgressPhotosShareButton"/>
+    </LinearLayout>
+</RelativeLayout>

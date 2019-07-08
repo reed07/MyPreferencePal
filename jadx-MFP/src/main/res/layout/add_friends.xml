@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewSwitcher android:id="@+id/switcher" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ListView android:id="@android:id/list" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" style="@style/addfriends_list"/>
+            <TextView android:id="@android:id/empty" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/addfriends_empty_facebook" style="@style/progress_text"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ProgressBar android:layout_gravity="center" style="@style/progress_large"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/loading_wait" style="@style/progress_text"/>
+        </LinearLayout>
+    </ViewSwitcher>
+</LinearLayout>

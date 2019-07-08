@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/foodEditorImageContainer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/toolbar_large_image_height_default">
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/meal_photo_default_bg" android:scaleType="centerCrop"/>
+    <ImageView android:id="@+id/foodEditorImage" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <FrameLayout android:id="@+id/foodEditorImageButtonContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ProgressBar android:layout_gravity="center" android:id="@+id/foodEditorImageProgress" android:visibility="gone" android:layout_width="@dimen/progress_photo_gallery_item_spinner" android:layout_height="@dimen/progress_photo_gallery_item_spinner" android:indeterminate="true" style="@style/ToolbarProgressStyle"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/foodEditorImageButton" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_margin_8" android:src="@drawable/ic_camera_white"/>
+            <TextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/meal_photos_add_photo_button" style="@style/Body.WhiteText"/>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:padding="@dimen/material_margin_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <TextView android:id="@+id/foodEditorEditButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit" style="@style/ImageOverlayButton"/>
+    </FrameLayout>
+</RelativeLayout>

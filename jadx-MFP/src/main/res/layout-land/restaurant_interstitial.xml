@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_width="0dp" android:layout_height="match_parent" android:src="@drawable/ic_rl_interstitial" android:scaleType="centerCrop" android:layout_weight="1"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:paddingStart="@dimen/rl_interstitial_text_horizontal_padding" android:paddingEnd="@dimen/rl_interstitial_text_horizontal_padding">
+            <TextView android:gravity="center" android:text="@string/rl_interstitial_header" style="@style/Header.BlackText"/>
+            <TextView android:gravity="center" android:layout_marginTop="@dimen/rl_interstitial_vertical_spacing" android:text="@string/rl_interstitial_info" android:paddingStart="@dimen/rl_interstitial_info_horizontal_padding" android:paddingEnd="@dimen/rl_interstitial_info_horizontal_padding" style="@style/Body.BlackSecondaryText"/>
+            <Button android:id="@+id/rl_interstitial_button" android:layout_marginTop="@dimen/rl_interstitial_vertical_spacing" android:text="@string/rl_browse" style="@style/RLBlueButton"/>
+            <TextView android:id="@+id/rl_interstitial_not_now" android:paddingBottom="@dimen/rl_interstitial_vertical_spacing" android:layout_marginTop="@dimen/rl_interstitial_vertical_spacing" android:text="@string/not_now" style="@style/Subheader.Blue"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

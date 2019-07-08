@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.myfitnesspal.feature.meals.ui.view.MacroWheel android:layout_gravity="center" android:id="@+id/macroWheel" android:layout_width="match_parent" android:layout_height="match_parent" app:gap_width="@dimen/food_details_macro_gap_width" app:stroke_width="@dimen/food_details_macro_wheel_stroke_width"/>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="center" android:id="@+id/energy_value" android:paddingTop="@dimen/material_padding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:textAlignment="center" style="@style/Title.BlackText"/>
+        <TextView android:layout_gravity="center" android:id="@+id/energy_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Caption.BlackText"/>
+    </LinearLayout>
+</merge>

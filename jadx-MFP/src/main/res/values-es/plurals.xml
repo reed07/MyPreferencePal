@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="challenge_ends_in_format">
+        <item quantity="one">Finaliza en %1$s día</item>
+        <item quantity="other">Finaliza en %1$s días</item>
+    </plurals>
+    <plurals name="days_remaining_format">
+        <item quantity="one">%1$s día restante</item>
+        <item quantity="other">%1$s días restantes</item>
+    </plurals>
+    <plurals name="friend_just_joined">
+        <item quantity="one">%1$d amigo de Facebook se acaba de unir a MyFitnessPal</item>
+        <item quantity="other">%1$d amigos de Facebook se acaban de unir a MyFitnessPal</item>
+    </plurals>
+    <plurals name="hours_remaining_format">
+        <item quantity="one">1 hora restante</item>
+        <item quantity="other">%1$s horas restantes</item>
+    </plurals>
+    <plurals name="ingredients_deleted_plural">
+        <item quantity="one">Ingredientes eliminados</item>
+        <item quantity="other">Ingrediente eliminado</item>
+    </plurals>
+    <plurals name="me_header_streak">
+        <item quantity="one">Días seguidos: %1$d día</item>
+        <item quantity="other">Días seguidos: %1$d días</item>
+    </plurals>
+    <plurals name="me_my_cardio_count">
+        <item quantity="one">%1$d aeróbico</item>
+        <item quantity="other">%1$d aeróbicos</item>
+    </plurals>
+    <plurals name="me_my_foods_count">
+        <item quantity="one">%1$d alimento</item>
+        <item quantity="other">%1$d alimentos</item>
+    </plurals>
+    <plurals name="me_my_meals_count">
+        <item quantity="one">%1$d comida</item>
+        <item quantity="other">%1$d comidas</item>
+    </plurals>
+    <plurals name="me_my_recipes_count">
+        <item quantity="one">%1$d receta</item>
+        <item quantity="other">%1$d recetas</item>
+    </plurals>
+    <plurals name="me_my_strength_count">
+        <item quantity="one">%1$d musculación</item>
+        <item quantity="other">%1$d musculaciones</item>
+    </plurals>
+    <plurals name="more_friends">
+        <item quantity="one">+%1$d amigo más…</item>
+        <item quantity="other">+%1$d amigos más…</item>
+    </plurals>
+    <plurals name="progress_breakfast">
+        <item quantity="one">desayuno registrado</item>
+        <item quantity="other">desayunos registrados</item>
+    </plurals>
+    <plurals name="progress_daily_fiber">
+        <item quantity="one">meta de fibras alcanzada</item>
+        <item quantity="other">metas de fibras alcanzadas</item>
+    </plurals>
+    <plurals name="progress_daily_protein">
+        <item quantity="one">meta de proteínas alcanzada</item>
+        <item quantity="other">metas de proteínas alcanzadas</item>
+    </plurals>
+    <plurals name="progress_dinner">
+        <item quantity="one">cena registrada</item>
+        <item quantity="other">cenas registradas</item>
+    </plurals>
+    <plurals name="progress_exercise">
+        <item quantity="one">ejercicio registrado</item>
+        <item quantity="other">ejercicios registrados</item>
+    </plurals>
+    <plurals name="progress_fiber">
+        <item quantity="one">gramo de fibra registrada</item>
+        <item quantity="other">gramos de fibra registradas</item>
+    </plurals>
+    <plurals name="progress_food">
+        <item quantity="one">alimento registrado</item>
+        <item quantity="other">alimentos registrados</item>
+    </plurals>
+    <plurals name="progress_lunch">
+        <item quantity="one">almuerzo registrado</item>
+        <item quantity="other">almuerzos registrados</item>
+    </plurals>
+    <plurals name="progress_meals">
+        <item quantity="one">comida registrada</item>
+        <item quantity="other">comidas registradas</item>
+    </plurals>
+    <plurals name="progress_nutrient_goals">
+        <item quantity="one">meta de nutrientes alcanzada</item>
+        <item quantity="other">metas de nutrientes alcanzadas</item>
+    </plurals>
+    <plurals name="progress_protein">
+        <item quantity="one">gramo de proteína registrada</item>
+        <item quantity="other">gramos de proteína registradas</item>
+    </plurals>
+    <plurals name="progress_recipes">
+        <item quantity="one">receta registrada</item>
+        <item quantity="other">recetas registradas</item>
+    </plurals>
+    <plurals name="progress_steps">
+        <item quantity="one">paso dado</item>
+        <item quantity="other">pasos dados</item>
+    </plurals>
+    <plurals name="progress_water">
+        <item quantity="one">vaso de agua registrado</item>
+        <item quantity="other">vasos de agua registrados</item>
+    </plurals>
+    <plurals name="recipe_deleted">
+        <item quantity="one">Recetas borradas</item>
+        <item quantity="other">Receta borrada</item>
+    </plurals>
+    <plurals name="recipe_deleted_fail">
+        <item quantity="one">No se pudieron borrar %1$d recetas. Inténtalo nuevamente más tarde.</item>
+        <item quantity="other">No se pudieron borrar %1$d recetas. Inténtalo nuevamente más tarde.</item>
+    </plurals>
+</resources>

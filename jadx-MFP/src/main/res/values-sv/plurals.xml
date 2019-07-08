@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="challenge_ends_in_format">
+        <item quantity="one">Avslutas om %1$s dag</item>
+        <item quantity="other">Avslutas om %1$s dagar</item>
+    </plurals>
+    <plurals name="days_remaining_format">
+        <item quantity="one">%1$s dag kvar</item>
+        <item quantity="other">%1$s dagar kvar</item>
+    </plurals>
+    <plurals name="friend_just_joined">
+        <item quantity="one">%1$d Facebook-vän gick just med i MyFitnessPal</item>
+        <item quantity="other">%1$d Facebook-vänner gick just med i MyFitnessPal</item>
+    </plurals>
+    <plurals name="hours_remaining_format">
+        <item quantity="one">%1$s timme kvar</item>
+        <item quantity="other">%1$s timmar kvar</item>
+    </plurals>
+    <plurals name="ingredients_deleted_plural">
+        <item quantity="one">Ingrediens raderad.</item>
+        <item quantity="other">Ingredienser raderade.</item>
+    </plurals>
+    <plurals name="me_header_streak">
+        <item quantity="one">I följd: %1$d dag</item>
+        <item quantity="other">I följd: %1$d dagar</item>
+    </plurals>
+    <plurals name="me_my_cardio_count">
+        <item quantity="one">%1$d konditionspass</item>
+        <item quantity="other">%1$d konditionspass</item>
+    </plurals>
+    <plurals name="me_my_foods_count">
+        <item quantity="one">%1$d livsmedel</item>
+        <item quantity="other">%1$d livsmedel</item>
+    </plurals>
+    <plurals name="me_my_meals_count">
+        <item quantity="one">%1$d måltid</item>
+        <item quantity="other">%1$d måltider</item>
+    </plurals>
+    <plurals name="me_my_recipes_count">
+        <item quantity="one">%1$d recept</item>
+        <item quantity="other">%1$d recept</item>
+    </plurals>
+    <plurals name="me_my_strength_count">
+        <item quantity="one">%1$d styrkepass</item>
+        <item quantity="other">%1$d styrkepass</item>
+    </plurals>
+    <plurals name="more_friends">
+        <item quantity="one">+%1$d vän till…</item>
+        <item quantity="other">+%1$d vänner till…</item>
+    </plurals>
+    <plurals name="progress_breakfast">
+        <item quantity="one">frukost loggad</item>
+        <item quantity="other">frukostar loggade</item>
+    </plurals>
+    <plurals name="progress_daily_fiber">
+        <item quantity="one">uppnått fibermål</item>
+        <item quantity="other">uppnådda fibermål</item>
+    </plurals>
+    <plurals name="progress_daily_protein">
+        <item quantity="one">uppnått proteinmål</item>
+        <item quantity="other">uppnådda proteinmål</item>
+    </plurals>
+    <plurals name="progress_dinner">
+        <item quantity="one">middag loggad</item>
+        <item quantity="other">middagar loggade</item>
+    </plurals>
+    <plurals name="progress_exercise">
+        <item quantity="one">träningspass loggat</item>
+        <item quantity="other">träningspass loggade</item>
+    </plurals>
+    <plurals name="progress_fiber">
+        <item quantity="one">gram fiber loggat</item>
+        <item quantity="other">gram fiber loggade</item>
+    </plurals>
+    <plurals name="progress_food">
+        <item quantity="one">livsmedel loggat</item>
+        <item quantity="other">livsmedel loggade</item>
+    </plurals>
+    <plurals name="progress_lunch">
+        <item quantity="one">lunch loggad</item>
+        <item quantity="other">luncher loggade</item>
+    </plurals>
+    <plurals name="progress_meals">
+        <item quantity="one">måltid loggad</item>
+        <item quantity="other">måltider loggade</item>
+    </plurals>
+    <plurals name="progress_nutrient_goals">
+        <item quantity="one">näringsämnesmål nått</item>
+        <item quantity="other">näringsämnesmål nådda</item>
+    </plurals>
+    <plurals name="progress_protein">
+        <item quantity="one">gram protein loggat</item>
+        <item quantity="other">gram protein loggade</item>
+    </plurals>
+    <plurals name="progress_recipes">
+        <item quantity="one">recept loggat</item>
+        <item quantity="other">recept loggade</item>
+    </plurals>
+    <plurals name="progress_steps">
+        <item quantity="one">steg</item>
+        <item quantity="other">steg</item>
+    </plurals>
+    <plurals name="progress_water">
+        <item quantity="one">kopp vatten loggad</item>
+        <item quantity="other">koppar vatten loggade</item>
+    </plurals>
+    <plurals name="recipe_deleted">
+        <item quantity="one">Recept raderat.</item>
+        <item quantity="other">Recept raderade.</item>
+    </plurals>
+    <plurals name="recipe_deleted_fail">
+        <item quantity="one">Kunde inte radera %1$d recept. Försök igen senare.</item>
+        <item quantity="other">Kunde inte radera %1$d recept. Försök igen senare.</item>
+    </plurals>
+</resources>

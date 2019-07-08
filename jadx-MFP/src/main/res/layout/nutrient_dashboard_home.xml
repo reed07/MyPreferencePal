@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/daily_summary_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@+id/dashboardTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/diary_summary_padding_left" android:layout_marginTop="@dimen/diary_summary_padding_top" layout="@layout/nutrient_dashboard_header"/>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/diary_summary_padding_default" android:layout_marginTop="@dimen/diary_summary_padding_default" android:layout_marginRight="@dimen/diary_summary_padding_default" android:layout_marginBottom="@dimen/daily_summary_padding_bottom" layout="@layout/nutrient_dashboard_compact"/>
+    <include layout="@layout/nutrient_dashboard_steps"/>
+</LinearLayout>

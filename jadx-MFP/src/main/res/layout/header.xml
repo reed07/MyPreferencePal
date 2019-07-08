@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@android:color/white" app:cardCornerRadius="0dp" app:cardElevation="4dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp">
+        <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:rowCount="3" android:columnCount="2">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/ua_black" android:paddingRight="10dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/configuration_version_label" android:paddingEnd="10dp"/>
+            <TextView android:textColor="@color/ua_black" android:id="@+id/configuration_version" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/ua_black" android:paddingRight="10dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/configuration_updated_by_label" android:paddingEnd="10dp"/>
+            <TextView android:textColor="@color/ua_black" android:id="@+id/configuration_update_by" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/ua_black" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/configuration_updated_at_label" android:paddingEnd="10dp"/>
+            <TextView android:textColor="@color/ua_black" android:id="@+id/configuration_update_at" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </GridLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

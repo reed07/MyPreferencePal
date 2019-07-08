@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:padding="@dimen/material_padding_8" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <CheckedTextView android:id="@+id/chk_find_me" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/facebook_friends_can_find_me" style="@style/FacebookSettingsCheckbox"/>
+            <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/material_padding_10" android:layout_marginTop="@dimen/material_padding_16" android:layout_marginRight="@dimen/material_padding_10" android:layout_marginBottom="@dimen/material_button_height_40">
+                <TextView android:id="@+id/disconnect_facebook" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/disconnect_from_facebook" style="@style/FacebookGreyButton"/>
+                <TextView android:id="@+id/connect_facebook" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/connect_to_facebook" style="@style/interstitial_positive_button"/>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@+id/progress" android:background="@color/black_overlay_54_percent" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@+id/please_wait_progress" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/progress_medium"/>
+    </FrameLayout>
+</FrameLayout>

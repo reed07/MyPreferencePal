@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/meal_picker_walkthrough_container" android:visibility="gone" style="@style/WalkthroughContainer">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@+id/text_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <include layout="@layout/new_walkthrough_text_messages"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="@dimen/walkthrough_meal_pick_container_vertical_margin" android:layout_marginBottom="@dimen/walkthrough_meal_pick_container_vertical_margin" android:layout_weight="1">
+                <LinearLayout android:orientation="vertical" android:background="@drawable/walkthrough_meal_picker_background" android:padding="@dimen/dialog_content_margin" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_marginBottom="20dp" android:text="@string/meals" style="@style/Title.BlackText"/>
+                    <ListView android:id="@+id/meal_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="?attr/selectableItemBackground" android:drawSelectorOnTop="true" android:divider="@android:color/transparent" android:nestedScrollingEnabled="true"/>
+                </LinearLayout>
+            </LinearLayout>
+            <Button android:id="@+id/skip" android:text="@string/skip" android:layout_alignParentBottom="true" style="@style/WalkthroughSkipButton"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/summary_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.TabLayout android:id="@+id/tlChallenges" style="@style/ChallengesTabsAppearance"/>
+    <android.support.v4.view.ViewPager android:id="@+id/vpSingleChallenge" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="0px" android:layout_weight="1"/>
+    <include layout="@layout/grey_separator_1dp_light"/>
+    <CheckBox android:id="@+id/cb_email_consent" android:paddingLeft="@dimen/material_margin_12" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/material_padding_16" android:layout_marginTop="@dimen/material_padding_16" android:layout_marginRight="@dimen/material_margin_16" android:checked="true" style="@style/Caption.BlackText"/>
+    <Button android:layout_gravity="bottom" android:id="@+id/btnJoinChallenge" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/material_padding_16" android:text="@string/join_challenge" style="@style/btn_blue_flat_tight_corners"/>
+</LinearLayout>

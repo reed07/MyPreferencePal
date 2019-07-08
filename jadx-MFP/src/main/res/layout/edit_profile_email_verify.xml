@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/email_verify_parent" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/preference_row">
+    <FrameLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:textSize="14sp" android:id="@+id/hero_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/edit_profile_email_verif_desc"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="16dp">
+        <com.myfitnesspal.shared.ui.view.StyledButton android:id="@+id/resend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hero_card_email_cta" style="@style/options_blue_button"/>
+        <com.myfitnesspal.shared.ui.view.StyledButton android:id="@+id/update" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="@string/hero_card_email_cta_two" style="@style/options_blue_button"/>
+    </LinearLayout>
+</LinearLayout>

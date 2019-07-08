@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt">
+    <android.support.design.widget.TextInputLayout android:id="@+id/input_meal_name_container" android:paddingTop="@dimen/based_on_container_vertical_padding" android:paddingBottom="@dimen/based_on_container_vertical_padding" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/txtFoodName" app:hintAnimationEnabled="false" style="@style/FoodInfoContainer">
+        <android.support.design.widget.TextInputEditText android:id="@+id/input_meal_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/meal_food_name" android:maxLines="1" android:inputType="textCapWords"/>
+    </android.support.design.widget.TextInputLayout>
+</merge>

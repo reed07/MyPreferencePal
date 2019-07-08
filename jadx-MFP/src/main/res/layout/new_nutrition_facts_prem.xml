@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/nutrition_facts_prem" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:padding="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+        <FrameLayout android:id="@+id/macroWheelContainer" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/material_margin_8" android:layout_weight="1">
+            <com.myfitnesspal.shared.ui.view.MacroWheelWithText android:layout_gravity="center" android:id="@+id/macroWheelWithText" android:layout_width="@dimen/food_details_macro_wheel_width" android:layout_height="@dimen/food_details_macro_wheel_height"/>
+        </FrameLayout>
+        <com.myfitnesspal.shared.ui.view.MacroDetails android:id="@+id/details_carbs" android:layout_marginRight="@dimen/material_margin_4" style="@style/FoodDetailsMacros"/>
+        <com.myfitnesspal.shared.ui.view.MacroDetails android:id="@+id/details_fat" android:layout_marginRight="@dimen/material_margin_4" style="@style/FoodDetailsMacros"/>
+        <com.myfitnesspal.shared.ui.view.MacroDetails android:id="@+id/details_protein" style="@style/FoodDetailsMacros"/>
+    </LinearLayout>
+    <View style="@style/HorizontalDivider"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/percent_daily_goals_container" android:padding="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_margin_8">
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/percent_of_daily_goals" android:layout_weight="1" style="@style/Body.BlackText"/>
+            <TextView android:id="@+id/go_premium_cta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/go_premium" android:drawableLeft="@drawable/ic_crown_small" android:drawablePadding="8dp" style="@style/Caption.BlueText"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.myfitnesspal.shared.ui.view.CustomMacroProgressBar android:id="@+id/progress_calories" android:layout_marginRight="@dimen/material_padding_6" style="@style/FoodDetailsCustomProgressBar"/>
+            <com.myfitnesspal.shared.ui.view.CustomMacroProgressBar android:id="@+id/progress_carbs" android:layout_marginRight="@dimen/material_padding_6" style="@style/FoodDetailsCustomProgressBar"/>
+            <com.myfitnesspal.shared.ui.view.CustomMacroProgressBar android:id="@+id/progress_fat" android:layout_marginRight="@dimen/material_padding_6" style="@style/FoodDetailsCustomProgressBar"/>
+            <com.myfitnesspal.shared.ui.view.CustomMacroProgressBar android:id="@+id/progress_protein" style="@style/FoodDetailsCustomProgressBar"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

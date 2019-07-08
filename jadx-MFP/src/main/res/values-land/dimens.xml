@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14dp</dimen>
+    <dimen name="captioning_preview_height">100dp</dimen>
+    <dimen name="diary_text_padding">10dp</dimen>
+    <dimen name="friends_list_no_friends_layout_margin">150dp</dimen>
+    <dimen name="measurement_line_chart_height">150dp</dimen>
+    <dimen name="measurement_line_chart_height_with_padding">174dp</dimen>
+    <dimen name="sign_up_height_weight_edit_text_margin">5dp</dimen>
+    <dimen name="toolbar_height">48dp</dimen>
+    <dimen name="video_title_width">308dp</dimen>
+</resources>

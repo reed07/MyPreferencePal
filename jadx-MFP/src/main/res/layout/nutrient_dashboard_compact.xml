@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/diary_shortcut" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/daily_summary_compact_adjustment" android:layout_weight="1">
+        <TextView android:id="@+id/goal" style="@style/diary_summary_subhead"/>
+        <TextView android:id="@+id/tvLabel1" android:text="@string/goalTxt" style="@style/home_summary_subhead_description"/>
+    </LinearLayout>
+    <TextView android:id="@+id/tvCalc1" android:layout_marginTop="@dimen/daily_summary_compact_adjustment" android:text="–" style="@style/Header2B.BlackText"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/daily_summary_compact_adjustment" android:layout_weight="1">
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/food" style="@style/diary_summary_subhead"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/tvLabel2" android:text="@string/foodTxt" style="@style/home_summary_subhead_description"/>
+    </LinearLayout>
+    <TextView android:id="@+id/exercisePlusMinus" android:layout_marginTop="@dimen/daily_summary_compact_adjustment" android:text="+" style="@style/Header2B.BlackText"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/exerciseTextViews" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/daily_summary_compact_adjustment" android:layout_weight="1">
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/exercise" style="@style/diary_summary_subhead"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/tvLabel3" android:text="@string/ExerciseTxt" style="@style/home_summary_subhead_description"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/daily_summary_compact_adjustment" android:layout_weight="1">
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/net" style="@style/diary_summary_subhead"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:text="@string/NetTxt" style="@style/home_summary_subhead_description"/>
+    </LinearLayout>
+    <TextView android:id="@+id/tvCalc2" android:layout_marginTop="@dimen/daily_summary_compact_adjustment" android:text="=" style="@style/Header2B.BlackText"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/remaining" style="@style/diary_summary_subhead_green"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/remaining_diary" android:visibility="gone" style="@style/diary_summary_subhead_green_diary"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/remaining_label" android:text="@string/remainingDiaryTxt" style="@style/home_summary_subhead_description"/>
+    </LinearLayout>
+</LinearLayout>

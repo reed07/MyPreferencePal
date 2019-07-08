@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/list_item_bg_selector" style="@style/FoodInfoContainer">
+    <TextView android:text="@string/timestamp_description_time" style="@style/FoodInfoLabelText"/>
+    <TextView android:id="@+id/timeValue" android:text="@string/timestamp_value_no_time" style="@style/FoodInfoValueText"/>
+    <ImageView android:id="@+id/lock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_premium_lock"/>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" style="@style/GraphContainer">
+    <include layout="@layout/custom_toggle"/>
+    <com.shinobicontrols.charts.ChartView android:id="@+id/bar_container" android:layout_width="match_parent" android:layout_height="@dimen/graph_bar_height" android:layout_marginLeft="@dimen/graph_bar_left_margin" android:layout_marginTop="@dimen/graph_bar_top_margin" android:layout_marginRight="@dimen/graph_bar_right_margin"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/legend" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/legend_top_margin"/>
+</LinearLayout>

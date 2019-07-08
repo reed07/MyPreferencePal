@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:id="@+id/food_edit_root" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/submit_correction_info" android:background="@color/contextual_tip_bg" android:padding="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/submit_correction_info" android:lineSpacingExtra="@dimen/material_padding_6"/>
+        <include android:id="@+id/name_brand_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/nutrition_facts_edit_name_brand"/>
+        <include android:id="@+id/save_to_foods_toggle" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/save_to_my_food_toggle"/>
+        <include android:id="@+id/serving_size_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/progress_pics_height_48dp" layout="@layout/serving_size_item"/>
+        <ViewStub android:id="@+id/nutrient_facts_layout" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

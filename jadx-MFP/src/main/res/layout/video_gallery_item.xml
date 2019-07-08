@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_margin_16">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/video_thumbnail" android:background="@color/video_stroke" android:padding="@dimen/material_padding_0.5" android:layout_width="@dimen/video_thumbnail_width" android:layout_height="@dimen/video_thumbnail_height" android:layout_marginLeft="@dimen/material_margin_16" android:layout_marginRight="@dimen/material_margin_8" android:scaleType="center"/>
+        <TextView android:ellipsize="end" android:id="@+id/video_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/material_margin_6" android:layout_marginBottom="@dimen/material_margin_4" android:maxLines="2" android:layout_alignTop="@+id/video_thumbnail" android:layout_toEndOf="@+id/video_thumbnail" style="@style/Subheader.BlackText"/>
+        <TextView android:id="@+id/video_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/video_name" android:layout_alignBottom="@+id/video_thumbnail" android:layout_toEndOf="@+id/video_thumbnail" style="@style/Caption.BlackSecondaryText"/>
+    </RelativeLayout>
+</LinearLayout>

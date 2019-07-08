@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.myfitnesspal.shared.ui.view.ClearableEditText android:textColorHint="@color/black_secondary_text" android:id="@+id/searchEdit" android:background="@color/white" android:paddingLeft="@dimen/material_padding_16" android:paddingRight="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="@dimen/material_control_height_48" android:hint="@string/searchForAFood" android:singleLine="true" android:drawableRight="@drawable/ic_close_black_26_24dp" android:imeOptions="actionUnspecified|actionNone|actionGo|actionSearch|flagNoFullscreen|flagNoExtractUi" android:elevation="3dp" style="@style/Header2A.BlackText"/>
+    <View style="@style/HorizontalDivider"/>
+    <TextView android:id="@+id/noMatches" android:paddingLeft="@dimen/material_padding_16" android:paddingTop="@dimen/material_padding_32" android:paddingRight="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/barcode_scanner_help_us_improve" style="@style/Body.BlackSecondaryText"/>
+    <ListView android:id="@+id/listView" android:layout_width="match_parent" android:layout_height="0dp" android:divider="@null" android:layout_weight="1"/>
+    <FrameLayout android:id="@+id/adverts" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

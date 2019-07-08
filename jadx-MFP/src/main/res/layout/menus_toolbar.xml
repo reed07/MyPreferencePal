@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/toolbar" style="@style/ToolbarStyle">
+    <ProgressBar android:id="@+id/progress_spinner" style="@style/ToolbarProgressStyle"/>
+    <com.myfitnesspal.shared.ui.view.ClearableEditText android:layout_gravity="left" android:id="@+id/menu_item_input" android:layout_marginTop="@dimen/toolbar_input_text_margin" android:layout_marginRight="@dimen/toolbar_input_text_margin" android:layout_marginBottom="@dimen/toolbar_input_text_margin" android:hint="@string/search_menu" style="@style/ToolbarSearchEditText.RL"/>
+    <TextView android:layout_gravity="left" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ToolbarTitle"/>
+</android.support.v7.widget.Toolbar>

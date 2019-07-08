@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="meal_photo_row_thumbnail">34dp</dimen>
+    <dimen name="rl_interstitial_height">210dp</dimen>
+</resources>

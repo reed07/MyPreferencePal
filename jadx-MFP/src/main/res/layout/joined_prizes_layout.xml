@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/challenges_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.myfitnesspal.feature.challenges.ui.view.ChallengeBannerImageView android:id="@+id/challenge_banner" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/material_margin_8">
+            <FrameLayout android:id="@+id/flJoinedPrizesContainer" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

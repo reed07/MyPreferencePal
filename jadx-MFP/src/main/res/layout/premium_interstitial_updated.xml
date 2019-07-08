@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:background="@color/premium_interstitial_background_blue" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/premium_interstitial_header_updated" android:scaleType="centerCrop"/>
+        <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_padding_20" android:layout_marginBottom="@dimen/material_padding_8" android:text="@string/reach_your_goal_faster" style="@style/Header.BlackText"/>
+        <TextView android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/material_padding_36" android:layout_marginRight="@dimen/material_padding_36" android:layout_marginBottom="@dimen/material_padding_20" android:text="@string/premium_interstitial_body_copy" android:lineSpacingMultiplier="1.4" style="@style/Body.BlackSecondaryText"/>
+        <Button android:id="@+id/learn_more" android:paddingLeft="@dimen/material_padding_24" android:paddingRight="@dimen/material_padding_24" android:layout_height="@dimen/material_button_height_40" android:text="@string/learn_more" style="@style/MaterialLoginButton"/>
+        <TextView android:id="@+id/not_now" android:padding="@dimen/material_padding_10" android:layout_marginTop="@dimen/material_padding_16" android:layout_marginBottom="@dimen/material_padding_24" android:text="@string/not_now" style="@style/Subheader.Blue"/>
+    </LinearLayout>
+</ScrollView>

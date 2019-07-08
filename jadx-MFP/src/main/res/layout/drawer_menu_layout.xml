@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@+id/left_drawer" android:background="@color/sliding_menu_background" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/sliding_menu_list_selector" android:cacheColorHint="@color/sliding_menu_background" android:divider="@android:color/transparent" android:dividerHeight="0dp" android:choiceMode="singleChoice" android:layout_alignWithParentIfMissing="true"/>
+</RelativeLayout>

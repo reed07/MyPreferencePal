@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/mfp_background" android:paddingLeft="5dp" android:paddingTop="25dp" android:paddingRight="5dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/about_logo"/>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginRight="40dp">
+        <com.myfitnesspal.feature.settings.ui.view.PasscodeField android:id="@+id/passcodeField1" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textSize="13sp" android:textStyle="bold" android:textColor="#ff0000" android:id="@+id/txtIncorrectPasscode" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/incorrect_passcode"/>
+        <TextView android:textSize="13sp" android:textStyle="bold" android:textColor="#7a7879" android:id="@+id/txtEnterPasscode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enter_your_passcode"/>
+    </LinearLayout>
+</LinearLayout>

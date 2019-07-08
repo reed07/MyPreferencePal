@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="@dimen/material_padding_24" android:paddingRight="@dimen/material_padding_24" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.myfitnesspal.shared.ui.view.CustomLocalizedNumberEditText android:id="@+id/entry_one" android:layout_height="wrap_content" style="@style/MaterialSignUpHeightWeightDialogEditText"/>
+        <TextView android:id="@+id/entry_one_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4dp" android:text="@string/ft" style="@style/MaterialSignUpHeightWeightDialogTextView"/>
+        <com.myfitnesspal.shared.ui.view.CustomLocalizedNumberEditText android:id="@+id/entry_two" android:layout_height="wrap_content" style="@style/MaterialSignUpHeightWeightDialogEditText"/>
+        <TextView android:id="@+id/entry_two_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/in" style="@style/MaterialSignUpHeightWeightDialogTextView"/>
+    </LinearLayout>
+    <TextView android:id="@+id/error" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/enter_valid_weight" style="@style/Body.DarkOrange"/>
+    <Spinner android:layout_gravity="center_vertical" android:id="@+id/units" android:layout_width="match_parent" android:layout_height="@dimen/material_control_height_48" android:layout_marginTop="@dimen/material_padding_8" android:layout_marginBottom="@dimen/material_padding_24" android:drawSelectorOnTop="false" style="@style/Base.Widget.AppCompat.Spinner.Underlined"/>
+</LinearLayout>

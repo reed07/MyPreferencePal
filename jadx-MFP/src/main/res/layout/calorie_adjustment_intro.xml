@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/feed_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/adjustment_container" android:background="@color/white" android:paddingLeft="8dp" android:paddingTop="16dp" android:paddingRight="8dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/calorie_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:textStyle="bold" android:id="@+id/calories_earned_label" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/extra_earned_calories" android:layout_weight="1"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:textStyle="bold" android:id="@+id/calories_earned" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="130"/>
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:gravity="center_vertical" android:background="@color/white" android:paddingLeft="8dp" android:paddingTop="16dp" android:paddingRight="8dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/partner_app_icon" android:layout_width="28dp" android:layout_height="28dp" android:layout_marginRight="16dp"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/partner_app_label" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/you_are_using" android:layout_weight="1"/>
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:orientation="horizontal" android:background="@color/white" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="2"/>
+        <Button android:id="@+id/learn_more" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/learn_more" android:layout_weight="1" style="@style/btn_blue"/>
+        <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="2"/>
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+    <com.myfitnesspal.shared.ui.view.StyledTextView android:textColor="@color/calorie_adjust_gray" android:id="@+id/negative_calorie_label" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp" android:text="@string/negative_calorie_disabled"/>
+</LinearLayout>

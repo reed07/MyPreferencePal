@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/container" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/default_material_elevation">
+        <ImageView android:layout_gravity="center_vertical" android:paddingLeft="@dimen/material_padding_16" android:paddingRight="@dimen/material_padding_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_my_items_search"/>
+        <com.myfitnesspal.shared.ui.view.ClearableEditText android:textColorHint="@color/black_secondary_text" android:layout_gravity="center_vertical" android:id="@+id/search_text" android:background="@null" android:paddingLeft="16dp" android:paddingRight="@dimen/food_search_clear_button_horizontal_padding" android:layout_width="match_parent" android:layout_height="48dp" android:hint="@string/searchBtn" android:maxLines="1" android:singleLine="true" android:drawableRight="@drawable/ic_close_black_26_24dp" android:drawablePadding="@dimen/food_search_clear_button_horizontal_padding" android:imeOptions="actionUnspecified|actionNone|actionGo|actionSearch|flagNoFullscreen|flagNoExtractUi" style="@style/Header2A.BlackText"/>
+    </LinearLayout>
+    <View style="@style/HorizontalDivider"/>
+    <android.support.design.widget.TabLayout android:id="@+id/indicator" android:elevation="@dimen/default_material_elevation" style="@style/TabsAppearance.White.Fixed"/>
+    <android.support.v4.view.ViewPager android:id="@+id/pager" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>

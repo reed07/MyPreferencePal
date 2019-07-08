@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/emptyView" android:background="@drawable/list_item_bg_selector" android:paddingLeft="@dimen/material_margin_16" android:paddingRight="@dimen/material_margin_16" android:paddingBottom="@dimen/material_margin_16" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/material_margin_16" android:src="@drawable/ic_me_apps"/>
+        <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/me_card_apps_empty_message" style="@style/Body.BlackText"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/appsContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_padding_8">
+        <include android:id="@+id/app1" layout="@layout/me_card_app_cell"/>
+        <include android:id="@+id/app2" layout="@layout/me_card_app_cell"/>
+        <View android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+    </LinearLayout>
+</FrameLayout>

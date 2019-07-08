@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:topRightRadius="@dimen/cards_corner_inner_radius" android:bottomRightRadius="@dimen/cards_corner_inner_radius"/>
+            <solid android:color="@color/custom_toggle_selected"/>
+            <stroke android:width="@dimen/graph_selector_stroke_width" android:color="@color/custom_toggle_stroke"/>
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <corners android:topRightRadius="@dimen/cards_corner_inner_radius" android:bottomRightRadius="@dimen/cards_corner_inner_radius"/>
+            <solid android:color="@color/custom_toggle_selected"/>
+            <stroke android:width="@dimen/graph_selector_stroke_width" android:color="@color/custom_toggle_stroke"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:topRightRadius="@dimen/cards_corner_inner_radius" android:bottomRightRadius="@dimen/cards_corner_inner_radius"/>
+            <solid android:color="@color/custom_toggle_unselected"/>
+            <stroke android:width="@dimen/graph_selector_stroke_width" android:color="@color/custom_toggle_stroke"/>
+        </shape>
+    </item>
+</selector>

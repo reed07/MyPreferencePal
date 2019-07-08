@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/weight_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@+id/row_weight" style="@style/AddWeightRow">
+                <TextView android:id="@+id/weight_with_unit" android:text="@string/weight_with_units" style="@style/AddWeightLabel"/>
+                <com.myfitnesspal.shared.ui.view.CustomLocalizedNumberEditText android:id="@+id/progress_weight" style="@style/AddWeightEditText"/>
+            </LinearLayout>
+            <View android:id="@+id/separator_weight" android:visibility="gone" style="@style/HorizontalDivider"/>
+            <LinearLayout android:id="@+id/row_weight_lbs" android:visibility="gone" style="@style/AddWeightRow">
+                <TextView android:text="@string/lbs_setting" style="@style/AddWeightLabel"/>
+                <com.myfitnesspal.shared.ui.view.CustomLocalizedNumberEditText android:id="@+id/progress_weight_lbs" style="@style/AddWeightEditText"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@+id/separator1" android:background="@color/mfp_grey" android:layout_width="match_parent" android:layout_height="1dp" android:layout_below="@+id/weight_container"/>
+        <LinearLayout android:id="@+id/row_date" android:layout_below="@+id/separator1" style="@style/AddWeightRow">
+            <TextView android:text="@string/date_header" style="@style/AddWeightLabel"/>
+            <TextView android:gravity="right|center_vertical|center_horizontal|center" android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/progress_date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Body.Blue"/>
+        </LinearLayout>
+        <View android:id="@+id/separator2" android:background="@color/mfp_grey" android:layout_width="match_parent" android:layout_height="1dp" android:layout_below="@+id/row_date"/>
+        <LinearLayout android:id="@+id/row_photo" android:layout_below="@+id/separator2" style="@style/AddWeightRow">
+            <TextView android:layout_gravity="center_vertical" android:minHeight="@dimen/material_control_height_56" android:text="@string/progress_photo" style="@style/AddWeightLabel"/>
+            <ImageView android:gravity="right|center_vertical|center_horizontal|center|end" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/progress_image" android:layout_width="@dimen/add_weight_placeholder_width" android:layout_height="@dimen/material_control_height_56" android:layout_marginTop="@dimen/material_padding_4" android:layout_marginBottom="@dimen/material_padding_4" android:src="@drawable/ic_camera" android:scaleType="centerInside"/>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

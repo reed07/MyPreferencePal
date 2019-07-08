@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/llChooserLayout" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/nutrition_date_chooser" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/btnDay" android:text="@string/day_capital_d" style="@style/GraphDateTypeItem"/>
+        <View android:background="@color/separator_light_grey" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/btnWeek" android:text="@string/week" style="@style/GraphDateTypeItem"/>
+        <View android:background="@color/separator_light_grey" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/btnChangeDate" android:text="@string/change_date" style="@style/GraphDateTypeItem"/>
+    </LinearLayout>
+</FrameLayout>

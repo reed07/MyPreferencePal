@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/emptyView" android:paddingLeft="@dimen/material_margin_16" android:paddingRight="@dimen/material_margin_16" android:paddingBottom="@dimen/material_margin_16" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/material_margin_16" android:src="@drawable/ic_me_challenges"/>
+        <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/me_card_challenges_empty_message" style="@style/Body.BlackText"/>
+    </LinearLayout>
+    <com.myfitnesspal.shared.ui.view.LinearLayoutListAdapterView android:orientation="vertical" android:id="@+id/activeChallengesList" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_padding_8"/>
+</merge>

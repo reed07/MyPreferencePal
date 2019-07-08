@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/create_recipe_manually_content_padding" android:paddingBottom="@dimen/create_recipe_manually_content_padding" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.design.widget.TextInputLayout style="@style/FloatingHintLayout.CreateRecipe">
+            <android.support.design.widget.TextInputEditText android:id="@+id/name_input" android:hint="@string/recipe_title_hint" style="@style/RecipeInput">
+                <requestFocus/>
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout android:layout_marginTop="4dp" style="@style/FloatingHintLayout.CreateRecipe">
+            <android.support.design.widget.TextInputEditText android:id="@+id/servings_input" android:hint="@string/servings" android:inputType="number" style="@style/RecipeInput"/>
+        </android.support.design.widget.TextInputLayout>
+        <RelativeLayout android:paddingLeft="@dimen/create_recipe_manually_content_padding" android:paddingRight="@dimen/create_recipe_manually_content_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp">
+            <Switch android:id="@+id/bulk_import_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/create_recipe_manually_content_padding" android:layout_alignParentRight="true"/>
+            <TextView android:id="@+id/bulk_import_title" android:layout_width="match_parent" android:text="@string/bulk_ingredients" android:layout_toLeftOf="@+id/bulk_import_switch" style="@style/Header.BlackText"/>
+            <TextView android:layout_width="match_parent" android:text="@string/bulk_import_info" android:layout_toLeftOf="@+id/bulk_import_switch" android:layout_below="@+id/bulk_import_title" style="@style/RecipeImportInfo"/>
+        </RelativeLayout>
+        <com.myfitnesspal.feature.meals.ui.view.MultiLineEditTextHint android:id="@+id/ingredients_input" android:visibility="gone" android:layout_marginLeft="@dimen/recipe_review_input_horizontal_margin" android:layout_marginRight="@dimen/recipe_review_input_horizontal_margin" style="@style/RecipeInput.Ingredients"/>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.myfitnesspal.shared.ui.view.StateAwareScrollView android:id="@+id/exploreScrollView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bottom_bar_container">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+            <LinearLayout android:orientation="vertical" android:id="@+id/mainContainer" android:background="@color/mfp_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.myfitnesspal.feature.explore.ui.view.NewChallengesCard android:id="@+id/challengesCard" style="@style/CardBase.NewsFeedCard"/>
+                <com.myfitnesspal.feature.explore.ui.view.NearbyVenuesCard android:id="@+id/nearby_venues_card" style="@style/CardBase.NewsFeedCard"/>
+                <com.myfitnesspal.feature.explore.ui.view.BlogCard android:id="@+id/blogCard" style="@style/CardBase.NewsFeedCard"/>
+                <com.myfitnesspal.feature.explore.ui.view.ShopCard android:id="@+id/shopCard" style="@style/CardBase.NewsFeedCard"/>
+                <com.myfitnesspal.feature.explore.ui.view.CommunityCard android:id="@+id/communityCard" android:layout_marginBottom="@dimen/news_feed_card_marginTop" style="@style/CardBase.NewsFeedCard"/>
+            </LinearLayout>
+            <com.myfitnesspal.shared.ui.view.EmptyStateView android:id="@+id/emptyStateView" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ProgressBar android:layout_gravity="center_horizontal" android:id="@+id/loadingView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_margin_32" android:indeterminate="true"/>
+        </FrameLayout>
+    </com.myfitnesspal.shared.ui.view.StateAwareScrollView>
+    <include android:id="@+id/bottom_bar_container" layout="@layout/bottom_bar_layout"/>
+</RelativeLayout>

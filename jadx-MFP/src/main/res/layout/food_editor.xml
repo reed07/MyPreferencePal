@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/parent_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <Button android:id="@+id/footer_full_width_button" android:visibility="gone" style="@style/FooterFullWidthBlueButton"/>
+        <android.support.v4.widget.NestedScrollView android:id="@+id/nested_scroll_parent" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/footer_full_width_button" android:layout_alignWithParentIfMissing="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_horizontal_black" android:animateLayoutChanges="true" android:showDividers="none|middle|end">
+                <FrameLayout android:id="@+id/foodEditorHeaderContainer" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <include android:id="@+id/sponsoredFoodRow" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/row_sponsored_food_details"/>
+                <include layout="@layout/new_insight_row"/>
+                <include layout="@layout/food_editor_based_on"/>
+                <include layout="@layout/meal_food_name_input"/>
+                <include layout="@layout/food_name_container"/>
+                <LinearLayout android:id="@+id/dateTableRow" android:background="@drawable/list_item_bg_selector" android:visibility="gone" style="@style/FoodInfoContainer">
+                    <TextView android:id="@+id/date" android:text="@string/date_header" style="@style/FoodInfoLabelText"/>
+                    <TextView android:id="@+id/txtDate" android:text="@string/select_date" style="@style/FoodInfoValueText"/>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/mealTableRow" android:background="@drawable/list_item_bg_selector" android:visibility="gone" style="@style/FoodInfoContainer">
+                    <TextView android:id="@+id/meal" android:text="@string/meal" style="@style/FoodInfoLabelText"/>
+                    <TextView android:id="@+id/txtMeal" android:text="@string/breakfast" style="@style/FoodInfoValueText"/>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/permissions_table_row" android:background="@drawable/list_item_bg_selector" android:visibility="gone" style="@style/FoodInfoContainer">
+                    <TextView android:id="@+id/permission_label" android:text="@string/sharing_preferences" style="@style/FoodInfoLabelText"/>
+                    <TextView android:id="@+id/permission_value" android:text="@string/diary_sharing_private" style="@style/FoodInfoValueText"/>
+                </LinearLayout>
+                <include layout="@layout/number_servings_container"/>
+                <include layout="@layout/serving_size_container"/>
+                <com.myfitnesspal.feature.timestamp.view.TimestampRowView android:id="@+id/timestamp_picker_row" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <FrameLayout android:id="@+id/nutrition_facts_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"/>
+                <include layout="@layout/report_food_button"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/cta_container" android:paddingLeft="@dimen/material_padding_16" android:paddingTop="@dimen/material_padding_24" android:paddingRight="@dimen/material_padding_16" android:paddingBottom="@dimen/material_padding_24" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@+id/cta_text" android:paddingBottom="@dimen/material_padding_24" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <TextView android:id="@+id/cta_button" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/btn_flat_grey"/>
+                </LinearLayout>
+                <include android:id="@+id/meal_items_container" android:visibility="gone" layout="@layout/meal_items"/>
+                <include android:id="@+id/meal_notes_container" android:visibility="gone" layout="@layout/meal_notes"/>
+                <include android:id="@+id/paired_foods_container" android:visibility="gone" layout="@layout/new_paired_foods_container"/>
+                <View android:id="@+id/meal_item_container_bottom_padding" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/meal_item_container_bottom_padding"/>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+        <android.support.design.widget.FloatingActionButton android:id="@+id/fab_action_plus" android:visibility="gone" style="@style/FloatingActionButton.Add"/>
+        <com.myfitnesspal.feature.foodeditor.ui.view.FoodEditorHint android:layout_gravity="bottom" android:id="@+id/food_editor_hint_panel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/material_padding_16" android:paddingRight="@dimen/material_padding_16" android:paddingBottom="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.myfitnesspal.feature.registration.ui.view.PageIndicatorBar android:id="@+id/page_indicator" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_padding_24" android:layout_marginBottom="@dimen/material_padding_24" app:max_progress="5" app:progress="3"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_padding_20" android:text="@string/GenderTxt" style="@style/Header.BlackText"/>
+            <RadioGroup android:gravity="center" android:id="@+id/gender_group" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/male" android:layout_width="match_parent" android:text="@string/maleTxt" android:layout_weight="1" style="@style/MaterialSignUpRadio"/>
+                <RadioButton android:id="@+id/female" android:layout_width="match_parent" android:text="@string/femaleTxt" android:layout_weight="1" style="@style/MaterialSignUpRadio"/>
+            </RadioGroup>
+            <TextView android:id="@+id/birthdate_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_padding_24" android:layout_marginBottom="10dp" android:text="@string/birthdate" style="@style/Header.BlackText"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+                <EditText android:id="@+id/birthdate" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/select_your_birthdate" android:editable="false" android:layout_weight="1" style="@style/MaterialSignUpEditText"/>
+                <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            </LinearLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/we_need_this_calories" style="@style/Caption.BlackSecondaryText"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/lower_fields" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+                <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/txtCountry" android:layout_width="match_parent" android:layout_height="@dimen/material_control_height_48" android:layout_marginBottom="@dimen/material_padding_8" android:text="@string/location" style="@style/Header.BlackText"/>
+                <Spinner android:layout_gravity="center_vertical" android:id="@+id/country" android:layout_width="match_parent" android:layout_height="@dimen/material_control_height_48" android:drawSelectorOnTop="false" android:prompt="@string/selectCountry" style="@style/Base.Widget.AppCompat.Spinner.Underlined"/>
+                <EditText android:id="@+id/zipcode" android:layout_width="match_parent" android:layout_height="@dimen/material_control_height_48" android:hint="@string/zipCode" style="@style/MaterialSignUpEditText"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

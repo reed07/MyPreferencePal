@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/ic_drop_shadow" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/rlArtifactContainer" android:layout_width="match_parent" android:layout_height="match_parent" android:color="#ccc" android:animateLayoutChanges="true">
+        <ImageView android:id="@+id/image_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/bottom_bar" android:background="@color/progress_artifact_bottom_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4" android:minHeight="@dimen/progress_pics_height_64dp" android:layout_alignParentBottom="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/progress_pics_padding_12dp" android:layout_marginBottom="@dimen/progress_pics_padding_12dp" android:layout_weight="1">
+                <TextView android:layout_gravity="center_horizontal" android:id="@+id/weight_value" android:layout_width="wrap_content" style="@style/HeaderArtifact2.Blue"/>
+                <TextView android:id="@+id/weight_string" style="@style/ProgressArtifactSubText"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/progress_pics_padding_12dp" android:layout_marginBottom="@dimen/progress_pics_padding_12dp" android:layout_weight="1">
+                <TextView android:layout_gravity="center_horizontal" android:id="@+id/steps_value" android:layout_width="wrap_content" style="@style/HeaderArtifact2.Blue"/>
+                <TextView android:text="@string/steps" style="@style/ProgressArtifactSubText"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/progress_pics_padding_12dp" android:layout_marginBottom="@dimen/progress_pics_padding_12dp" android:layout_weight="1">
+                <TextView android:layout_gravity="center_horizontal" android:id="@+id/streak_value" android:layout_width="wrap_content" style="@style/HeaderArtifact2.Blue"/>
+                <TextView android:text="@string/progress_summary_days" style="@style/ProgressArtifactSubText"/>
+            </LinearLayout>
+            <ImageView android:id="@+id/small_logo" android:layout_width="0dp" android:layout_height="match_parent" android:src="@drawable/ic_stacked_logo" android:scaleType="fitXY" android:layout_weight="1" android:layout_centerVertical="true"/>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

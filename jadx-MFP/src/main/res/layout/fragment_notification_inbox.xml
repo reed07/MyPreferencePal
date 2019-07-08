@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@android:color/white" app:cardCornerRadius="0dp" app:cardElevation="4dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+                <LinearLayout android:orientation="horizontal" android:id="@+id/options_layout" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginLeft="8dp" android:layout_marginTop="16dp" android:layout_marginRight="8dp" android:layout_marginBottom="16dp" android:layout_centerInParent="true">
+                    <Switch android:id="@+id/one_priority_per_category" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="16dp" android:maxWidth="150dp" android:text="One Priority Per Category"/>
+                    <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxWidth="100dp" android:text="Max Priority Count"/>
+                    <Button android:id="@+id/max_priority_count" android:layout_width="50dp" android:layout_height="match_parent" android:text="2"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/button_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:weightSum="3" android:layout_marginStart="8dp" android:layout_marginEnd="8dp">
+                        <Button android:textSize="12dp" android:textColor="@android:color/white" android:id="@+id/delete" android:layout_width="0dp" android:layout_height="match_parent" android:text="Delete" android:layout_weight="1" android:backgroundTint="@color/ua_red"/>
+                        <Button android:textSize="12dp" android:textColor="@android:color/white" android:id="@+id/markExpired" android:layout_width="0dp" android:layout_height="match_parent" android:text="Mark Expired" android:layout_weight="1" android:backgroundTint="@color/yellow"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:weightSum="3" android:layout_marginStart="8dp" android:layout_marginEnd="8dp">
+                        <Button android:textSize="12dp" android:id="@+id/markPending" android:layout_width="0dp" android:layout_height="match_parent" android:text="Mark Pending" android:layout_weight="1"/>
+                        <Button android:textSize="12dp" android:id="@+id/markUnread" android:layout_width="0dp" android:layout_height="match_parent" android:text="Mark Unread" android:layout_weight="1"/>
+                        <Button android:textSize="12dp" android:id="@+id/markRead" android:layout_width="0dp" android:layout_height="match_parent" android:text="Mark Read" android:layout_weight="1"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v4.widget.SwipeRefreshLayout android:id="@+id/swipeContainer" android:layout_width="match_parent" android:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView android:id="@+id/list" android:background="@color/ua_light_gray" android:paddingBottom="80dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/create_fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16dp" android:src="@drawable/ic_create_white_36px" android:backgroundTint="@color/ua_red"/>
+</FrameLayout>

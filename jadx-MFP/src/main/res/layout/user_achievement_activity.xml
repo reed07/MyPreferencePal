@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@+id/lvUserAchievements" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <Button android:id="@+id/join_challenge" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/challenge_list_item_padding" android:text="@string/join_challenge" android:layout_alignParentBottom="true" style="@style/btn_blue_flat_tight_corners"/>
+    <TextView android:gravity="center_vertical" android:id="@+id/error_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_above="@+id/join_challenge" android:layout_centerInParent="true" style="@style/Header2A.BlackText"/>
+</RelativeLayout>

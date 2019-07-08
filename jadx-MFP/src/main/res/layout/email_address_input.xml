@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:paddingLeft="@dimen/edit_text_dialog_padding" android:paddingTop="@dimen/edit_text_dialog_padding_top" android:paddingRight="@dimen/edit_text_dialog_padding" android:paddingBottom="@dimen/edit_text_dialog_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <EditText android:id="@android:id/edit" android:layout_width="match_parent" android:hint="@string/email_hint" android:inputType="textEmailAddress" style="@style/DialogEditText"/>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/total_container" android:background="@color/white" android:paddingLeft="@dimen/material_padding_16" android:paddingTop="@dimen/material_padding_16" android:paddingRight="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1" android:layout_alignParentTop="true">
+        <TextView android:gravity="center_vertical" android:id="@+id/total_name" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/total_daily_meal_goal" android:singleLine="true" android:layout_weight="0.7" style="@style/Subheader.BlackText"/>
+        <TextView android:gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/total_value" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/zero" android:singleLine="true" android:layout_weight="0.3"/>
+        <TextView android:gravity="left" android:id="@+id/meal_goal_total_percent" android:layout_width="wrap_content" android:text="@string/goals_percent" android:singleLine="true" style="@style/Subheader.BlackHint"/>
+    </LinearLayout>
+    <TextView android:id="@+id/calculation_error" android:background="@color/white" android:paddingLeft="@dimen/material_padding_16" android:paddingTop="@dimen/material_padding_6" android:paddingRight="@dimen/material_padding_16" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/meal_goals_under_daily_calorie_goal" android:layout_below="@+id/total_container" style="@style/error_text"/>
+    <View android:id="@+id/divider" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="@dimen/material_margin_16" android:layout_below="@+id/calculation_error" style="@style/HorizontalDivider"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignTop="@+id/divider" android:layout_alignParentStart="true">
+        <android.support.v7.widget.RecyclerView android:id="@+id/meal_goals_list" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </ScrollView>
+</RelativeLayout>

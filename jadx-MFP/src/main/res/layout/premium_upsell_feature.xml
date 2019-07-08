@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="17dp" android:paddingTop="16dp" android:paddingRight="22dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.myfitnesspal.shared.ui.view.MfpImageView android:id="@+id/upsellFeatureIcon" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginRight="@dimen/premium_feature_icon_margin" android:layout_alignParentLeft="true"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@+id/upsellFeatureIcon" android:layout_centerVertical="true">
+        <TextView android:id="@+id/upsellFeatureTitle" android:text="Feature Title" style="@style/Medium16.Black"/>
+        <TextView android:id="@+id/upsellFeatureDescription" android:layout_marginTop="1dp" android:text="You can now set carbs, protein and fat goals to meet gram targets rather than a percentage." android:layout_below="@+id/upsellFeatureTitle" android:layout_alignLeft="@+id/upsellFeatureTitle" style="@style/Body.BlackSecondaryText"/>
+    </RelativeLayout>
+</RelativeLayout>

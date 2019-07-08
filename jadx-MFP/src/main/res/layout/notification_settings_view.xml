@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@+id/list" android:scrollbars="none" android:fadingEdge="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/notif_setting_view_margin" android:layout_marginTop="@dimen/notif_setting_view_margin" android:layout_marginRight="@dimen/notif_setting_view_margin" android:dividerHeight="0dp" android:layout_above="@+id/tv_disclaimer"/>
+    <TextView android:id="@+id/tv_disclaimer" android:background="@color/anti_flash_white" android:padding="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/notifications_disclaimer" android:layout_alignParentBottom="true" style="@style/Caption.BlackText"/>
+</RelativeLayout>

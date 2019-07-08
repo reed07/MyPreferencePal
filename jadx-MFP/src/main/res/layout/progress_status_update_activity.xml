@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/status_update_container" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/llMealNotesHint">
+        <LinearLayout android:orientation="vertical" android:id="@+id/llMain" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@+id/rlHeader" android:layout_width="match_parent" android:layout_height="120dp">
+                <ImageView android:id="@+id/ivShareArtifact" android:layout_width="@dimen/progress_pics_height_80dp" android:layout_height="@dimen/progress_pics_height_80dp" android:layout_marginLeft="@dimen/progress_pics_padding_16dp" android:layout_marginTop="@dimen/progress_pics_padding_16dp" android:layout_marginRight="@dimen/progress_pics_padding_16dp" android:src="@drawable/ic_photo_camera_black_24dp"/>
+                <EditText android:gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/etShareStatus" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginRight="@dimen/progress_pics_padding_16dp" android:hint="@string/progress_status_hint" android:maxLines="3" android:layout_toRightOf="@+id/ivShareArtifact" android:inputType="none|text|textCapSentences|textMultiLine" style="@style/Header2B.BlackSecondary"/>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/share_with_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <View style="@style/HorizontalDivider"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/progress_pics_height_48dp">
+                    <TextView android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/progress_pics_padding_16dp" android:text="@string/progress_status_share_with" android:layout_weight="1" style="@style/Subheader.BlackText"/>
+                    <TextView android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/tvStatusShareWith" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/progress_pics_padding_16dp" android:text="@string/permission_mfp_community" android:layout_weight="1" style="@style/Body.Blue"/>
+                </LinearLayout>
+                <View style="@style/HorizontalDivider"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/button_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <View android:layout_marginTop="@dimen/progress_pics_height_32dp" style="@style/HorizontalDivider"/>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/progress_pics_height_48dp">
+                    <include android:id="@+id/facebook_button" layout="@layout/progress_share_button_v2" style="@style/ProgressPhotosShareButton"/>
+                    <View android:id="@+id/facebook_divider" style="@style/VerticalDivider"/>
+                    <include android:id="@+id/instagram_button" layout="@layout/progress_share_button_v2" style="@style/ProgressPhotosShareButton"/>
+                </LinearLayout>
+                <View style="@style/HorizontalDivider"/>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/progress_pics_height_48dp">
+                    <include android:id="@+id/save_to_gallery_button" layout="@layout/progress_share_button_v2" style="@style/ProgressPhotosShareButton"/>
+                    <View android:id="@+id/save_to_device_divider" style="@style/VerticalDivider"/>
+                    <include android:id="@+id/more_button" layout="@layout/progress_share_button_v2" style="@style/ProgressPhotosShareButton"/>
+                </LinearLayout>
+                <View style="@style/HorizontalDivider"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@+id/llMealNotesHint" android:background="@color/contextual_tip_bg" android:padding="@dimen/material_margin_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/progress_pics_padding_4dp" android:text="@string/meal_sharing_share_screen_tip_message" style="@style/Body.BlackText"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/meal_sharing_share_screen_tip_button_add_directions" style="@style/Body.Blue"/>
+    </LinearLayout>
+</RelativeLayout>

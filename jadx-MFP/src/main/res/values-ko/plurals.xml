@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="challenge_ends_in_format">
+        <item quantity="other">%1$s일 후 종료</item>
+    </plurals>
+    <plurals name="days_remaining_format">
+        <item quantity="other">%1$s일 남음</item>
+    </plurals>
+    <plurals name="friend_just_joined">
+        <item quantity="other">%1$d명의 Facebook 친구가 MyFitnessPal에 가입함</item>
+    </plurals>
+    <plurals name="hours_remaining_format">
+        <item quantity="other">%1$s시간 남음</item>
+    </plurals>
+    <plurals name="ingredients_deleted_plural">
+        <item quantity="other">재료가 삭제되었습니다.</item>
+    </plurals>
+    <plurals name="me_header_streak">
+        <item quantity="other">%1$d일 연속</item>
+    </plurals>
+    <plurals name="me_my_cardio_count">
+        <item quantity="other">유산소 운동 %1$d건</item>
+    </plurals>
+    <plurals name="me_my_foods_count">
+        <item quantity="other">음식 %1$d개</item>
+    </plurals>
+    <plurals name="me_my_meals_count">
+        <item quantity="other">식사 %1$d개</item>
+    </plurals>
+    <plurals name="me_my_recipes_count">
+        <item quantity="other">레시피 %1$d개</item>
+    </plurals>
+    <plurals name="me_my_strength_count">
+        <item quantity="other">근력 운동 %1$d건</item>
+    </plurals>
+    <plurals name="more_friends">
+        <item quantity="other">친구 %1$d명 더 보기…</item>
+    </plurals>
+    <plurals name="progress_breakfast">
+        <item quantity="other">기록된 아침식사</item>
+    </plurals>
+    <plurals name="progress_daily_fiber">
+        <item quantity="other">섬유질 목표 달성</item>
+    </plurals>
+    <plurals name="progress_daily_protein">
+        <item quantity="other">단백질 목표 달성</item>
+    </plurals>
+    <plurals name="progress_dinner">
+        <item quantity="other">기록된 저녁식사</item>
+    </plurals>
+    <plurals name="progress_exercise">
+        <item quantity="other">개의 운동이 기록됨</item>
+    </plurals>
+    <plurals name="progress_fiber">
+        <item quantity="other">그램(기록된 섬유질 양)</item>
+    </plurals>
+    <plurals name="progress_food">
+        <item quantity="other">개의 음식이 기록됨</item>
+    </plurals>
+    <plurals name="progress_lunch">
+        <item quantity="other">기록된 점심식사</item>
+    </plurals>
+    <plurals name="progress_meals">
+        <item quantity="other">개의 식사가 기록됨</item>
+    </plurals>
+    <plurals name="progress_nutrient_goals">
+        <item quantity="other">개의 영양소 목표가 달성됨</item>
+    </plurals>
+    <plurals name="progress_protein">
+        <item quantity="other">그램(기록된 단백질 양)</item>
+    </plurals>
+    <plurals name="progress_recipes">
+        <item quantity="other">개의 레시피가 기록됨</item>
+    </plurals>
+    <plurals name="progress_steps">
+        <item quantity="other">개의 걸음이 기록됨</item>
+    </plurals>
+    <plurals name="progress_water">
+        <item quantity="other">개의 물컵이 기록됨</item>
+    </plurals>
+    <plurals name="recipe_deleted">
+        <item quantity="other">레시피가 삭제되었습니다.</item>
+    </plurals>
+    <plurals name="recipe_deleted_fail">
+        <item quantity="other">%1$d개의 레시피를 삭제할 수 없습니다. 나중에 다시 해보세요.</item>
+    </plurals>
+</resources>

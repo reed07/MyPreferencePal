@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/nutrient_item_selector" android:layout_width="match_parent" android:layout_height="@dimen/nutrients_small_item_height">
+    <LinearLayout style="@style/NutrientContentContainer">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.myfitnesspal.shared.ui.view.StyledTextView android:ellipsize="end" android:id="@+id/labelTxt" android:layout_marginRight="8dp" android:text="Protein" android:singleLine="true" android:layout_toLeftOf="@+id/totalTxt" android:layout_alignParentLeft="true" style="@style/Body.BlackText"/>
+            <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/leftTxt" android:layout_alignParentRight="true" style="@style/nutrient_graph_text_values"/>
+            <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/goalTxt" android:layout_toLeftOf="@+id/leftTxt" style="@style/nutrient_graph_text_values"/>
+            <com.myfitnesspal.shared.ui.view.StyledTextView android:gravity="right" android:id="@+id/totalTxt" android:layout_toLeftOf="@+id/goalTxt" style="@style/Body.BlackSecondaryText"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <View style="@style/NutritionDivider"/>
+</RelativeLayout>

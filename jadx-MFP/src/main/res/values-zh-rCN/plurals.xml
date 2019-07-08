@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="challenge_ends_in_format">
+        <item quantity="other">%1$s 天后结束</item>
+    </plurals>
+    <plurals name="days_remaining_format">
+        <item quantity="other">还剩 %1$s 天</item>
+    </plurals>
+    <plurals name="friend_just_joined">
+        <item quantity="other">%1$d 个 Facebook 好友刚刚加入 MyFitnessPal</item>
+    </plurals>
+    <plurals name="hours_remaining_format">
+        <item quantity="other">还剩 %1$s 小时</item>
+    </plurals>
+    <plurals name="ingredients_deleted_plural">
+        <item quantity="other">已删除配料。</item>
+    </plurals>
+    <plurals name="me_header_streak">
+        <item quantity="other">持续时间：%1$d 天</item>
+    </plurals>
+    <plurals name="me_my_cardio_count">
+        <item quantity="other">%1$d 项有氧运动</item>
+    </plurals>
+    <plurals name="me_my_foods_count">
+        <item quantity="other">%1$d 种食品</item>
+    </plurals>
+    <plurals name="me_my_meals_count">
+        <item quantity="other">%1$d 顿餐食</item>
+    </plurals>
+    <plurals name="me_my_recipes_count">
+        <item quantity="other">%1$d 个食谱</item>
+    </plurals>
+    <plurals name="me_my_strength_count">
+        <item quantity="other">%1$d 项力量型运动</item>
+    </plurals>
+    <plurals name="more_friends">
+        <item quantity="other">+%1$d 个其他好友…</item>
+    </plurals>
+    <plurals name="progress_breakfast">
+        <item quantity="other">顿早餐已记录</item>
+    </plurals>
+    <plurals name="progress_daily_fiber">
+        <item quantity="other">已达到纤维素目标</item>
+    </plurals>
+    <plurals name="progress_daily_protein">
+        <item quantity="other">已达到蛋白质目标</item>
+    </plurals>
+    <plurals name="progress_dinner">
+        <item quantity="other">顿晚餐已记录</item>
+    </plurals>
+    <plurals name="progress_exercise">
+        <item quantity="other">已记录的锻炼</item>
+    </plurals>
+    <plurals name="progress_fiber">
+        <item quantity="other">克纤维素已记录</item>
+    </plurals>
+    <plurals name="progress_food">
+        <item quantity="other">已记录的食物</item>
+    </plurals>
+    <plurals name="progress_lunch">
+        <item quantity="other">顿午餐已记录</item>
+    </plurals>
+    <plurals name="progress_meals">
+        <item quantity="other">已记录的餐食</item>
+    </plurals>
+    <plurals name="progress_nutrient_goals">
+        <item quantity="other">已达到的营养目标</item>
+    </plurals>
+    <plurals name="progress_protein">
+        <item quantity="other">克蛋白质已记录</item>
+    </plurals>
+    <plurals name="progress_recipes">
+        <item quantity="other">已记录的食谱</item>
+    </plurals>
+    <plurals name="progress_steps">
+        <item quantity="other">已运动的步数</item>
+    </plurals>
+    <plurals name="progress_water">
+        <item quantity="other">已记录的杯水数</item>
+    </plurals>
+    <plurals name="recipe_deleted">
+        <item quantity="other">已删除食谱。</item>
+    </plurals>
+    <plurals name="recipe_deleted_fail">
+        <item quantity="other">无法删除 %1$d 个食谱。请稍后重试。</item>
+    </plurals>
+</resources>

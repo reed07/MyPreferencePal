@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+    <android.support.v7.widget.RecyclerView android:id="@+id/recyclerView" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/noRemindersContainer" android:padding="@dimen/material_margin_16" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_padding_48" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_reminder_empty_state"/>
+        <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/material_padding_8" android:text="@string/menu_reminders" style="@style/Header2B.BlackText"/>
+        <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/reminders_empty_list" style="@style/Subheader.BlackSecondaryText"/>
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton android:id="@+id/fabActionPlus" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/material_margin_16" android:layout_marginBottom="@dimen/material_margin_16" android:src="@drawable/fab_ic_action" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" app:fabSize="0"/>
+</RelativeLayout>

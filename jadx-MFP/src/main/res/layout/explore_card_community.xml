@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/material_padding_16" android:layout_marginRight="@dimen/material_padding_16" android:layout_marginBottom="@dimen/material_padding_16">
+        <LinearLayout android:orientation="vertical" android:id="@+id/forumsAvailableContainer" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_padding_16">
+                <ImageView android:id="@+id/communityIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/material_padding_8" android:src="@drawable/ic_explore_community" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@+id/communityIcon">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/material_padding_8" android:text="@string/explore_card_message_community" style="@style/Header.Bold"/>
+                    <TextView android:id="@+id/forumsButton" android:background="@drawable/transparent_button_selector" android:padding="@dimen/material_padding_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/explore_card_button_forums" android:textAllCaps="true" style="@style/ButtonText.Blue"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <View style="@style/HorizontalDivider"/>
+            <TextView android:textStyle="bold" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/material_padding_16" android:layout_marginBottom="@dimen/material_padding_16" android:text="@string/explore_card_message_follow" style="@style/Subheader.BlackSecondaryText"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@+id/facebookButton" style="@style/CommunityCardIconLayout">
+                <ImageView android:src="@drawable/ic_explore_facebook" style="@style/CommunityCardIcon"/>
+                <TextView android:text="@string/explore_card_button_facebook" style="@style/CommunityCardText"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/instagramButton" style="@style/CommunityCardIconLayout">
+                <ImageView android:src="@drawable/ic_explore_instagram" style="@style/CommunityCardIcon"/>
+                <TextView android:text="@string/explore_card_button_instagram" style="@style/CommunityCardText"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/pinterestButton" style="@style/CommunityCardIconLayout">
+                <ImageView android:src="@drawable/ic_explore_pinterest" style="@style/CommunityCardIcon"/>
+                <TextView android:text="@string/explore_card_button_pinterest" style="@style/CommunityCardText"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

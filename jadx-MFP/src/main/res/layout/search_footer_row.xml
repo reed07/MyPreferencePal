@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="horizontal" android:background="@color/white" android:padding="@dimen/material_margin_16" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ProgressBar android:id="@+id/footerRowProgressBar" android:layout_width="@dimen/food_search_loading_spinner" android:layout_height="@dimen/food_search_loading_spinner" android:indeterminate="true" android:layout_marginEnd="@dimen/material_padding_8" style="?android:attr/progressBarStyle"/>
+    <com.myfitnesspal.shared.ui.view.StyledTextView android:layout_gravity="center_vertical" android:id="@+id/footerRowProgressText" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading" style="@style/Body.BlackSecondaryText"/>
+</LinearLayout>

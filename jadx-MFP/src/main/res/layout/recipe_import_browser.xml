@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/browser_toolbar" android:background="?attr/colorPrimary" android:paddingTop="@dimen/recipe_browser_toolbar_vertical_spacing" android:paddingBottom="@dimen/recipe_browser_toolbar_vertical_spacing" android:layout_width="match_parent" android:layout_height="48dp">
+            <ImageButton android:id="@+id/refresh_or_stop" android:padding="12dp" android:src="@drawable/ic_nav_refresh" style="@style/RecipeBrowserActionButton"/>
+            <EditText android:id="@+id/search_url_input" android:background="@color/white" android:padding="@dimen/recipe_browser_toolbar_vertical_spacing" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="@string/search_or_type_url" android:singleLine="true" android:layout_weight="1" android:inputType="textUri" android:imeOptions="actionGo" style="@style/Header.BlackText"/>
+            <ImageButton android:id="@+id/btn_back" android:paddingLeft="8dp" android:paddingRight="4dp" android:src="@drawable/action_back_selector" style="@style/RecipeBrowserActionButton"/>
+            <ImageButton android:id="@+id/btn_forward" android:paddingLeft="4dp" android:paddingRight="8dp" android:src="@drawable/action_forward_selector" style="@style/RecipeBrowserActionButton"/>
+        </LinearLayout>
+        <ProgressBar android:id="@+id/progress" android:layout_width="match_parent" android:layout_height="4dp" android:progress="50" android:progressDrawable="@drawable/mfp_progress_horizontal" style="?android:attr/progressBarStyleHorizontal"/>
+        <com.myfitnesspal.shared.ui.view.MfpWebView android:id="@+id/browser" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <requestFocus/>
+        </com.myfitnesspal.shared.ui.view.MfpWebView>
+        <FrameLayout android:id="@+id/import_container" android:background="@color/off_white" android:paddingTop="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/btn_import_recipe" android:text="@string/import_recipe" style="@style/FooterFullWidthBlueButton"/>
+        </FrameLayout>
+    </LinearLayout>
+    <include layout="@layout/full_page_loading_view"/>
+</FrameLayout>

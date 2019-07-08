@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_horizontal_black" android:showDividers="middle">
+    <RelativeLayout style="@style/NutritionFactExtraInfoContainer">
+        <TextView android:id="@+id/calories" android:text="@string/calories" style="@style/NutritionFactExtraInfoPrimaryTextLabel"/>
+        <TextView android:id="@+id/txtCalories" style="@style/NutritionFactExtraInfoPrimaryTextValue"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/NutritionFactExtraInfoContainer">
+        <TextView android:id="@+id/totalFat" android:text="@string/totalFat_nutrient" style="@style/NutritionFactExtraInfoPrimaryTextLabel"/>
+        <TextView android:id="@+id/txtTotalFat" style="@style/NutritionFactExtraInfoPrimaryTextValue"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/NutritionFactExtraInfoContainer">
+        <TextView android:id="@+id/saturated" android:text="@string/saturated_nutrient" style="@style/NutritionFactExtraInfoSecondaryTextLabel"/>
+        <TextView android:id="@+id/txtSaturated" style="@style/NutritionFactExtraInfoSecondaryTextValue"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/NutritionFactExtraInfoContainer">
+        <TextView android:id="@+id/polyunsaturated" android:text="@string/polyunsaturated_nutrient" style="@style/NutritionFactExtraInfoSecondaryTextLabel"/>
+        <TextView android:id="@+id/txtPolyunsaturated" style="@style/NutritionFactExtraInfoSecondaryTextValue"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/NutritionFactExtraInfoContainer">
+        <TextView android:id="@+id/monosaturated" android:text="@string/monounsaturated_nutrient" style="@style/NutritionFactExtraInfoSecondaryTextLabel"/>
+        <TextView android:id="@+id/txtMonosaturated" style="@style/NutritionFactExtraInfoSecondaryTextValue"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/NutritionFactExtraInfoContainer">
+        <TextView android:id="@+id/trans" android:text="@string/trans_nutrient" style="@style/NutritionFactExtraInfoSecondaryTextLabel"/>
+        <TextView android:id="@+id/txtTrans" style="@style/NutritionFactExtraInfoSecondaryTextValue"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/NutritionFactExtraInfoContainer">
+        <TextView android:id="@+id/cholesterol" android:text="@string/cholesterol_nutrient" style="@style/NutritionFactExtraInfoPrimaryTextLabel"/>
+        <TextView android:id="@+id/txtCholesterol" style="@style/NutritionFactExtraInfoPrimaryTextValue"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/NutritionFactExtraInfoContainer">
+        <TextView android:id="@+id/sodium" android:text="@string/sodium_nutrient" style="@style/NutritionFactExtraInfoPrimaryTextLabel"/>
+        <TextView android:id="@+id/txtSodium" style="@style/NutritionFactExtraInfoPrimaryTextValue"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/NutritionFactExtraInfoContainer">
+        <TextView android:id="@+id/potassium" android:text="@string/potassium_nutrient" style="@style/NutritionFactExtraInfoPrimaryTextLabel"/>
+        <TextView android:id="@+id/txtPotassium" style="@style/NutritionFactExtraInfoPrimaryTextValue"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/NutritionFactExtraInfoContainer">
+        <TextView android:id="@+id/totalCarbs" android:text="@string/carbohydrates_nutrient" style="@style/NutritionFactExtraInfoPrimaryTextLabel"/>
+        <TextView android:id="@+id/txtTotalCarbs" style="@style/NutritionFactExtraInfoPrimaryTextValue"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/NutritionFactExtraInfoContainer">
+        <TextView android:id="@+id/dietaryFiber" android:text="@string/dietary_fiber_nutrient" style="@style/NutritionFactExtraInfoSecondaryTextLabel"/>
+        <TextView android:id="@+id/txtDietaryFiber" style="@style/NutritionFactExtraInfoSecondaryTextValue"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/NutritionFactExtraInfoContainer">
+        <TextView android:id="@+id/sugars" android:text="@string/sugars_nutrient" style="@style/NutritionFactExtraInfoSecondaryTextLabel"/>
+        <TextView android:id="@+id/txtSugars" style="@style/NutritionFactExtraInfoSecondaryTextValue"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/NutritionFactExtraInfoContainer">
+        <TextView android:id="@+id/protein" android:text="@string/protein" style="@style/NutritionFactExtraInfoPrimaryTextLabel"/>
+        <TextView android:id="@+id/txtProtein" style="@style/NutritionFactExtraInfoPrimaryTextValue"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/NutritionFactExtraInfoContainer">
+        <TextView android:id="@+id/vitaminA" android:text="@string/vitamin_a" style="@style/NutritionFactExtraInfoPrimaryTextLabel"/>
+        <TextView android:id="@+id/txtVitaminA" style="@style/NutritionFactExtraInfoPrimaryTextValue"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/NutritionFactExtraInfoContainer">
+        <TextView android:id="@+id/vitaminC" android:text="@string/vitamin_c" style="@style/NutritionFactExtraInfoPrimaryTextLabel"/>
+        <TextView android:id="@+id/txtVitaminC" style="@style/NutritionFactExtraInfoPrimaryTextValue"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/NutritionFactExtraInfoContainer">
+        <TextView android:id="@+id/calcium" android:text="@string/calcium" style="@style/NutritionFactExtraInfoPrimaryTextLabel"/>
+        <TextView android:id="@+id/txtCalcium" style="@style/NutritionFactExtraInfoPrimaryTextValue"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/NutritionFactExtraInfoContainer">
+        <TextView android:id="@+id/iron" android:text="@string/iron" style="@style/NutritionFactExtraInfoPrimaryTextLabel"/>
+        <TextView android:id="@+id/txtIron" style="@style/NutritionFactExtraInfoPrimaryTextValue"/>
+    </RelativeLayout>
+    <LinearLayout android:paddingTop="@dimen/nutrition_disclaimer_vertical_padding" android:paddingBottom="@dimen/nutrition_disclaimer_vertical_padding" android:layout_height="wrap_content" style="@style/NutritionFactExtraInfoContainer">
+        <TextView android:id="@+id/disclaimer" android:text="@string/percent_daily_values_disclaimer" style="@style/Caption.BlackSecondaryText"/>
+    </LinearLayout>
+</LinearLayout>

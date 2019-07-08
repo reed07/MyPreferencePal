@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:id="@+id/login_fields" android:background="@color/white" android:paddingLeft="@dimen/material_padding_16" android:paddingTop="@dimen/material_padding_24" android:paddingRight="@dimen/material_padding_16" android:paddingBottom="@dimen/material_padding_24" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/under_armour_account" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_padding_24" android:text="@string/auth_under_armour_account_faq" app:treatTextAsHtml="true" style="@style/Body.BlackSecondaryText"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/user_pass_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:id="@+id/email_address_edit" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/auth_email_address" android:inputType="textEmailAddress" style="@style/MaterialLoginUsernameEditText"/>
+            <EditText android:id="@+id/password_edit" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_padding_8" style="@style/MaterialLoginPasswordEditText"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/login_and_forgot_password_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:layout_gravity="center" android:id="@+id/login_button" android:layout_width="match_parent" android:layout_height="@dimen/material_button_height_40" android:layout_marginTop="@dimen/welcome_controls_loginButton_marginTop" android:text="@string/welcome_log_in" style="@style/MaterialLoginButton"/>
+            <com.myfitnesspal.shared.ui.view.StyledTextView android:gravity="center_vertical" android:layout_gravity="center" android:id="@+id/forgot_password_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_padding_16" android:text="@string/auth_forgot_password" style="@style/Body.Blue"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/facebook_section" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_padding_24" android:layout_marginBottom="@dimen/material_padding_24">
+                <View android:layout_gravity="center_vertical" android:background="@color/material_login_divider" android:layout_width="0dp" android:layout_height="1dp" android:layout_marginRight="10dp" android:layout_weight="1"/>
+                <com.myfitnesspal.shared.ui.view.StyledTextView android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/or" app:capitalized="true" style="@style/Body.BlackSecondaryText"/>
+                <View android:layout_gravity="center_vertical" android:background="@color/material_login_divider" android:layout_width="0dp" android:layout_height="1dp" android:layout_marginLeft="10dp" android:layout_weight="1"/>
+            </LinearLayout>
+            <include layout="@layout/fb_button"/>
+            <TextView android:gravity="center" android:layout_gravity="center" android:paddingTop="@dimen/material_padding_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/auth_facebook_will_not_post" style="@style/Body.BlackSecondaryText"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentLeft="false" android:layout_alignParentTop="true">
+    <LinearLayout android:id="@+id/ll_macro_grams_header" style="@style/macronutrient_editor_header_container">
+        <LinearLayout style="@style/macronutrient_editor_container">
+            <TextView android:text="@string/macro_editor_header_carbs" style="@style/macronutrient_editor_header"/>
+            <TextView android:id="@+id/current_carb_intake" style="@style/Body.BlackText"/>
+        </LinearLayout>
+        <LinearLayout style="@style/macronutrient_editor_container">
+            <TextView android:text="@string/protein" style="@style/macronutrient_editor_header"/>
+            <TextView android:id="@+id/current_protein_intake" style="@style/Body.BlackText"/>
+        </LinearLayout>
+        <LinearLayout style="@style/macronutrient_editor_container">
+            <TextView android:text="@string/fat" style="@style/macronutrient_editor_header"/>
+            <TextView android:id="@+id/current_fat_intake" style="@style/Body.BlackText"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@+id/ll_macro_grams_spinners" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/ll_macro_grams_footer" android:layout_below="@+id/ll_macro_grams_header">
+        <LinearLayout style="@style/macronutrient_editor_picker_container">
+            <NumberPicker android:id="@+id/carbs_picker" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:id="@+id/carb_percent_label" android:text="@string/gram_abbreviation" style="@style/macro_picker_unit"/>
+        </LinearLayout>
+        <LinearLayout style="@style/macronutrient_editor_picker_container">
+            <NumberPicker android:id="@+id/protein_picker" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:id="@+id/protein_percent_label" android:text="@string/gram_abbreviation" style="@style/macro_picker_unit"/>
+        </LinearLayout>
+        <LinearLayout style="@style/macronutrient_editor_picker_container">
+            <NumberPicker android:id="@+id/fat_picker" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:id="@+id/fat_percent_label" android:text="@string/gram_abbreviation" style="@style/macro_picker_unit"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/ll_macro_grams_footer" style="@style/macronutrient_premium_editor_footer_container">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/percent_total" android:layout_width="0dp" android:text="@string/goal_calories" android:layout_weight="1" style="@style/Title.BlackText"/>
+            <TextView android:id="@+id/macronutrient_percent_total" style="@style/Title.LightGreen"/>
+        </LinearLayout>
+        <TextView android:textColor="@color/mfp_common_blue_1" android:id="@+id/macronutrients_message" style="@style/Body.BlackSecondaryText"/>
+    </LinearLayout>
+</RelativeLayout>

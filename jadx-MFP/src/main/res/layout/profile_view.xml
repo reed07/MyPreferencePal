@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/top_ads_container" android:visibility="gone" android:layout_alignParentTop="false" android:layout_alignParentBottom="false" style="@style/TopAdContainer"/>
+    <FrameLayout android:id="@+id/fragment_placeholder" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bottom_bar_container" android:layout_below="@+id/top_ads_container"/>
+    <include android:id="@+id/bottom_bar_container" layout="@layout/bottom_bar_layout"/>
+</RelativeLayout>

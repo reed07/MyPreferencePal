@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="@color/white" android:padding="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.myfitnesspal.shared.ui.view.MfpImageView android:id="@+id/ivAchievement" android:layout_width="@dimen/challenge_achievement_image_height_width" android:layout_height="@dimen/challenge_achievement_image_height_width"/>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/material_padding_16" android:paddingRight="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/tvAchievementName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_padding_6" style="@style/Subheader.BlackText"/>
+        <TextView android:ellipsize="end" android:id="@+id/tvAchievementDesc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_padding_6" android:maxLines="1" style="@style/Body.BlackSecondaryText"/>
+        <ProgressBar android:id="@+id/pbOverallProgress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="2dp" android:indeterminate="false" style="@style/challenges_ProgressBar_blue"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/tvProgression" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Caption.BlackText"/>
+            <TextView android:id="@+id/tvProgressionType" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/material_padding_4" android:layout_weight="1" style="@style/Caption.BlackSecondaryText"/>
+            <TextView android:id="@+id/tvTarget" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Caption.BlackSecondaryText"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

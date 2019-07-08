@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="challenge_ends_in_format">
+        <item quantity="one">Заканчивается через %1$s день</item>
+        <item quantity="few">Заканчивается через %1$s дня</item>
+        <item quantity="many">Заканчивается через %1$s дней</item>
+        <item quantity="other">Заканчивается через %1$s дня</item>
+    </plurals>
+    <plurals name="days_remaining_format">
+        <item quantity="one">остался %1$s день</item>
+        <item quantity="few">осталось %1$s дня</item>
+        <item quantity="many">осталось %1$s дней</item>
+        <item quantity="other">осталось %1$s дня</item>
+    </plurals>
+    <plurals name="friend_just_joined">
+        <item quantity="one">%1$d друг из Facebook присоединился к MyFitnessPal</item>
+        <item quantity="few">%1$d друга из Facebook присоединились к MyFitnessPal</item>
+        <item quantity="many">%1$d друзей из Facebook присоединились к MyFitnessPal</item>
+        <item quantity="other">%1$d друга из Facebook присоединилось к MyFitnessPal</item>
+    </plurals>
+    <plurals name="hours_remaining_format">
+        <item quantity="one">Осталось %1$s час</item>
+        <item quantity="few">Осталось %1$s часа</item>
+        <item quantity="many">Осталось %1$s часов</item>
+        <item quantity="other">Осталось %1$s часа</item>
+    </plurals>
+    <plurals name="ingredients_deleted_plural">
+        <item quantity="one">Ингредиент удален.</item>
+        <item quantity="few">Ингредиента удалено.</item>
+        <item quantity="many">Ингредиентов удалено.</item>
+        <item quantity="other">Ингредиента удалено.</item>
+    </plurals>
+    <plurals name="me_header_streak">
+        <item quantity="one">Период: %1$d день</item>
+        <item quantity="few">Период: %1$d дня</item>
+        <item quantity="many">Период: %1$d дней</item>
+        <item quantity="other">Период: %1$d дня</item>
+    </plurals>
+    <plurals name="me_my_cardio_count">
+        <item quantity="one">%1$d кардио</item>
+        <item quantity="few">%1$d кардио</item>
+        <item quantity="many">%1$d кардио</item>
+        <item quantity="other">%1$d кардио</item>
+    </plurals>
+    <plurals name="me_my_foods_count">
+        <item quantity="one">%1$d блюдо</item>
+        <item quantity="few">%1$d блюда</item>
+        <item quantity="many">%1$d блюд</item>
+        <item quantity="other">%1$d блюда</item>
+    </plurals>
+    <plurals name="me_my_meals_count">
+        <item quantity="one">%1$d прием пищи</item>
+        <item quantity="few">%1$d приема пищи</item>
+        <item quantity="many">%1$d приемов пищи</item>
+        <item quantity="other">%1$d приема пищи</item>
+    </plurals>
+    <plurals name="me_my_recipes_count">
+        <item quantity="one">%1$d рецепт</item>
+        <item quantity="few">%1$d рецепта</item>
+        <item quantity="many">%1$d рецептов</item>
+        <item quantity="other">%1$d рецепта</item>
+    </plurals>
+    <plurals name="me_my_strength_count">
+        <item quantity="one">%1$d силовое</item>
+        <item quantity="few">%1$d силовых</item>
+        <item quantity="many">%1$d силовых</item>
+        <item quantity="other">%1$d силового</item>
+    </plurals>
+    <plurals name="more_friends">
+        <item quantity="one">+ еще %1$d друг…</item>
+        <item quantity="few">+ еще %1$d друга..</item>
+        <item quantity="many">+ еще %1$d друзей…</item>
+        <item quantity="other">+ еще %1$d друга…</item>
+    </plurals>
+    <plurals name="progress_breakfast">
+        <item quantity="one">завтрак внесен</item>
+        <item quantity="few">завтрака внесено</item>
+        <item quantity="many">завтраков внесено</item>
+        <item quantity="other">завтрака внесено</item>
+    </plurals>
+    <plurals name="progress_daily_fiber">
+        <item quantity="one">цель по клетчатке достигнута</item>
+        <item quantity="few">цели по клетчатке достигнуто</item>
+        <item quantity="many">целей по клетчатке достигнуто</item>
+        <item quantity="other">цели по клетчатке достигнуто</item>
+    </plurals>
+    <plurals name="progress_daily_protein">
+        <item quantity="one">цель по белкам достигнута</item>
+        <item quantity="few">цели по белкам достигнуто</item>
+        <item quantity="many">целей по белкам достигнуто</item>
+        <item quantity="other">цели по белкам достигнуто</item>
+    </plurals>
+    <plurals name="progress_dinner">
+        <item quantity="one">ужин внесен</item>
+        <item quantity="few">ужина внесено</item>
+        <item quantity="many">ужинов внесено</item>
+        <item quantity="other">ужина внесено</item>
+    </plurals>
+    <plurals name="progress_exercise">
+        <item quantity="one">упражнение записано</item>
+        <item quantity="few">упражнения записано</item>
+        <item quantity="many">упражнений записано</item>
+        <item quantity="other">упражнения записано</item>
+    </plurals>
+    <plurals name="progress_fiber">
+        <item quantity="one">грамм клетчатки внесен</item>
+        <item quantity="few">грамма клетчатки внесено</item>
+        <item quantity="many">граммов клетчатки внесено</item>
+        <item quantity="other">грамма клетчатки внесено</item>
+    </plurals>
+    <plurals name="progress_food">
+        <item quantity="one">блюдо записано</item>
+        <item quantity="few">блюда записано</item>
+        <item quantity="many">блюд записано</item>
+        <item quantity="other">блюда записано</item>
+    </plurals>
+    <plurals name="progress_lunch">
+        <item quantity="one">обед внесен</item>
+        <item quantity="few">обеда внесено</item>
+        <item quantity="many">обедов внесено</item>
+        <item quantity="other">обеда внесено</item>
+    </plurals>
+    <plurals name="progress_meals">
+        <item quantity="one">прием пищи записан</item>
+        <item quantity="few">приема пищи записано</item>
+        <item quantity="many">приемов пищи записано</item>
+        <item quantity="other">приема пищи записано</item>
+    </plurals>
+    <plurals name="progress_nutrient_goals">
+        <item quantity="one">цель по питанию достигнута</item>
+        <item quantity="few">цели по питанию достигнуто</item>
+        <item quantity="many">целей по питанию достигнуто</item>
+        <item quantity="other">цели по питанию достигнуто</item>
+    </plurals>
+    <plurals name="progress_protein">
+        <item quantity="one">грамм белков внесен</item>
+        <item quantity="few">грамма белков внесено</item>
+        <item quantity="many">граммов белков внесено</item>
+        <item quantity="other">грамма белков внесено</item>
+    </plurals>
+    <plurals name="progress_recipes">
+        <item quantity="one">рецепт записан</item>
+        <item quantity="few">рецепта записано</item>
+        <item quantity="many">рецептов записано</item>
+        <item quantity="other">рецепта записано</item>
+    </plurals>
+    <plurals name="progress_steps">
+        <item quantity="one">шаг сделан</item>
+        <item quantity="few">шага сделано</item>
+        <item quantity="many">шагов сделано</item>
+        <item quantity="other">шага сделано</item>
+    </plurals>
+    <plurals name="progress_water">
+        <item quantity="one">стакан воды записан</item>
+        <item quantity="few">стакана воды записано</item>
+        <item quantity="many">стаканов воды записано</item>
+        <item quantity="other">стакана воды записано</item>
+    </plurals>
+    <plurals name="recipe_deleted">
+        <item quantity="one">Рецепт удален.</item>
+        <item quantity="few">Рецепта удалено.</item>
+        <item quantity="many">Рецептов удалено.</item>
+        <item quantity="other">Рецепта удалено.</item>
+    </plurals>
+    <plurals name="recipe_deleted_fail">
+        <item quantity="one">Не удалось удалить %1$d рецепт. Попробуйте еще раз позднее.</item>
+        <item quantity="few">Не удалось удалить %1$d рецепта. Попробуйте еще раз позднее.</item>
+        <item quantity="many">Не удалось удалить %1$d рецептов. Попробуйте еще раз позднее.</item>
+        <item quantity="other">Не удалось удалить %1$d рецепта. Попробуйте еще раз позднее.</item>
+    </plurals>
+</resources>

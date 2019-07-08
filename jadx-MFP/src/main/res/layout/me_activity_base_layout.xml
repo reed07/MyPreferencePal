@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/screen_parent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.CoordinatorLayout android:orientation="vertical" android:id="@+id/content_parent" android:background="?attr/colorPrimary" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bottom_bar_container">
+        <android.support.design.widget.AppBarLayout android:id="@+id/toolbar_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/default_toolbar_elevation" android:stateListAnimator="@null"/>
+        <com.myfitnesspal.shared.ui.view.ResizableFrameLayout android:id="@+id/content_frame" android:background="@color/mfp_background" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+        <RelativeLayout android:id="@+id/large_toolbar_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/material_margin_48" app:layout_behavior="com.myfitnesspal.feature.profile.ui.behavior.ProfileHeaderBehavior">
+            <com.myfitnesspal.shared.ui.view.MfpImageView android:id="@+id/large_profile_image" android:layout_width="@dimen/profile_large_image_size" android:layout_height="@dimen/profile_large_image_size" android:src="@drawable/ic_profile" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" app:circular="true"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/large_profile_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/material_margin_16" android:layout_toRightOf="@+id/large_profile_image">
+                <TextView android:id="@+id/toolbar_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_padding_4" style="@style/ToolbarTitle"/>
+                <TextView android:id="@+id/toolbar_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/Body.WhiteText"/>
+                <TextView android:id="@+id/toolbar_streak" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/Body.WhiteText"/>
+                <TextView android:id="@+id/toolbar_go_premium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/go_premium" android:singleLine="true" style="@style/ProfileHeaderButton"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.design.widget.CoordinatorLayout>
+    <include android:id="@+id/bottom_bar_container" layout="@layout/bottom_bar_layout"/>
+</RelativeLayout>

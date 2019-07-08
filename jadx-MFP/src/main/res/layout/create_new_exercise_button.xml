@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/container" android:background="#ffffff" android:paddingTop="10dp" android:paddingBottom="10dp" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <Button android:id="@+id/createNewExercise" android:background="@drawable/add_recipe_btn" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginLeft="@dimen/food_search_add_recipe_container_padding" android:layout_marginRight="@dimen/food_search_add_recipe_container_padding" android:text="@string/create_new_exercise" style="@style/Subheader.BlackSecondaryText"/>
+</LinearLayout>

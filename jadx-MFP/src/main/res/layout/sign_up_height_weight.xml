@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="top|center_vertical|center_horizontal|center" android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scroll_parent" android:paddingBottom="50dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/material_padding_16" android:paddingRight="@dimen/material_padding_16" android:paddingBottom="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.myfitnesspal.feature.registration.ui.view.PageIndicatorBar android:id="@+id/page_indicator" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_padding_24" android:layout_marginBottom="@dimen/material_padding_24" app:max_progress="5" app:progress="3"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_padding_8" android:text="@string/height_header" style="@style/Header.BlackText"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:id="@+id/height" android:hint="@string/zero_ft_zero_in" style="@style/MaterialSignUpEditTextForDialogHalf"/>
+                <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            </LinearLayout>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_padding_48" android:layout_marginBottom="@dimen/material_padding_8" android:text="@string/current_weight" style="@style/Header.BlackText"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:id="@+id/current_weight" android:hint="@string/zero_lbs" style="@style/MaterialSignUpEditTextForDialogHalf"/>
+                <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            </LinearLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_padding_24" android:text="@string/we_need_this_calories" style="@style/Caption.BlackSecondaryText"/>
+            <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="2"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.brightcove.player.mediacontroller.BrightcoveControlBar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/brightcove_control_bar" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/BrightcoveControlBar.Pip">
+    <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/picture_in_picture" android:padding="4dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/brightcove_picture_in_picture_off" style="@style/BorderlessButton"/>
+        <View android:id="@+id/two_line_spacer" android:visibility="visible" android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+        <Button android:textColor="@color/bmc_time_text" android:layout_gravity="right" android:id="@+id/close" android:padding="8dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/brightcove_controls_close" style="@style/BorderlessButton"/>
+    </LinearLayout>
+</com.brightcove.player.mediacontroller.BrightcoveControlBar>

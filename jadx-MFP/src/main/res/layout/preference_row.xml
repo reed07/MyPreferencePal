@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <LinearLayout android:id="@+id/pref_row" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/listview_default_item_height">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/label_container" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:id="@android:id/title" style="@style/Body.BlackText"/>
+                <TextView android:id="@+id/subtitle" android:visibility="gone" style="@style/Body.BlackSecondaryText"/>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <TextView android:id="@+id/header_row" style="@style/SettingsHeader"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/scrollView" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/mainBody" android:padding="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/reminder_type_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@+id/reminder_type_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:text="@string/remind_me_if_I_havent_logged" style="@style/reminder_header"/>
+            <TextView android:id="@+id/reminder_type_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/breakfast" style="@style/reminder_button"/>
+            <include layout="@layout/grey_separator_1dp_light"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/reminder_frequency_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@+id/reminder_frequency_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/frequency" style="@style/reminder_header"/>
+            <TextView android:id="@+id/reminder_frequency_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/daily_frequency" style="@style/reminder_button"/>
+            <include layout="@layout/grey_separator_1dp_light"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/reminder_day_of_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@+id/reminder_day_of_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/day_of_the_week" style="@style/reminder_header"/>
+            <TextView android:id="@+id/reminder_day_of_week" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/monday_full" style="@style/reminder_button"/>
+            <TextView android:id="@+id/reminder_day_of_month" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="1" style="@style/reminder_button"/>
+            <include layout="@layout/grey_separator_1dp_light"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/reminder_time_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@+id/reminder_time_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/time" style="@style/reminder_header"/>
+            <TextView android:id="@+id/reminder_time_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ten_am" style="@style/reminder_button"/>
+            <include layout="@layout/grey_separator_1dp_light"/>
+        </LinearLayout>
+        <TextView android:id="@+id/add_reminder_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_padding_16" android:text="@string/addReminderFooterComment" style="@style/Caption.BlackText"/>
+    </LinearLayout>
+</ScrollView>

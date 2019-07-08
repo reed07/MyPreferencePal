@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="8dp" android:paddingEnd="8dp">
+    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@+id/card_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="2dp" app:cardElevation="5dp" app:contentPadding="5dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="10dp" android:id="@+id/idText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginStart="8dp"/>
+                <CheckBox android:layout_gravity="end" android:id="@+id/checkBox" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </FrameLayout>
+            <RelativeLayout android:background="@color/ua_light_gray" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp">
+                <ImageView android:id="@+id/image" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginRight="8dp" android:scaleType="centerInside" android:layout_marginEnd="8dp"/>
+                <TextView android:gravity="center" android:id="@+id/noImageText" android:background="@color/ua_medium_gray" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginRight="8dp" android:text="@string/no_image_text" android:layout_marginEnd="8dp"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/image" android:layout_alignTop="@+id/image" android:layout_toEndOf="@+id/image">
+                    <TextView android:textSize="12dp" android:textColor="@color/ua_black" android:id="@+id/bodyText" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <TextView android:textSize="10dp" android:id="@+id/time_created" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <TextView android:textSize="10dp" android:id="@+id/markedAsExpired" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginStart="8dp"/>
+            <TextView android:textSize="10dp" android:id="@+id/expirationDate" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginStart="8dp"/>
+            <TextView android:textSize="10dp" android:id="@+id/priority" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginStart="8dp"/>
+            <TextView android:textSize="10dp" android:id="@+id/category" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginStart="8dp"/>
+            <TextView android:textSize="10dp" android:id="@+id/stateText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginStart="8dp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

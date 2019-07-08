@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@+id/notif_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Create status update notification - no deeplink"/>
+    <Button android:id="@+id/notif_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Create blog notification with deeplink"/>
+    <Button android:id="@+id/notif_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Create notification with 2 images"/>
+    <Button android:id="@+id/notif_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Create spanish notification - te envió un mensaje"/>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:shape="ring" android:useLevel="false" android:innerRadius="@dimen/donut_progress_bg_inner_radius" android:thickness="@dimen/donut_progress_bg_width">
+    <solid android:color="@color/summary_graph_count_positive"/>
+</shape>

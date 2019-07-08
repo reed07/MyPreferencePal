@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/native_ad_view_container" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="@dimen/newsfeed_padding_8dp">
+    <RelativeLayout android:id="@+id/native_custom_ad_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/material_margin_6">
+        <include layout="@layout/dfp_native_custom_ad_view"/>
+    </RelativeLayout>
+    <com.google.android.gms.ads.formats.UnifiedNativeAdView android:id="@+id/native_unified_ad_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/material_margin_6">
+        <include layout="@layout/dfp_native_custom_ad_view"/>
+    </com.google.android.gms.ads.formats.UnifiedNativeAdView>
+</android.support.v7.widget.CardView>

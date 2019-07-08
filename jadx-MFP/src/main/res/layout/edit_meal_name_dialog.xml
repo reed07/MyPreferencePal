@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/DialogContentBaseAlt">
+    <TextView android:paddingBottom="@dimen/material_padding_16" android:text="@string/duplicate_meal_name_message" style="@style/Header2A.BlackText"/>
+    <EditText android:id="@+id/meal_name_input" android:layout_width="match_parent" style="@style/DialogEditText"/>
+    <TextView android:id="@+id/meal_name_error" android:visibility="invisible" android:layout_marginBottom="@dimen/list_dialog_content_margin" android:text="@string/meal_not_blank" style="@style/Body.DarkOrange"/>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/new_food_search_input"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@+id/list_container" android:layout_width="match_parent" android:layout_height="match_parent">
+                <View style="@style/HorizontalDivider"/>
+                <LinearLayout android:id="@+id/search_fragment_container" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+                <include android:id="@+id/search_results_walkthrough_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1.3" layout="@layout/new_walkthrough_scaffolding"/>
+            </LinearLayout>
+            <include android:id="@+id/search_walkthrough_container" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/new_walkthrough_scaffolding"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

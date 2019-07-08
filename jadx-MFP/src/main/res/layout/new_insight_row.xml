@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/insight_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:id="@+id/insight_info_container" android:background="@color/food_info_insight_background_green" android:paddingTop="@dimen/food_info_insight_vertical_padding" android:paddingBottom="@dimen/food_info_insight_vertical_padding" android:layout_height="wrap_content" android:minHeight="@dimen/food_info_item_height" style="@style/FoodInfoContainer">
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/insightTitle" android:layout_width="match_parent" android:singleLine="false" android:layout_weight="1" style="@style/Body.DarkGreen"/>
+        <ImageButton android:id="@+id/negative" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:src="@drawable/btn_insights_dismiss"/>
+        <ImageButton android:id="@+id/positive" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_insights_confirm"/>
+    </LinearLayout>
+    <View android:id="@+id/insight_divider" android:background="@color/food_info_insight_divider_green" android:layout_below="@+id/insight_info_container" style="@style/HorizontalDivider"/>
+</RelativeLayout>

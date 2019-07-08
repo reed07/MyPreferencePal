@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/progress_pics_padding_16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:id="@+id/tv_reason_type" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/progress_pics_padding_24dp" style="@style/Header.BlackText"/>
+        <TextView android:id="@+id/tv_dont_allow" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/progress_pics_padding_8dp" android:text="@string/report_reasons_header" style="@style/Body.BlackText"/>
+        <TextView android:id="@+id/tv_reasons" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/progress_pics_padding_24dp" style="@style/Body.BlackText"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/progress_pics_padding_24dp" android:text="@string/report_reasons_footer" style="@style/Body.BlackText"/>
+        <Button android:layout_gravity="center_horizontal" android:id="@+id/btn_report_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/report_button" style="@style/ImageReportButton"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="challenge_ends_in_format">
+        <item quantity="one">%1$s gün sonra bitiyor</item>
+        <item quantity="other">%1$s gün sonra bitiyor</item>
+    </plurals>
+    <plurals name="days_remaining_format">
+        <item quantity="one">%1$s Gün Kaldı</item>
+        <item quantity="other">%1$s Gün Kaldı</item>
+    </plurals>
+    <plurals name="friend_just_joined">
+        <item quantity="one">%1$d Facebook arkadaşın az önce MyFitnessPal&apos;a katıldı</item>
+        <item quantity="other">%1$d Facebook arkadaşın az önce MyFitnessPal&apos;a katıldı</item>
+    </plurals>
+    <plurals name="hours_remaining_format">
+        <item quantity="one">%1$s Saat Kaldı</item>
+        <item quantity="other">%1$s Saat Kaldı</item>
+    </plurals>
+    <plurals name="ingredients_deleted_plural">
+        <item quantity="one">Malzeme silindi.</item>
+        <item quantity="other">Malzeme silindi.</item>
+    </plurals>
+    <plurals name="me_header_streak">
+        <item quantity="one">Üst Üste: %1$d gün</item>
+        <item quantity="other">Üst Üste: %1$d gün</item>
+    </plurals>
+    <plurals name="me_my_cardio_count">
+        <item quantity="one">%1$d Kardiyo</item>
+        <item quantity="other">%1$d Kardiyo</item>
+    </plurals>
+    <plurals name="me_my_foods_count">
+        <item quantity="one">%1$d Yemek</item>
+        <item quantity="other">%1$d Yemek</item>
+    </plurals>
+    <plurals name="me_my_meals_count">
+        <item quantity="one">%1$d Öğün</item>
+        <item quantity="other">%1$d Öğün</item>
+    </plurals>
+    <plurals name="me_my_recipes_count">
+        <item quantity="one">%1$d Tarif</item>
+        <item quantity="other">%1$d Tarif</item>
+    </plurals>
+    <plurals name="me_my_strength_count">
+        <item quantity="one">%1$d Kuvvet</item>
+        <item quantity="other">%1$d Kuvvet</item>
+    </plurals>
+    <plurals name="more_friends">
+        <item quantity="one">+%1$d Arkadaş Daha…</item>
+        <item quantity="other">+%1$d Arkadaş Daha…</item>
+    </plurals>
+    <plurals name="progress_breakfast">
+        <item quantity="one">kahvaltı kaydedildi</item>
+        <item quantity="other">kahvaltı kaydedildi</item>
+    </plurals>
+    <plurals name="progress_daily_fiber">
+        <item quantity="one">ulaşılan lif hedefi</item>
+        <item quantity="other">ulaşılan lif hedefi</item>
+    </plurals>
+    <plurals name="progress_daily_protein">
+        <item quantity="one">ulaşılan protein hedefi</item>
+        <item quantity="other">ulaşılan protein hedefleri</item>
+    </plurals>
+    <plurals name="progress_dinner">
+        <item quantity="one">akşam yemeği kaydedildi</item>
+        <item quantity="other">akşam yemeği kaydedildi</item>
+    </plurals>
+    <plurals name="progress_exercise">
+        <item quantity="one">kaydedilen egzersiz</item>
+        <item quantity="other">kaydedilen egzersizler</item>
+    </plurals>
+    <plurals name="progress_fiber">
+        <item quantity="one">gram lif kaydedildi</item>
+        <item quantity="other">gram lif kaydedildi</item>
+    </plurals>
+    <plurals name="progress_food">
+        <item quantity="one">kaydedilen yiyecek</item>
+        <item quantity="other">kaydedilen yiyecekler</item>
+    </plurals>
+    <plurals name="progress_lunch">
+        <item quantity="one">öğle yemeği kaydedildi</item>
+        <item quantity="other">öğle yemeği kaydedildi</item>
+    </plurals>
+    <plurals name="progress_meals">
+        <item quantity="one">kaydedilen öğün</item>
+        <item quantity="other">kaydedilen öğünler</item>
+    </plurals>
+    <plurals name="progress_nutrient_goals">
+        <item quantity="one">ulaşılan besin hedefi</item>
+        <item quantity="other">ulaşılan besin hedefi</item>
+    </plurals>
+    <plurals name="progress_protein">
+        <item quantity="one">gram protein kaydedildi</item>
+        <item quantity="other">gram protein kaydedildi</item>
+    </plurals>
+    <plurals name="progress_recipes">
+        <item quantity="one">kaydedilen tarif</item>
+        <item quantity="other">kaydedilen tarifler</item>
+    </plurals>
+    <plurals name="progress_steps">
+        <item quantity="one">atılan adım</item>
+        <item quantity="other">atılan adımlar</item>
+    </plurals>
+    <plurals name="progress_water">
+        <item quantity="one">kaydedilen toplam bardak su</item>
+        <item quantity="other">kaydedilen toplam bardak su</item>
+    </plurals>
+    <plurals name="recipe_deleted">
+        <item quantity="one">Tarif silindi.</item>
+        <item quantity="other">Tarif silindi.</item>
+    </plurals>
+    <plurals name="recipe_deleted_fail">
+        <item quantity="one">%1$d tarif silinemedi. Daha sonra tekrar deneyin.</item>
+        <item quantity="other">%1$d tarif silinemiyor. Daha sonra tekrar deneyin.</item>
+    </plurals>
+</resources>

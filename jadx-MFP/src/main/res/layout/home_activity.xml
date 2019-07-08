@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/home_root_container_id" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bottom_bar_container"/>
+    <include android:id="@+id/bottom_bar_container" layout="@layout/bottom_bar_layout"/>
+    <include android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/explore_onboard_bottom_margin" layout="@layout/bottom_bar_onboard"/>
+</RelativeLayout>

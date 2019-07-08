@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/material_padding_16" android:layout_marginRight="@dimen/material_padding_16" android:layout_marginBottom="@dimen/material_padding_16">
+        <android.support.constraint.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_padding_16">
+            <FrameLayout android:id="@+id/imageContainer" android:background="@color/mfp_background" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintHorizontal_bias="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0">
+                <ImageView android:id="@+id/image" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ProgressBar android:layout_gravity="center" android:id="@+id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true"/>
+            </FrameLayout>
+        </android.support.constraint.ConstraintLayout>
+        <TextView android:id="@+id/blogTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Header.BlackText"/>
+        <TextView android:id="@+id/blogDate" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Body.BlackSecondaryText"/>
+        <View android:layout_marginTop="@dimen/material_padding_16" android:layout_marginBottom="@dimen/material_padding_16" style="@style/HorizontalDivider"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/buttonsEn" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/videosButtonEn" android:text="@string/explore_card_button_blog_videos" android:drawableTop="@drawable/ic_explore_videos" style="@style/ExploreBlogButton"/>
+            <View android:layout_marginTop="@dimen/material_padding_8" android:layout_marginBottom="@dimen/material_padding_8" style="@style/VerticalDivider"/>
+            <TextView android:id="@+id/nutritionButtonEn" android:text="@string/explore_card_button_blog_nutrition" android:drawableTop="@drawable/ic_explore_nutrition" style="@style/ExploreBlogButton"/>
+            <View android:layout_marginTop="@dimen/material_padding_8" android:layout_marginBottom="@dimen/material_padding_8" style="@style/VerticalDivider"/>
+            <TextView android:id="@+id/inspirationButtonEn" android:text="@string/explore_card_button_blog_inspiration" android:drawableTop="@drawable/ic_explore_inspiration" style="@style/ExploreBlogButton"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/buttonsDe" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/eatButtonDe" android:text="@string/explore_card_button_blog_eat" android:drawableTop="@drawable/ic_explore_eat" style="@style/ExploreBlogButton"/>
+            <View android:layout_marginTop="@dimen/material_padding_8" android:layout_marginBottom="@dimen/material_padding_8" style="@style/VerticalDivider"/>
+            <TextView android:id="@+id/inspirationButtonDe" android:text="@string/explore_card_button_blog_inspiration" android:drawableTop="@drawable/ic_explore_inspiration" style="@style/ExploreBlogButton"/>
+            <View android:layout_marginTop="@dimen/material_padding_8" android:layout_marginBottom="@dimen/material_padding_8" style="@style/VerticalDivider"/>
+            <TextView android:id="@+id/exerciseButtonDe" android:text="@string/explore_card_button_blog_exercise" android:drawableTop="@drawable/ic_explore_exercise" style="@style/ExploreBlogButton"/>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

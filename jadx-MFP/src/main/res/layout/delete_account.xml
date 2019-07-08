@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@+id/delete_text" android:text="@string/delete_account_t_and_c" style="@style/DeleteAccountText"/>
+                <TextView android:text="@string/addition_info" style="@style/SettingsHeaderRow"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_grey_small" android:showDividers="middle">
+                    <TextView android:id="@+id/export_information_text" android:visibility="gone" android:text="@string/export_your_data" style="@style/DeleteAccountText.Clickable"/>
+                    <TextView android:id="@+id/how_cancel_premium_text" android:text="@string/how_cancel_premium" style="@style/DeleteAccountText.Clickable"/>
+                    <TextView android:id="@+id/ua_account_delete_text" android:text="@string/ua_account_delete" style="@style/DeleteAccountText.Clickable"/>
+                    <TextView android:id="@+id/fix_account_text" android:text="@string/fix_problem_account" style="@style/DeleteAccountText.Clickable"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/CardBase.NewsFeedCard">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/delete_account" style="@style/SettingsHeaderRow"/>
+                <TextView android:id="@+id/enter_password_text" android:text="@string/enter_password_delete" style="@style/DeleteAccountText"/>
+                <EditText android:id="@+id/password_input" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/passwordTxt" android:inputType="textPassword" android:layout_marginStart="@dimen/delete_account_edit_text_margin" android:layout_marginEnd="@dimen/delete_account_edit_text_margin" style="@style/Subheader.BlackText"/>
+                <TextView android:textColor="@color/blue" android:id="@+id/forgot_password_text" android:layout_width="match_parent" android:text="@string/forgot_password" style="@style/DeleteAccountText"/>
+                <Button android:id="@+id/btn_delete_account" android:background="@drawable/blue_rounded_rectangle_button" android:layout_width="match_parent" android:layout_height="@dimen/material_button_height_40" android:layout_marginBottom="@dimen/delete_account_padding" android:text="@string/delete_account" android:layout_marginStart="@dimen/delete_account_padding" android:layout_marginEnd="@dimen/delete_account_padding" android:stateListAnimator="@null" style="@style/ButtonText.WhiteSolidText"/>
+                <TextView android:id="@+id/fb_login_text" android:padding="0dp" android:layout_marginTop="@dimen/material_margin_8" android:text="@string/if_login_fb" android:layout_marginStart="@dimen/delete_account_padding" android:layout_marginEnd="@dimen/delete_account_padding" style="@style/DeleteAccountText"/>
+                <include android:layout_width="match_parent" android:layout_height="@dimen/material_button_height_40" android:layout_margin="@dimen/delete_account_padding" layout="@layout/fb_button"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

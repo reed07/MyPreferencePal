@@ -1,0 +1,994 @@
+[
+    {
+        "display_name": "अफ़गानिस्तान",
+        "iso_code": "AF"
+    },
+    {
+        "display_name": "ऑलैण्ड आइलैंड्स",
+        "iso_code": "AX"
+    },
+    {
+        "display_name": "अल्बानिया",
+        "iso_code": "AL"
+    },
+    {
+        "display_name": "अल्जीरिया",
+        "iso_code": "DZ"
+    },
+    {
+        "display_name": "अमेरिकन समोआ",
+        "iso_code": "AS"
+    },
+    {
+        "display_name": "अंडोरा",
+        "iso_code": "AD"
+    },
+    {
+        "display_name": "अंगोला",
+        "iso_code": "AO"
+    },
+    {
+        "display_name": "एंगुइला",
+        "iso_code": "AI"
+    },
+    {
+        "display_name": "अंटार्कटिका",
+        "iso_code": "AQ"
+    },
+    {
+        "display_name": "एंटीगुआ और बारबुडा",
+        "iso_code": "AG"
+    },
+    {
+        "display_name": "अर्जेंटीना",
+        "iso_code": "AR"
+    },
+    {
+        "display_name": "आर्मीनिया",
+        "iso_code": "AM"
+    },
+    {
+        "display_name": "अरूबा",
+        "iso_code": "AW"
+    },
+    {
+        "display_name": "ऑस्ट्रेलिया",
+        "iso_code": "AU"
+    },
+    {
+        "display_name": "ऑस्ट्रिया",
+        "iso_code": "AT"
+    },
+    {
+        "display_name": "अज़रबैजान",
+        "iso_code": "AZ"
+    },
+    {
+        "display_name": "बहामास",
+        "iso_code": "BS"
+    },
+    {
+        "display_name": "बहरीन",
+        "iso_code": "BH"
+    },
+    {
+        "display_name": "बांग्लादेश",
+        "iso_code": "BD"
+    },
+    {
+        "display_name": "बारबाडोस",
+        "iso_code": "BB"
+    },
+    {
+        "display_name": "बेलारूस",
+        "iso_code": "BY"
+    },
+    {
+        "display_name": "बेल्जियम",
+        "iso_code": "BE"
+    },
+    {
+        "display_name": "बेलीज़",
+        "iso_code": "BZ"
+    },
+    {
+        "display_name": "बेनिन",
+        "iso_code": "BJ"
+    },
+    {
+        "display_name": "बरमूडा",
+        "iso_code": "BM"
+    },
+    {
+        "display_name": "भूटान",
+        "iso_code": "BT"
+    },
+    {
+        "display_name": "बोलीविया",
+        "iso_code": "BO"
+    },
+    {
+        "display_name": "बोनेयर, सिंट-इस्टाटियस और सबा",
+        "iso_code": "BQ"
+    },
+    {
+        "display_name": "बॉस्निया और हर्ज़ेगोविना",
+        "iso_code": "BA"
+    },
+    {
+        "display_name": "बोत्सवाना",
+        "iso_code": "BW"
+    },
+    {
+        "display_name": "बुवे आइलैंड",
+        "iso_code": "BV"
+    },
+    {
+        "display_name": "ब्राज़ील",
+        "iso_code": "BR"
+    },
+    {
+        "display_name": "ब्रिटिश हिंद महासागर क्षेत्र",
+        "iso_code": "IO"
+    },
+    {
+        "display_name": "ब्रिटिश वर्जिन आइलैंड्स",
+        "iso_code": "VG"
+    },
+    {
+        "display_name": "ब्रुनेई",
+        "iso_code": "BN"
+    },
+    {
+        "display_name": "बुल्गारिया",
+        "iso_code": "BG"
+    },
+    {
+        "display_name": "बुर्किना फासो",
+        "iso_code": "BF"
+    },
+    {
+        "display_name": "बुरुंडी",
+        "iso_code": "BI"
+    },
+    {
+        "display_name": "कंबोडिया",
+        "iso_code": "KH"
+    },
+    {
+        "display_name": "कैमरून",
+        "iso_code": "CM"
+    },
+    {
+        "display_name": "कनाडा",
+        "iso_code": "CA"
+    },
+    {
+        "display_name": "काबो वर्दे",
+        "iso_code": "CV"
+    },
+    {
+        "display_name": "केमैन आइलैंड्स",
+        "iso_code": "KY"
+    },
+    {
+        "display_name": "सेंट्रल अफ्रिकन रिपब्लिक",
+        "iso_code": "CF"
+    },
+    {
+        "display_name": "चाड",
+        "iso_code": "TD"
+    },
+    {
+        "display_name": "चिली",
+        "iso_code": "CL"
+    },
+    {
+        "display_name": "चीन",
+        "iso_code": "CN"
+    },
+    {
+        "display_name": "क्रिसमस आइलैंड",
+        "iso_code": "CX"
+    },
+    {
+        "display_name": "कोकोस (कीलिंग) आइलैंड्स",
+        "iso_code": "CC"
+    },
+    {
+        "display_name": "कोलंबिया",
+        "iso_code": "CO"
+    },
+    {
+        "display_name": "कोमोरोस",
+        "iso_code": "KM"
+    },
+    {
+        "display_name": "कांगो (ब्राजाविल)",
+        "iso_code": "CG"
+    },
+    {
+        "display_name": "कांगो (किन्शासा)",
+        "iso_code": "CD"
+    },
+    {
+        "display_name": "कुक आइलैंड्स",
+        "iso_code": "CK"
+    },
+    {
+        "display_name": "कोस्टा रिका",
+        "iso_code": "CR"
+    },
+    {
+        "display_name": "आइवरी कोस्ट",
+        "iso_code": "CI"
+    },
+    {
+        "display_name": "क्रोएशिया",
+        "iso_code": "HR"
+    },
+    {
+        "display_name": "कुरासाओ",
+        "iso_code": "CW"
+    },
+    {
+        "display_name": "साइप्रस",
+        "iso_code": "CY"
+    },
+    {
+        "display_name": "चेक रिपब्लिक",
+        "iso_code": "CZ"
+    },
+    {
+        "display_name": "डेनमार्क",
+        "iso_code": "DK"
+    },
+    {
+        "display_name": "जिबूती",
+        "iso_code": "DJ"
+    },
+    {
+        "display_name": "डोमिनिका",
+        "iso_code": "DM"
+    },
+    {
+        "display_name": "डोमिनिकन रिपब्लिक",
+        "iso_code": "DO"
+    },
+    {
+        "display_name": "इक्वेडोर",
+        "iso_code": "EC"
+    },
+    {
+        "display_name": "मिस्र",
+        "iso_code": "EG"
+    },
+    {
+        "display_name": "अल साल्वाडोर",
+        "iso_code": "SV"
+    },
+    {
+        "display_name": "इक्वेटोरियल गिनी",
+        "iso_code": "GQ"
+    },
+    {
+        "display_name": "इरीट्रिया",
+        "iso_code": "ER"
+    },
+    {
+        "display_name": "एस्टोनिया",
+        "iso_code": "EE"
+    },
+    {
+        "display_name": "इथियोपिया",
+        "iso_code": "ET"
+    },
+    {
+        "display_name": "फ़ॉकलैंड आइलैंड्स (माल्विनास)",
+        "iso_code": "FK"
+    },
+    {
+        "display_name": "फ़ैरो आइलैंड्स",
+        "iso_code": "FO"
+    },
+    {
+        "display_name": "फिजी",
+        "iso_code": "FJ"
+    },
+    {
+        "display_name": "फ़िनलैंड",
+        "iso_code": "FI"
+    },
+    {
+        "display_name": "फ़्रांस",
+        "iso_code": "FR"
+    },
+    {
+        "display_name": "फ्रेंच गयाना",
+        "iso_code": "GF"
+    },
+    {
+        "display_name": "फ्रेंच पोलिनेशिया",
+        "iso_code": "PF"
+    },
+    {
+        "display_name": "फ़्रेंच दक्षिणी और अंटार्कटिक भूमि",
+        "iso_code": "TF"
+    },
+    {
+        "display_name": "गैबन",
+        "iso_code": "GA"
+    },
+    {
+        "display_name": "गाम्बिया",
+        "iso_code": "GM"
+    },
+    {
+        "display_name": "जॉर्जिया",
+        "iso_code": "GE"
+    },
+    {
+        "display_name": "जर्मनी",
+        "iso_code": "DE"
+    },
+    {
+        "display_name": "घाना",
+        "iso_code": "GH"
+    },
+    {
+        "display_name": "जिब्राल्टर",
+        "iso_code": "GI"
+    },
+    {
+        "display_name": "ग्रीस",
+        "iso_code": "GR"
+    },
+    {
+        "display_name": "ग्रीनलैंड",
+        "iso_code": "GL"
+    },
+    {
+        "display_name": "ग्रेनाडा",
+        "iso_code": "GD"
+    },
+    {
+        "display_name": "गुआदेलूप",
+        "iso_code": "GP"
+    },
+    {
+        "display_name": "गुआम",
+        "iso_code": "GU"
+    },
+    {
+        "display_name": "ग्वाटेमाला",
+        "iso_code": "GT"
+    },
+    {
+        "display_name": "गर्नजी",
+        "iso_code": "GG"
+    },
+    {
+        "display_name": "गिनी",
+        "iso_code": "GN"
+    },
+    {
+        "display_name": "गिनी-बिसाऊ",
+        "iso_code": "GW"
+    },
+    {
+        "display_name": "गुयाना",
+        "iso_code": "GY"
+    },
+    {
+        "display_name": "हैती",
+        "iso_code": "HT"
+    },
+    {
+        "display_name": "हेर्ड एंड मैकडोनाल्ड आइलैंड्स",
+        "iso_code": "HM"
+    },
+    {
+        "display_name": "होली सी (वेटिकन सिटी स्टेट)",
+        "iso_code": "VA"
+    },
+    {
+        "display_name": "होंडुरास",
+        "iso_code": "HN"
+    },
+    {
+        "display_name": "हांग कांग",
+        "iso_code": "HK"
+    },
+    {
+        "display_name": "हंगरी",
+        "iso_code": "HU"
+    },
+    {
+        "display_name": "आइसलैंड",
+        "iso_code": "IS"
+    },
+    {
+        "display_name": "भारत",
+        "iso_code": "IN"
+    },
+    {
+        "display_name": "इंडोनेशिया",
+        "iso_code": "ID"
+    },
+    {
+        "display_name": "इराक",
+        "iso_code": "IQ"
+    },
+    {
+        "display_name": "आयरलैंड",
+        "iso_code": "IE"
+    },
+    {
+        "display_name": "आइल ऑफ़ मैन",
+        "iso_code": "IM"
+    },
+    {
+        "display_name": "इज़राइल",
+        "iso_code": "IL"
+    },
+    {
+        "display_name": "इटली",
+        "iso_code": "IT"
+    },
+    {
+        "display_name": "जमैका",
+        "iso_code": "JM"
+    },
+    {
+        "display_name": "जापान",
+        "iso_code": "JP"
+    },
+    {
+        "display_name": "जर्सी",
+        "iso_code": "JE"
+    },
+    {
+        "display_name": "जॉर्डन",
+        "iso_code": "JO"
+    },
+    {
+        "display_name": "कज़ाकस्तान",
+        "iso_code": "KZ"
+    },
+    {
+        "display_name": "केन्या",
+        "iso_code": "KE"
+    },
+    {
+        "display_name": "किरिबाती",
+        "iso_code": "KI"
+    },
+    {
+        "display_name": "साउथ कोरिया",
+        "iso_code": "KR"
+    },
+    {
+        "display_name": "कुवैत",
+        "iso_code": "KW"
+    },
+    {
+        "display_name": "किरगिज़स्तान",
+        "iso_code": "KG"
+    },
+    {
+        "display_name": "लाओस",
+        "iso_code": "LA"
+    },
+    {
+        "display_name": "लातविया",
+        "iso_code": "LV"
+    },
+    {
+        "display_name": "लेबनान",
+        "iso_code": "LB"
+    },
+    {
+        "display_name": "लिसूतू",
+        "iso_code": "LS"
+    },
+    {
+        "display_name": "लाइबेरिया",
+        "iso_code": "LR"
+    },
+    {
+        "display_name": "लीबिया",
+        "iso_code": "LY"
+    },
+    {
+        "display_name": "लिख्टेंश्टाइन",
+        "iso_code": "LI"
+    },
+    {
+        "display_name": "लिथुआनिया",
+        "iso_code": "LT"
+    },
+    {
+        "display_name": "लक्ज़म्बर्ग",
+        "iso_code": "LU"
+    },
+    {
+        "display_name": "मकाऊ",
+        "iso_code": "MO"
+    },
+    {
+        "display_name": "मैसेडोनिया",
+        "iso_code": "MK"
+    },
+    {
+        "display_name": "मेडागास्कर",
+        "iso_code": "MG"
+    },
+    {
+        "display_name": "मलावी",
+        "iso_code": "MW"
+    },
+    {
+        "display_name": "मलेशिया",
+        "iso_code": "MY"
+    },
+    {
+        "display_name": "मालदीव",
+        "iso_code": "MV"
+    },
+    {
+        "display_name": "माली",
+        "iso_code": "ML"
+    },
+    {
+        "display_name": "माल्टा",
+        "iso_code": "MT"
+    },
+    {
+        "display_name": "मार्शल आइलैंड्स",
+        "iso_code": "MH"
+    },
+    {
+        "display_name": "मार्टीनिक",
+        "iso_code": "MQ"
+    },
+    {
+        "display_name": "मॉरिटानिया",
+        "iso_code": "MR"
+    },
+    {
+        "display_name": "मॉरीशस",
+        "iso_code": "MU"
+    },
+    {
+        "display_name": "मैयट",
+        "iso_code": "YT"
+    },
+    {
+        "display_name": "मेक्सिको",
+        "iso_code": "MX"
+    },
+    {
+        "display_name": "माइक्रोनेशिया",
+        "iso_code": "FM"
+    },
+    {
+        "display_name": "मोल्दोवा",
+        "iso_code": "MD"
+    },
+    {
+        "display_name": "मोनाको",
+        "iso_code": "MC"
+    },
+    {
+        "display_name": "मंगोलिया",
+        "iso_code": "MN"
+    },
+    {
+        "display_name": "मोंटेनेग्रो",
+        "iso_code": "ME"
+    },
+    {
+        "display_name": "मॉन्सेराट",
+        "iso_code": "MS"
+    },
+    {
+        "display_name": "मोरक्को",
+        "iso_code": "MA"
+    },
+    {
+        "display_name": "मोजाम्बिक",
+        "iso_code": "MZ"
+    },
+    {
+        "display_name": "नामीबिया",
+        "iso_code": "NA"
+    },
+    {
+        "display_name": "नाउरू",
+        "iso_code": "NR"
+    },
+    {
+        "display_name": "नेपाल",
+        "iso_code": "NP"
+    },
+    {
+        "display_name": "नीदरलैंड",
+        "iso_code": "NL"
+    },
+    {
+        "display_name": "न्यू कैलेडोनिया",
+        "iso_code": "NC"
+    },
+    {
+        "display_name": "न्यूज़ीलैंड",
+        "iso_code": "NZ"
+    },
+    {
+        "display_name": "निकारागुआ",
+        "iso_code": "NI"
+    },
+    {
+        "display_name": "नाइजर",
+        "iso_code": "NE"
+    },
+    {
+        "display_name": "नाइजीरिया",
+        "iso_code": "NG"
+    },
+    {
+        "display_name": "निउए",
+        "iso_code": "NU"
+    },
+    {
+        "display_name": "नॉरफ़ॉक आइलैंड",
+        "iso_code": "NF"
+    },
+    {
+        "display_name": "नॉर्दर्न मारियाना आइलैंड्स",
+        "iso_code": "MP"
+    },
+    {
+        "display_name": "नॉर्वे",
+        "iso_code": "NO"
+    },
+    {
+        "display_name": "ओमान",
+        "iso_code": "OM"
+    },
+    {
+        "display_name": "पाकिस्तान",
+        "iso_code": "PK"
+    },
+    {
+        "display_name": "पलाऊ",
+        "iso_code": "PW"
+    },
+    {
+        "display_name": "फिलिस्तीन",
+        "iso_code": "PS"
+    },
+    {
+        "display_name": "पनामा",
+        "iso_code": "PA"
+    },
+    {
+        "display_name": "पापुआ न्यू गिनी",
+        "iso_code": "PG"
+    },
+    {
+        "display_name": "पैराग्वे",
+        "iso_code": "PY"
+    },
+    {
+        "display_name": "पेरू",
+        "iso_code": "PE"
+    },
+    {
+        "display_name": "फिलीपींस",
+        "iso_code": "PH"
+    },
+    {
+        "display_name": "पिटकेर्न आइलैंड्स",
+        "iso_code": "PN"
+    },
+    {
+        "display_name": "पोलैंड",
+        "iso_code": "PL"
+    },
+    {
+        "display_name": "पुर्तगाल",
+        "iso_code": "PT"
+    },
+    {
+        "display_name": "पोर्टो रिको",
+        "iso_code": "PR"
+    },
+    {
+        "display_name": "कतर",
+        "iso_code": "QA"
+    },
+    {
+        "display_name": "रेयूनियों",
+        "iso_code": "RE"
+    },
+    {
+        "display_name": "रोमानिया",
+        "iso_code": "RO"
+    },
+    {
+        "display_name": "रूस",
+        "iso_code": "RU"
+    },
+    {
+        "display_name": "रवांडा",
+        "iso_code": "RW"
+    },
+    {
+        "display_name": "सेंट हेलेना",
+        "iso_code": "SH"
+    },
+    {
+        "display_name": "सेंट किट्स एंड नेविस",
+        "iso_code": "KN"
+    },
+    {
+        "display_name": "सेंट लूसिया",
+        "iso_code": "LC"
+    },
+    {
+        "display_name": "सेंट पियर एवं मिकलान",
+        "iso_code": "PM"
+    },
+    {
+        "display_name": "सेंट विंसेंट एवं ग्रेनाडाइन्स",
+        "iso_code": "VC"
+    },
+    {
+        "display_name": "सेंट बार्थेलेमी",
+        "iso_code": "BL"
+    },
+    {
+        "display_name": "सेंट-मार्टिन (फ्रांसीसी भाग)",
+        "iso_code": "MF"
+    },
+    {
+        "display_name": "समोआ",
+        "iso_code": "WS"
+    },
+    {
+        "display_name": "सान मैरिनो",
+        "iso_code": "SM"
+    },
+    {
+        "display_name": "साओ तोमे एवं प्रिन्सिपी",
+        "iso_code": "ST"
+    },
+    {
+        "display_name": "सऊदी अरब",
+        "iso_code": "SA"
+    },
+    {
+        "display_name": "सेनेगल",
+        "iso_code": "SN"
+    },
+    {
+        "display_name": "सर्बिया",
+        "iso_code": "RS"
+    },
+    {
+        "display_name": "सेशल्स",
+        "iso_code": "SC"
+    },
+    {
+        "display_name": "सिएरा लियोन",
+        "iso_code": "SL"
+    },
+    {
+        "display_name": "सिंगापुर",
+        "iso_code": "SG"
+    },
+    {
+        "display_name": "सिंट मार्टेन (डच भाग)",
+        "iso_code": "SX"
+    },
+    {
+        "display_name": "स्लोवाकिया",
+        "iso_code": "SK"
+    },
+    {
+        "display_name": "स्लोवेनिया",
+        "iso_code": "SI"
+    },
+    {
+        "display_name": "सोलोमन आइलैंड्स",
+        "iso_code": "SB"
+    },
+    {
+        "display_name": "साउथ अफ़्रीका",
+        "iso_code": "ZA"
+    },
+    {
+        "display_name": "साउथ जॉर्जिया एवं साउथ सैंडविच आइलैंड्स",
+        "iso_code": "GS"
+    },
+    {
+        "display_name": "साउथ सूडान",
+        "iso_code": "SS"
+    },
+    {
+        "display_name": "स्पेन",
+        "iso_code": "ES"
+    },
+    {
+        "display_name": "श्रीलंका",
+        "iso_code": "LK"
+    },
+    {
+        "display_name": "सूरीनाम",
+        "iso_code": "SR"
+    },
+    {
+        "display_name": "स्वालबार्ड और जॉन मायेन आइलैंड्स",
+        "iso_code": "SJ"
+    },
+    {
+        "display_name": "स्वाज़ीलैंड",
+        "iso_code": "SZ"
+    },
+    {
+        "display_name": "स्वीडन",
+        "iso_code": "SE"
+    },
+    {
+        "display_name": "स्विट्ज़रलैंड",
+        "iso_code": "CH"
+    },
+    {
+        "display_name": "ताइवान",
+        "iso_code": "TW"
+    },
+    {
+        "display_name": "ताजिकिस्तान",
+        "iso_code": "TJ"
+    },
+    {
+        "display_name": "तंजानिया",
+        "iso_code": "TZ"
+    },
+    {
+        "display_name": "थाईलैंड",
+        "iso_code": "TH"
+    },
+    {
+        "display_name": "पूर्वी तिमोर",
+        "iso_code": "TL"
+    },
+    {
+        "display_name": "टोगो",
+        "iso_code": "TG"
+    },
+    {
+        "display_name": "टोकेलाऊ",
+        "iso_code": "TK"
+    },
+    {
+        "display_name": "टोंगा",
+        "iso_code": "TO"
+    },
+    {
+        "display_name": "त्रिनिदाद एवं टोबैगो",
+        "iso_code": "TT"
+    },
+    {
+        "display_name": "ट्यूनीशिया",
+        "iso_code": "TN"
+    },
+    {
+        "display_name": "तुर्की",
+        "iso_code": "TR"
+    },
+    {
+        "display_name": "तुर्कमेनिस्तान",
+        "iso_code": "TM"
+    },
+    {
+        "display_name": "तुर्क्स एंड कैकोज़ आइलैंड्स",
+        "iso_code": "TC"
+    },
+    {
+        "display_name": "तुवालु",
+        "iso_code": "TV"
+    },
+    {
+        "display_name": "युगांडा",
+        "iso_code": "UG"
+    },
+    {
+        "display_name": "यूक्रेन (नॉन-क्रिमिया)",
+        "iso_code": "UA"
+    },
+    {
+        "display_name": "संयुक्त अरब अमीरात (यूएई)",
+        "iso_code": "AE"
+    },
+    {
+        "display_name": "यूनाइटेड किंगडम",
+        "iso_code": "GB"
+    },
+    {
+        "display_name": "यूनाइटेड स्टेट्स",
+        "iso_code": "US"
+    },
+    {
+        "display_name": "उरुग्वे",
+        "iso_code": "UY"
+    },
+    {
+        "display_name": "यूएस माइनर आउटलाइंग आइलैंड्स",
+        "iso_code": "UM"
+    },
+    {
+        "display_name": "उज़्बेकिस्तान",
+        "iso_code": "UZ"
+    },
+    {
+        "display_name": "वानूआतू",
+        "iso_code": "VU"
+    },
+    {
+        "display_name": "वेनेज़ुएला",
+        "iso_code": "VE"
+    },
+    {
+        "display_name": "वियतनाम",
+        "iso_code": "VN"
+    },
+    {
+        "display_name": "वर्जिन आइलैंड्स, यूएस",
+        "iso_code": "VI"
+    },
+    {
+        "display_name": "वालिस एंड फ़्यूचूना आइलैंड्स",
+        "iso_code": "WF"
+    },
+    {
+        "display_name": "पश्चिमी सहारा",
+        "iso_code": "EH"
+    },
+    {
+        "display_name": "यमन",
+        "iso_code": "YE"
+    },
+    {
+        "display_name": "ज़ाम्बिया",
+        "iso_code": "ZM"
+    },
+    {
+        "display_name": "ज़िम्बाब्वे",
+        "iso_code": "ZW"
+    },
+    {
+        "display_name": "क्यूबा",
+        "iso_code": "CU"
+    },
+    {
+        "display_name": "ईरान",
+        "iso_code": "IR"
+    },
+    {
+        "display_name": "म्यांमार",
+        "iso_code": "MM"
+    },
+    {
+        "display_name": "सोमालिया",
+        "iso_code": "SO"
+    },
+    {
+        "display_name": "सूडान",
+        "iso_code": "SD"
+    },
+    {
+        "display_name": "सीरिया",
+        "iso_code": "SY"
+    }
+]

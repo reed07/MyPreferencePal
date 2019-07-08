@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentBottom="true">
+        <Button android:id="@+id/image_sync_service" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="start ImageSyncService sync"/>
+        <Button android:id="@+id/create_local_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="create local association"/>
+        <Button android:id="@+id/delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="delete images and associations"/>
+        <Button android:id="@+id/show_weight_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="show weight picker"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/show_gallery_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="gallery view"/>
+            <Button android:id="@+id/show_gallery_import" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="gallery import"/>
+        </LinearLayout>
+        <Button android:id="@+id/show_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="progress"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/get_messages" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="get messages"/>
+            <Button android:id="@+id/mark_messages" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="mark messages"/>
+            <Button android:id="@+id/reset_messages" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="reset messages"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/intro_activity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="intro activity"/>
+            <Button android:id="@+id/congrats_activity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="congrats activity"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="?attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.myfitnesspal.shared.ui.view.MfpImageView android:gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/friends_item_thumbnail" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="@dimen/friends_list_item_profile_image_size" android:layout_height="@dimen/friends_list_item_profile_image_size" android:layout_margin="@dimen/friends_list_item_default_margin"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:ellipsize="end" android:id="@+id/friend_item_username" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:lines="1" style="@style/Header.BlackText"/>
+        <TextView android:id="@+id/friend_item_date_active" android:layout_width="wrap_content" android:layout_height="match_parent" style="@style/Subheader.BlackSecondaryText"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center|end" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/friends_list_item_default_margin" android:layout_marginEnd="@dimen/friends_list_item_default_margin">
+        <TextView android:ellipsize="end" android:id="@+id/friend_item_lost_weight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:lines="1" style="@style/Header.BlackText"/>
+        <ImageView android:id="@+id/friend_item_lock_icon" android:padding="@dimen/friends_list_item_lock_icon_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_lock_16dp"/>
+        <TextView android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lost_camelcase" style="@style/Subheader.BlackSecondaryText"/>
+    </LinearLayout>
+</LinearLayout>

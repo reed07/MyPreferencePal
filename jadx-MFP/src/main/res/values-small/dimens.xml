@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sc_axisTitleTextSize">12</dimen>
+    <dimen name="sc_defaultAnnotationTextSize">10</dimen>
+</resources>

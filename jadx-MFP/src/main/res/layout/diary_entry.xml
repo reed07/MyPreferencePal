@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/foodSearchViewFoodItem" android:focusable="false" android:focusableInTouchMode="false" android:descendantFocusability="blocksDescendants" style="@style/DiaryItemBase.CardItem">
+    <TextView android:id="@+id/entry_timestamp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/diary_entry_vertical_padding" android:layout_marginStart="@dimen/diary_item_text_margin" style="@style/Caption.BlueText"/>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/diary_entry_vertical_padding" android:paddingBottom="@dimen/diary_entry_vertical_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/diary_entry_height" android:layout_marginStart="@dimen/diary_item_text_margin" android:layout_marginEnd="@dimen/material_padding_8">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/entryImage" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginEnd="16dp"/>
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/txtItemDescription" android:layout_marginEnd="@dimen/item_text_marginRight" android:layout_toStartOf="@+id/txtCalories" android:layout_alignParentStart="true" style="@style/DiaryItemDescription"/>
+            <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/txtItemDetails" android:layout_below="@+id/txtItemDescription" android:layout_marginEnd="@dimen/item_text_marginRight" android:layout_toStartOf="@+id/txtCalories" android:layout_alignParentStart="true" style="@style/DiaryItemDetails"/>
+            <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/txtCalories" android:layout_alignBaseline="@+id/txtItemDescription" android:layout_marginEnd="@dimen/material_padding_8" android:layout_alignParentEnd="true" style="@style/DiaryItemCalories"/>
+        </RelativeLayout>
+        <CheckBox android:layout_gravity="center_vertical" android:id="@+id/edit_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="0dp"/>
+    </LinearLayout>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:layout_marginStart="@dimen/diary_item_text_margin" layout="@layout/insight_row_fab"/>
+    <View android:id="@+id/divider" style="@style/HorizontalDivider"/>
+</LinearLayout>

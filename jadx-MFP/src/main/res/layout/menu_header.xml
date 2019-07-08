@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:paddingTop="44dp" style="@style/FoodInfoContainer.Header">
+        <TextView android:id="@+id/txtFoodName" android:text="@string/freq_paired_foods" style="@style/FoodInfoHeaderText"/>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" style="@style/HorizontalDivider"/>
+</FrameLayout>

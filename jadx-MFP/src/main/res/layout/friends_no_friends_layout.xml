@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_friends_60dp"/>
+    <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/friends_list_item_default_margin" android:text="@string/me_card_friends_empty_message" style="@style/Subheader.BlackSecondaryText"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/friends_list_item_default_margin" android:text="@string/learn_more" style="@style/Subheader.Blue"/>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/cards_corner_outer_radius"/>
+                    <solid android:color="@color/shadow_black_darker"/>
+                    <padding android:left="@dimen/cards_shadow_padding_left" android:right="@dimen/cards_shadow_padding_right" android:bottom="@dimen/cards_shadow_padding_bottom"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/cards_corner_inner_radius"/>
+                    <solid android:color="@color/white"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/cards_corner_outer_radius"/>
+                    <solid android:color="@color/shadow_black"/>
+                    <padding android:left="@dimen/cards_shadow_padding_left" android:right="@dimen/cards_shadow_padding_right" android:bottom="@dimen/cards_shadow_padding_bottom"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="@dimen/cards_corner_inner_radius"/>
+                    <solid android:color="@color/white"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

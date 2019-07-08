@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/spinner_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Spinner android:id="@+id/spinner" android:padding="@dimen/material_margin_16" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <View style="@style/HorizontalDivider"/>
+    </LinearLayout>
+    <com.myfitnesspal.shared.ui.view.CustomSwipeRefreshLayout android:id="@+id/refresh_layout" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <FrameLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView android:id="@+id/messages_recycler_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ProgressBar android:layout_gravity="center" android:id="@+id/loading_progress" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.myfitnesspal.shared.ui.view.EmptyStateView android:id="@+id/empty_state" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+    </com.myfitnesspal.shared.ui.view.CustomSwipeRefreshLayout>
+</LinearLayout>

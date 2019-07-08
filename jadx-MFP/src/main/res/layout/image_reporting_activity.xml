@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/tv_flagging_sexually_explicit" style="@style/ImageFlaggingItemContainer">
+        <TextView android:text="@string/flagging_sexually_explicit" style="@style/ImageFlaggingItem"/>
+        <include layout="@layout/grey_separator_1dp"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/tv_flagging_hate_violence" style="@style/ImageFlaggingItemContainer">
+        <TextView android:text="@string/flagging_hate_violence" style="@style/ImageFlaggingItem"/>
+        <include layout="@layout/grey_separator_1dp"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/tv_flagging_spam_ads" style="@style/ImageFlaggingItemContainer">
+        <TextView android:text="@string/flagging_spam_ads" style="@style/ImageFlaggingItem"/>
+        <include layout="@layout/grey_separator_1dp"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/tv_flagging_dont_like" style="@style/ImageFlaggingItemContainer">
+        <TextView android:text="@string/flagging_dont_like" style="@style/ImageFlaggingItem"/>
+        <include layout="@layout/grey_separator_1dp"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/tv_flagging_not_food" style="@style/ImageFlaggingItemContainer">
+        <TextView android:text="@string/flagging_not_food" style="@style/ImageFlaggingItem"/>
+        <include layout="@layout/grey_separator_1dp"/>
+    </LinearLayout>
+</LinearLayout>

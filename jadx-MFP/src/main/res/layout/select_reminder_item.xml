@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/list_item_bg_selector" android:layout_width="match_parent" android:layout_height="@dimen/reminder_row_header_height">
+    <RadioButton android:id="@+id/chkReminderDescription" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:button="@null" android:text="@string/breakfast" android:drawableLeft="?android:attr/listChoiceIndicatorSingle" android:drawablePadding="@dimen/material_padding_16" style="@style/Header2A.BlackText"/>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="barLength">18.66dp</item>
+        <item name="drawableSize">24dp</item>
+        <item name="gapBetweenBars">3.33dp</item>
+    </style>
+    <style name="RLInterstitialImage.Style">
+        <item name="android:layout_height">@dimen/rl_interstitial_height</item>
+    </style>
+</resources>

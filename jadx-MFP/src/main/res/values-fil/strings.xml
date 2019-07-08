@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action.notNow">Hindi Ngayon</string>
+    <string name="action.ok">OK</string>
+    <string name="changePassword.action">Baguhin ang Password</string>
+    <string name="changePassword.lengthError">Ang inyong password ay kinakailangang may 6 na titik man lamang</string>
+    <string name="changePassword.matchError">Hindi tugma ang iyong mga password</string>
+    <string name="changePassword.newPassword">Bagong Password</string>
+    <string name="changePassword.retypeNewPassword">I-type Muli ang Bagong Password</string>
+    <string name="changePassword.title">Baguhin ang Password</string>
+    <string name="emailVerification.description.export">Upang protektahan ang iyong pagkapribado, i-eexport lamang namin ang impormasyon sa mga na-verify na email address. Mangyaring suriin ang iyong email inbox para sa isang mensahe ng beripikasyon at sundin ang link na ibinigay upang magpatuloy.</string>
+    <string name="emailVerification.description.softBlock">Upang protektahan ang iyong pagkapribado, paki-verify ang iyong email address. Suriin ang iyong inbox ng email para sa isang mensahe ng beripikasyon at sundin ang link na ibinigay upang magpatuloy.</string>
+    <string name="emailVerification.edit">I-edit</string>
+    <string name="emailVerification.emailHeader">Email Address</string>
+    <string name="emailVerification.header">Suriin ang iyong email.</string>
+    <string name="emailVerification.resendEmail">Hindi mahanap ang email sa iyong inbox? Subukin mong suriin ang iyong mga folder ng junk o spam. Kung hindi ka makatanggap ng isang email sa loob ng ilang minuto, magagawa namin na %s.</string>
+    <string name="emailVerification.resendEmail.link">magpadala ng bagong email ng beripikasyon</string>
+    <string name="emailVerification.title">Beripikahin ang Iyong Email</string>
+    <string name="emailVerification.userVerifiedAlert">Naberipika na ang iyong email.</string>
+    <string name="emailVerification.verificationEmailSent">Naipadala na ang email ng beripikasyon</string>
+    <string name="error.unknownErrorTryAgainLater">Hindi matukoy na error. Mangyaring subukin muli mamaya.</string>
+</resources>

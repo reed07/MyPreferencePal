@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:focusable="false" android:focusableInTouchMode="false" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/friend_request_info_layout" android:background="?android:attr/selectableItemBackground" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="true" android:minHeight="64dp">
+        <com.myfitnesspal.shared.ui.view.MfpImageView android:layout_gravity="center_vertical" android:id="@+id/friend_request_thumbnail_image" android:layout_width="@dimen/friends_list_item_profile_image_size" android:layout_height="@dimen/friends_list_item_profile_image_size" android:layout_margin="@dimen/friends_list_item_default_margin" app:circular="true"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2">
+            <TextView android:id="@+id/friend_request_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/user_name" style="@style/Header.BlackText"/>
+            <TextView android:id="@+id/friend_request_full_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_name" style="@style/Caption.BlackSecondaryText"/>
+            <TextView android:id="@+id/friend_request_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message" style="@style/Caption.BlackSecondaryText"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/friend_request_reject_button" android:padding="7dp" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_delete" android:layout_marginEnd="@dimen/friends_list_item_default_margin"/>
+            <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/friend_request_accept_button" android:padding="7dp" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_checkmark_grn" android:layout_marginEnd="@dimen/friends_list_item_default_margin"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:gravity="center" android:id="@+id/friend_request_status" android:paddingTop="10dp" android:paddingBottom="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="64dp" android:text="@string/you_have_ignored_friend_request" style="@style/Subheader.BlackSecondaryText"/>
+    <LinearLayout android:gravity="center" android:id="@+id/friend_request_progress_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="64dp">
+        <ProgressBar style="@style/ProgressBarSmall.Margin5"/>
+    </LinearLayout>
+</LinearLayout>

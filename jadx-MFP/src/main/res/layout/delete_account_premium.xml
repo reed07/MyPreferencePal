@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/info_text" android:text="@string/delete_account_premium" style="@style/DeleteAccountText"/>
+    <View android:id="@+id/info_divider" android:layout_marginTop="8dp" android:layout_below="@+id/info_text" style="@style/HorizontalDivider"/>
+    <TextView android:id="@+id/premium_cancel_info" android:text="@string/how_cancel_premium" android:layout_below="@+id/info_divider" style="@style/DeleteAccountText.Clickable"/>
+    <View android:layout_below="@+id/premium_cancel_info" style="@style/HorizontalDivider"/>
+    <Button android:id="@+id/btn_continue" android:background="@drawable/blue_rounded_rectangle_button" android:layout_width="match_parent" android:layout_height="40dp" android:layout_margin="@dimen/delete_account_padding" android:text="@string/continueBtn" android:layout_alignParentBottom="true" android:stateListAnimator="@null" style="@style/ButtonText.WhiteSolidText"/>
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/delete_account_padding" android:paddingRight="@dimen/delete_account_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/btn_continue">
+        <TextView android:id="@+id/premium_canceled_text" android:padding="5dp" android:layout_width="0dp" android:text="@string/premium_canceled" android:layout_weight="1" style="@style/DeleteAccountText"/>
+        <Switch android:id="@+id/switch_premium_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>

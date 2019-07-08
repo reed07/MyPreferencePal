@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/mfp_grey" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/rlExerciseCalorieHeader" android:layout_width="match_parent" android:text="@string/for_exercises_logged" style="@style/grey_section_header"/>
+    <RelativeLayout android:gravity="center" android:id="@+id/rlExerciseCalorieSwitch" android:background="@color/white" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeightSmall" android:layout_below="@+id/rlExerciseCalorieHeader">
+        <TextView android:id="@+id/increase_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/increase_exercise_message_max_length" android:text="@string/increase_goal_calories" android:maxLines="2" android:layout_toLeftOf="@+id/swExerciseCalorie" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/Header2B.BlackText"/>
+        <Switch android:id="@+id/swExerciseCalorie" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/increase_message" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/rlCustomExerciseCalories" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/rlExerciseCalorieSwitch">
+        <TextView android:id="@+id/tvExerciseMacro" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/increase_macro_nutrient_calories" android:layout_alignParentLeft="true" style="@style/grey_section_header"/>
+        <RadioGroup android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:checkedButton="@+id/rbCurrentMacro" android:layout_below="@+id/tvExerciseMacro">
+            <RadioButton android:id="@+id/rbCurrentMacro" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeightSmall" android:text="@string/radio_current_macro_goals" style="@style/exercise_calories_radio"/>
+            <include android:layout_width="match_parent" android:layout_height="1dp" layout="@layout/grey_separator_1dp"/>
+            <RadioButton android:id="@+id/rbCustomMacro" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeightSmall" android:text="@string/radio_custom_macro_goals" style="@style/exercise_calories_radio"/>
+            <TextView android:id="@+id/tvCustomExercise" android:background="@color/white" android:paddingLeft="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-8dp" style="@style/Body.BlackText"/>
+        </RadioGroup>
+    </RelativeLayout>
+</RelativeLayout>

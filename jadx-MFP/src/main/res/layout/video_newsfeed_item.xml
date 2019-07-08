@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" style="@style/CardBase.NewsFeedCard">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:ellipsize="end" android:id="@+id/title" android:layout_width="match_parent" android:layout_marginLeft="@dimen/video_card_margins" android:layout_marginTop="@dimen/video_card_margins" android:layout_marginRight="@dimen/video_card_margins" android:layout_marginBottom="@dimen/material_margin_4" android:maxLines="2" style="@style/Header2A.BlackText"/>
+        <TextView android:id="@+id/blog_link" android:layout_marginLeft="@dimen/video_card_margins" android:layout_marginRight="@dimen/video_card_margins" android:layout_marginBottom="@dimen/video_card_margins" style="@style/Caption.BlackSecondaryText"/>
+        <android.support.constraint.ConstraintLayout android:id="@+id/video_container" android:background="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/video_view">
+            <FrameLayout android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintDimensionRatio="h,16:9" app:layout_constraintHorizontal_bias="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0">
+                <com.brightcove.player.view.BrightcoveExoPlayerVideoView android:layout_gravity="center" android:id="@+id/video" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <FrameLayout android:id="@+id/video_image_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:id="@+id/video_image" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_play"/>
+                </FrameLayout>
+                <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/mute" android:focusable="false" android:clickable="false" android:layout_width="@dimen/video_audio_icon_h_w" android:layout_height="@dimen/video_audio_icon_h_w" android:layout_marginTop="@dimen/material_margin_16" android:src="@drawable/audio_ico" android:layout_marginEnd="@dimen/material_margin_16"/>
+            </FrameLayout>
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

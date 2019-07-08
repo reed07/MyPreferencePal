@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/home_steps_container_base" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ProgressBar android:id="@+id/steps_progress_bar" android:layout_width="match_parent" android:layout_height="@dimen/step_progress_width" android:layout_marginBottom="2dp" android:max="10000" android:progress="0" android:progressDrawable="@drawable/progress_horizontal_steps" style="@style/Widget.ProgressBar.Horizontal"/>
+    <TextView android:id="@+id/tv_step_count" android:layout_below="@+id/steps_progress_bar" android:layout_alignParentLeft="true" style="@style/home_steps_label"/>
+    <TextView android:id="@+id/tv_partner_label" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_toRightOf="@+id/tv_step_count" android:layout_below="@+id/steps_progress_bar" style="@style/home_steps_label"/>
+    <TextView android:id="@+id/tv_step_goal" android:layout_below="@+id/steps_progress_bar" android:layout_alignParentRight="true" style="@style/home_steps_label"/>
+</RelativeLayout>

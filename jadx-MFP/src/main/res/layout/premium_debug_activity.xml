@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:id="@+id/mainContainer" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:attr/textAppearance" android:textStyle="bold" android:textColor="@color/mfp_blue_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Diagnostics"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Premium &apos;available&apos; to user: "/>
+            <TextView android:textStyle="bold" android:id="@+id/available" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="x"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/rolloutText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="x"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Geo-check locale, country: "/>
+            <TextView android:id="@+id/localeInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="x, x"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="User is subscribed: "/>
+            <TextView android:id="@+id/hasSubscription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="x"/>
+        </LinearLayout>
+        <View android:layout_width="wrap_content" android:layout_height="10dp"/>
+        <Switch android:textStyle="bold" android:textColor="@color/mfp_blue_text" android:id="@+id/devMenu" android:tag="global-toggle" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Feature Overrides"/>
+        <View android:background="@color/mfp_grey" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <Switch android:textStyle="bold" android:textColor="@color/mfp_blue_text" android:id="@+id/disableReceiptRetrieval" android:tag="disable-receipt-retrieval" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Disable Receipt Retrieval"/>
+        <Switch android:textStyle="bold" android:textColor="@color/mfp_blue_text" android:id="@+id/disableReceiptPostToServer" android:tag="disable-receipt-post-to-server" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Disable Receipt Post to Server"/>
+        <View android:background="@color/mfp_grey" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <TextView android:textAppearance="?android:attr/textAppearance" android:textStyle="bold" android:textColor="@color/mfp_blue_text" android:id="@+id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Quick Add"/>
+        <Switch android:id="@+id/qaAvailable" android:tag="quick-add-available" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Available"/>
+        <Switch android:id="@+id/qaEnabled" android:tag="quick-add-enabled" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Enabled"/>
+        <Switch android:id="@+id/qaSubscribed" android:tag="quick-add-subscribed" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Subscribed"/>
+        <View android:background="@color/mfp_grey" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <TextView android:textAppearance="?android:attr/textAppearance" android:textStyle="bold" android:textColor="@color/mfp_blue_text" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Track Macros By Grams"/>
+        <Switch android:id="@+id/tmAvailable" android:tag="track-by-grams-available" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Available"/>
+        <Switch android:id="@+id/tmEnabled" android:tag="track-by-grams-enabled" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Enabled"/>
+        <Switch android:id="@+id/tmSubscribed" android:tag="track-by-grams-subscribed" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Subscribed"/>
+        <View android:background="@color/mfp_grey" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <TextView android:textAppearance="?android:attr/textAppearance" android:textStyle="bold" android:textColor="@color/mfp_blue_text" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Assign Exercise Calories"/>
+        <Switch android:id="@+id/ecAvailable" android:tag="assign-exercise-calories-available" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Available"/>
+        <Switch android:id="@+id/ecEnabled" android:tag="assign-exercise-calories-enabled" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Enabled"/>
+        <Switch android:id="@+id/ecSubscribed" android:tag="assign-exercise-calories-subscribed" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Subscribed"/>
+        <View android:background="@color/mfp_grey" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <TextView android:textAppearance="?android:attr/textAppearance" android:textStyle="bold" android:textColor="@color/mfp_blue_text" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Display Macros"/>
+        <Switch android:id="@+id/dmAvailable" android:tag="display-macros-available" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Available"/>
+        <Switch android:id="@+id/dmEnabled" android:tag="display-macros-enabled" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Enabled"/>
+        <Switch android:id="@+id/dmSubscribed" android:tag="display-macros-subscribed" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Subscribed"/>
+        <View android:background="@color/mfp_grey" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <TextView android:textAppearance="?android:attr/textAppearance" android:textStyle="bold" android:textColor="@color/mfp_blue_text" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Macros By Day"/>
+        <Switch android:id="@+id/mbdAvailable" android:tag="macros-by-day-available" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Available"/>
+        <Switch android:id="@+id/mbdEnabled" android:tag="macros-by-day-enabled" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Enabled"/>
+        <Switch android:id="@+id/mbdSubscribed" android:tag="macros-by-day-subscribed" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Subscribed"/>
+        <View android:background="@color/mfp_grey" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <TextView android:textAppearance="?android:attr/textAppearance" android:textStyle="bold" android:textColor="@color/mfp_blue_text" android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ad Free"/>
+        <Switch android:id="@+id/afAvailable" android:tag="ad-free-available" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Available"/>
+        <Switch android:id="@+id/afEnabled" android:tag="ad-free-enabled" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Enabled"/>
+        <Switch android:id="@+id/afSubscribed" android:tag="ad-free-subscribed" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Subscribed"/>
+        <View android:background="@color/mfp_grey" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <TextView android:textAppearance="?android:attr/textAppearance" android:textStyle="bold" android:textColor="@color/mfp_blue_text" android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Graphs"/>
+        <Switch android:id="@+id/grAvailable" android:tag="graphs-available" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Available"/>
+        <Switch android:id="@+id/grEnabled" android:tag="graphs-enabled" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Enabled"/>
+        <Switch android:id="@+id/grSubscribed" android:tag="graphs-subscribed" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Subscribed"/>
+        <TextView android:textAppearance="?android:attr/textAppearance" android:textStyle="bold" android:textColor="@color/mfp_blue_text" android:id="@+id/textView7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Food Lists"/>
+        <Switch android:id="@+id/flAvailable" android:tag="food-lists-available" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Available"/>
+        <Switch android:id="@+id/flEnabled" android:tag="food-lists-enabled" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Enabled"/>
+        <Switch android:id="@+id/flSubscribed" android:tag="food-lists-subscribed" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Subscribed"/>
+        <TextView android:textAppearance="?android:attr/textAppearance" android:textStyle="bold" android:textColor="@color/mfp_blue_text" android:id="@+id/textView8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Content"/>
+        <Switch android:id="@+id/coAvailable" android:tag="content-available" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Available"/>
+        <Switch android:id="@+id/coEnabled" android:tag="content-enabled" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Enabled"/>
+        <Switch android:id="@+id/coSubscribed" android:tag="content-subscribed" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Subscribed"/>
+        <TextView android:textAppearance="?android:attr/textAppearance" android:textStyle="bold" android:textColor="@color/mfp_blue_text" android:id="@+id/textView9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Verified Foods"/>
+        <Switch android:id="@+id/vfAvailable" android:tag="verified-foods-available" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Available"/>
+        <Switch android:id="@+id/vfEnabled" android:tag="verified-foods-enabled" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Enabled"/>
+        <Switch android:id="@+id/vfSubscribed" android:tag="verified-foods-subscribed" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Subscribed"/>
+        <TextView android:textAppearance="?android:attr/textAppearance" android:textStyle="bold" android:textColor="@color/mfp_blue_text" android:id="@+id/textView10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Upsell"/>
+        <Switch android:id="@+id/upAvailable" android:tag="upsell-available" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Available"/>
+        <Switch android:id="@+id/upEnabled" android:tag="upsell-enabled" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Enabled"/>
+        <Switch android:id="@+id/upSubscribed" android:tag="upsell-subscribed" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Subscribed"/>
+        <TextView android:textAppearance="?android:attr/textAppearance" android:textStyle="bold" android:textColor="@color/mfp_blue_text" android:id="@+id/textView11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Meal Macros"/>
+        <Switch android:id="@+id/mealMacroAvailable" android:tag="meal-macros-available" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Available"/>
+        <Switch android:id="@+id/mealMacroEnabled" android:tag="meal-macros-enabled" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Enabled"/>
+        <Switch android:id="@+id/mealMacroSubscribed" android:tag="meal-macros-subscribed" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Subscribed"/>
+        <TextView android:textAppearance="?android:attr/textAppearance" android:textStyle="bold" android:textColor="@color/mfp_blue_text" android:id="@+id/textView12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="File Export"/>
+        <Switch android:id="@+id/fileExportAvailable" android:tag="file-export-available" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Available"/>
+        <Switch android:id="@+id/fileExportEnabled" android:tag="file-export-enabled" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Enabled"/>
+        <Switch android:id="@+id/fileExportSubscribed" android:tag="file-export-subscribed" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Subscribed"/>
+        <TextView android:textAppearance="?android:attr/textAppearance" android:textStyle="bold" android:textColor="@color/mfp_blue_text" android:id="@+id/textView13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/meal_goals_cal_title"/>
+        <Switch android:id="@+id/mealGoalsAvailable" android:tag="meal-goals-available" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Available"/>
+        <Switch android:id="@+id/mealGoalsEnabled" android:tag="meal-goals-enabled" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Enabled"/>
+        <Switch android:id="@+id/mealGoalsSubscribed" android:tag="meal-goals-subscribed" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Subscribed"/>
+        <TextView android:textAppearance="?android:attr/textAppearance" android:textStyle="bold" android:textColor="@color/mfp_blue_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Food Timestamps"/>
+        <Switch android:id="@+id/foodTimestampsAvailable" android:tag="food-timestamps-available" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Available"/>
+        <Switch android:id="@+id/foodTimestampsEnabled" android:tag="food-timestamps-enabled" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Enabled"/>
+        <Switch android:id="@+id/foodTimestampsSubscribed" android:tag="food-timestamps-subscribed" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="false" android:text="Subscribed"/>
+    </LinearLayout>
+</ScrollView>

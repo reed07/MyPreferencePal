@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@+id/entry_timestamp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/diary_entry_vertical_padding" android:paddingStart="@dimen/material_padding_16" android:paddingEnd="@dimen/material_margin_16" style="@style/Caption.BlueText"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/material_control_height_60">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:paddingStart="@dimen/material_padding_16" android:paddingEnd="@dimen/material_padding_24">
+            <TextView android:id="@+id/description" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/Subheader.BlackText"/>
+            <TextView android:id="@+id/details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/Body.BlackSecondaryText"/>
+        </LinearLayout>
+        <TextView android:id="@+id/calories" android:layout_width="wrap_content" style="@style/DiaryLandscapeEntryValue"/>
+        <TextView android:id="@+id/carbs" android:layout_width="@dimen/material_control_width_48" style="@style/DiaryLandscapeEntryValue"/>
+        <TextView android:id="@+id/fat" android:layout_width="@dimen/material_control_width_32" style="@style/DiaryLandscapeEntryValue"/>
+        <TextView android:id="@+id/protein" android:layout_width="@dimen/material_control_width_48" style="@style/DiaryLandscapeEntryValue"/>
+        <TextView android:id="@+id/sodium" android:layout_width="@dimen/material_control_width_56" style="@style/DiaryLandscapeEntryValue"/>
+        <TextView android:id="@+id/sugars" android:layout_width="@dimen/material_control_width_48" style="@style/DiaryLandscapeEntryValue"/>
+    </LinearLayout>
+    <View android:id="@+id/divider" style="@style/HorizontalDivider"/>
+</LinearLayout>

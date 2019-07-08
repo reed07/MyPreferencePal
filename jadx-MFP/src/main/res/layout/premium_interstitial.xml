@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/premium_interstitial_header" android:scaleType="centerCrop"/>
+        <TextView android:gravity="center" android:paddingTop="24dp" android:paddingBottom="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/premium_interstitial_header" style="@style/Title.BlackText"/>
+        <TextView android:gravity="center" android:paddingLeft="24dp" android:paddingRight="24dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/premium_interstitial_body" style="@style/Body.BlackText"/>
+        <TextView android:id="@+id/learn_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/premium_interstitial_learn_more" style="@style/BlueActionButton"/>
+    </LinearLayout>
+</ScrollView>

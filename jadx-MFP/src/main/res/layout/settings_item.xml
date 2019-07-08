@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:background="@drawable/list_item_bg_selector" android:paddingRight="@dimen/material_padding_8" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="0dp" android:layout_weight="1" style="@style/DoubleLineItemContainer">
+        <TextView android:id="@+id/setting_name" android:layout_width="match_parent" android:text="@string/settings_title_profile" style="@style/Body.BlackText"/>
+        <TextView android:id="@+id/subtitle" android:visibility="gone" style="@style/Caption.BlackSecondaryText"/>
+    </LinearLayout>
+    <CheckBox android:id="@+id/enabled" android:focusable="false" android:focusableInTouchMode="true" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/selected_setting" android:visibility="gone" android:layout_marginRight="@dimen/material_padding_6" android:text="@string/diary_sharing_private" style="@style/Subheader.Blue"/>
+    <ImageView android:id="@+id/premium_lock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:src="@drawable/ic_premium_lock"/>
+</LinearLayout>

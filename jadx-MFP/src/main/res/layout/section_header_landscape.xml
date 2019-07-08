@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:paddingBottom="@dimen/material_padding_8" android:layout_width="match_parent" android:layout_height="@dimen/material_control_height_56">
+        <TextView android:id="@+id/name" android:paddingLeft="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/totals" android:layout_weight="1" style="@style/Header.BlackText"/>
+        <TextView android:id="@+id/calories" android:layout_width="@dimen/material_control_width_56" android:singleLine="false" style="@style/DiaryLandscapeSectionHeaderValue"/>
+        <TextView android:id="@+id/carbs" android:layout_width="@dimen/material_control_width_48" style="@style/DiaryLandscapeSectionHeaderValue"/>
+        <TextView android:id="@+id/fat" android:layout_width="@dimen/material_control_width_32" style="@style/DiaryLandscapeSectionHeaderValue"/>
+        <TextView android:id="@+id/protein" android:layout_width="@dimen/material_control_width_48" style="@style/DiaryLandscapeSectionHeaderValue"/>
+        <TextView android:id="@+id/sodium" android:layout_width="@dimen/material_control_width_56" style="@style/DiaryLandscapeSectionHeaderValue"/>
+        <TextView android:id="@+id/sugars" android:layout_width="@dimen/material_control_width_48" style="@style/DiaryLandscapeSectionHeaderValue"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/tip_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <View android:id="@+id/divider" style="@style/HorizontalDivider"/>
+</LinearLayout>

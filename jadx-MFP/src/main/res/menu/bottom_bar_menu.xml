@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/bottom_bar_home" android:enabled="true" android:id="@+id/action_home" android:title="@string/menu_home" app:showAsAction="always"/>
+    <item android:icon="@drawable/bottom_bar_diary" android:enabled="true" android:id="@+id/action_diary" android:title="@string/menu_diary" app:showAsAction="always"/>
+    <item android:icon="@drawable/bottom_bar_explore" android:enabled="true" android:id="@+id/action_explore" android:visible="false" android:title="@string/menu_explore" app:showAsAction="always"/>
+    <item android:icon="@drawable/bottom_bar_me" android:enabled="true" android:id="@+id/action_me" android:title="@string/menu_me" app:showAsAction="always"/>
+</menu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/action_point" android:background="@color/background_light_blue" android:padding="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Subheader.BlackText"/>
+    <View android:background="@color/divider_light_blue" android:layout_width="match_parent" android:layout_height="1dp" style="@style/HorizontalDivider"/>
+    <android.support.v7.widget.RecyclerView android:id="@+id/meal_list" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

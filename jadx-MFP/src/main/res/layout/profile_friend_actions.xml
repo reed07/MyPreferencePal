@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/progress_pics_height_56dp" android:weightSum="4" android:divider="@drawable/divider_grey_small_vert" android:showDividers="middle">
+    <LinearLayout android:gravity="center" android:id="@+id/view_diary" android:background="@drawable/list_item_bg_selector" android:layout_width="0dp" android:layout_height="@dimen/progress_pics_height_56dp" android:layout_weight="2" android:paddingStart="@dimen/material_padding_16" android:paddingEnd="@dimen/material_padding_8" style="@style/ProgressPhotosShareButton">
+        <ImageView android:id="@+id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_diary_icon" android:scaleType="center" android:layout_marginEnd="@dimen/progress_pics_padding_16dp"/>
+        <TextView android:id="@+id/caption" android:paddingTop="2dp" style="@style/Subheader.BlackSecondaryText"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@+id/send_message" android:background="@drawable/list_item_bg_selector" android:paddingLeft="@dimen/material_padding_8" android:paddingRight="@dimen/material_padding_8" android:layout_width="0dp" android:layout_height="@dimen/progress_pics_height_56dp" android:layout_weight="1" style="@style/ProgressPhotosShareButton">
+        <ImageView android:id="@+id/iconMsg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_message_icon" android:scaleType="center"/>
+        <TextView android:id="@+id/captionMsg" android:paddingTop="2dp" android:visibility="gone" android:layout_marginStart="@dimen/progress_pics_padding_16dp" style="@style/Subheader.BlackSecondaryText"/>
+    </LinearLayout>
+    <RelativeLayout android:gravity="center" android:id="@+id/view_achievements" android:background="@drawable/list_item_bg_selector" android:layout_width="0dp" android:layout_height="@dimen/progress_pics_height_56dp" android:layout_weight="1" style="@style/ProgressPhotosShareButton">
+        <ImageView android:id="@+id/iconAchievement" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_achievement_icon" android:scaleType="center"/>
+    </RelativeLayout>
+</LinearLayout>

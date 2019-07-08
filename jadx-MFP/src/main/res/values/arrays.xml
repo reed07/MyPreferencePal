@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="ads_test_network_entries">
+        <item>DFP</item>
+        <item>MoPub</item>
+        <item>Rubicon</item>
+        <item>Facebook</item>
+        <item>A9</item>
+        <item>AdMob</item>
+        <item>Millennial</item>
+    </array>
+    <array name="ads_test_network_values">
+        <item>DFP</item>
+        <item>/17729925/test/MFP/MoPub</item>
+        <item>/17729925/test/MFP/Rubicon</item>
+        <item>/17729925/test/MFP/Facebook</item>
+        <item>A9</item>
+        <item>/17729925/test/MFP/AdMob</item>
+        <item>/17729925/test/MFP/Millennial</item>
+    </array>
+    <array name="amazon_app_id_display_names">
+        <item>Production: a9a47f0b9806456eba67167f43a2530e</item>
+        <item>Dev: 0b51165aafa7478687e13e84a89094e2</item>
+    </array>
+    <array name="amazon_app_id_values">
+        <item>a9a47f0b9806456eba67167f43a2530e</item>
+        <item>0b51165aafa7478687e13e84a89094e2</item>
+    </array>
+    <array name="api_versions">
+        <item>28</item>
+    </array>
+    <array name="captioning_color_selector_titles">
+        <item>@string/color_white</item>
+        <item>@string/color_black</item>
+        <item>@string/color_red</item>
+        <item>@string/color_yellow</item>
+        <item>@string/color_green</item>
+        <item>@string/color_cyan</item>
+        <item>@string/color_blue</item>
+        <item>@string/color_magenta</item>
+    </array>
+    <array name="captioning_color_selector_values">
+        <item>ffffffff</item>
+        <item>ff000000</item>
+        <item>ffff0000</item>
+        <item>ffffff00</item>
+        <item>ff00ff00</item>
+        <item>ff00ffff</item>
+        <item>ff0000ff</item>
+        <item>ffff00ff</item>
+        <item>ff000055</item>
+        <item>ff0000aa</item>
+        <item>ff005500</item>
+        <item>ff005555</item>
+        <item>ff0055aa</item>
+        <item>ff0055ff</item>
+        <item>ff00aa00</item>
+        <item>ff00aa55</item>
+        <item>ff00aaaa</item>
+        <item>ff00aaff</item>
+        <item>ff00ff55</item>
+        <item>ff00ffaa</item>
+        <item>ff550000</item>
+        <item>ff550055</item>
+        <item>ff5500aa</item>
+        <item>ff5500ff</item>
+        <item>ff555500</item>
+        <item>ff555555</item>
+        <item>ff5555aa</item>
+        <item>ff5555ff</item>
+        <item>ff55aa00</item>
+        <item>ff55aa55</item>
+        <item>ff55aaaa</item>
+        <item>ff55aaff</item>
+        <item>ff55ff00</item>
+        <item>ff55ff55</item>
+        <item>ff55ffaa</item>
+        <item>ff55ffff</item>
+        <item>ffaa0000</item>
+        <item>ffaa0055</item>
+        <item>ffaa00aa</item>
+        <item>ffaa00ff</item>
+        <item>ffaa5500</item>
+        <item>ffaa5555</item>
+        <item>ffaa55aa</item>
+        <item>ffaa55ff</item>
+        <item>ffaaaa00</item>
+        <item>ffaaaa55</item>
+        <item>ffaaaaaa</item>
+        <item>ffaaaaff</item>
+        <item>ffaaff00</item>
+        <item>ffaaff55</item>
+        <item>ffaaffaa</item>
+        <item>ffaaffff</item>
+        <item>ffff0055</item>
+        <item>ffff00aa</item>
+        <item>ffff5500</item>
+        <item>ffff5555</item>
+        <item>ffff55aa</item>
+        <item>ffff55ff</item>
+        <item>ffffaa00</item>
+        <item>ffffaa55</item>
+        <item>ffffaaaa</item>
+        <item>ffffaaff</item>
+        <item>ffffff55</item>
+        <item>ffffffaa</item>
+    </array>
+    <array name="captioning_edge_type_selector_titles">
+        <item>None</item>
+        <item>Outline</item>
+        <item>Drop shadow</item>
+        <item>Raised</item>
+        <item>Depressed</item>
+    </array>
+    <array name="captioning_edge_type_selector_values">
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </array>
+    <array name="captioning_font_size_selector_titles">
+        <item>Very small</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Very large</item>
+    </array>
+    <array name="captioning_font_size_selector_values">
+        <item>0.25</item>
+        <item>0.5</item>
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2.0</item>
+    </array>
+    <array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </array>
+    <array name="captioning_opacity_selector_values">
+        <item>40ffffff</item>
+        <item>80ffffff</item>
+        <item>c0ffffff</item>
+        <item>ffffffff</item>
+    </array>
+    <array name="captioning_preset_selector_titles">
+        <item>White on black</item>
+        <item>Black on white</item>
+        <item>Yellow on black</item>
+        <item>Yellow on blue</item>
+        <item>Custom</item>
+    </array>
+    <array name="captioning_preset_selector_values">
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>-1</item>
+    </array>
+    <array name="captioning_typeface_selector_titles">
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Serif</item>
+        <item>Monospace</item>
+    </array>
+    <array name="captioning_typeface_selector_values">
+        <item>sans-serif</item>
+        <item>sans-serif-condensed</item>
+        <item>serif</item>
+        <item>monospace</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </array>
+    <array name="configuration_types_array">
+        <item>String</item>
+        <item>Integer</item>
+        <item>Float</item>
+        <item>Map</item>
+    </array>
+    <array name="cups_quick_picks">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+    </array>
+    <array name="day_of_week">
+        <item>@string/sunday_full</item>
+        <item>@string/monday_full</item>
+        <item>@string/tuesday_full</item>
+        <item>@string/wednesday_full</item>
+        <item>@string/thursday_full</item>
+        <item>@string/friday_full</item>
+        <item>@string/saturday_full</item>
+    </array>
+    <array name="fb_permissions">
+        <item>email</item>
+        <item>user_birthday</item>
+    </array>
+    <array name="fl_oz_quick_picks">
+        <item>8</item>
+        <item>17</item>
+        <item>24</item>
+    </array>
+    <array name="frequency_array">
+        <item>@string/daily_frequency</item>
+        <item>@string/weekly_frequency</item>
+        <item>@string/monthly_frequency</item>
+    </array>
+    <array name="google_fit_permissions">
+        <item>@string/view_store_activity_info</item>
+        <item>@string/view_store_body_sensor_date</item>
+        <item>@string/view_store_nutrition_info</item>
+    </array>
+    <array name="hate_violence_reasons_array">
+        <item>@string/hate_violence_1</item>
+        <item>@string/hate_violence_2</item>
+        <item>@string/hate_violence_3</item>
+    </array>
+    <array name="heightFeetArray">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </array>
+    <array name="heightInchesArray">
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </array>
+    <array name="height_units_array">
+        <item>@string/feet_and_inches</item>
+        <item>@string/cm_setting</item>
+    </array>
+    <array name="help">
+        <item>@string/faq_title</item>
+        <item>@string/about_us</item>
+        <item>@string/settings_title_terms_of_service</item>
+        <item>@string/troubleShootingHeader</item>
+        <item>@string/debugLogs</item>
+    </array>
+    <array name="inmobi_app_id_display_names">
+        <item>Production: 4028cba62f727758012f92d981ed00e4</item>
+        <item>Dev: 4028cba631d63df10131e1d3818b00cc</item>
+    </array>
+    <array name="inmobi_app_id_values">
+        <item>4028cba62f727758012f92d981ed00e4</item>
+        <item>4028cba631d63df10131e1d3818b00cc</item>
+    </array>
+    <array name="message_type_spinner_list">
+        <item>@string/inboxBtn</item>
+        <item>@string/sentBtn</item>
+    </array>
+    <array name="ml_quick_picks">
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+    </array>
+    <array name="preloaded_fonts">
+        <item>@font/roboto</item>
+    </array>
+    <array name="serving_sizes_measures">
+        <item>@string/cups_abbr</item>
+        <item>@string/milliliters</item>
+        <item>@string/tablespoon</item>
+        <item>@string/teaspoon</item>
+        <item>@string/fluid_ounces</item>
+        <item>@string/pounds_abbr</item>
+        <item>@string/grams</item>
+        <item>@string/ounces</item>
+        <item>@string/kilogram</item>
+        <item>@string/quarts</item>
+        <item>@string/liters</item>
+        <item>@string/gallons</item>
+        <item>@string/pints</item>
+        <item>@string/milligram</item>
+        <item>@string/centiliter</item>
+        <item>@string/lbs</item>
+    </array>
+    <array name="sexually_explicit_reasons_array">
+        <item>@string/sexually_explicit_1</item>
+        <item>@string/sexually_explicit_2</item>
+        <item>@string/sexually_explicit_3</item>
+        <item>@string/sexually_explicit_4</item>
+        <item>@string/sexually_explicit_5</item>
+        <item>@string/sexually_explicit_6</item>
+    </array>
+    <array name="spam_ads_reasons_array">
+        <item>@string/spam_ads_1</item>
+        <item>@string/spam_ads_2</item>
+        <item>@string/spam_ads_3</item>
+    </array>
+    <array name="tips_override_strings">
+        <item>None</item>
+        <item>Always On</item>
+        <item>Always Off</item>
+    </array>
+    <array name="tips_override_values">
+        <item>none</item>
+        <item>on</item>
+        <item>off</item>
+    </array>
+    <array name="water_insights">
+        <item>@string/water_insight_1</item>
+        <item>@string/water_insight_2</item>
+        <item>@string/water_insight_3</item>
+        <item>@string/water_insight_4</item>
+        <item>@string/water_insight_5</item>
+        <item>@string/water_insight_6</item>
+        <item>@string/water_insight_7</item>
+        <item>@string/water_insight_8</item>
+        <item>@string/water_insight_9</item>
+        <item>@string/water_insight_10</item>
+        <item>@string/water_insight_11</item>
+        <item>@string/water_insight_12</item>
+        <item>@string/water_insight_13</item>
+        <item>@string/water_insight_14</item>
+        <item>@string/water_insight_15</item>
+        <item>@string/water_insight_16</item>
+        <item>@string/water_insight_17</item>
+        <item>@string/water_insight_18</item>
+        <item>@string/water_insight_19</item>
+        <item>@string/water_insight_20</item>
+        <item>@string/water_insight_21</item>
+        <item>@string/water_insight_22</item>
+        <item>@string/water_insight_23</item>
+        <item>@string/water_insight_24</item>
+        <item>@string/water_insight_25</item>
+    </array>
+    <array name="weight_units_array">
+        <item>@string/kg_setting</item>
+        <item>@string/lbs_setting</item>
+        <item>@string/stones_settings</item>
+    </array>
+    <array name="workoutsPerWeek">
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+    </array>
+</resources>

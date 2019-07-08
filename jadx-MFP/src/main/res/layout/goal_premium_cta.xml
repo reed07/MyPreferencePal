@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="@color/about_us_list_separator_bg" android:layout_width="match_parent" android:layout_height="@dimen/material_margin_36"/>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/goal_premium_cta_horizontal_padding" android:paddingTop="@dimen/goal_premium_cta_vertical_padding" android:paddingRight="@dimen/goal_premium_cta_horizontal_padding" android:paddingBottom="@dimen/goal_premium_cta_vertical_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_crown"/>
+            <TextView android:gravity="center" android:layout_marginLeft="@dimen/goal_premium_drawable_spacing" android:layout_marginTop="4dp" android:text="@string/go_premium" style="@style/Link.Blue"/>
+        </LinearLayout>
+        <TextView android:gravity="center" android:id="@+id/subtext" android:layout_width="match_parent" android:layout_marginTop="@dimen/goal_premium_spacing" android:text="@string/goals_premium_cta_subtitle_maintain" style="@style/Body.BlackText"/>
+    </LinearLayout>
+</LinearLayout>

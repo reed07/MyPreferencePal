@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/custom_toggle_container" android:layout_width="wrap_content" android:layout_height="@dimen/custom_toggle_height" android:layout_marginTop="@dimen/custom_toggle_top_margin">
+    <Button android:id="@+id/left_toggle_btn" android:background="@drawable/custom_toggle_left" android:text="@string/totalTxt" style="@style/CustomToggle"/>
+    <Button android:id="@+id/right_toggle_btn" android:background="@drawable/custom_toggle_right" android:text="@string/NetTxt" style="@style/CustomToggle"/>
+</LinearLayout>

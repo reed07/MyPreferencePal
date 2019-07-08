@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/RelativeLayout1" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="4dp">
+    <LinearLayout android:id="@+id/profileLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <LinearLayout android:id="@+id/imageWrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/progress_pics_padding_24dp">
+            <com.myfitnesspal.shared.ui.view.MfpImageView android:id="@+id/profileImageView" android:layout_width="@dimen/profile_image_hw" android:layout_height="@dimen/profile_image_hw" android:src="@drawable/ic_profile" android:scaleType="centerCrop" android:adjustViewBounds="true"/>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/progress_pics_padding_24dp">
+            <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/userName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/premium_crown_drawable_padding" android:layout_alignParentLeft="true" style="@style/Title.BlackText"/>
+            <TextView android:id="@+id/loginLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lastLoginTxt" android:layout_below="@+id/userName" style="@style/Body.BlackSecondaryText"/>
+            <TextView android:id="@+id/lastLoginDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/progress_pics_padding_4dp" android:layout_toRightOf="@+id/loginLabel" android:layout_below="@+id/userName" style="@style/Body.BlackText"/>
+            <TextView android:id="@+id/lost" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/progress_pics_padding_4dp" android:text="@string/lost" android:layout_below="@+id/loginLabel" style="@style/Body.BlackSecondaryText"/>
+            <TextView android:id="@+id/unitsTextView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/progress_pics_padding_4dp" android:layout_marginTop="@dimen/progress_pics_padding_4dp" android:layout_toRightOf="@+id/lost" android:layout_below="@+id/loginLabel" style="@style/Body.BlackText"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_below="@+id/profileLayout">
+        <LinearLayout android:orientation="vertical" android:id="@+id/premium_cta_container" android:background="@drawable/list_item_bg_selector" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/progress_pics_height_56dp">
+            <View style="@style/HorizontalDivider"/>
+            <TextView android:gravity="center" android:layout_gravity="center" android:layout_height="match_parent" android:text="@string/go_premium" android:drawableLeft="@drawable/ic_crown_small" android:drawablePadding="8dp" style="@style/Body.Blue"/>
+        </LinearLayout>
+        <View style="@style/HorizontalDivider"/>
+        <FrameLayout android:id="@+id/frame_actions" android:layout_width="match_parent" android:layout_height="@dimen/progress_pics_height_56dp"/>
+    </LinearLayout>
+</RelativeLayout>

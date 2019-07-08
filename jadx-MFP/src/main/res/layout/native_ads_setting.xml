@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Switch android:id="@+id/newsfeed_ad_auto_play" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/material_margin_16" android:text="@string/newsfeed_ad_play_settings" android:switchMinWidth="@dimen/setting_switch_height" style="@style/Header.BlackText"/>
+    <include layout="@layout/grey_separator_1dp_light"/>
+    <Switch android:id="@+id/newsfeed_video_auto_play" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/material_margin_16" android:text="@string/newsfeed_video_play_settings" android:switchMinWidth="64dp" style="@style/Header.BlackText"/>
+    <include layout="@layout/grey_separator_1dp_light"/>
+</LinearLayout>

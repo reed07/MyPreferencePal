@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/home_steps_container" android:background="@color/home_steps_background" android:paddingLeft="@dimen/step_summary_padding_default" android:paddingTop="@dimen/step_summary_padding_default" android:paddingRight="@dimen/step_summary_padding_default" android:paddingBottom="@dimen/step_summary_padding_bottom" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/step_summary_height">
+    <include layout="@layout/home_summary_steps_base"/>
+</RelativeLayout>

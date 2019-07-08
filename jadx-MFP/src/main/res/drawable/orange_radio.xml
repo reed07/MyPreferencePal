@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_window_focused="false" android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/orange_edge_radio_background"/>
+    <item android:state_window_focused="false" android:state_enabled="true" android:state_checked="false" android:drawable="@drawable/gray_rounded_radio_background"/>
+    <item android:state_enabled="true" android:state_checked="true" android:state_pressed="true" android:drawable="@drawable/orange_edge_radio_background"/>
+    <item android:state_enabled="true" android:state_checked="false" android:state_pressed="true" android:drawable="@drawable/gray_rounded_radio_background"/>
+    <item android:state_focused="true" android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/orange_edge_radio_background"/>
+    <item android:state_focused="true" android:state_enabled="true" android:state_checked="false" android:drawable="@drawable/gray_rounded_radio_background"/>
+    <item android:state_enabled="true" android:state_checked="false" android:drawable="@drawable/gray_rounded_radio_background"/>
+    <item android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/orange_edge_radio_background"/>
+</selector>

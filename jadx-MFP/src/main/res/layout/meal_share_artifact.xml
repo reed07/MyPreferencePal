@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/artifact_container" android:layout_width="match_parent" android:layout_height="@dimen/meal_share_artifact_size">
+        <ImageView android:id="@+id/image_view" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <View android:background="@drawable/meal_photo_artifact_gradient" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignTop="@+id/meal_title_container" android:layout_alignBottom="@+id/created_by"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/meal_title_container" android:paddingTop="@dimen/meal_share_artifact_margin" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/meal_share_artifact_margin" android:weightSum="3">
+            <TextView android:ellipsize="end" android:id="@+id/meal_title" android:layout_width="0dp" android:maxLines="2" android:layout_weight="2.1" style="@style/Link.White"/>
+        </LinearLayout>
+        <TextView android:id="@+id/created_by" android:paddingBottom="@dimen/meal_share_artifact_margin" android:layout_marginLeft="@dimen/meal_share_artifact_margin" android:layout_below="@+id/meal_title_container" style="@style/Caption.White100"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/bottom_bar" android:background="@color/progress_artifact_bottom_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <include android:id="@+id/nutritionFactsSimple" layout="@layout/new_nutrition_facts_simple"/>
+            <ImageView android:id="@+id/small_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/progress_pics_padding_8dp" android:src="@drawable/ic_mfp_horiz_logo_small" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/ads_progress_container" android:layout_width="@dimen/medium_ads_width" android:layout_height="@dimen/medium_ads_height">
+        <ProgressBar android:id="@+id/ads_progress" android:layout_width="@dimen/medium_ads_progress_size" android:layout_height="@dimen/medium_ads_progress_size"/>
+    </LinearLayout>
+    <include android:id="@+id/ads_premium_banner" layout="@layout/ads_premium_medium_fake"/>
+</merge>

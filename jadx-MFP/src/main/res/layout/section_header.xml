@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/sectionHeaderRelativeLayout" android:layout_marginTop="@dimen/diary_card_vertical_margin" style="@style/DiaryItemBase.CardItem.Top">
+    <RelativeLayout android:id="@+id/content_container" android:paddingTop="@dimen/diary_card_vertical_padding" android:paddingBottom="@dimen/diary_card_vertical_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/txtSectionCalories" android:text="@string/sectionCalories" android:layout_alignParentRight="true" style="@style/DiarySectionHeaderNumber"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/txtSectionHeader" android:text="@string/sectionHeader" android:layout_toLeftOf="@+id/txtSectionCalories" android:layout_alignParentLeft="true" style="@style/DiarySectionHeaderName"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/water_ad_container" android:visibility="gone" android:layout_width="@dimen/sponsored_water_section_header_ad_width" android:layout_height="@dimen/sponsored_water_section_header_ad_height" android:layout_marginRight="@dimen/material_padding_16" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <CheckBox android:id="@+id/meal_select_all" android:visibility="visible" style="@style/DiaryCheckBox"/>
+        <TextView android:id="@+id/meal_macros" android:layout_width="match_parent" android:layout_marginLeft="@dimen/diary_text_margin" android:layout_below="@+id/txtSectionHeader" style="@style/Caption.BlackSecondaryText"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/tip_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/content_container"/>
+    <View android:id="@+id/divider" android:layout_alignParentBottom="true" style="@style/HorizontalDivider"/>
+</RelativeLayout>

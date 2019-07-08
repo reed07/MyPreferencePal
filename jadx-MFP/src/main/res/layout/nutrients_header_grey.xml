@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/nutrients_header" android:layout_width="match_parent" android:layout_height="@dimen/nutrients_header_height">
+    <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/txtRemaining" android:layout_marginRight="@dimen/nutrient_text_margin_header" android:text="@string/leftTxt" android:layout_alignParentRight="true" style="@style/nutrient_graph_header_text"/>
+    <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/txtGoalValue" android:text="@string/goalTxt" android:layout_toLeftOf="@+id/txtRemaining" style="@style/nutrient_graph_header_text"/>
+    <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/txtLabel" android:layout_marginBottom="@dimen/nutrient_text_margin_header_bottom" android:text="@string/totalTxt" android:layout_toLeftOf="@+id/txtGoalValue" android:layout_alignParentBottom="true" style="@style/nutrient_graph_header_text"/>
+</RelativeLayout>

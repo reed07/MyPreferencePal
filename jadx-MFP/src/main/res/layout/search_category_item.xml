@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/LinearLayout01" android:layout_width="match_parent" android:layout_height="match_parent">
+    <CheckedTextView android:id="@+id/checkText" android:background="#cccccc" android:layout_width="match_parent" android:layout_height="?android:attr/listPreferredItemHeight" android:text="@string/search_item" android:singleLine="true" style="?android:attr/spinnerDropDownItemStyle"/>
+</LinearLayout>

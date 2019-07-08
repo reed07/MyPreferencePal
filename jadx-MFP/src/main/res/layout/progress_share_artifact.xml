@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/ic_asset_share_drop_shadow" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:color="#ccc" android:animateLayoutChanges="true">
+        <ImageView android:id="@+id/image_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <FrameLayout android:id="@+id/custom_caption_container" android:background="@drawable/progress_share_custom_caption_gradient" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/bottom_bar">
+            <EditText android:id="@+id/custom_caption_edit" android:background="@null" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="false" android:shadowColor="@color/black" android:shadowDx="1" android:shadowDy="1" android:shadowRadius="1" android:inputType="none|text|textMultiLine|textNoSuggestions" android:textCursorDrawable="@null" style="@style/ButtonText.WhiteText"/>
+        </FrameLayout>
+        <RelativeLayout android:id="@+id/bottom_bar" android:background="@color/white" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <TextView android:id="@+id/metric_text" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_toLeftOf="@+id/small_logo" android:layout_alignParentLeft="true" style="@style/Body.BlackText"/>
+            <ImageView android:id="@+id/small_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_asset_share_mfp_logo_blue" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/material_margin_16" android:paddingRight="@dimen/material_margin_16" android:paddingBottom="@dimen/material_margin_16" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/weight" style="@style/Body.BlackText"/>
+        <TextView android:id="@+id/goalWeight" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Header.Bold"/>
+        <TextView android:id="@+id/weeklyChange" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Body.BlackSecondaryText"/>
+        <View android:layout_width="1dp" android:layout_height="@dimen/material_margin_16"/>
+        <TextView android:id="@+id/dailyGoalHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Body.BlackText"/>
+        <TextView android:id="@+id/dailyGoalEnergy" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Header.Bold"/>
+        <TextView android:id="@+id/dailyGoalMacros" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Body.BlackSecondaryText"/>
+    </LinearLayout>
+</merge>

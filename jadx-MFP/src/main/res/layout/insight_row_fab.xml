@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/insight_container" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.myfitnesspal.shared.ui.view.StyledTextView android:id="@+id/insightTitle" style="@style/InsightText"/>
+    <ImageButton android:id="@+id/negative" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:src="@drawable/btn_insights_dismiss" android:layout_below="@+id/insightTitle" android:layout_alignParentLeft="true"/>
+    <ImageButton android:layout_gravity="center" android:id="@+id/positive" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:src="@drawable/btn_insights_confirm" android:layout_toRightOf="@+id/negative" android:layout_below="@+id/insightTitle"/>
+</RelativeLayout>

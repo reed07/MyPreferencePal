@@ -1,0 +1,3 @@
+# This is how I generated the modified .apklib file:
+
+for problem_file in $(find . -name "\$*.xml"); do echo "Renaming problem file ${problem_file}"; mv "${problem_file}" "${problem_file/$/Z}"; find . -type f \( -name "*.xml" -or -name "*.MF" -or -name "*SF" -or -name "*.arsc" \) | xargs -P 32 -I % sed -i'' 's/'$(echo ${problem_file##*\/}|sed 's/.xml//')'/Z'$(echo ${problem_file##*\/\$}|sed 's/.xml//')'/g' %; done

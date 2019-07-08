@@ -1,0 +1,994 @@
+[
+    {
+        "display_name": "อัฟกานิสถาน",
+        "iso_code": "AF"
+    },
+    {
+        "display_name": "หมู่เกาะโอลันด์",
+        "iso_code": "AX"
+    },
+    {
+        "display_name": "แอลเบเนีย",
+        "iso_code": "AL"
+    },
+    {
+        "display_name": "แอลจีเรีย",
+        "iso_code": "DZ"
+    },
+    {
+        "display_name": "อเมริกันซามัว",
+        "iso_code": "AS"
+    },
+    {
+        "display_name": "อันดอร์รา",
+        "iso_code": "AD"
+    },
+    {
+        "display_name": "แองโกลา",
+        "iso_code": "AO"
+    },
+    {
+        "display_name": "แองกวิลลา",
+        "iso_code": "AI"
+    },
+    {
+        "display_name": "แอนตาร์กติกา",
+        "iso_code": "AQ"
+    },
+    {
+        "display_name": "แอนติกาและบาร์บูดา",
+        "iso_code": "AG"
+    },
+    {
+        "display_name": "อาร์เจนตินา",
+        "iso_code": "AR"
+    },
+    {
+        "display_name": "อาร์มีเนีย",
+        "iso_code": "AM"
+    },
+    {
+        "display_name": "อารูบา",
+        "iso_code": "AW"
+    },
+    {
+        "display_name": "ออสเตรเลีย",
+        "iso_code": "AU"
+    },
+    {
+        "display_name": "ออสเตรีย",
+        "iso_code": "AT"
+    },
+    {
+        "display_name": "อาเซอร์ไบจาน",
+        "iso_code": "AZ"
+    },
+    {
+        "display_name": "บาฮามาส",
+        "iso_code": "BS"
+    },
+    {
+        "display_name": "บาห์เรน",
+        "iso_code": "BH"
+    },
+    {
+        "display_name": "บังกลาเทศ",
+        "iso_code": "BD"
+    },
+    {
+        "display_name": "บาร์เบโดส",
+        "iso_code": "BB"
+    },
+    {
+        "display_name": "เบลารุส",
+        "iso_code": "BY"
+    },
+    {
+        "display_name": "เบลเยียม",
+        "iso_code": "BE"
+    },
+    {
+        "display_name": "เบลีซ",
+        "iso_code": "BZ"
+    },
+    {
+        "display_name": "เบนิน",
+        "iso_code": "BJ"
+    },
+    {
+        "display_name": "เบอร์มิวดา",
+        "iso_code": "BM"
+    },
+    {
+        "display_name": "ภูฏาน",
+        "iso_code": "BT"
+    },
+    {
+        "display_name": "โบลิเวีย",
+        "iso_code": "BO"
+    },
+    {
+        "display_name": "โบแนเรอ ซินต์เอิสตาซียึส และซาบา",
+        "iso_code": "BQ"
+    },
+    {
+        "display_name": "บอสเนียและเฮอร์เซโกวีนา",
+        "iso_code": "BA"
+    },
+    {
+        "display_name": "บอตสวานา",
+        "iso_code": "BW"
+    },
+    {
+        "display_name": "เกาะบูเว",
+        "iso_code": "BV"
+    },
+    {
+        "display_name": "บราซิล",
+        "iso_code": "BR"
+    },
+    {
+        "display_name": "บริติชอินเดียนโอเชียนเทร์ริทอรี",
+        "iso_code": "IO"
+    },
+    {
+        "display_name": "หมู่เกาะบริติชเวอร์จิน",
+        "iso_code": "VG"
+    },
+    {
+        "display_name": "บรูไน",
+        "iso_code": "BN"
+    },
+    {
+        "display_name": "บัลแกเรีย",
+        "iso_code": "BG"
+    },
+    {
+        "display_name": "บูร์กินาฟาโซ",
+        "iso_code": "BF"
+    },
+    {
+        "display_name": "บุรุนดี",
+        "iso_code": "BI"
+    },
+    {
+        "display_name": "กัมพูชา",
+        "iso_code": "KH"
+    },
+    {
+        "display_name": "แคเมอรูน",
+        "iso_code": "CM"
+    },
+    {
+        "display_name": "แคนาดา",
+        "iso_code": "CA"
+    },
+    {
+        "display_name": "กาบูเวร์ดี",
+        "iso_code": "CV"
+    },
+    {
+        "display_name": "หมู่เกาะเคย์แมน",
+        "iso_code": "KY"
+    },
+    {
+        "display_name": "สาธารณรัฐแอฟริกากลาง",
+        "iso_code": "CF"
+    },
+    {
+        "display_name": "ชาด",
+        "iso_code": "TD"
+    },
+    {
+        "display_name": "ชิลี",
+        "iso_code": "CL"
+    },
+    {
+        "display_name": "จีน",
+        "iso_code": "CN"
+    },
+    {
+        "display_name": "เกาะคริสต์มาส",
+        "iso_code": "CX"
+    },
+    {
+        "display_name": "หมู่เกาะโคโคส (คีลิง)",
+        "iso_code": "CC"
+    },
+    {
+        "display_name": "โคลอมเบีย",
+        "iso_code": "CO"
+    },
+    {
+        "display_name": "คอโมโรส",
+        "iso_code": "KM"
+    },
+    {
+        "display_name": "สาธารณรัฐคองโก (บราซาวีล)",
+        "iso_code": "CG"
+    },
+    {
+        "display_name": "สาธารณรัฐประชาธิปไตยคองโก (กินชาซา)",
+        "iso_code": "CD"
+    },
+    {
+        "display_name": "หมู่เกาะคุก",
+        "iso_code": "CK"
+    },
+    {
+        "display_name": "คอสตาริกา",
+        "iso_code": "CR"
+    },
+    {
+        "display_name": "โกตดิวัวร์",
+        "iso_code": "CI"
+    },
+    {
+        "display_name": "โครเอเชีย",
+        "iso_code": "HR"
+    },
+    {
+        "display_name": "กือราเซา",
+        "iso_code": "CW"
+    },
+    {
+        "display_name": "ไซปรัส",
+        "iso_code": "CY"
+    },
+    {
+        "display_name": "สาธารณรัฐเช็ก",
+        "iso_code": "CZ"
+    },
+    {
+        "display_name": "เดนมาร์ก",
+        "iso_code": "DK"
+    },
+    {
+        "display_name": "จิบูตี",
+        "iso_code": "DJ"
+    },
+    {
+        "display_name": "ดอมินีกา",
+        "iso_code": "DM"
+    },
+    {
+        "display_name": "สาธารณรัฐโดมินิกัน",
+        "iso_code": "DO"
+    },
+    {
+        "display_name": "เอกวาดอร์",
+        "iso_code": "EC"
+    },
+    {
+        "display_name": "อียิปต์",
+        "iso_code": "EG"
+    },
+    {
+        "display_name": "เอลซัลวาดอร์",
+        "iso_code": "SV"
+    },
+    {
+        "display_name": "อิเควทอเรียลกินี",
+        "iso_code": "GQ"
+    },
+    {
+        "display_name": "เอริเทรีย",
+        "iso_code": "ER"
+    },
+    {
+        "display_name": "เอสโตเนีย",
+        "iso_code": "EE"
+    },
+    {
+        "display_name": "เอธิโอเปีย",
+        "iso_code": "ET"
+    },
+    {
+        "display_name": "หมู่เกาะฟอล์กแลนด์ (มัลบีนัส)",
+        "iso_code": "FK"
+    },
+    {
+        "display_name": "หมู่เกาะแฟโร",
+        "iso_code": "FO"
+    },
+    {
+        "display_name": "ฟีจี",
+        "iso_code": "FJ"
+    },
+    {
+        "display_name": "ฟินแลนด์",
+        "iso_code": "FI"
+    },
+    {
+        "display_name": "ฝรั่งเศส",
+        "iso_code": "FR"
+    },
+    {
+        "display_name": "เฟรนช์เกียนา",
+        "iso_code": "GF"
+    },
+    {
+        "display_name": "เฟรนช์พอลินีเชีย",
+        "iso_code": "PF"
+    },
+    {
+        "display_name": "เฟรนช์เซาเทิร์นและแอนตาร์กติกแลนดส์",
+        "iso_code": "TF"
+    },
+    {
+        "display_name": "กาบอง",
+        "iso_code": "GA"
+    },
+    {
+        "display_name": "แกมเบีย",
+        "iso_code": "GM"
+    },
+    {
+        "display_name": "จอร์เจีย",
+        "iso_code": "GE"
+    },
+    {
+        "display_name": "เยอรมนี",
+        "iso_code": "DE"
+    },
+    {
+        "display_name": "กานา",
+        "iso_code": "GH"
+    },
+    {
+        "display_name": "ยิบรอลตาร์",
+        "iso_code": "GI"
+    },
+    {
+        "display_name": "กรีซ",
+        "iso_code": "GR"
+    },
+    {
+        "display_name": "กรีนแลนด์",
+        "iso_code": "GL"
+    },
+    {
+        "display_name": "เกรเนดา",
+        "iso_code": "GD"
+    },
+    {
+        "display_name": "กัวเดอลุป",
+        "iso_code": "GP"
+    },
+    {
+        "display_name": "กวม",
+        "iso_code": "GU"
+    },
+    {
+        "display_name": "กัวเตมาลา",
+        "iso_code": "GT"
+    },
+    {
+        "display_name": "เกิร์นซีย์",
+        "iso_code": "GG"
+    },
+    {
+        "display_name": "กินี",
+        "iso_code": "GN"
+    },
+    {
+        "display_name": "กินี-บิสเซา",
+        "iso_code": "GW"
+    },
+    {
+        "display_name": "กายอานา",
+        "iso_code": "GY"
+    },
+    {
+        "display_name": "เฮติ",
+        "iso_code": "HT"
+    },
+    {
+        "display_name": "เกาะเฮิร์ดและหมู่เกาะแมกดอนัลด์",
+        "iso_code": "HM"
+    },
+    {
+        "display_name": "สันตะสำนัก (นครรัฐวาติกัน)",
+        "iso_code": "VA"
+    },
+    {
+        "display_name": "ฮอนดูรัส",
+        "iso_code": "HN"
+    },
+    {
+        "display_name": "ฮ่องกง",
+        "iso_code": "HK"
+    },
+    {
+        "display_name": "ฮังการี",
+        "iso_code": "HU"
+    },
+    {
+        "display_name": "ไอซ์แลนด์",
+        "iso_code": "IS"
+    },
+    {
+        "display_name": "อินเดีย",
+        "iso_code": "IN"
+    },
+    {
+        "display_name": "อินโดนีเซีย",
+        "iso_code": "ID"
+    },
+    {
+        "display_name": "อิรัก",
+        "iso_code": "IQ"
+    },
+    {
+        "display_name": "ไอร์แลนด์",
+        "iso_code": "IE"
+    },
+    {
+        "display_name": "ไอล์ออฟแมน",
+        "iso_code": "IM"
+    },
+    {
+        "display_name": "อิสราเอล",
+        "iso_code": "IL"
+    },
+    {
+        "display_name": "อิตาลี",
+        "iso_code": "IT"
+    },
+    {
+        "display_name": "จาเมกา",
+        "iso_code": "JM"
+    },
+    {
+        "display_name": "ญี่ปุ่น",
+        "iso_code": "JP"
+    },
+    {
+        "display_name": "เจอร์ซีย์",
+        "iso_code": "JE"
+    },
+    {
+        "display_name": "จอร์แดน",
+        "iso_code": "JO"
+    },
+    {
+        "display_name": "คาซัคสถาน",
+        "iso_code": "KZ"
+    },
+    {
+        "display_name": "เคนยา",
+        "iso_code": "KE"
+    },
+    {
+        "display_name": "คิริบาส",
+        "iso_code": "KI"
+    },
+    {
+        "display_name": "เกาหลีใต้",
+        "iso_code": "KR"
+    },
+    {
+        "display_name": "คูเวต",
+        "iso_code": "KW"
+    },
+    {
+        "display_name": "คีร์กีซสถาน",
+        "iso_code": "KG"
+    },
+    {
+        "display_name": "ลาว",
+        "iso_code": "LA"
+    },
+    {
+        "display_name": "ลัตเวีย",
+        "iso_code": "LV"
+    },
+    {
+        "display_name": "เลบานอน",
+        "iso_code": "LB"
+    },
+    {
+        "display_name": "เลโซโท",
+        "iso_code": "LS"
+    },
+    {
+        "display_name": "ไลบีเรีย",
+        "iso_code": "LR"
+    },
+    {
+        "display_name": "ลิเบีย",
+        "iso_code": "LY"
+    },
+    {
+        "display_name": "ลิกเตนสไตน์",
+        "iso_code": "LI"
+    },
+    {
+        "display_name": "ลิทัวเนีย",
+        "iso_code": "LT"
+    },
+    {
+        "display_name": "ลักเซมเบิร์ก",
+        "iso_code": "LU"
+    },
+    {
+        "display_name": "มาเก๊า",
+        "iso_code": "MO"
+    },
+    {
+        "display_name": "มาซิโดเนีย",
+        "iso_code": "MK"
+    },
+    {
+        "display_name": "มาดากัสการ์",
+        "iso_code": "MG"
+    },
+    {
+        "display_name": "มาลาวี",
+        "iso_code": "MW"
+    },
+    {
+        "display_name": "มาเลเซีย",
+        "iso_code": "MY"
+    },
+    {
+        "display_name": "มัลดีฟส์",
+        "iso_code": "MV"
+    },
+    {
+        "display_name": "มาลี",
+        "iso_code": "ML"
+    },
+    {
+        "display_name": "มอลตา",
+        "iso_code": "MT"
+    },
+    {
+        "display_name": "หมู่เกาะมาร์แชลล์",
+        "iso_code": "MH"
+    },
+    {
+        "display_name": "มาร์ตีนิก",
+        "iso_code": "MQ"
+    },
+    {
+        "display_name": "มอริเตเนีย",
+        "iso_code": "MR"
+    },
+    {
+        "display_name": "มอริเชียส",
+        "iso_code": "MU"
+    },
+    {
+        "display_name": "มายอต",
+        "iso_code": "YT"
+    },
+    {
+        "display_name": "เม็กซิโก",
+        "iso_code": "MX"
+    },
+    {
+        "display_name": "สหพันธรัฐไมโครนีเซีย",
+        "iso_code": "FM"
+    },
+    {
+        "display_name": "มอลโดวา",
+        "iso_code": "MD"
+    },
+    {
+        "display_name": "โมนาโก",
+        "iso_code": "MC"
+    },
+    {
+        "display_name": "มองโกเลีย",
+        "iso_code": "MN"
+    },
+    {
+        "display_name": "มอนเตเนโกร",
+        "iso_code": "ME"
+    },
+    {
+        "display_name": "มอนต์เซอร์รัต",
+        "iso_code": "MS"
+    },
+    {
+        "display_name": "โมร็อกโก",
+        "iso_code": "MA"
+    },
+    {
+        "display_name": "โมซัมบิก",
+        "iso_code": "MZ"
+    },
+    {
+        "display_name": "นามิเบีย",
+        "iso_code": "NA"
+    },
+    {
+        "display_name": "นาอูรู",
+        "iso_code": "NR"
+    },
+    {
+        "display_name": "เนปาล",
+        "iso_code": "NP"
+    },
+    {
+        "display_name": "เนเธอร์แลนด์",
+        "iso_code": "NL"
+    },
+    {
+        "display_name": "นิวแคลิโดเนีย",
+        "iso_code": "NC"
+    },
+    {
+        "display_name": "นิวซีแลนด์",
+        "iso_code": "NZ"
+    },
+    {
+        "display_name": "นิการากัว",
+        "iso_code": "NI"
+    },
+    {
+        "display_name": "ไนเจอร์",
+        "iso_code": "NE"
+    },
+    {
+        "display_name": "ไนจีเรีย",
+        "iso_code": "NG"
+    },
+    {
+        "display_name": "นีวเว",
+        "iso_code": "NU"
+    },
+    {
+        "display_name": "เกาะนอร์ฟอล์ก",
+        "iso_code": "NF"
+    },
+    {
+        "display_name": "หมู่เกาะนอร์เทิร์นมาเรียนา",
+        "iso_code": "MP"
+    },
+    {
+        "display_name": "นอร์เวย์",
+        "iso_code": "NO"
+    },
+    {
+        "display_name": "โอมาน",
+        "iso_code": "OM"
+    },
+    {
+        "display_name": "ปากีสถาน",
+        "iso_code": "PK"
+    },
+    {
+        "display_name": "ปาเลา",
+        "iso_code": "PW"
+    },
+    {
+        "display_name": "ดินแดนปาเลสไตน์",
+        "iso_code": "PS"
+    },
+    {
+        "display_name": "ปานามา",
+        "iso_code": "PA"
+    },
+    {
+        "display_name": "ปาปัวนิวกินี",
+        "iso_code": "PG"
+    },
+    {
+        "display_name": "ปารากวัย",
+        "iso_code": "PY"
+    },
+    {
+        "display_name": "เปรู",
+        "iso_code": "PE"
+    },
+    {
+        "display_name": "ฟิลิปปินส์",
+        "iso_code": "PH"
+    },
+    {
+        "display_name": "หมู่เกาะพิตแคร์น",
+        "iso_code": "PN"
+    },
+    {
+        "display_name": "โปแลนด์",
+        "iso_code": "PL"
+    },
+    {
+        "display_name": "โปรตุเกส",
+        "iso_code": "PT"
+    },
+    {
+        "display_name": "ปวยร์โตรีโก",
+        "iso_code": "PR"
+    },
+    {
+        "display_name": "กาตาร์",
+        "iso_code": "QA"
+    },
+    {
+        "display_name": "เรอูนียง",
+        "iso_code": "RE"
+    },
+    {
+        "display_name": "โรมาเนีย",
+        "iso_code": "RO"
+    },
+    {
+        "display_name": "รัสเซีย",
+        "iso_code": "RU"
+    },
+    {
+        "display_name": "รวันดา",
+        "iso_code": "RW"
+    },
+    {
+        "display_name": "เซนต์เฮเลนา",
+        "iso_code": "SH"
+    },
+    {
+        "display_name": "เซนต์คิตส์และเนวิส",
+        "iso_code": "KN"
+    },
+    {
+        "display_name": "เซนต์ลูเชีย",
+        "iso_code": "LC"
+    },
+    {
+        "display_name": "แซ็งปีแยร์และมีเกอลง",
+        "iso_code": "PM"
+    },
+    {
+        "display_name": "เซนต์วินเซนต์และเกรนาดีนส์",
+        "iso_code": "VC"
+    },
+    {
+        "display_name": "แซ็ง-บาร์เตเลมี",
+        "iso_code": "BL"
+    },
+    {
+        "display_name": "แซ็ง-มาร์แต็ง (ส่วนหนึ่งของฝรั่งเศส)",
+        "iso_code": "MF"
+    },
+    {
+        "display_name": "ซามัว",
+        "iso_code": "WS"
+    },
+    {
+        "display_name": "ซานมารีโน",
+        "iso_code": "SM"
+    },
+    {
+        "display_name": "เซาตูเมและปรินซีปี",
+        "iso_code": "ST"
+    },
+    {
+        "display_name": "ซาอุดีอาระเบีย",
+        "iso_code": "SA"
+    },
+    {
+        "display_name": "เซเนกัล",
+        "iso_code": "SN"
+    },
+    {
+        "display_name": "เซอร์เบีย",
+        "iso_code": "RS"
+    },
+    {
+        "display_name": "เซเชลส์",
+        "iso_code": "SC"
+    },
+    {
+        "display_name": "เซียร์ราลีโอน",
+        "iso_code": "SL"
+    },
+    {
+        "display_name": "สิงคโปร์",
+        "iso_code": "SG"
+    },
+    {
+        "display_name": "ซินต์มาร์เติน (ส่วนหนึ่งของเนเธอร์แลนด์)",
+        "iso_code": "SX"
+    },
+    {
+        "display_name": "สโลวาเกีย",
+        "iso_code": "SK"
+    },
+    {
+        "display_name": "สโลวีเนีย",
+        "iso_code": "SI"
+    },
+    {
+        "display_name": "หมู่เกาะโซโลมอน",
+        "iso_code": "SB"
+    },
+    {
+        "display_name": "แอฟริกาใต้",
+        "iso_code": "ZA"
+    },
+    {
+        "display_name": "เกาะเซาท์จอร์เจียและหมู่เกาะเซาท์แซนด์วิช",
+        "iso_code": "GS"
+    },
+    {
+        "display_name": "เซาท์ซูดาน",
+        "iso_code": "SS"
+    },
+    {
+        "display_name": "สเปน",
+        "iso_code": "ES"
+    },
+    {
+        "display_name": "ศรีลังกา",
+        "iso_code": "LK"
+    },
+    {
+        "display_name": "ซูรินาม",
+        "iso_code": "SR"
+    },
+    {
+        "display_name": "หมู่เกาะสฟาลบาร์และยานไมเอน",
+        "iso_code": "SJ"
+    },
+    {
+        "display_name": "สวาซิแลนด์",
+        "iso_code": "SZ"
+    },
+    {
+        "display_name": "สวีเดน",
+        "iso_code": "SE"
+    },
+    {
+        "display_name": "สวิตเซอร์แลนด์",
+        "iso_code": "CH"
+    },
+    {
+        "display_name": "ไต้หวัน",
+        "iso_code": "TW"
+    },
+    {
+        "display_name": "ทาจิกิสถาน",
+        "iso_code": "TJ"
+    },
+    {
+        "display_name": "แทนซาเนีย",
+        "iso_code": "TZ"
+    },
+    {
+        "display_name": "ไทย",
+        "iso_code": "TH"
+    },
+    {
+        "display_name": "ติมอร์-เลสเต",
+        "iso_code": "TL"
+    },
+    {
+        "display_name": "โตโก",
+        "iso_code": "TG"
+    },
+    {
+        "display_name": "โทเคอเลา",
+        "iso_code": "TK"
+    },
+    {
+        "display_name": "ตองงา",
+        "iso_code": "TO"
+    },
+    {
+        "display_name": "ตรินิแดดและโตเบโก",
+        "iso_code": "TT"
+    },
+    {
+        "display_name": "ตูนิเซีย",
+        "iso_code": "TN"
+    },
+    {
+        "display_name": "ตุรกี",
+        "iso_code": "TR"
+    },
+    {
+        "display_name": "เติร์กเมนิสถาน",
+        "iso_code": "TM"
+    },
+    {
+        "display_name": "หมู่เกาะเติกส์และเคคอส",
+        "iso_code": "TC"
+    },
+    {
+        "display_name": "ตูวาลู",
+        "iso_code": "TV"
+    },
+    {
+        "display_name": "ยูกันดา",
+        "iso_code": "UG"
+    },
+    {
+        "display_name": "ยูเครน (ไม่ใช่ไครเมีย)",
+        "iso_code": "UA"
+    },
+    {
+        "display_name": "สหรัฐอาหรับเอมิเรตส์",
+        "iso_code": "AE"
+    },
+    {
+        "display_name": "สหราชอาณาจักร",
+        "iso_code": "GB"
+    },
+    {
+        "display_name": "สหรัฐอเมริกา",
+        "iso_code": "US"
+    },
+    {
+        "display_name": "อุรุกวัย",
+        "iso_code": "UY"
+    },
+    {
+        "display_name": "เกาะเล็กรอบนอกของสหรัฐอเมริกา",
+        "iso_code": "UM"
+    },
+    {
+        "display_name": "อุซเบกิสถาน",
+        "iso_code": "UZ"
+    },
+    {
+        "display_name": "วานูอาตู",
+        "iso_code": "VU"
+    },
+    {
+        "display_name": "เวเนซุเอลา",
+        "iso_code": "VE"
+    },
+    {
+        "display_name": "เวียดนาม",
+        "iso_code": "VN"
+    },
+    {
+        "display_name": "หมู่เกาะเวอร์จิน สหรัฐอเมริกา",
+        "iso_code": "VI"
+    },
+    {
+        "display_name": "หมู่เกาะวาลิสและฟูตูนา",
+        "iso_code": "WF"
+    },
+    {
+        "display_name": "เวสเทิร์นสะฮารา",
+        "iso_code": "EH"
+    },
+    {
+        "display_name": "เยเมน",
+        "iso_code": "YE"
+    },
+    {
+        "display_name": "แซมเบีย",
+        "iso_code": "ZM"
+    },
+    {
+        "display_name": "ซิมบับเว",
+        "iso_code": "ZW"
+    },
+    {
+        "display_name": "คิวบา",
+        "iso_code": "CU"
+    },
+    {
+        "display_name": "อิหร่าน",
+        "iso_code": "IR"
+    },
+    {
+        "display_name": "พม่า",
+        "iso_code": "MM"
+    },
+    {
+        "display_name": "ประเทศโซมาเลีย",
+        "iso_code": "SO"
+    },
+    {
+        "display_name": "ซูดาน",
+        "iso_code": "SD"
+    },
+    {
+        "display_name": "ซีเรีย",
+        "iso_code": "SY"
+    }
+]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@+id/underweight_recommendation" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/sign_up_small_text_warning"/>
+    <LinearLayout android:gravity="center" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <NumberPicker android:id="@+id/weight_picker" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/weight_unit" android:text="@string/lb" style="@style/DialogNumberPickerLabel"/>
+        <NumberPicker android:id="@+id/lb_picker" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dialog_picker_spacing"/>
+        <TextView android:id="@+id/lb_unit" android:visibility="gone" android:text="@string/lb" style="@style/DialogNumberPickerLabel"/>
+    </LinearLayout>
+</LinearLayout>

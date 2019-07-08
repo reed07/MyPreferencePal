@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/scroll_parent" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+    <LinearLayout android:orientation="vertical" android:id="@+id/add_food_summary_root" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_horizontal_black" android:animateLayoutChanges="true" android:showDividers="none|middle|end">
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/new_insight_row"/>
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/food_name_container"/>
+        <LinearLayout android:id="@+id/dateTableRow" android:background="@drawable/list_item_bg_selector" android:visibility="gone" style="@style/FoodInfoContainer">
+            <TextView android:id="@+id/date" android:text="@string/date_header" style="@style/FoodInfoLabelText"/>
+            <TextView android:id="@+id/txtDate" android:text="@string/select_date" style="@style/FoodInfoValueText"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/mealTableRow" android:background="@drawable/list_item_bg_selector" android:visibility="gone" style="@style/FoodInfoContainer">
+            <TextView android:id="@+id/meal" android:text="@string/meal" style="@style/FoodInfoLabelText"/>
+            <TextView android:id="@+id/txtMeal" android:text="@string/breakfast" style="@style/FoodInfoValueText"/>
+        </LinearLayout>
+        <include layout="@layout/number_servings_container"/>
+        <include layout="@layout/serving_size_container"/>
+        <com.myfitnesspal.feature.timestamp.view.TimestampRowView android:id="@+id/add_food_timestamp_layout" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <FrameLayout android:id="@+id/nutrition_facts_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"/>
+        <include android:id="@+id/paired_foods_container" android:visibility="gone" layout="@layout/new_paired_foods_container"/>
+        <include layout="@layout/report_food_button"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/barcodefooter" android:paddingTop="10dp" android:paddingBottom="10dp" android:visibility="gone" android:descendantFocusability="beforeDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/list_item_text_size" android:textColor="@color/mfp_dark_text_75" android:gravity="center_vertical" android:id="@+id/barcode_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:text="@string/barcode_wrong_food"/>
+            <com.myfitnesspal.shared.ui.view.StyledButton android:textStyle="bold" android:id="@+id/btnBetterMatch" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp" android:minHeight="@dimen/btn_monochromatic_height" android:text="@string/barcode_better_match" style="@style/btn_rounded_flat_actionbarblue"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

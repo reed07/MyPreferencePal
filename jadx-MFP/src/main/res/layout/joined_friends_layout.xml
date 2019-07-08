@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/flJoinedFriendsContainer" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <FrameLayout android:id="@+id/flJoinedInvitesContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/challenge_details_section_padding"/>
+    </LinearLayout>
+</ScrollView>

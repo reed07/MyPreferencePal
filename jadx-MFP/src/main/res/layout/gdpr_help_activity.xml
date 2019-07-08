@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/delete_card" android:padding="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@+id/gdpr_help_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/gdpr_help_text" style="@style/Body.BlackText"/>
+                <TextView android:id="@+id/delete_card_button" android:paddingTop="@dimen/material_padding_24" android:paddingBottom="@dimen/material_margin_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/delete_account" style="@style/ButtonText.Blue"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/CardBase.NewsFeedCard">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:text="@string/helpful_links" style="@style/SettingsHeaderRow"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/help_card_new" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_grey_small" android:showDividers="middle">
+                    <TextView android:id="@+id/aboutUs" android:text="@string/settings_about_us" style="@style/SettingsItemRow"/>
+                    <TextView android:id="@+id/faq" android:text="@string/settings_faq" style="@style/SettingsItemRow"/>
+                    <TextView android:id="@+id/tos" android:text="@string/settings_tos" style="@style/SettingsItemRow"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

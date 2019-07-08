@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/left_image_container" android:background="@color/white" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+    <FrameLayout android:id="@+id/view_area" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.myfitnesspal.feature.progress.ui.view.TouchImageView android:layout_gravity="center" android:id="@+id/image" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/progress" android:layout_width="@dimen/progress_photo_image_spinner" android:layout_height="@dimen/progress_photo_image_spinner" android:indeterminate="true" style="?android:attr/progressBarStyle"/>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/import_area" android:padding="8dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/import_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_photo_camera_black_24dp"/>
+        <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/import_text" android:layout_marginTop="8dp" android:text="@string/progress_photos_import_photo" style="@style/Body.Blue"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/shadow_overlay" android:background="@drawable/ic_shadow" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/image_border" android:background="@drawable/progress_image_border" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

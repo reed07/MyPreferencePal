@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/separator" android:background="@color/separator_light_grey" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/material_margin_16">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/material_margin_8" android:layout_weight="1">
+            <TextView android:id="@+id/tvPrizeName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/challenge_text_separator" android:text="Prize Title" style="@style/ChallengesBoldHeader"/>
+            <TextView android:id="@+id/tvPrizeDescription" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Prize Description" style="@style/Body.BlackText"/>
+        </LinearLayout>
+        <com.myfitnesspal.shared.ui.view.MfpImageView android:id="@+id/ivPrize" android:layout_width="@dimen/challenge_prize_image_height_width" android:layout_height="@dimen/challenge_prize_image_height_width" android:layout_marginLeft="@dimen/material_padding_16" android:layout_marginRight="@dimen/material_padding_16" android:src="@drawable/ic_challenges_placeholder"/>
+    </LinearLayout>
+</LinearLayout>

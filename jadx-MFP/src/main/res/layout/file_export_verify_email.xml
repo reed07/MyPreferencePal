@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/verify_email_container" android:visibility="gone" style="@style/FileExportInfoContainer">
+    <TextView android:text="@string/verify_email" style="@style/FileExportTextQuestion"/>
+    <TextView android:id="@+id/verify_email_info" android:text="@string/verify_email_info" style="@style/FileExportTextAnswer"/>
+    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/file_export_text_top_margin_large" android:src="@drawable/ic_emailerror"/>
+</LinearLayout>

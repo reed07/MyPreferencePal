@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:id="@+id/friend_requests_progress_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ProgressBarSmall.Margin5"/>
+    <TextView android:gravity="center" android:id="@+id/friend_requests_no_friends" android:paddingLeft="30dp" android:paddingRight="30dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/noFriendRequests" style="@style/Subheader.BlackSecondaryText"/>
+    <android.support.v7.widget.RecyclerView android:id="@+id/friend_requests_recycler_view" android:visibility="gone" android:fadingEdgeLength="7dp" android:layout_width="match_parent" android:layout_height="match_parent" android:fastScrollEnabled="true"/>
+</LinearLayout>

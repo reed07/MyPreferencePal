@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/image_preview" android:paddingLeft="@dimen/newsfeed_padding_8dp" android:paddingRight="@dimen/newsfeed_padding_8dp" android:layout_width="@dimen/newsfeed_card_image_size" android:layout_height="@dimen/newsfeed_card_image_size" android:scaleType="centerCrop" android:layout_centerInParent="true"/>
+</RelativeLayout>

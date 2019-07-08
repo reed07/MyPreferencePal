@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/disclaimer_container" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:id="@+id/container_layout" android:paddingLeft="@dimen/material_padding_16" android:paddingRight="@dimen/material_padding_16" android:paddingBottom="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.myfitnesspal.feature.registration.ui.view.PageIndicatorBar android:id="@+id/page_indicator" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_padding_24" android:layout_marginBottom="@dimen/material_padding_24" app:max_progress="5" app:progress="4"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/email_password_container" android:paddingBottom="@dimen/material_padding_36" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:id="@+id/email_edit" android:layout_width="match_parent" android:layout_height="@dimen/material_control_height_48" android:hint="@string/emailTxt" style="@style/MaterialSignUpEditText"/>
+                <EditText android:id="@+id/password_edit" android:layout_width="match_parent" android:layout_height="@dimen/material_control_height_48" android:hint="@string/passwordTxt" android:password="true" style="@style/MaterialSignUpEditText"/>
+            </LinearLayout>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/auth_create_a_username" style="@style/Header.BlackText"/>
+            <EditText android:id="@+id/username_edit" android:layout_width="match_parent" android:layout_height="@dimen/material_control_height_48" android:hint="@string/auth_user_name" style="@style/MaterialSignUpEditText"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/username_taken_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_padding_32" android:text="@string/username_is_not_available" style="@style/Caption.DarkOrange"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_padding_8" android:text="@string/these_usernames_are_available" style="@style/Subheader.BlackText"/>
+                    <TextView android:id="@+id/suggested_names" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:lineSpacingMultiplier="1.75" style="@style/Body.BlackSecondaryText"/>
+                </LinearLayout>
+            </LinearLayout>
+            <CheckBox android:gravity="top" android:id="@+id/newsletter_checkbox" android:visibility="gone" android:checked="true" android:text="@string/email_list_global_opt_in" style="@style/SignupMaterialCheckbox"/>
+            <CheckBox android:id="@+id/privacy_checkbox" android:visibility="gone" android:text="@string/updated_terms_disclaimer_eu" style="@style/SignupMaterialCheckbox"/>
+            <TextView android:id="@+id/consent_error_text" android:visibility="gone" style="@style/SignupConsentError"/>
+        </LinearLayout>
+    </ScrollView>
+    <android.support.v7.widget.CardView android:orientation="vertical" android:id="@+id/disclaimer_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignWithParentIfMissing="true" app:cardElevation="@dimen/material_margin_8">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/disclaimer_text" android:visibility="gone" style="@style/SignupJoiningDisclaimerText"/>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/disclaimer_checkbox_non_us_container" android:paddingLeft="@dimen/material_padding_16" android:paddingTop="@dimen/material_padding_8" android:paddingRight="@dimen/material_padding_16" android:paddingBottom="@dimen/material_padding_8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <CheckBox android:layout_gravity="center_vertical" android:id="@+id/disclaimer_checkbox_non_us" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/material_margin_8"/>
+                <TextView android:layout_gravity="center_vertical" android:id="@+id/disclaimer_checkbox_non_us_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/signup_disclaimer_non_us"/>
+            </LinearLayout>
+            <Button android:id="@+id/sign_up" android:padding="@dimen/material_padding_10" android:visibility="gone" android:layout_width="match_parent" android:layout_marginBottom="@dimen/material_margin_16" android:text="@string/welcome_sign_up" android:layout_marginStart="@dimen/material_margin_16" android:layout_marginEnd="@dimen/material_margin_16" style="@style/MaterialLoginButton"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

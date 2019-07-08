@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="@dimen/macro_legend_label_weight"/>
+        <TextView android:id="@+id/label_total" android:text="@string/totalTxt" style="@style/MacroLegendHeader"/>
+        <TextView android:text="@string/goalTxt" style="@style/MacroLegendHeader"/>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/entries_header_layout" android:layout_width="match_parent" android:layout_height="72dp">
+        <TextView android:padding="16dp" android:text="@string/entries" android:layout_alignParentBottom="true" style="@style/Header.BlackText"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/share_button" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_progress_share"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/share" style="@style/Subheader.BlackSecondaryText"/>
+        </LinearLayout>
+        <View android:layout_alignParentBottom="true" style="@style/HorizontalDivider"/>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/DialogContentBaseAlt">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="65dp">
+        <EditText android:id="@+id/numOfCalories" android:layout_width="0dp" android:layout_marginLeft="@dimen/quick_add_dialog_edit_text_marginLeft" android:digits="1234567890" android:layout_weight="4" android:inputType="numberDecimal" android:imeOptions="actionGo" style="@style/DialogEditText"/>
+        <TextView android:id="@+id/calories" android:paddingLeft="@dimen/quick_add_dialog_text_padding" android:paddingTop="@dimen/quick_add_dialog_text_padding" android:layout_width="0dp" android:layout_marginRight="@dimen/quick_add_dialog_text_marginRight" android:text="@string/calories" android:layout_weight="4" style="@style/DialogContentSubHeaderText"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/info_container" style="@style/FoodInfoContainer.Header">
+            <ImageView android:id="@+id/verified_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_verified_food_24dp" android:layout_alignParentRight="true"/>
+            <TextView android:id="@+id/txtFoodName" android:text="@string/chicken_soup" android:layout_toLeftOf="@+id/verified_badge" style="@style/FoodInfoHeaderText"/>
+            <TextView android:id="@+id/txtFoodDescription" android:visibility="gone" android:layout_marginTop="8dp" android:layout_below="@+id/txtFoodName" style="@style/FoodInfoText"/>
+        </RelativeLayout>
+        <include layout="@layout/number_servings_container"/>
+        <include layout="@layout/serving_size_container"/>
+        <include layout="@layout/new_walkthrough_scaffolding"/>
+    </LinearLayout>
+</ScrollView>

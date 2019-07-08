@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_selected="true">
+        <shape android:shape="ring" android:useLevel="false" android:innerRadius="0dp" android:thickness="4dp">
+            <stroke android:width="1dp" android:color="@color/premium_onboarding_indicator_selected"/>
+            <solid android:color="@color/premium_onboarding_indicator_selected"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="ring" android:useLevel="false" android:innerRadius="0dp" android:thickness="4dp">
+            <stroke android:width="1dp" android:color="@color/premium_onboarding_indicator_empty"/>
+            <solid android:color="@color/transparent"/>
+        </shape>
+    </item>
+</selector>

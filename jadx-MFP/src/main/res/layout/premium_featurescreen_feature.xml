@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:layout_width="wrap_content" android:layout_height="@dimen/premium_feature_screen_row_height" android:layout_marginRight="@dimen/feature_screen_feature_margin_right" layout="@layout/premium_upsell_feature"/>
+    <View style="@style/HorizontalDivider"/>
+</LinearLayout>

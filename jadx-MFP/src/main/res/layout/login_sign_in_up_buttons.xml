@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/login_option_buttons" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.myfitnesspal.shared.ui.view.StyledButton android:id="@+id/btnNewAccount" android:text="@string/welcome_sign_up" style="@style/SignupButton"/>
+    <com.myfitnesspal.shared.ui.view.StyledButton android:textColor="@color/white_text" android:id="@+id/btnSignIn" android:background="@null" android:layout_marginTop="8dp" android:text="@string/welcome_log_in" style="@style/SignupButton"/>
+</LinearLayout>

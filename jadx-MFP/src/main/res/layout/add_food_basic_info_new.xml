@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:scrollbarStyle="outsideOverlay" android:background="@color/mfp_background" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@color/mfp_background" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:id="@+id/couldnt_match" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/couldnt_find_match" style="@style/add_food_sorry_text_view"/>
+        <TextView android:id="@+id/help_community" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/help_our_community" style="@style/add_food_help_text_view"/>
+        <TextView android:id="@+id/newFood" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginTop="16dp" android:text="@string/newFood" style="@style/add_food_headers_text"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/add_food_input_row">
+            <TextView android:id="@+id/brandName" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/brandName" style="@style/add_food_label_text_view"/>
+            <EditText android:id="@+id/editTxtBrandName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:hint="@string/exBrandName" android:editable="false" android:inputType="textNoSuggestions" style="@style/add_food_input_field_gravity_left"/>
+        </LinearLayout>
+        <View android:background="@color/button_flat_grey_normal_stroke" android:layout_width="match_parent" android:layout_height="wrap_content" android:height="1dp"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/add_food_input_row">
+            <TextView android:id="@+id/description" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/descriptionRequired" style="@style/add_food_label_text_view"/>
+            <EditText android:id="@+id/editTxtDescription" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginBottom="8dp" android:hint="@string/exDescription" android:inputType="textNoSuggestions" style="@style/add_food_input_field_gravity_left"/>
+        </LinearLayout>
+        <TextView android:id="@+id/servings" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginTop="16dp" android:text="@string/servings" style="@style/add_food_headers_text"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/add_food_input_row">
+            <TextView android:id="@+id/servingSize" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/servingSizeRequired" style="@style/add_food_label_text_view"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/serving_size_spinner_container" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/add_food_input_row">
+            <com.myfitnesspal.shared.ui.view.CustomLocalizedNumberEditText android:id="@+id/editTxtServingSizeQuantity" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:hint="@string/one" android:layout_weight="1" style="@style/add_food_input_field_underline"/>
+            <AutoCompleteTextView android:id="@+id/servingSizeAutoTxt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:hint="@string/unit_hint" android:completionThreshold="1" android:layout_weight="1" style="@style/add_food_input_field_underline"/>
+        </LinearLayout>
+        <View android:background="@color/button_flat_grey_normal_stroke" android:layout_width="match_parent" android:layout_height="wrap_content" android:height="1dp"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/add_food_input_row">
+            <TextView android:id="@+id/servingsPerContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/servingsperContainerRequired" style="@style/add_food_label_text_view"/>
+            <com.myfitnesspal.shared.ui.view.CustomLocalizedNumberEditText android:id="@+id/editTxtServingsPerContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginBottom="8dp" android:hint="@string/exServingsPerContainer" style="@style/add_food_input_field_gravity_left"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

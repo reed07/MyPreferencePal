@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/food_desc_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/info_container" style="@style/FoodInfoContainer.Header">
+        <ImageView android:id="@+id/verified_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_verified_food_24dp" android:layout_alignParentEnd="true"/>
+        <TextView android:id="@+id/txtFoodName" android:text="@string/chicken_soup" android:layout_toStartOf="@+id/verified_badge" style="@style/FoodInfoHeaderText"/>
+        <TextView android:id="@+id/txtFoodDescription" android:visibility="gone" android:layout_below="@+id/txtFoodName" style="@style/FoodInfoText"/>
+    </RelativeLayout>
+    <ImageButton android:id="@+id/meal_share_btn" android:background="?attr/selectableItemBackground" android:paddingLeft="@dimen/item_horizontal_margin" android:paddingRight="@dimen/item_horizontal_margin" android:paddingBottom="@dimen/item_horizontal_margin" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_share_grey" android:scaleType="fitEnd" android:layout_alignTop="@+id/info_container" android:layout_alignBottom="@+id/info_container" android:layout_alignParentEnd="true"/>
+</RelativeLayout>

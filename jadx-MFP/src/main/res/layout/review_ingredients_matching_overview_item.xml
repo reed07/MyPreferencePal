@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingTop="@dimen/ingredients_matching_overview_item_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:paddingLeft="@dimen/ingredients_matching_overview_item_padding" android:paddingRight="@dimen/ingredients_matching_overview_item_padding" android:text="@string/review_ingredients" style="@style/Header.BlackText"/>
+    <TextView android:id="@+id/subtext" android:paddingLeft="@dimen/ingredients_matching_overview_item_padding" android:paddingRight="@dimen/ingredients_matching_overview_item_padding" android:layout_width="match_parent" android:layout_marginTop="@dimen/ingredients_matching_overview_item_spacing" android:text="@string/review_all_ingredients" style="@style/Subheader.BlackSecondaryText"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/ingredients_matching_overview_item_padding" android:paddingRight="@dimen/ingredients_matching_overview_item_padding" android:paddingBottom="@dimen/ingredients_matching_overview_item_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ingredients_matching_overview_item_spacing">
+        <TextView android:id="@+id/num_servings" android:text="@string/num_servings" style="@style/Subheader.BlackText"/>
+        <View android:background="@drawable/grey_dot" android:layout_width="@dimen/ingredients_matching_dot_size" android:layout_height="@dimen/ingredients_matching_dot_size" android:layout_marginLeft="@dimen/ingredients_matching_overview_item_spacing" android:layout_marginRight="@dimen/ingredients_matching_overview_item_spacing"/>
+        <TextView android:id="@+id/calories_per_serving" android:text="@string/calories_per_servings" style="@style/Subheader.BlackText"/>
+    </LinearLayout>
+    <View style="@style/HorizontalDivider"/>
+</LinearLayout>

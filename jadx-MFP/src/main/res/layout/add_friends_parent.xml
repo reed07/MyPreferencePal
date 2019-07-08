@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/mfp_grey" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/add_friends_facebook" layout="@layout/add_friends_parent_item"/>
+    <include android:id="@+id/add_friends_contacts" layout="@layout/add_friends_parent_item"/>
+    <include android:id="@+id/add_friend_email" layout="@layout/add_friends_parent_item"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/button_measurement_type" android:background="@drawable/list_item_bg_selector" android:padding="8dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:src="@drawable/ic_progress_black_26_24dp" android:layout_toLeftOf="@+id/label"/>
+        <TextView android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/label" android:background="@null" android:clickable="false" android:text="@string/weight" android:maxLines="2" android:scrollHorizontally="false" style="@style/Body.BlackText"/>
+    </LinearLayout>
+</RelativeLayout>

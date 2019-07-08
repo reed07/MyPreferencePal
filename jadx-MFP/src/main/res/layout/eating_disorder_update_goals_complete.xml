@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center_horizontal" android:id="@+id/tv_update_goals_text_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="@string/goal_weight_updated" style="@style/update_goals_text_header"/>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/ic_fork_knife" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:src="@drawable/ic_fork_knife" android:layout_centerVertical="true"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/ic_fork_knife" android:layout_centerVertical="true">
+                    <TextView android:gravity="bottom" android:id="@+id/txt_goal_daily_calories" android:layout_width="wrap_content" android:layout_height="0dp" android:text="@string/update_goals_your_daily_goal_calories" android:layout_weight="1" style="@style/update_goals_text_large"/>
+                    <TextView android:gravity="top" android:id="@+id/txt_goal_calories_value" android:layout_width="wrap_content" android:layout_height="0dp" android:text="2000" android:layout_weight="1" style="@style/update_goals_text_value"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp">
+                <ImageView android:id="@+id/ic_scale" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:src="@drawable/ic_scale" android:layout_alignParentLeft="true"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/ic_scale" android:layout_centerVertical="true">
+                    <TextView android:gravity="bottom" android:id="@+id/txt_goal_gain_or_lose" android:layout_width="wrap_content" android:layout_height="0dp" android:text="@string/new_goal_weight" android:layout_weight="1" style="@style/update_goals_text_large"/>
+                    <TextView android:gravity="top" android:id="@+id/txt_weight_loss_goal" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" style="@style/update_goals_text_value"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="35dp">
+            <Button android:id="@+id/btn_ok" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ok" style="@style/btn_blue"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="40dp" android:paddingRight="40dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/material_margin_24" android:layout_weight="1">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/and_export_upsell"/>
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/premium_cta_container" android:paddingBottom="@dimen/material_margin_24" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:src="@drawable/ic_crown"/>
+                    <TextView android:gravity="center" android:layout_marginTop="4dp" android:text="@string/go_premium" style="@style/Link.Blue"/>
+                </LinearLayout>
+                <TextView android:gravity="center" android:id="@+id/subtext" android:layout_width="match_parent" android:layout_marginTop="@dimen/goal_premium_spacing" android:text="@string/download_csv_files_progress_history_sharing" style="@style/Header2B.BlackText"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/file_export_horizontal_bottom_margin">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/export_button" android:background="@drawable/blue_rounded_rectangle_button" android:layout_width="match_parent" android:layout_height="@dimen/material_control_height_40">
+                    <ImageView android:id="@+id/export_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/material_padding_8" android:src="@drawable/ic_premium_lock"/>
+                    <TextView android:id="@+id/export_text_view" android:text="@string/export_my_information" style="@style/ButtonText.WhiteText"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

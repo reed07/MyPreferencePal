@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/bg_cards" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="12dp" android:layout_marginBottom="12dp">
+    <TextView android:id="@+id/upsellGroupTitle" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Group Title" style="@style/Header.BlackText"/>
+    <View style="@style/LightUpsellDivider"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/upsellFeatureContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+</LinearLayout>

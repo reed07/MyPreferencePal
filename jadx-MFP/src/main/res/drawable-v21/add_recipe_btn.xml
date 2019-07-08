@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:color="?attr/colorControlHighlight">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/cards_corner_inner_radius"/>
+            <stroke android:width="1dp" android:color="@color/black_divider"/>
+            <solid android:color="@color/add_recipe_btn"/>
+        </shape>
+    </item>
+</ripple>

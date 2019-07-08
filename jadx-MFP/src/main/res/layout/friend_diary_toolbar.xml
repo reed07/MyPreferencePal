@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/toolbar" style="@style/ToolbarStyle">
+    <com.myfitnesspal.shared.ui.view.MfpImageView android:layout_gravity="left" android:id="@+id/profile_image" android:layout_width="@dimen/friend_diary_profile_photo_size" android:layout_height="@dimen/friend_diary_profile_photo_size" android:layout_marginRight="8dp" android:src="@drawable/ic_profile" app:circular="true"/>
+    <TextView android:layout_gravity="left" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ToolbarTitle"/>
+    <ProgressBar android:id="@+id/progress_spinner" style="@style/ToolbarProgressStyle"/>
+</android.support.v7.widget.Toolbar>

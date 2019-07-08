@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/meal_goals_main" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Switch android:id="@+id/enableMealGoalsSwitch" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp" android:text="@string/enable_meal_goals" android:switchMinWidth="64dp" style="@style/Header.BlackText"/>
+    <com.myfitnesspal.shared.ui.view.CustomToggle android:layout_gravity="center" android:id="@+id/custom_mode_toggle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_margin_16"/>
+    <View android:layout_width="match_parent" android:layout_height="1dp" style="@style/HorizontalDivider"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/set_goals_prompt" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_margin_24">
+        <TextView android:padding="@dimen/material_padding_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/set_meal_goals" style="@style/Header.BlackText"/>
+        <View android:layout_width="match_parent" android:layout_height="1dp" style="@style/HorizontalDivider"/>
+    </LinearLayout>
+    <com.myfitnesspal.shared.ui.view.CustomTabLayout android:id="@+id/tab_layout" style="@style/TabsAppearance.White"/>
+    <com.myfitnesspal.shared.ui.view.CustomSwipeableViewPager android:id="@+id/view_pager" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

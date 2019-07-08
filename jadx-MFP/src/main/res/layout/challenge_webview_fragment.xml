@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.myfitnesspal.shared.ui.view.StateAwareScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/challenge_prizes_scrollview" android:background="@color/challenges_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@color/challenges_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.myfitnesspal.feature.challenges.ui.view.ChallengeBannerImageView android:id="@+id/challengeBannerImage" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <android.support.v7.widget.CardView android:layout_width="match_parent" android:layout_height="0dp" android:layout_margin="@dimen/material_margin_8" android:layout_weight="1">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:gravity="center_vertical" android:id="@+id/titleView" android:padding="@dimen/challenge_list_item_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/how_to_play" style="@style/Header.BlackText"/>
+                <include layout="@layout/grey_separator_1dp_light"/>
+                <com.myfitnesspal.shared.ui.view.MfpWebView android:id="@+id/challengeWebView" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <ProgressBar android:layout_gravity="center" android:id="@+id/rulesProgressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</com.myfitnesspal.shared.ui.view.StateAwareScrollView>

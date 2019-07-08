@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="@dimen/food_search_empty_item_horizontal_padding" android:paddingRight="@dimen/food_search_empty_item_horizontal_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@+id/primary_empty_text" android:paddingTop="@dimen/food_search_empty_item_paddingTop" android:text="@string/no_results_found_in_tab" style="@style/Body.BlackSecondaryText"/>
+    <TextView android:id="@+id/secondary_empty_text" android:visibility="gone" android:text="@string/search_all_foods" style="@style/FoodSearchCTASearchText"/>
+</LinearLayout>

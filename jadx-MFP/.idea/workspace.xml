@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="076b359d-93f6-46bf-b041-5addcfbbd0b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../MyPreferencePal/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/.idea/commons-cli-LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/.idea/copyright/commons-cli-LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/.idea/dictionaries/rod.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/MFP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../MyPreferencePal/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MyPreferencePal/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../MyPreferencePal/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../MyPreferencePal/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../MyPreferencePal/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/.idea/libraries/classes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/.idea/libraries/dexpatcher_annotation_1_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/.idea/libraries/exfilepicker_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/.idea/libraries/source_unspecified.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/patched.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/src/main/java/com/myfitnesspal/feature/barcode/ui/activity/BarcodeScannerActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/src/main/java/com/myfitnesspal/feature/premium/util/PremiumFeatureOverrides.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/src/main/java/com/myfitnesspal/feature/settings/model/DiarySetting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/src/main/java/com/myfitnesspal/feature/settings/model/DiarySetting2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/src/main/java/com/myfitnesspal/feature/settings/ui/fragment/DiarySettingsFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/src/main/java/com/myfitnesspal/shared/model/v1/DiaryDay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/src/main/java/com/myfitnesspal/shared/model/v1/NutritionalValues.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/src/main/java/com/myfitnesspal/shared/service/locationsettings/LocalSettingsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/src/main/java/com/myfitnesspal/shared/service/locationsettings/LocalSettingsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/src/main/res/values/public.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/patched/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../MyPreferencePal/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/source/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/source/apk/com.myfitnesspal.android_2017-08-25.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/source/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/source/commons-cli-LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyPreferencePal/source/source.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dexpatcher-gradle-tools-master/libs/provided/dexpatcher-annotation/dexpatcher-annotation-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dexpatcher-gradle-tools-master/tools/apktool/VERSION-2.2.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dexpatcher-gradle-tools-master/tools/apktool/apktool.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../dexpatcher-gradle-tools-master/tools/apktool/apktool.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dexpatcher-gradle-tools-master/tools/apktool/apktool.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../dexpatcher-gradle-tools-master/tools/apktool/apktool.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dexpatcher-gradle-tools-master/tools/dex2jar/VERSION-2.1-20170802-lanchon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dexpatcher-gradle-tools-master/tools/dex2jar/bin/dex-tools" beforeDir="false" afterPath="$PROJECT_DIR$/../dexpatcher-gradle-tools-master/tools/dex2jar/bin/dex-tools" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dexpatcher-gradle-tools-master/tools/dex2jar/bin/dex-tools.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../dexpatcher-gradle-tools-master/tools/dex2jar/bin/dex-tools.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dexpatcher-gradle-tools-master/tools/dex2jar/lib/d2j-base-cmd-2.1-20170802-lanchon.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dexpatcher-gradle-tools-master/tools/dex2jar/lib/d2j-jasmin-2.1-20170802-lanchon.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dexpatcher-gradle-tools-master/tools/dex2jar/lib/d2j-smali-2.1-20170802-lanchon.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dexpatcher-gradle-tools-master/tools/dex2jar/lib/dex-ir-2.1-20170802-lanchon.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dexpatcher-gradle-tools-master/tools/dex2jar/lib/dex-reader-2.1-20170802-lanchon.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dexpatcher-gradle-tools-master/tools/dex2jar/lib/dex-reader-api-2.1-20170802-lanchon.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dexpatcher-gradle-tools-master/tools/dex2jar/lib/dex-tools-2.1-20170802-lanchon.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dexpatcher-gradle-tools-master/tools/dex2jar/lib/dex-translator-2.1-20170802-lanchon.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dexpatcher-gradle-tools-master/tools/dex2jar/lib/dex-writer-2.1-20170802-lanchon.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dexpatcher-gradle-tools-master/tools/dexpatcher/dexpatcher-1.3.1.jar" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/diary/util/DiaryDelegate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="144" column="60" lean-forward="true" selection-start-line="144" selection-start-column="60" selection-end-line="144" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/shared/model/v1/DiaryDay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="656" column="46" selection-start-line="656" selection-start-column="17" selection-end-line="656" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/nutrition/service/ProgressReport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="179" column="129" selection-start-line="179" selection-start-column="78" selection-end-line="179" selection-end-column="129" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/nutrition/model/Nutrient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2380">
+              <caret line="140" column="26" selection-start-line="140" selection-start-column="26" selection-end-line="140" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/diary/ui/item/SectionHeaderItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/diary/model/DiarySectionNutritionTotals.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/diary/ui/fragment/UserDiaryFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="365" lean-forward="true" selection-start-line="365" selection-end-line="365" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/diary/ui/item/DiaryAdapterItem.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/diary/ui/adapter/DiaryAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14943">
+              <caret line="995" column="29" selection-start-line="995" selection-start-column="12" selection-end-line="995" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/diary/ui/fragment/UserDiaryFragment_MembersInjector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="174" column="95" selection-start-line="174" selection-start-column="91" selection-end-line="174" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>energy</find>
+      <find>amountOfNutrientConsumed</find>
+      <find>net</find>
+      <find>NutrientGoalsUtil</find>
+      <find>Lazy</find>
+      <find>Strings</find>
+      <find>toString</find>
+      <find>alcohol</find>
+      <find>alco</find>
+      <find>amountofnutrientcon</find>
+      <find>getNutritionValueFromFoodEntry</find>
+      <find>setNetremainingvaluesformacros</find>
+      <find>formatProgressBarLabelWithUnits</find>
+      <find>getAdjustedNutritionalGoal</find>
+      <find>nutritionalGoalsUtil</find>
+      <find>macro</find>
+      <find>SectionHeaderItem</find>
+      <find>totalNu</find>
+      <find>context</find>
+      <find>DatabaseObject</find>
+      <find>getContext</find>
+      <find>DiarySectionNutritionTotals</find>
+      <find>getFoodEntriesForMeal</find>
+      <find>meal</find>
+      <find>getTotalNutrientConsumedForMealNameAndNutrientIndex</find>
+      <find>getTotal</find>
+      <find>Meal</find>
+      <find>mealNames</find>
+      <find>total</find>
+      <find>totalNutrientValueForMealName</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/myfitnesspal/shared/ui/fragment/impl/NewNutritionFactsFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/myfitnesspal/shared/ui/fragment/NutritionFactsFragmentBase.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/new_nutrition_facts.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2614" />
+    <option name="y" value="194" />
+    <option name="width" value="1874" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jadx-MFP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jadx-MFP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jadx-MFP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jadx-MFP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jadx-MFP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jadx-MFP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jadx-MFP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jadx-MFP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jadx-MFP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jadx-MFP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jadx-MFP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jadx-MFP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="myfitnesspal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jadx-MFP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jadx-MFP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="myfitnesspal" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jadx-MFP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jadx-MFP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="myfitnesspal" type="462c0819:PsiDirectoryNode" />
+              <item name="feature" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jadx-MFP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jadx-MFP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="myfitnesspal" type="462c0819:PsiDirectoryNode" />
+              <item name="feature" type="462c0819:PsiDirectoryNode" />
+              <item name="diary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jadx-MFP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jadx-MFP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="myfitnesspal" type="462c0819:PsiDirectoryNode" />
+              <item name="feature" type="462c0819:PsiDirectoryNode" />
+              <item name="diary" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jadx-MFP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jadx-MFP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="myfitnesspal" type="462c0819:PsiDirectoryNode" />
+              <item name="feature" type="462c0819:PsiDirectoryNode" />
+              <item name="diary" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jadx-MFP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jadx-MFP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="myfitnesspal" type="462c0819:PsiDirectoryNode" />
+              <item name="feature" type="462c0819:PsiDirectoryNode" />
+              <item name="diary" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jadx-MFP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jadx-MFP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="myfitnesspal" type="462c0819:PsiDirectoryNode" />
+              <item name="feature" type="462c0819:PsiDirectoryNode" />
+              <item name="diary" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="dialog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jadx-MFP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jadx-MFP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="myfitnesspal" type="462c0819:PsiDirectoryNode" />
+              <item name="feature" type="462c0819:PsiDirectoryNode" />
+              <item name="diary" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="fragment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jadx-MFP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jadx-MFP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="myfitnesspal" type="462c0819:PsiDirectoryNode" />
+              <item name="feature" type="462c0819:PsiDirectoryNode" />
+              <item name="diary" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jadx-MFP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jadx-MFP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="myfitnesspal" type="462c0819:PsiDirectoryNode" />
+              <item name="feature" type="462c0819:PsiDirectoryNode" />
+              <item name="diary" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jadx-MFP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jadx-MFP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="myfitnesspal" type="462c0819:PsiDirectoryNode" />
+              <item name="feature" type="462c0819:PsiDirectoryNode" />
+              <item name="diary" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jadx-MFP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jadx-MFP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dagger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jadx-MFP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jadx-MFP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dagger" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jadx-MFP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jadx-MFP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dagger" type="462c0819:PsiDirectoryNode" />
+              <item name="multibindings" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="076b359d-93f6-46bf-b041-5addcfbbd0b7" name="Default Changelist" comment="" />
+      <created>1562280996287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562280996287</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2614" y="194" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.3026461" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="0" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Debug" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Build" order="6" visible="true" weight="0.1819149" />
+      <window_info anchor="right" id="Preview" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Gradle" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3026461" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="0" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Debug" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Build" order="6" visible="true" weight="0.1819149" />
+      <window_info anchor="right" id="Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/shared/model/v1/NutritionalValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="162" column="5" lean-forward="true" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/shared/model/v2/MfpNutritionalContents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="310" column="34" selection-start-line="310" selection-start-column="18" selection-end-line="310" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/new_nutrition_facts.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/new_nutrition_facts_detailed.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="187" selection-start-line="1" selection-start-column="187" selection-end-line="1" selection-end-column="187" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/shared/ui/fragment/MfpFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/new_nutrition_facts_us.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/new_nutrition_facts_detailed_us.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/addentry/ui/activity/AddFoodSummaryView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="560" column="60" lean-forward="true" selection-start-line="560" selection-start-column="60" selection-end-line="560" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/new_nutrition_facts_simple.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/new_nutrition_facts_prem.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="84" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/shared/ui/view/MacroDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="50" column="29" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/shared/ui/fragment/NutritionFactsFragmentBase_ViewBinding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="128" selection-start-line="16" selection-start-column="116" selection-end-line="16" selection-end-column="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/shared/ui/fragment/impl/NewNutritionFactsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="183" column="240" selection-start-line="183" selection-start-column="232" selection-end-line="183" selection-end-column="240" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/shared/ui/fragment/NutritionFactsFragmentBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="249" column="34" lean-forward="true" selection-start-line="249" selection-start-column="34" selection-end-line="249" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/dashboard/ui/activity/NutrientDashboardSettingsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/dashboard/ui/view/NutrientDashboardBase_ViewBinding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/dashboard/ui/view/NutrientDashboardRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/dashboard/ui/view/NutrientDashboardUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/dashboard/ui/view/TextNutrientDashboard_ViewBinding.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/requery/Key.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bumptech/glide/load/Key.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/dashboard/ui/fragment/CustomNutrientDashboardSelectionFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="87" column="68" selection-start-line="87" selection-start-column="68" selection-end-line="87" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="1064" column="83" lean-forward="true" selection-start-line="1064" selection-start-column="83" selection-end-line="1064" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/goals/service/NutrientGoalsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dagger/Lazy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/shared/model/v2/MfpDailyGoal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uacf/core/util/TextViewUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="5" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/uacf/core/util/Strings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="354" column="27" selection-start-line="354" selection-start-column="27" selection-end-line="354" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/shared/util/NutritionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="78" column="47" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/goals/service/NutrientGoalsUtilImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="359" column="43" selection-start-line="359" selection-start-column="17" selection-end-line="359" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/dashboard/ui/view/NutrientDashboard.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/dashboard/ui/view/NutrientDashboardBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="75" column="15" lean-forward="true" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/dashboard/ui/view/TextNutrientDashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/diary/ui/item/DiaryButtonsFooterItem.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/diary/ui/item/DiaryLandscapeFooterItem.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/diary/ui/item/DiaryPromoItem.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/diary/ui/item/DiaryRowActionItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/diary/ui/activity/Diary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="120" column="50" lean-forward="true" selection-start-line="120" selection-start-column="50" selection-end-line="120" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/diary/util/MealMacrosUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="60" lean-forward="true" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/diary/ui/fragment/DiaryFragmentBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5444">
+          <caret line="424" column="57" selection-start-line="424" selection-start-column="53" selection-end-line="424" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/shared/model/v1/DatabaseObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="96" column="4" selection-start-line="96" selection-start-column="4" selection-end-line="98" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/diary/ui/item/SectionHeaderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/diary/model/DiarySectionNutritionTotals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/diary/ui/fragment/UserDiaryFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="365" lean-forward="true" selection-start-line="365" selection-end-line="365" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/diary/ui/item/DiaryAdapterItem.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/diary/ui/adapter/DiaryAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14943">
+          <caret line="995" column="29" selection-start-line="995" selection-start-column="12" selection-end-line="995" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/diary/ui/fragment/UserDiaryFragment_MembersInjector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="174" column="95" selection-start-line="174" selection-start-column="91" selection-end-line="174" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/diary/util/DiaryDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="144" column="60" lean-forward="true" selection-start-line="144" selection-start-column="60" selection-end-line="144" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/nutrition/service/ProgressReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="179" column="129" selection-start-line="179" selection-start-column="78" selection-end-line="179" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/feature/nutrition/model/Nutrient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2380">
+          <caret line="140" column="26" selection-start-line="140" selection-start-column="26" selection-end-line="140" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myfitnesspal/shared/model/v1/DiaryDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="656" column="46" selection-start-line="656" selection-start-column="17" selection-end-line="656" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

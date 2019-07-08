@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/screen_parent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/ads_container" android:visibility="gone" style="@style/AdContainer"/>
+    <android.support.design.widget.CoordinatorLayout android:orientation="vertical" android:id="@+id/content_parent" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/ads_container">
+        <android.support.design.widget.AppBarLayout android:id="@+id/toolbar_container" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="@dimen/default_toolbar_elevation" android:stateListAnimator="@null" app:layout_behavior="com.myfitnesspal.shared.ui.behavior.FixAppBarLayoutBehavior"/>
+        <com.myfitnesspal.shared.ui.view.ResizableFrameLayout android:id="@+id/content_frame" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

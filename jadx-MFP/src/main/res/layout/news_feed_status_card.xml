@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/CardBase.NewsFeedCard">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="horizontal" android:paddingLeft="@dimen/news_feed_marginLeft" android:paddingTop="@dimen/news_feed_item_marginTop" android:paddingRight="@dimen/news_feed_marginRight" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.myfitnesspal.shared.ui.view.MfpImageView android:id="@+id/user_avatar" android:layout_marginRight="12dp" android:src="@drawable/ic_profile" style="@style/StandardAvatar"/>
+            <ImageButton android:id="@+id/cardAction" android:layout_alignParentRight="true" style="@style/NewsFeedClose"/>
+            <com.myfitnesspal.shared.ui.view.StyledTextView android:ellipsize="end" android:id="@+id/username" android:layout_width="match_parent" android:layout_marginRight="16dp" android:maxLines="1" android:layout_toLeftOf="@+id/close" android:layout_toRightOf="@+id/user_avatar" style="@style/NewsFeedCardUsername"/>
+            <TextView android:id="@+id/date" android:layout_marginRight="@dimen/news_feed_date_horizontal_margin" android:text="@string/samle_date" android:layout_toRightOf="@+id/user_avatar" android:layout_below="@+id/username" style="@style/NewsFeedCardDate"/>
+            <TextView android:ellipsize="end" android:id="@+id/partner_app_info" android:clickable="true" android:layout_marginLeft="@dimen/news_feed_partner_horizontal_margin" android:layout_marginRight="@dimen/news_feed_partner_horizontal_margin" android:text="@string/via" android:maxLines="1" android:layout_toRightOf="@+id/date" android:layout_below="@+id/username" style="@style/NewsFeedCardDate"/>
+            <TextView android:id="@+id/status" android:layout_below="@+id/date" style="@style/NewsFeedCardStatus"/>
+        </RelativeLayout>
+        <FrameLayout android:id="@+id/view_area" android:background="@color/white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <ImageView android:id="@+id/ivStatusImage" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:maxHeight="@dimen/newsfeed_card_image_max_height"/>
+            <include android:id="@+id/viewImageFailed" layout="@layout/status_image_download_failed"/>
+            <ProgressBar android:layout_gravity="center" android:id="@+id/progress" android:visibility="gone" android:layout_width="@dimen/progress_photo_image_spinner" android:layout_height="@dimen/progress_photo_image_spinner" android:indeterminate="true" style="?android:attr/progressBarStyle"/>
+            <Button android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/view_meal_btn" android:background="@color/material_login_button_bg" android:paddingLeft="@dimen/material_padding_16" android:paddingRight="@dimen/material_padding_16" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="32dp" android:layout_marginTop="@dimen/material_margin_16" android:layout_marginRight="@dimen/material_margin_16" android:text="@string/view_text" style="@style/ButtonText.WhiteSolidText"/>
+        </FrameLayout>
+        <LinearLayout android:id="@+id/likes_comments_row" android:paddingLeft="@dimen/news_feed_marginLeft" android:paddingRight="@dimen/news_feed_marginRight" android:paddingBottom="@dimen/news_feed_item_marginTop" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/numberOfLikesTxt" android:layout_marginRight="4dp" android:text="@string/like_count_format_plural" style="@style/NewsFeedCardLikesCommentsNumberText"/>
+            <TextView android:id="@+id/numberOfCommentsTxt" android:text="@string/comment_count_format_plural" style="@style/NewsFeedCardLikesCommentsNumberText"/>
+        </LinearLayout>
+        <include layout="@layout/grey_separator_1dp_light"/>
+        <LinearLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@+id/likeBtn" style="@style/NewsFeedBottomButtonContainer">
+                <TextView android:id="@+id/like_button_text" android:text="@string/like" android:drawableLeft="@drawable/news_feed_like_action_button_drawable" style="@style/NewsFeedCardLikeCommentText"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/commentBtn" style="@style/NewsFeedBottomButtonContainer">
+                <TextView android:id="@+id/comment_btn_text" android:text="@string/comment" android:drawableLeft="@drawable/news_feed_comment_action_button_drawable" style="@style/NewsFeedCardLikeCommentText"/>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

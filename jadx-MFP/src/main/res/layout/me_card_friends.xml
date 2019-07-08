@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/emptyView" android:background="@drawable/list_item_bg_selector" android:paddingLeft="@dimen/material_margin_16" android:paddingRight="@dimen/material_margin_16" android:paddingBottom="@dimen/material_margin_16" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/material_margin_16" android:src="@drawable/ic_me_friends"/>
+        <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/me_card_friends_empty_message" style="@style/Body.BlackText"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/friendsContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_padding_8">
+        <include android:id="@+id/friend1" layout="@layout/me_card_friend_cell"/>
+        <include android:id="@+id/friend2" layout="@layout/me_card_friend_cell"/>
+        <FrameLayout android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/moreContainer" android:background="@drawable/list_item_bg_selector" android:paddingTop="8dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <FrameLayout android:layout_gravity="center_horizontal" android:background="@drawable/me_card_friend_cell_overlay" android:layout_width="@dimen/my_info_friend_more_size" android:layout_height="@dimen/my_info_friend_more_size">
+                <TextView android:textSize="20sp" android:layout_gravity="center" android:id="@+id/moreCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/Link.Blue"/>
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

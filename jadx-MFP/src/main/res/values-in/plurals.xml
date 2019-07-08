@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="challenge_ends_in_format">
+        <item quantity="other">Berakhir dalam %1$s hari</item>
+    </plurals>
+    <plurals name="days_remaining_format">
+        <item quantity="other">%1$s Hari Tersisa</item>
+    </plurals>
+    <plurals name="friend_just_joined">
+        <item quantity="other">%1$d teman Facebook baru bergabung dengan MyFitnessPal</item>
+    </plurals>
+    <plurals name="hours_remaining_format">
+        <item quantity="other">%1$s Jam Tersisa</item>
+    </plurals>
+    <plurals name="ingredients_deleted_plural">
+        <item quantity="other">Bahan baku telah dihapus.</item>
+    </plurals>
+    <plurals name="me_header_streak">
+        <item quantity="other">Rekor: %1$d hari</item>
+    </plurals>
+    <plurals name="me_my_cardio_count">
+        <item quantity="other">%1$d Kardio</item>
+    </plurals>
+    <plurals name="me_my_foods_count">
+        <item quantity="other">%1$d Makanan</item>
+    </plurals>
+    <plurals name="me_my_meals_count">
+        <item quantity="other">%1$d Santapan</item>
+    </plurals>
+    <plurals name="me_my_recipes_count">
+        <item quantity="other">%1$d Resep</item>
+    </plurals>
+    <plurals name="me_my_strength_count">
+        <item quantity="other">%1$d Kekuatan</item>
+    </plurals>
+    <plurals name="more_friends">
+        <item quantity="other">+%1$d Teman Lainnya…</item>
+    </plurals>
+    <plurals name="progress_breakfast">
+        <item quantity="other">sarapan tercatat</item>
+    </plurals>
+    <plurals name="progress_daily_fiber">
+        <item quantity="other">sasaran serat yang dicapai</item>
+    </plurals>
+    <plurals name="progress_daily_protein">
+        <item quantity="other">sasaran protein yang dicapai</item>
+    </plurals>
+    <plurals name="progress_dinner">
+        <item quantity="other">makan malam tercatat</item>
+    </plurals>
+    <plurals name="progress_exercise">
+        <item quantity="other">latihan yang dicatat</item>
+    </plurals>
+    <plurals name="progress_fiber">
+        <item quantity="other">gram serat tercatat</item>
+    </plurals>
+    <plurals name="progress_food">
+        <item quantity="other">makanan yang dicatat</item>
+    </plurals>
+    <plurals name="progress_lunch">
+        <item quantity="other">makan siang tercatat</item>
+    </plurals>
+    <plurals name="progress_meals">
+        <item quantity="other">santapan yang dicatat</item>
+    </plurals>
+    <plurals name="progress_nutrient_goals">
+        <item quantity="other">sasaran gizi yang dicapai</item>
+    </plurals>
+    <plurals name="progress_protein">
+        <item quantity="other">gram protein tercatat</item>
+    </plurals>
+    <plurals name="progress_recipes">
+        <item quantity="other">resep yang dicatat</item>
+    </plurals>
+    <plurals name="progress_steps">
+        <item quantity="other">langkah yang diambil</item>
+    </plurals>
+    <plurals name="progress_water">
+        <item quantity="other">cangkir air yang dicatat</item>
+    </plurals>
+    <plurals name="recipe_deleted">
+        <item quantity="other">Resep dihapus.</item>
+    </plurals>
+    <plurals name="recipe_deleted_fail">
+        <item quantity="other">Tidak dapat menghapus %1$d resep. Coba lagi nanti.</item>
+    </plurals>
+</resources>

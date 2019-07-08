@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/units_dialog_padding" android:paddingTop="@dimen/units_dialog_padding_top" android:paddingRight="@dimen/units_dialog_padding" android:paddingBottom="@dimen/units_dialog_padding" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout style="@style/DialogUnitsRow">
+            <com.myfitnesspal.shared.ui.view.StyledTextView android:text="@string/weight_header" style="@style/DialogUnitsText"/>
+            <Spinner android:id="@+id/spinnerWeight" style="@style/DialogUnitsSpinner"/>
+        </LinearLayout>
+        <LinearLayout style="@style/DialogUnitsRow">
+            <com.myfitnesspal.shared.ui.view.StyledTextView android:text="@string/height_header" style="@style/DialogUnitsText"/>
+            <Spinner android:id="@+id/spinnerHeight" style="@style/DialogUnitsSpinner"/>
+        </LinearLayout>
+        <LinearLayout style="@style/DialogUnitsRow">
+            <com.myfitnesspal.shared.ui.view.StyledTextView android:text="@string/distance_header" style="@style/DialogUnitsText"/>
+            <Spinner android:id="@+id/spinnerDistance" style="@style/DialogUnitsSpinner"/>
+        </LinearLayout>
+        <LinearLayout style="@style/DialogUnitsRow">
+            <com.myfitnesspal.shared.ui.view.StyledTextView android:text="@string/energy_header" style="@style/DialogUnitsText"/>
+            <Spinner android:id="@+id/spinnerEnergy" style="@style/DialogUnitsSpinner"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/water_row" android:layout_marginBottom="0dp" style="@style/DialogUnitsRow">
+            <com.myfitnesspal.shared.ui.view.StyledTextView android:text="@string/water" style="@style/DialogUnitsText"/>
+            <Spinner android:id="@+id/spinnerWater" style="@style/DialogUnitsSpinner"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/transparent_button_selector" android:padding="@dimen/material_padding_8" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+    <com.myfitnesspal.shared.ui.view.MfpImageView android:layout_gravity="center_horizontal" android:id="@+id/icon" android:layout_width="@dimen/my_info_friend_image_size" android:layout_height="@dimen/my_info_friend_image_size" android:src="@drawable/ic_profile" android:scaleType="fitCenter" app:circular="true"/>
+    <TextView android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/material_margin_4" android:maxLines="1" style="@style/Body.BlackText"/>
+</LinearLayout>

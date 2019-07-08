@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/default_screen_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v4.widget.NestedScrollView android:id="@+id/scrollArea" android:background="@color/bg_premium_upsell" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/scrollDivider">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/premium_upsell_header"/>
+            <LinearLayout android:id="@+id/upsellGroupContainer" style="@style/premium_group_container_upsell"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <View android:id="@+id/scrollDivider" android:layout_above="@+id/upsellBuyButtonContainer" style="@style/LightDivider"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/upsellBuyButtonContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

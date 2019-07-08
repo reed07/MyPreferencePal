@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="challenge_ends_in_format">
+        <item quantity="one">Magtatapos sa {0} araw</item>
+        <item quantity="other">Magtatapos sa %1$s (na) araw</item>
+    </plurals>
+    <plurals name="days_remaining_format">
+        <item quantity="one">1 Araw ang Natitira</item>
+        <item quantity="other">%1$s (na) Araw ang Natitira</item>
+    </plurals>
+    <plurals name="friend_just_joined">
+        <item quantity="one">%1$d kaibigan sa Facebook ang sumali sa MyFitnessPal</item>
+        <item quantity="other">%1$d (na) kaibigan sa Facebook ang sumali sa MyFitnessPal</item>
+    </plurals>
+    <plurals name="hours_remaining_format">
+        <item quantity="one">%1$s Oras ang Natitira</item>
+        <item quantity="other">%1$s (na) Oras ang Natitira</item>
+    </plurals>
+    <plurals name="ingredients_deleted_plural">
+        <item quantity="one">Na-delete ang sangkap.</item>
+        <item quantity="other">Na-delete ang mga sangkap.</item>
+    </plurals>
+    <plurals name="me_header_streak">
+        <item quantity="one">Streak: %1$d (na) araw</item>
+        <item quantity="other">Streak: %1$d (na) araw</item>
+    </plurals>
+    <plurals name="me_my_cardio_count">
+        <item quantity="one">%1$d Cardio</item>
+        <item quantity="other">%1$d Cardio</item>
+    </plurals>
+    <plurals name="me_my_foods_count">
+        <item quantity="one">%1$d (na) Pagkain</item>
+        <item quantity="other">%1$d (na) Pagkain</item>
+    </plurals>
+    <plurals name="me_my_meals_count">
+        <item quantity="one">%1$d (na) Meal</item>
+        <item quantity="other">%1$d (na) Meal</item>
+    </plurals>
+    <plurals name="me_my_recipes_count">
+        <item quantity="one">%1$d (na) Recipe</item>
+        <item quantity="other">%1$d (na) Recipe</item>
+    </plurals>
+    <plurals name="me_my_strength_count">
+        <item quantity="one">%1$d Lakas</item>
+        <item quantity="other">%1$d Lakas</item>
+    </plurals>
+    <plurals name="more_friends">
+        <item quantity="one">+%1$d Pang Kaibigan…</item>
+        <item quantity="other">+%1$d Pang Kaibigan…</item>
+    </plurals>
+    <plurals name="progress_breakfast">
+        <item quantity="one">almusal na naitala</item>
+        <item quantity="other">(na) almusal na naitala</item>
+    </plurals>
+    <plurals name="progress_daily_fiber">
+        <item quantity="one">naabot sa layuning dami ng fiber</item>
+        <item quantity="other">ang naabot sa layuning dami ng fiber</item>
+    </plurals>
+    <plurals name="progress_daily_protein">
+        <item quantity="one">ang naabot sa layuning dami ng protina</item>
+        <item quantity="other">ang naabot sa layuning dami ng protina</item>
+    </plurals>
+    <plurals name="progress_dinner">
+        <item quantity="one">hapunan na naitala</item>
+        <item quantity="other">(na) hapunan na naitala</item>
+    </plurals>
+    <plurals name="progress_exercise">
+        <item quantity="one">na-log na ehersisyo</item>
+        <item quantity="other">na-log na mga ehersisyo</item>
+    </plurals>
+    <plurals name="progress_fiber">
+        <item quantity="one">gramo ng fiber na naitala</item>
+        <item quantity="other">(na) gramo ng fiber na naitala</item>
+    </plurals>
+    <plurals name="progress_food">
+        <item quantity="one">na-log na pagkain</item>
+        <item quantity="other">na-log na mga pagkain</item>
+    </plurals>
+    <plurals name="progress_lunch">
+        <item quantity="one">tanghalian na naitala</item>
+        <item quantity="other">(na) tanghalian na naitala</item>
+    </plurals>
+    <plurals name="progress_meals">
+        <item quantity="one">na-log na meal</item>
+        <item quantity="other">na-log na mga meal</item>
+    </plurals>
+    <plurals name="progress_nutrient_goals">
+        <item quantity="one">naabot ang nilalayong nutrient</item>
+        <item quantity="other">naabot ang mga nilalayong nutrient</item>
+    </plurals>
+    <plurals name="progress_protein">
+        <item quantity="one">kabuuang gramo ng protina na naitala</item>
+        <item quantity="other">(na) kabuuang gramo ng protina na naitala</item>
+    </plurals>
+    <plurals name="progress_recipes">
+        <item quantity="one">na-log na recipe</item>
+        <item quantity="other">na-log na mga recipe</item>
+    </plurals>
+    <plurals name="progress_steps">
+        <item quantity="one">hakbang</item>
+        <item quantity="other">mga hakbang</item>
+    </plurals>
+    <plurals name="progress_water">
+        <item quantity="one">na-log na cup ng tubig</item>
+        <item quantity="other">na-log na mga cup ng tubig</item>
+    </plurals>
+    <plurals name="recipe_deleted">
+        <item quantity="one">Na-delete ang mga recipe.</item>
+        <item quantity="other">Na-delete ang mga recipe.</item>
+    </plurals>
+    <plurals name="recipe_deleted_fail">
+        <item quantity="one">Hindi ma-delete ang %1$d recipe. Subukang muli sa ibang pagkakataon.</item>
+        <item quantity="other">Hindi ma-delete ang %1$d (na) recipe. Subukang muli sa ibang pagkakataon.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="11693" android:versionName="19.5.5" android:installLocation="auto" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.myfitnesspal.android" platformBuildVersionCode="11693" platformBuildVersionName="19.5.5">
+    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28"/>
+    <permission android:name="com.myfitnesspal.android.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.myfitnesspal.android.permission.C2D_MESSAGE"/>
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.samsung.accessory.permission.ACCESSORY_FRAMEWORK"/>
+    <uses-permission android:name="com.samsung.WATCH_APP_TYPE.Companion"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:glEsVersion="20000" android:required="true"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application android:theme="@style/Mfp.Theme.Default" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:name="com.myfitnesspal.app.MyFitnessPalApp" android:description="@string/app_name" android:allowBackup="false" android:logo="@drawable/ic_action_tinydancer" android:hardwareAccelerated="true" android:supportsRtl="false" android:networkSecurityConfig="@xml/network_security_config" android:appComponentFactory="android.support.v4.app.CoreComponentFactory">
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <uses-library android:name="android.test.runner" android:required="false"/>
+        <uses-library android:name="android.test.base" android:required="false"/>
+        <uses-library android:name="android.test.mock" android:required="false"/>
+        <meta-data android:name="com.samsung.android.health.permission.read" android:value="com.samsung.shealth.step_daily_trend;com.samsung.health.food_intake;com.samsung.health.food_info;com.samsung.health.exercise;com.samsung.health.weight"/>
+        <meta-data android:name="com.samsung.android.health.permission.write" android:value="com.samsung.health.food_intake;com.samsung.health.food_info;com.samsung.health.exercise;com.samsung.health.weight"/>
+        <service android:name="com.myfitnesspal.feature.tizen.service.MfpGearMessageBridge"/>
+        <meta-data android:name="AccessoryServicesLocation" android:value="/res/xml/accessoryservices.xml"/>
+        <meta-data android:name="com.google.android.gms.ads.AD_MANAGER_APP" android:value="true"/>
+        <meta-data android:name="com.facebook.sdk.AutoLogAppEventsEnabled" android:value="false"/>
+        <meta-data android:name="com.facebook.sdk.AdvertiserIDCollectionEnabled" android:value="false"/>
+        <activity android:label="@string/progress" android:name="com.myfitnesspal.feature.progress.ui.activity.ProgressActivity" android:clearTaskOnLaunch="true" android:launchMode="singleTask" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:label="@string/recommendGoalHeader" android:name="com.myfitnesspal.feature.progress.ui.activity.RecommendGoal"/>
+        <activity android:label="@string/update_goals_complete" android:name="com.myfitnesspal.feature.goals.ui.activity.EatingDisorderAdjustGoalComplete"/>
+        <activity android:label="@string/licenseAgreementHeader" android:name="com.myfitnesspal.feature.registration.ui.activity.TermsOfUseActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:noHistory="true" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:label="@string/faq" android:name="com.myfitnesspal.feature.help.ui.activity.Faq" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:label="@string/app_name" android:name="com.myfitnesspal.android.login.Welcome" android:configChanges="keyboard|keyboardHidden|orientation" android:resizeableActivity="true">
+            <intent-filter android:label="@string/app_name_for_launcher">
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.myfitnesspal.feature.registration.ui.activity.LoginActivity"/>
+        <activity android:theme="@style/Mfp.Theme.TranslucentOverlay" android:label="@string/app_name" android:name="com.myfitnesspal.feature.registration.ui.activity.FacebookLoginActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:label="@string/app_name" android:name="com.myfitnesspal.feature.registration.ui.activity.PrefetchActivity"/>
+        <activity android:label="@string/forgot_password" android:name="com.myfitnesspal.feature.registration.ui.activity.ForgotPasswordActivity" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:label="@string/settings" android:name="com.myfitnesspal.feature.settings.ui.activity.LegacySettingsActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:label="@string/settings" android:name="com.myfitnesspal.feature.settings.ui.activity.SettingsActivity" android:launchMode="singleTop" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:label="@string/settings_title_diary" android:name="com.myfitnesspal.feature.settings.ui.activity.LegacyDiarySettingsActivity" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden" android:windowSoftInputMode="stateAlwaysHidden" android:parentActivityName="com.myfitnesspal.feature.settings.ui.activity.LegacySettingsActivity"/>
+        <activity android:label="@string/settings_title_diary" android:name="com.myfitnesspal.feature.diary.ui.activity.DiarySettingsActivity"/>
+        <activity android:label="@string/settings_title_weekly_nutrition" android:name="com.myfitnesspal.feature.settings.ui.activity.WeeklyNutritionSettings" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden" android:windowSoftInputMode="stateAlwaysHidden" android:parentActivityName="com.myfitnesspal.feature.settings.ui.activity.LegacySettingsActivity"/>
+        <activity android:label="@string/steps" android:name="com.myfitnesspal.feature.settings.ui.activity.StepsSettings" android:launchMode="singleTop" android:configChanges="keyboard|keyboardHidden" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:label="@string/apps_gallery_header" android:name="com.myfitnesspal.feature.appgallery.ui.AppGalleryActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/menu_uacf_apps" android:name="com.myfitnesspal.feature.appgallery.ui.OurOtherAppsActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:label="@string/better_way_to_track" android:name="com.myfitnesspal.feature.appgallery.ui.XPromoInterstitialActivity" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:label="@string/app_name" android:name="com.myfitnesspal.feature.settings.ui.activity.PasscodeView" android:launchMode="singleTask" android:windowSoftInputMode="stateAlwaysVisible"/>
+        <activity android:label="@string/email_settings" android:name="com.myfitnesspal.feature.help.ui.activity.EmailSettings" android:parentActivityName="com.myfitnesspal.feature.settings.ui.activity.SharingAndPrivacySettings"/>
+        <activity android:label="@string/troubleShootingHeader" android:name="com.myfitnesspal.feature.settings.ui.activity.TroubleshootingActivity" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:label="@string/samsung_gear_help" android:name="com.myfitnesspal.feature.help.ui.activity.SamsungGearHelp" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:label="@string/faq" android:name="com.myfitnesspal.shared.ui.activity.impl.FullScreenWebView" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:label="@string/account_restricted" android:name="com.myfitnesspal.feature.registration.ui.activity.AccountRestrictedActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:label="@string/edit_profile" android:name="com.myfitnesspal.feature.settings.ui.activity.EditProfile" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.myfitnesspal.feature.settings.ui.activity.LegacySettingsActivity"/>
+        <activity android:label="@string/menu_about" android:name="com.myfitnesspal.feature.help.ui.activity.AboutUs"/>
+        <activity android:label="@string/settings_title_sharing_and_privacy" android:name="com.myfitnesspal.feature.settings.ui.activity.SharingAndPrivacySettings" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateHidden" android:parentActivityName="com.myfitnesspal.feature.settings.ui.activity.LegacySettingsActivity"/>
+        <activity android:label="@string/help_title" android:name="com.myfitnesspal.feature.help.ui.activity.Help" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/diary" android:name="com.myfitnesspal.feature.diary.ui.activity.Diary" android:exported="true" android:clearTaskOnLaunch="true" android:launchMode="singleTop"/>
+        <activity android:label="@string/entryCompleteHeader" android:name="com.myfitnesspal.feature.diary.ui.activity.CompleteDiaryActivity" android:parentActivityName="com.myfitnesspal.feature.diary.ui.activity.Diary"/>
+        <activity android:label="@string/offlineSearchHeader" android:name="com.myfitnesspal.feature.diary.ui.activity.OfflineSearchNote"/>
+        <activity android:label="@string/app_name" android:name="com.myfitnesspal.feature.search.ui.activity.FoodSearchActivity" android:launchMode="singleTop" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/app_name" android:name="com.myfitnesspal.feature.search.ui.activity.FoodSearchActivityV2" android:launchMode="singleTop" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/createFood" android:name="com.myfitnesspal.feature.addentry.ui.activity.AddFood" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/edit_entry" android:name="com.myfitnesspal.feature.addentry.ui.activity.AddFoodSummaryView" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.myfitnesspal.feature.diary.ui.activity.Diary"/>
+        <activity android:label="@string/edit_entry" android:name="com.myfitnesspal.feature.addentry.ui.activity.AddFoodSummaryViewV2" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.myfitnesspal.feature.diary.ui.activity.Diary"/>
+        <activity android:name="com.myfitnesspal.feature.exercise.ui.activity.ExerciseSearchActivity" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/edit_entry" android:name="com.myfitnesspal.feature.exercise.ui.activity.EditCardio" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/edit_entry" android:name="com.myfitnesspal.feature.exercise.ui.activity.EditStrength" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/new_exerciseHeader" android:name="com.myfitnesspal.feature.exercise.ui.activity.NewCardio" android:windowSoftInputMode="stateVisible"/>
+        <activity android:label="@string/new_exerciseHeader" android:name="com.myfitnesspal.feature.exercise.ui.activity.NewStrength"/>
+        <activity android:label="@string/addEntry" android:name="com.myfitnesspal.feature.exercise.ui.activity.AddExerciseEntry" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/edit" android:name="com.myfitnesspal.feature.diary.ui.activity.EditDiaryNoteView" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.myfitnesspal.feature.home.ui.activity.HomeActivity" android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="com.myfitnesspal.action.ADD_ENTRY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.myfitnesspal.feature.home.ui.activity.PrototypeHomeActivity" android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="com.myfitnesspal.action.ADD_ENTRY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.myfitnesspal.feature.home.ui.activity.HomeMessagesActivity" android:parentActivityName="com.myfitnesspal.feature.home.ui.activity.HomeActivity"/>
+        <activity android:label="@string/myExercises" android:name="com.myfitnesspal.feature.exercise.ui.fragment.ExerciseList" android:configChanges="keyboardHidden|orientation|screenSize" android:parentActivityName="com.myfitnesspal.feature.settings.ui.activity.LegacySettingsActivity"/>
+        <activity android:label="@string/edit_entry" android:name="com.myfitnesspal.feature.settings.ui.activity.EditCardioExercise"/>
+        <activity android:label="@string/edit_entry" android:name="com.myfitnesspal.feature.settings.ui.activity.EditStrengthExercise"/>
+        <activity android:label="@string/edit_food" android:name="com.myfitnesspal.feature.settings.ui.activity.EditFood"/>
+        <activity android:label="@string/view_food" android:name="com.myfitnesspal.feature.settings.ui.activity.ViewFoodActivity"/>
+        <activity android:label="@string/friends" android:name="com.myfitnesspal.feature.friends.ui.activity.FriendsActivity"/>
+        <activity android:label="@string/messages" android:name="com.myfitnesspal.feature.friends.ui.activity.MessagesActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/updateStatus" android:name="com.myfitnesspal.feature.friends.ui.activity.NewStatusOrCommentActivity" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:label="@string/comments" android:name="com.myfitnesspal.feature.friends.ui.activity.CommentsActivity" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:label="@string/like" android:name="com.myfitnesspal.feature.friends.ui.activity.LikesActivity"/>
+        <activity android:label="@string/menu_my_profile" android:name="com.myfitnesspal.feature.profile.ui.activity.ProfileView" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:label="@string/menu_me" android:name="com.myfitnesspal.feature.profile.ui.activity.MeActivity"/>
+        <activity android:label="@string/menu_explore" android:name="com.myfitnesspal.feature.explore.ui.activity.ExploreActivity"/>
+        <activity android:label="@string/inviteFriendsHeader" android:name="com.myfitnesspal.feature.friends.ui.activity.InviteFriendActivity" android:configChanges="keyboard|orientation|screenSize"/>
+        <activity android:label="@string/message" android:name="com.myfitnesspal.feature.friends.ui.activity.DetailedMessageActivity"/>
+        <activity android:label="@string/new_message" android:name="com.myfitnesspal.feature.friends.ui.activity.ComposeMessageActivity" android:windowSoftInputMode="adjustUnspecified|stateUnchanged|stateVisible|stateAlwaysVisible|adjustResize"/>
+        <activity android:label="@string/news_feed_privacy_settings" android:name="com.myfitnesspal.feature.help.ui.activity.NewsFeedSettings" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateAlwaysVisible" android:parentActivityName="com.myfitnesspal.feature.settings.ui.activity.SharingAndPrivacySettings"/>
+        <activity android:label="@string/notifications" android:name="com.myfitnesspal.feature.settings.ui.activity.NotificationSettingsView" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:label="@string/my_reminders" android:name="com.myfitnesspal.feature.settings.ui.activity.RemindersActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:label="@string/edit_reminder" android:name="com.myfitnesspal.feature.settings.ui.activity.EditReminder" android:configChanges="keyboardHidden|orientation" android:parentActivityName="com.myfitnesspal.feature.settings.ui.activity.RemindersActivity"/>
+        <activity android:label="@string/select_reminder" android:name="com.myfitnesspal.feature.settings.ui.activity.SelectReminder" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:theme="@style/Mfp.Theme.NoTitleBar.Fullscreen" android:name="com.myfitnesspal.feature.barcode.ui.activity.BarcodeScannerActivity" android:exported="true" android:screenOrientation="portrait" android:configChanges="orientation" android:windowSoftInputMode="stateAlwaysHidden" android:resizeableActivity="false"/>
+        <activity android:label="@string/barcode_scanner_title" android:name="com.myfitnesspal.feature.barcode.ui.activity.BarcodeMatchActivity" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:theme="@style/Theme.Sherlock.Dialog" android:label="@string/what_to_search_for" android:name="com.myfitnesspal.feature.search.ui.dialog.SearchCategoryDialog"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.millennialmedia.android.MMActivity" android:configChanges="keyboard|keyboardHidden|orientation"/>
+        <activity android:name="com.millennialmedia.android.VideoPlayer" android:configChanges="keyboard|keyboardHidden|orientation"/>
+        <activity android:name="com.rfm.sdk.HTMLBrowserView" android:configChanges="orientation"/>
+        <activity android:name="com.rfm.sdk.MraidVideoPlayerActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:theme="@style/Theme.NoTitleBar" android:name="com.inmobi.rendering.InMobiAdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:resizeableActivity="false"/>
+        <activity android:theme="@style/Theme.Translucent" android:name="com.google.android.gms.ads.AdActivity" android:exported="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:name="com.mopub.mobileads.MoPubActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.mopub.mobileads.MraidActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.mopub.mobileads.MraidVideoPlayerActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.mopub.common.MoPubBrowser" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.mopub.mobileads.RewardedMraidActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.amazon.device.ads.AdActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:label="@string/app_name" android:name="com.myfitnesspal.feature.registration.ui.activity.OAuthActivity" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.myfitnesspal.android.login.AUTHORIZE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.myfitnesspal.feature.addfriends.ui.activity.AddFriendsSplash" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:label="@string/addfriends_facebook" android:name="com.myfitnesspal.feature.addfriends.ui.activity.AddFriendsFacebook"/>
+        <activity android:label="@string/addfriends_contacts" android:name="com.myfitnesspal.feature.addfriends.ui.activity.AddFriendsContacts" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:label="@string/addfriends_title" android:name="com.myfitnesspal.feature.addfriends.ui.activity.AddFriendsParent"/>
+        <activity android:label="@string/disconnect_facebook" android:name="com.myfitnesspal.shared.ui.activity.impl.DisconnectFacebook"/>
+        <activity android:theme="@style/Mfp.Theme.Default" android:label="@string/advanced_debugging" android:name="com.myfitnesspal.feature.debug.ui.activity.AdvancedDebuggingActivity" android:logo="@drawable/ic_action_tinydancer"/>
+        <activity android:theme="@style/Mfp.Theme.Default" android:label="@string/advanced_debugging" android:name="com.myfitnesspal.feature.debug.ui.activity.FlagResetActivity"/>
+        <activity android:label="@string/facebook_settings" android:name="com.myfitnesspal.feature.settings.ui.activity.FacebookSettings" android:parentActivityName="com.myfitnesspal.feature.settings.ui.activity.SharingAndPrivacySettings"/>
+        <activity android:name="com.myfitnesspal.feature.goals.ui.activity.CalorieAdjustmentExplanationView"/>
+        <activity android:name="com.myfitnesspal.feature.goals.ui.activity.CalorieAdjustmentIntro"/>
+        <activity android:label="@string/nutrition" android:name="com.myfitnesspal.feature.nutrition.ui.activity.Nutrition" android:parentActivityName="com.myfitnesspal.feature.home.ui.activity.HomeActivity"/>
+        <activity android:label="@string/welcome_sign_up" android:name="com.myfitnesspal.feature.registration.ui.activity.SignUpActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/auth_title_log_in" android:name="com.myfitnesspal.feature.registration.ui.activity.FinishOnboardingActivity" android:windowSoftInputMode="stateHidden"/>
+        <activity android:theme="@style/Mfp.Theme.TranslucentOverlay" android:name="com.myfitnesspal.shared.ui.activity.impl.deeplink.DeepLinkRouterActivity" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="mfp"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/update_goals_header" android:name="com.myfitnesspal.feature.goals.ui.activity.UpdateGoals" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/update_goals_complete" android:name="com.myfitnesspal.feature.goals.ui.activity.AdjustGoalComplete" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/goals" android:name="com.myfitnesspal.feature.goals.ui.activity.Goals" android:windowSoftInputMode="stateHidden" android:parentActivityName="com.myfitnesspal.feature.home.ui.activity.HomeActivity"/>
+        <activity android:label="@string/blog" android:name="com.myfitnesspal.feature.blog.ui.activity.BlogActivity" android:windowSoftInputMode="stateHidden" android:parentActivityName="com.myfitnesspal.feature.home.ui.activity.HomeActivity"/>
+        <activity android:label="@string/community" android:name="com.myfitnesspal.feature.community.ui.activity.CommunityActivity" android:windowSoftInputMode="stateHidden" android:parentActivityName="com.myfitnesspal.feature.home.ui.activity.HomeActivity"/>
+        <activity android:name="com.myfitnesspal.feature.help.ui.activity.DebugLogs" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.myfitnesspal.feature.walkthrough.ui.activity.WalkthroughLoggingActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar.Fullscreen" android:label="@string/add_recipe_to_myfitnesspal" android:name="com.myfitnesspal.feature.recipes.ui.activity.RecipeImporterShareProxy" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/menu_recipes_and_foods_new" android:name="com.myfitnesspal.feature.recipes.ui.activity.RecipesAndFoods" android:exported="true" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/title_activity_exercise_calories" android:name="com.myfitnesspal.feature.goals.ui.activity.ExerciseCaloriesActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:label="@string/title_activity_macro_goals_calories" android:name="com.myfitnesspal.feature.goals.ui.activity.EditCustomMacroGoalsActivity"/>
+        <activity android:label="@string/additional_nutrient_goals" android:name="com.myfitnesspal.feature.goals.ui.activity.AdditionalNutrientGoalsActivity"/>
+        <activity android:label="@string/title_custom_exercise_calories" android:name="com.myfitnesspal.feature.goals.ui.activity.CustomExerciseCaloriesActivity"/>
+        <activity android:label="@string/meal_goals_cal_title" android:name="com.myfitnesspal.feature.goals.ui.activity.MealGoalsActivity"/>
+        <activity android:label="@string/add_custom_goal" android:name="com.myfitnesspal.feature.goals.ui.activity.CustomGoalByDayActivity" android:parentActivityName="com.myfitnesspal.feature.goals.ui.activity.EditCustomMacroGoalsActivity"/>
+        <activity android:label="@string/go_premium" android:name="com.myfitnesspal.feature.premium.ui.activity.PremiumUpsellActivity" android:parentActivityName="com.myfitnesspal.feature.home.ui.activity.HomeActivity"/>
+        <activity android:label="@string/PremiumDevMenu" android:name="com.myfitnesspal.feature.debug.ui.activity.PremiumDebugActivity"/>
+        <activity android:name="com.myfitnesspal.feature.nutrition.ui.activity.NutrientGraphActivity" android:parentActivityName="com.myfitnesspal.feature.nutrition.ui.activity.Nutrition"/>
+        <activity android:name="com.myfitnesspal.feature.nutrition.ui.activity.FoodListsActivity" android:parentActivityName="com.myfitnesspal.feature.nutrition.ui.activity.Nutrition"/>
+        <activity android:theme="@style/com_facebook_activity_theme" android:label="@string/app_name" android:name="com.facebook.FacebookActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize"/>
+        <activity android:name="com.facebook.CustomTabActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/fb_login_protocol_scheme"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/custom_meal_names_settings" android:name="com.myfitnesspal.feature.settings.ui.activity.CustomMealNames" android:parentActivityName="com.myfitnesspal.feature.settings.ui.activity.LegacyDiarySettingsActivity"/>
+        <activity android:name="com.myfitnesspal.feature.addentry.ui.activity.WaterEntryActivity"/>
+        <activity android:theme="@style/Mfp.Theme" android:name="com.myfitnesspal.feature.video.activity.VideoActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:windowSoftInputMode="stateHidden" android:parentActivityName="com.myfitnesspal.feature.home.ui.activity.HomeActivity"/>
+        <service android:name="com.myfitnesspal.shared.notification.service.InAppNotificationService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
+        <service android:name="com.myfitnesspal.shared.notification.service.MfpNotificationActionService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.myfitnesspal.shared.notification.service.NotificationInvokerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.myfitnesspal.shared.service.message.MFPFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.myfitnesspal.shared.receiver.MfpInstallReferrerReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.myfitnesspal.shared.provider.MPFAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.myfitnesspal.action.WIDGET_DATA_UPDATED"/>
+                <action android:name="com.myfitnesspal.action.REQUEST_SYNC_STARTED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.myfitnesspal.action.UPDATE_CALORIES"/>
+                <action android:name="com.myfitnesspal.action.UPDATE_STATUS"/>
+                <action android:name="com.myfitnesspal.action.PERIODIC_UPDATE"/>
+                <action android:name="com.myfitnesspal.action.SIGNED_OUT"/>
+                <action android:name="com.myfitnesspal.action.CALORIES_REPORT_REQUEST"/>
+                <action android:name="com.myfitnesspal.action.STEPS_UPDATE"/>
+                <action android:name="com.myfitnesspal.action.REQUEST_SYNC"/>
+                <action android:name="com.myfitnesspal.action.START_BARCODE_SCANNER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/mpf_appwidget_info"/>
+        </receiver>
+        <receiver android:name="com.myfitnesspal.shared.receiver.NotificationBroadcastReceiver">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.myfitnesspal.shared.receiver.MfpNotificationActionReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.myfitnesspal.notification.action.POST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.samsung.android.sdk.accessory.ServiceConnectionIndicationBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.accessory.action.SERVICE_CONNECTION_REQUESTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.samsung.android.sdk.accessory.RegisterUponInstallReceiver">
+            <intent-filter>
+                <action android:name="com.samsung.accessory.action.REGISTER_AGENT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.inmobi.commons.core.utilities.uid.ImIdShareBroadCastReceiver" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.inmobi.share.id"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.crashlytics.ApiKey" android:value="50a85bc69d9176ab6dd9ee02cde7066b7e15375b"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <activity android:theme="@style/Mfp.Theme.TranslucentOverlay" android:name="com.myfitnesspal.feature.payments.ui.activity.GooglePlayPaymentActivity" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:theme="@style/Mfp.Theme.TranslucentOverlay" android:name="com.myfitnesspal.feature.payments.ui.activity.MockPaymentActivity" android:configChanges="keyboardHidden|orientation"/>
+        <activity android:label="@string/payment_confirm_activity_title" android:name="com.myfitnesspal.feature.payments.ui.activity.PaymentConfirmation"/>
+        <activity android:label="@string/go_premium" android:name="com.myfitnesspal.feature.premium.ui.activity.PremiumInterstitialActivity"/>
+        <activity android:label="@string/billing_information_settings" android:name="com.myfitnesspal.feature.premium.ui.activity.SubscriptionStatus"/>
+        <activity android:label="@string/macronutrients" android:name="com.myfitnesspal.feature.goals.ui.activity.MacroGoalEditorActivity"/>
+        <activity android:label="@string/quick_add" android:name="com.myfitnesspal.feature.addentry.ui.activity.QuickAddActivity"/>
+        <activity android:label="Events Sent" android:name="com.myfitnesspal.feature.debug.ui.activity.AnalyticsEventsActivity"/>
+        <activity android:label="@string/fragment_change_summary_title" android:name="com.myfitnesspal.feature.dashboard.ui.activity.NutrientDashboardSettingsActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:label="@string/challenges_activity_title" android:name="com.myfitnesspal.feature.challenges.ui.activity.ChallengesActivity" android:launchMode="singleTask"/>
+        <activity android:name="com.myfitnesspal.feature.challenges.ui.activity.ChallengeDetailActivity"/>
+        <activity android:theme="@style/Mfp.Theme.TranslucentOverlay" android:label="@string/app_name" android:name="com.myfitnesspal.shared.ui.activity.impl.deeplink.DeepLinkProxyActivity"/>
+        <activity android:theme="@style/Mfp.Theme.TranslucentOverlay" android:label="@string/app_name" android:name="com.myfitnesspal.shared.ui.activity.impl.resourceloader.ResourceLoaderProxyActivity"/>
+        <activity android:label="@string/invite_friends_to_challenge" android:name="com.myfitnesspal.feature.challenges.ui.activity.JoinChallengeActivity"/>
+        <activity android:label="@string/addfriends_contacts" android:name="com.myfitnesspal.feature.challenges.ui.activity.InviteContactsToChallengeActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:label="@string/invite_friends_to_challenge" android:name="com.myfitnesspal.feature.challenges.ui.activity.InviteSourceListActivity"/>
+        <activity android:label="@string/friends" android:name="com.myfitnesspal.feature.challenges.ui.activity.ChallengeFriendListActivity"/>
+        <activity android:label="@string/achievements" android:name="com.myfitnesspal.feature.challenges.ui.activity.UserAchievementsActivity"/>
+        <activity android:theme="@style/Mfp.Theme.TranslucentOverlay" android:label="@string/app_name" android:name="com.myfitnesspal.feature.registration.ui.activity.LogoutActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:label="Rollouts" android:name="com.myfitnesspal.feature.debug.ui.activity.RolloutDebugActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="Locale Override" android:name="com.myfitnesspal.feature.debug.ui.activity.LocaleOverrideActivity"/>
+        <activity android:label="Progress Photos Debug" android:name="com.myfitnesspal.feature.debug.ui.activity.ProgressPhotosDebugActivity"/>
+        <activity android:label="@string/progress_photos" android:name="com.myfitnesspal.feature.progress.ui.activity.ProgressPhotosGalleryActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/progress_photos_import_photo" android:name="com.myfitnesspal.feature.progress.ui.activity.ImportPhotoActivity"/>
+        <activity android:label="@string/progress_share_customize" android:name="com.myfitnesspal.feature.progress.ui.activity.ShareProgressActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:label="@string/congratsTxt" android:name="com.myfitnesspal.feature.progress.ui.activity.ProgressCongratsActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/progress_photos_interstitial_title" android:name="com.myfitnesspal.feature.progress.ui.activity.ProgressPhotosInterstitialActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/remote_diary" android:name="com.myfitnesspal.feature.diary.ui.activity.FriendDiary" android:launchMode="singleTop"/>
+        <activity android:label="@string/native_ads_settings" android:name="com.myfitnesspal.feature.settings.ui.activity.AutoPlaySettings"/>
+        <activity android:label="@string/restaurants" android:name="com.myfitnesspal.feature.restaurantlogging.ui.activity.VenuesActivity"/>
+        <activity android:name="com.myfitnesspal.feature.restaurantlogging.ui.activity.MenusActivity"/>
+        <activity android:label="@string/challenge_share_activity_title" android:name="com.myfitnesspal.feature.challenges.ui.activity.ChallengeShareActivity"/>
+        <activity android:label="@string/add_item" android:name="com.myfitnesspal.feature.foodeditor.ui.activity.FoodEditorActivity" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:label="@string/meal_sharing_notes_activity_title" android:name="com.myfitnesspal.feature.foodeditor.ui.activity.FoodNotesActivity"/>
+        <activity android:name="com.myfitnesspal.feature.restaurantlogging.ui.activity.SearchMatchActivity" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.myfitnesspal.feature.restaurantlogging.ui.activity.RestaurantLoggingInterstitial"/>
+        <activity android:name="com.myfitnesspal.feature.registration.ui.activity.UpdatedTermsActivity"/>
+        <activity android:label="@string/endpoint_activity" android:name="com.myfitnesspal.feature.debug.ui.activity.EndpointActivity"/>
+        <activity android:label="@string/share" android:name="com.myfitnesspal.feature.progress.ui.activity.StatusUpdateActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/learn_about_permission_title" android:name="com.myfitnesspal.feature.progress.ui.activity.LearnAboutPermissionActivity"/>
+        <activity android:label="@string/report_image" android:name="com.myfitnesspal.feature.home.ui.activity.ImageReportingActivity"/>
+        <activity android:label="@string/report_image" android:name="com.myfitnesspal.feature.home.ui.activity.ImageReportingDetailsActivity"/>
+        <activity android:label="@string/preview" android:name="com.myfitnesspal.feature.progress.ui.activity.ImagePreviewActivity"/>
+        <activity android:label="@string/file_export" android:name="com.myfitnesspal.feature.fileexport.ui.activity.FileExport"/>
+        <activity android:label="@string/export_information" android:name="com.myfitnesspal.feature.fileexport.ui.activity.FileExportPreview"/>
+        <activity android:label="@string/add_weight" android:name="com.myfitnesspal.feature.progress.ui.activity.AddWeightActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/progress_photos_import_photo" android:name="com.myfitnesspal.feature.progress.ui.activity.AddWeightImageImportActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.myfitnesspal.feature.help.ui.activity.FeedbackActivity"/>
+        <activity android:label="@string/notifications" android:name="com.myfitnesspal.feature.notificationinbox.ui.activity.NotificationInboxActivity"/>
+        <activity android:label="@string/notifications" android:name="com.myfitnesspal.feature.notificationinbox.ui.activity.NotificationInboxActivityV2"/>
+        <activity android:name="com.myfitnesspal.feature.debug.ui.activity.NotificationsDebugActivity"/>
+        <activity android:name="com.myfitnesspal.feature.challenges.ui.activity.ChallengeAchievementActivity"/>
+        <activity android:name="com.myfitnesspal.feature.debug.ui.activity.RetrieveMealFoodDebugActivity"/>
+        <activity android:label="@string/premium_subscription" android:name="com.myfitnesspal.feature.deleteaccount.ui.activity.DeleteAccountPremiumActivity"/>
+        <activity android:label="@string/delete_account" android:name="com.myfitnesspal.feature.deleteaccount.ui.activity.DeleteAccountActivity"/>
+        <activity android:label="@string/new_recipe_text" android:name="com.myfitnesspal.feature.recipes.ui.activity.CreateRecipeManuallyActivity" android:windowSoftInputMode="adjustUnspecified|stateVisible|adjustResize"/>
+        <activity android:label="@string/ingredients" android:name="com.myfitnesspal.feature.recipes.ui.activity.IngredientMatchingActivity"/>
+        <activity android:name="com.myfitnesspal.feature.recipes.ui.activity.SearchRecipeIngredientActivity" android:windowSoftInputMode="adjustUnspecified|stateVisible|adjustResize"/>
+        <activity android:name="com.myfitnesspal.feature.recipes.ui.activity.RecipeDetailsActivity" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity android:name="com.myfitnesspal.feature.recipes.ui.activity.RecipeImportBrowserActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/review_proper_case" android:name="com.myfitnesspal.feature.recipes.ui.activity.RecipeImportReviewActivity" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize"/>
+        <activity android:label="@string/consents" android:name="com.myfitnesspal.feature.consents.ui.activity.ConsentsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/learn_more" android:name="com.myfitnesspal.feature.consents.ui.activity.LearnMoreActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/help_title" android:name="com.myfitnesspal.feature.gdprhelp.activity.GDPRHelpActivity" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/privacy_center" android:name="com.myfitnesspal.feature.settings.ui.activity.PrivacyCenterActivity" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/under_armour" android:name="com.myfitnesspal.feature.consents.ui.activity.UAAndAffiliatesActivity" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/submit_a_correction" android:name="com.myfitnesspal.feature.foodfeedback.ui.activity.FoodFeedbackActivity" android:windowSoftInputMode="stateHidden"/>
+        <activity android:label="@string/change_password" android:name="com.myfitnesspal.feature.settings.ui.activity.ChangePasswordActivity" android:parentActivityName="com.myfitnesspal.feature.settings.ui.activity.SettingsActivity"/>
+        <activity android:name="com.myfitnesspal.feature.onboarding.ui.activity.OnboardingActivity"/>
+        <activity android:name="com.amazon.device.ads.DTBActivity" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="amazonmobile" android:host="intent"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/personalization" android:name="com.myfitnesspal.feature.consents.ui.activity.AdConsentsActivity" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.myfitnesspal.feature.alexainterstitial.ui.activity.AlexaInterstitialActivity" android:windowSoftInputMode="stateHidden"/>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBMQ_mH8ClzX6LkxArBd-ZvkWprqRPImc0"/>
+        <meta-data android:name="preloaded_fonts" android:resource="@array/preloaded_fonts"/>
+        <provider android:name="com.myfitnesspal.shared.api.auth.SSOContentProvider" android:exported="true" android:authorities="com.uacf.identity.provider.myfitnesspal"/>
+        <provider android:name="com.facebook.FacebookContentProvider" android:exported="true" android:authorities="@string/fb_provider_authority"/>
+        <provider android:name="com.myfitnesspal.shared.provider.FileProviderShareCache" android:exported="false" android:authorities="com.myfitnesspal.android.fileprovidersharecache" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/cache_share_file_paths"/>
+        </provider>
+        <provider android:name="com.myfitnesspal.shared.provider.FileProviderPrivateExternal" android:exported="false" android:authorities="com.myfitnesspal.android.fileproviderprivateexternal" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/private_external_storage_file_path"/>
+        </provider>
+        <provider android:name="com.myfitnesspal.shared.provider.FileProviderPrivateInternal" android:exported="false" android:authorities="com.myfitnesspal.android.fileproviderprivateinternal" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/private_internal_storage_file_path"/>
+        </provider>
+        <activity android:name="com.facebook.ads.AudienceNetworkActivity" android:exported="false" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.facebook.ads.internal.ipc.RemoteANActivity" android:exported="false" android:process=":adnw" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <service android:name="com.facebook.ads.internal.ipc.AdsProcessPriorityService" android:exported="false"/>
+        <service android:name="com.facebook.ads.internal.ipc.AdsMessengerService" android:exported="false" android:process=":adnw"/>
+        <service android:name="com.google.firebase.messaging.FirebaseMessagingService" android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver" android:enabled="true" android:exported="false"/>
+        <service android:name="com.google.android.gms.analytics.AnalyticsService" android:enabled="true" android:exported="false"/>
+        <service android:name="com.google.android.gms.analytics.AnalyticsJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false"/>
+        <service android:name="com.google.firebase.components.ComponentDiscoveryService" android:exported="false">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:name="com.google.android.gms.measurement.AppMeasurementReceiver" android:enabled="true" android:exported="false"/>
+        <receiver android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.gms.measurement.AppMeasurementService" android:enabled="true" android:exported="false"/>
+        <service android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false"/>
+        <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.firebase.iid.FirebaseInstanceIdService" android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false"/>
+        <provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:authorities="com.myfitnesspal.android.firebaseinitprovider" android:initOrder="100"/>
+        <provider android:name="com.google.android.gms.ads.MobileAdsInitProvider" android:exported="false" android:authorities="com.myfitnesspal.android.mobileadsinitprovider" android:initOrder="100"/>
+        <service android:name="com.brightcove.player.network.DownloadMonitorService" android:exported="false"/>
+        <meta-data android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule" android:value="GlideModule"/>
+        <provider android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer" android:exported="false" android:multiprocess="true" android:authorities="com.myfitnesspal.android.lifecycle-trojan"/>
+        <activity android:name="com.brightcove.player.captioning.BrightcoveCaptionPropertiesActivity"/>
+        <service android:name="com.brightcove.player.services.BrightcoveMediaPlayerService" android:enabled="true"/>
+        <activity android:name="com.twitter.sdk.android.tweetcomposer.ComposerActivity" android:exported="false" android:windowSoftInputMode="adjustUnspecified|stateVisible|adjustResize"/>
+        <service android:name="com.twitter.sdk.android.tweetcomposer.TweetUploadService" android:enabled="true" android:exported="false"/>
+        <activity android:name="com.twitter.sdk.android.core.identity.OAuthActivity" android:exported="false" android:excludeFromRecents="true" android:configChanges="orientation|screenSize"/>
+        <provider android:name="com.crashlytics.android.CrashlyticsInitProvider" android:exported="false" android:authorities="com.myfitnesspal.android.crashlyticsinitprovider" android:initOrder="100"/>
+        <activity android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:label="@string/sdk_name" android:name="io.uacf.inbox.ui.debug.NotificationInboxDevToolActivity"/>
+        <meta-data android:name="GearAppType" android:value="wgt"/>
+        <activity android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:label="@string/sdk_name" android:name="io.uacf.rollouts.ui.debug.UacfRolloutsDevToolActivity"/>
+        <activity android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:label="@string/sdk_name" android:name="io.uacf.configuration.ui.debug.UacfConfigurationDevToolActivity"/>
+        <activity android:label="@string/emailVerification.title" android:name="io.uacf.thumbprint.ui.internal.email.UacfEmailVerificationActivity"/>
+        <activity android:label="@string/changePassword.title" android:name="io.uacf.thumbprint.ui.internal.password.UacfChangePasswordActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <provider android:name="com.facebook.internal.FacebookInitProvider" android:exported="false" android:authorities="com.myfitnesspal.android.FacebookInitProvider"/>
+        <receiver android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService"/>
+        <service android:name="com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService" android:process=":filedownloader"/>
+    </application>
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/widget_background" android:padding="@dimen/widget_margin" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:orientation="horizontal" android:background="@color/actionbar_background" android:layout_width="match_parent" android:layout_height="@dimen/widget_title_height">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/material_margin_16" android:contentDescription="@string/app_name" style="@style/widget_header_image"/>
+    </FrameLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@+id/main_container" android:layout_width="match_parent" android:layout_height="@dimen/widget_body_height">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/material_margin_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/scan_btn" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <TextView android:ellipsize="end" android:id="@+id/remaining" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-" android:maxLines="1" style="@style/Headline.BlackText"/>
+            <TextView android:ellipsize="end" android:id="@+id/remaining_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-" android:maxLines="2" style="@style/Caption.BlackSecondaryText"/>
+        </LinearLayout>
+        <ImageButton android:id="@+id/add_btn" android:layout_width="@dimen/widget_button_size" android:layout_height="@dimen/widget_button_size" android:layout_marginLeft="@dimen/material_padding_16" android:layout_marginRight="@dimen/material_margin_16" android:src="@drawable/ic_widget_add_btn" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/add" style="@style/widget_btn"/>
+        <TextView android:id="@+id/spacer" android:layout_width="@dimen/material_padding_32" android:layout_height="1dp" android:layout_toLeftOf="@+id/add_btn"/>
+        <ImageButton android:id="@+id/scan_btn" android:layout_width="@dimen/widget_button_size" android:layout_height="@dimen/widget_button_size" android:layout_marginLeft="@dimen/material_padding_8" android:src="@drawable/ic_widget_scan_btn" android:layout_toLeftOf="@+id/spacer" android:layout_centerVertical="true" android:contentDescription="@string/barcode_scanning_title" style="@style/widget_btn"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/widget_sign_in" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/widget_body_height" style="@style/widget_btn">
+        <TextView android:id="@+id/sign_in" android:text="@string/you_not_signed_in" style="@style/Header.BlackText"/>
+        <TextView android:id="@+id/tap_to_start" android:text="@string/tap_to_start_using" style="@style/Subheader.BlackHint"/>
+    </LinearLayout>
+</LinearLayout>

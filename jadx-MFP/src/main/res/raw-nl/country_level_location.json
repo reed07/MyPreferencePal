@@ -1,0 +1,994 @@
+[
+    {
+        "display_name": "Afghanistan",
+        "iso_code": "AF"
+    },
+    {
+        "display_name": "Åland",
+        "iso_code": "AX"
+    },
+    {
+        "display_name": "Albanië",
+        "iso_code": "AL"
+    },
+    {
+        "display_name": "Algerije",
+        "iso_code": "DZ"
+    },
+    {
+        "display_name": "Amerikaans-Samoa",
+        "iso_code": "AS"
+    },
+    {
+        "display_name": "Andorra",
+        "iso_code": "AD"
+    },
+    {
+        "display_name": "Angola",
+        "iso_code": "AO"
+    },
+    {
+        "display_name": "Anguilla",
+        "iso_code": "AI"
+    },
+    {
+        "display_name": "Antarctica",
+        "iso_code": "AQ"
+    },
+    {
+        "display_name": "Antigua en Barbuda",
+        "iso_code": "AG"
+    },
+    {
+        "display_name": "Argentinië",
+        "iso_code": "AR"
+    },
+    {
+        "display_name": "Armenië",
+        "iso_code": "AM"
+    },
+    {
+        "display_name": "Aruba",
+        "iso_code": "AW"
+    },
+    {
+        "display_name": "Australië",
+        "iso_code": "AU"
+    },
+    {
+        "display_name": "Oostenrijk",
+        "iso_code": "AT"
+    },
+    {
+        "display_name": "Azerbeidzjan",
+        "iso_code": "AZ"
+    },
+    {
+        "display_name": "Bahama's",
+        "iso_code": "BS"
+    },
+    {
+        "display_name": "Bahrein",
+        "iso_code": "BH"
+    },
+    {
+        "display_name": "Bangladesh",
+        "iso_code": "BD"
+    },
+    {
+        "display_name": "Barbados",
+        "iso_code": "BB"
+    },
+    {
+        "display_name": "Wit-Rusland",
+        "iso_code": "BY"
+    },
+    {
+        "display_name": "België",
+        "iso_code": "BE"
+    },
+    {
+        "display_name": "Belize",
+        "iso_code": "BZ"
+    },
+    {
+        "display_name": "Benin",
+        "iso_code": "BJ"
+    },
+    {
+        "display_name": "Bermuda",
+        "iso_code": "BM"
+    },
+    {
+        "display_name": "Bhutan",
+        "iso_code": "BT"
+    },
+    {
+        "display_name": "Bolivia",
+        "iso_code": "BO"
+    },
+    {
+        "display_name": "Bonaire, Sint Eustatius en Saba",
+        "iso_code": "BQ"
+    },
+    {
+        "display_name": "Bosnië en Herzegovina",
+        "iso_code": "BA"
+    },
+    {
+        "display_name": "Botswana",
+        "iso_code": "BW"
+    },
+    {
+        "display_name": "Bouveteiland",
+        "iso_code": "BV"
+    },
+    {
+        "display_name": "Brazilië",
+        "iso_code": "BR"
+    },
+    {
+        "display_name": "Brits Indische Oceaanterritorium",
+        "iso_code": "IO"
+    },
+    {
+        "display_name": "Britse Maagdeneilanden",
+        "iso_code": "VG"
+    },
+    {
+        "display_name": "Brunei",
+        "iso_code": "BN"
+    },
+    {
+        "display_name": "Bulgarije",
+        "iso_code": "BG"
+    },
+    {
+        "display_name": "Burkina Faso",
+        "iso_code": "BF"
+    },
+    {
+        "display_name": "Burundi",
+        "iso_code": "BI"
+    },
+    {
+        "display_name": "Cambodja",
+        "iso_code": "KH"
+    },
+    {
+        "display_name": "Kameroen",
+        "iso_code": "CM"
+    },
+    {
+        "display_name": "Canada",
+        "iso_code": "CA"
+    },
+    {
+        "display_name": "Kaapverdië",
+        "iso_code": "CV"
+    },
+    {
+        "display_name": "Kaaimaneilanden",
+        "iso_code": "KY"
+    },
+    {
+        "display_name": "Centraal-Afrikaanse Republiek",
+        "iso_code": "CF"
+    },
+    {
+        "display_name": "Tsjaad",
+        "iso_code": "TD"
+    },
+    {
+        "display_name": "Chili",
+        "iso_code": "CL"
+    },
+    {
+        "display_name": "China",
+        "iso_code": "CN"
+    },
+    {
+        "display_name": "Christmaseiland",
+        "iso_code": "CX"
+    },
+    {
+        "display_name": "Cocoseilanden",
+        "iso_code": "CC"
+    },
+    {
+        "display_name": "Colombia",
+        "iso_code": "CO"
+    },
+    {
+        "display_name": "Comoren",
+        "iso_code": "KM"
+    },
+    {
+        "display_name": "Congo-Brazzaville",
+        "iso_code": "CG"
+    },
+    {
+        "display_name": "Congo-Kinshasa",
+        "iso_code": "CD"
+    },
+    {
+        "display_name": "Cookeilanden",
+        "iso_code": "CK"
+    },
+    {
+        "display_name": "Costa Rica",
+        "iso_code": "CR"
+    },
+    {
+        "display_name": "Ivoorkust",
+        "iso_code": "CI"
+    },
+    {
+        "display_name": "Kroatië",
+        "iso_code": "HR"
+    },
+    {
+        "display_name": "Curaçao",
+        "iso_code": "CW"
+    },
+    {
+        "display_name": "Cyprus",
+        "iso_code": "CY"
+    },
+    {
+        "display_name": "Tsjechië",
+        "iso_code": "CZ"
+    },
+    {
+        "display_name": "Denemarken",
+        "iso_code": "DK"
+    },
+    {
+        "display_name": "Djibouti",
+        "iso_code": "DJ"
+    },
+    {
+        "display_name": "Dominica",
+        "iso_code": "DM"
+    },
+    {
+        "display_name": "Dominicaanse Republiek",
+        "iso_code": "DO"
+    },
+    {
+        "display_name": "Ecuador",
+        "iso_code": "EC"
+    },
+    {
+        "display_name": "Egypte",
+        "iso_code": "EG"
+    },
+    {
+        "display_name": "El Salvador",
+        "iso_code": "SV"
+    },
+    {
+        "display_name": "Equatoriaal-Guinea",
+        "iso_code": "GQ"
+    },
+    {
+        "display_name": "Eritrea",
+        "iso_code": "ER"
+    },
+    {
+        "display_name": "Estland",
+        "iso_code": "EE"
+    },
+    {
+        "display_name": "Ethiopië",
+        "iso_code": "ET"
+    },
+    {
+        "display_name": "Falklandeilanden (Malvinas)",
+        "iso_code": "FK"
+    },
+    {
+        "display_name": "Faeröer",
+        "iso_code": "FO"
+    },
+    {
+        "display_name": "Fiji",
+        "iso_code": "FJ"
+    },
+    {
+        "display_name": "Finland",
+        "iso_code": "FI"
+    },
+    {
+        "display_name": "Frankrijk",
+        "iso_code": "FR"
+    },
+    {
+        "display_name": "Frans-Guyana",
+        "iso_code": "GF"
+    },
+    {
+        "display_name": "Frans-Polynesië",
+        "iso_code": "PF"
+    },
+    {
+        "display_name": "Franse Zuidelijke en Antarctische gebieden",
+        "iso_code": "TF"
+    },
+    {
+        "display_name": "Gabon",
+        "iso_code": "GA"
+    },
+    {
+        "display_name": "Gambia",
+        "iso_code": "GM"
+    },
+    {
+        "display_name": "Georgië",
+        "iso_code": "GE"
+    },
+    {
+        "display_name": "Duitsland",
+        "iso_code": "DE"
+    },
+    {
+        "display_name": "Ghana",
+        "iso_code": "GH"
+    },
+    {
+        "display_name": "Gibraltar",
+        "iso_code": "GI"
+    },
+    {
+        "display_name": "Griekenland",
+        "iso_code": "GR"
+    },
+    {
+        "display_name": "Groenland",
+        "iso_code": "GL"
+    },
+    {
+        "display_name": "Grenada",
+        "iso_code": "GD"
+    },
+    {
+        "display_name": "Guadeloupe",
+        "iso_code": "GP"
+    },
+    {
+        "display_name": "Guam",
+        "iso_code": "GU"
+    },
+    {
+        "display_name": "Guatemala",
+        "iso_code": "GT"
+    },
+    {
+        "display_name": "Guernsey",
+        "iso_code": "GG"
+    },
+    {
+        "display_name": "Guinee",
+        "iso_code": "GN"
+    },
+    {
+        "display_name": "Guinee-Bissau",
+        "iso_code": "GW"
+    },
+    {
+        "display_name": "Guyana",
+        "iso_code": "GY"
+    },
+    {
+        "display_name": "Haïti",
+        "iso_code": "HT"
+    },
+    {
+        "display_name": "Heard en McDonaldeilanden",
+        "iso_code": "HM"
+    },
+    {
+        "display_name": "Vaticaanstad",
+        "iso_code": "VA"
+    },
+    {
+        "display_name": "Honduras",
+        "iso_code": "HN"
+    },
+    {
+        "display_name": "Hong Kong",
+        "iso_code": "HK"
+    },
+    {
+        "display_name": "Hongarije",
+        "iso_code": "HU"
+    },
+    {
+        "display_name": "IJsland",
+        "iso_code": "IS"
+    },
+    {
+        "display_name": "India",
+        "iso_code": "IN"
+    },
+    {
+        "display_name": "Indonesië",
+        "iso_code": "ID"
+    },
+    {
+        "display_name": "Irak",
+        "iso_code": "IQ"
+    },
+    {
+        "display_name": "Ierland",
+        "iso_code": "IE"
+    },
+    {
+        "display_name": "Man",
+        "iso_code": "IM"
+    },
+    {
+        "display_name": "Israël",
+        "iso_code": "IL"
+    },
+    {
+        "display_name": "Italië",
+        "iso_code": "IT"
+    },
+    {
+        "display_name": "Jamaica",
+        "iso_code": "JM"
+    },
+    {
+        "display_name": "Japan",
+        "iso_code": "JP"
+    },
+    {
+        "display_name": "Jersey",
+        "iso_code": "JE"
+    },
+    {
+        "display_name": "Jordanië",
+        "iso_code": "JO"
+    },
+    {
+        "display_name": "Kazachstan",
+        "iso_code": "KZ"
+    },
+    {
+        "display_name": "Kenia",
+        "iso_code": "KE"
+    },
+    {
+        "display_name": "Kiribati",
+        "iso_code": "KI"
+    },
+    {
+        "display_name": "Zuid-Korea",
+        "iso_code": "KR"
+    },
+    {
+        "display_name": "Koeweit",
+        "iso_code": "KW"
+    },
+    {
+        "display_name": "Kirgizië",
+        "iso_code": "KG"
+    },
+    {
+        "display_name": "Laos",
+        "iso_code": "LA"
+    },
+    {
+        "display_name": "Letland",
+        "iso_code": "LV"
+    },
+    {
+        "display_name": "Libanon",
+        "iso_code": "LB"
+    },
+    {
+        "display_name": "Lesotho",
+        "iso_code": "LS"
+    },
+    {
+        "display_name": "Liberia",
+        "iso_code": "LR"
+    },
+    {
+        "display_name": "Libië",
+        "iso_code": "LY"
+    },
+    {
+        "display_name": "Liechtenstein",
+        "iso_code": "LI"
+    },
+    {
+        "display_name": "Litouwen",
+        "iso_code": "LT"
+    },
+    {
+        "display_name": "Luxemburg",
+        "iso_code": "LU"
+    },
+    {
+        "display_name": "Macau",
+        "iso_code": "MO"
+    },
+    {
+        "display_name": "Macedonië",
+        "iso_code": "MK"
+    },
+    {
+        "display_name": "Madagaskar",
+        "iso_code": "MG"
+    },
+    {
+        "display_name": "Malawi",
+        "iso_code": "MW"
+    },
+    {
+        "display_name": "Maleisië",
+        "iso_code": "MY"
+    },
+    {
+        "display_name": "Maldiven",
+        "iso_code": "MV"
+    },
+    {
+        "display_name": "Mali",
+        "iso_code": "ML"
+    },
+    {
+        "display_name": "Malta",
+        "iso_code": "MT"
+    },
+    {
+        "display_name": "Marshalleilanden",
+        "iso_code": "MH"
+    },
+    {
+        "display_name": "Martinique",
+        "iso_code": "MQ"
+    },
+    {
+        "display_name": "Mauritanië",
+        "iso_code": "MR"
+    },
+    {
+        "display_name": "Mauritius",
+        "iso_code": "MU"
+    },
+    {
+        "display_name": "Mayotte",
+        "iso_code": "YT"
+    },
+    {
+        "display_name": "Mexico",
+        "iso_code": "MX"
+    },
+    {
+        "display_name": "Micronesia",
+        "iso_code": "FM"
+    },
+    {
+        "display_name": "Moldavië",
+        "iso_code": "MD"
+    },
+    {
+        "display_name": "Monaco",
+        "iso_code": "MC"
+    },
+    {
+        "display_name": "Mongolië",
+        "iso_code": "MN"
+    },
+    {
+        "display_name": "Montenegro",
+        "iso_code": "ME"
+    },
+    {
+        "display_name": "Montserrat",
+        "iso_code": "MS"
+    },
+    {
+        "display_name": "Marokko",
+        "iso_code": "MA"
+    },
+    {
+        "display_name": "Mozambique",
+        "iso_code": "MZ"
+    },
+    {
+        "display_name": "Namibië",
+        "iso_code": "NA"
+    },
+    {
+        "display_name": "Nauru",
+        "iso_code": "NR"
+    },
+    {
+        "display_name": "Nepal",
+        "iso_code": "NP"
+    },
+    {
+        "display_name": "Nederland",
+        "iso_code": "NL"
+    },
+    {
+        "display_name": "Nieuw-Caledonië",
+        "iso_code": "NC"
+    },
+    {
+        "display_name": "Nieuw-Zeeland",
+        "iso_code": "NZ"
+    },
+    {
+        "display_name": "Nicaragua",
+        "iso_code": "NI"
+    },
+    {
+        "display_name": "Niger",
+        "iso_code": "NE"
+    },
+    {
+        "display_name": "Nigeria",
+        "iso_code": "NG"
+    },
+    {
+        "display_name": "Niue",
+        "iso_code": "NU"
+    },
+    {
+        "display_name": "Norfolk",
+        "iso_code": "NF"
+    },
+    {
+        "display_name": "Noordelijke Marianen",
+        "iso_code": "MP"
+    },
+    {
+        "display_name": "Noorwegen",
+        "iso_code": "NO"
+    },
+    {
+        "display_name": "Oman",
+        "iso_code": "OM"
+    },
+    {
+        "display_name": "Pakistan",
+        "iso_code": "PK"
+    },
+    {
+        "display_name": "Palau",
+        "iso_code": "PW"
+    },
+    {
+        "display_name": "Palestijnse territoria",
+        "iso_code": "PS"
+    },
+    {
+        "display_name": "Panama",
+        "iso_code": "PA"
+    },
+    {
+        "display_name": "Papoea-Nieuw-Guinea",
+        "iso_code": "PG"
+    },
+    {
+        "display_name": "Paraguay",
+        "iso_code": "PY"
+    },
+    {
+        "display_name": "Peru",
+        "iso_code": "PE"
+    },
+    {
+        "display_name": "Filippijnen",
+        "iso_code": "PH"
+    },
+    {
+        "display_name": "Pitcairneilanden",
+        "iso_code": "PN"
+    },
+    {
+        "display_name": "Polen",
+        "iso_code": "PL"
+    },
+    {
+        "display_name": "Portugal",
+        "iso_code": "PT"
+    },
+    {
+        "display_name": "Puerto Rico",
+        "iso_code": "PR"
+    },
+    {
+        "display_name": "Qatar",
+        "iso_code": "QA"
+    },
+    {
+        "display_name": "Réunion",
+        "iso_code": "RE"
+    },
+    {
+        "display_name": "Roemenië",
+        "iso_code": "RO"
+    },
+    {
+        "display_name": "Rusland",
+        "iso_code": "RU"
+    },
+    {
+        "display_name": "Rwanda",
+        "iso_code": "RW"
+    },
+    {
+        "display_name": "Sint-Helena",
+        "iso_code": "SH"
+    },
+    {
+        "display_name": "Saint Kitts en Nevis",
+        "iso_code": "KN"
+    },
+    {
+        "display_name": "Saint Lucia",
+        "iso_code": "LC"
+    },
+    {
+        "display_name": "Saint-Pierre en Miquelon",
+        "iso_code": "PM"
+    },
+    {
+        "display_name": "Saint Vincent en de Grenadines",
+        "iso_code": "VC"
+    },
+    {
+        "display_name": "Saint-Barthélemy",
+        "iso_code": "BL"
+    },
+    {
+        "display_name": "Sint Maarten (Franse deel)",
+        "iso_code": "MF"
+    },
+    {
+        "display_name": "Samoa",
+        "iso_code": "WS"
+    },
+    {
+        "display_name": "San Marino",
+        "iso_code": "SM"
+    },
+    {
+        "display_name": "Sao Tomé en Principe",
+        "iso_code": "ST"
+    },
+    {
+        "display_name": "Saudi-Arabië",
+        "iso_code": "SA"
+    },
+    {
+        "display_name": "Senegal",
+        "iso_code": "SN"
+    },
+    {
+        "display_name": "Servië",
+        "iso_code": "RS"
+    },
+    {
+        "display_name": "Seychellen",
+        "iso_code": "SC"
+    },
+    {
+        "display_name": "Sierra Leone",
+        "iso_code": "SL"
+    },
+    {
+        "display_name": "Singapore",
+        "iso_code": "SG"
+    },
+    {
+        "display_name": "Sint Maarten (Nederlandse deel)",
+        "iso_code": "SX"
+    },
+    {
+        "display_name": "Slowakije",
+        "iso_code": "SK"
+    },
+    {
+        "display_name": "Slovenië",
+        "iso_code": "SI"
+    },
+    {
+        "display_name": "Salomonseilanden",
+        "iso_code": "SB"
+    },
+    {
+        "display_name": "Zuid-Afrika",
+        "iso_code": "ZA"
+    },
+    {
+        "display_name": "Zuid-Georgia en de Zuidelijke Sandwicheilanden",
+        "iso_code": "GS"
+    },
+    {
+        "display_name": "Zuid-Soedan",
+        "iso_code": "SS"
+    },
+    {
+        "display_name": "Spanje",
+        "iso_code": "ES"
+    },
+    {
+        "display_name": "Sri Lanka",
+        "iso_code": "LK"
+    },
+    {
+        "display_name": "Suriname",
+        "iso_code": "SR"
+    },
+    {
+        "display_name": "Spitsbergen en Jan Mayen",
+        "iso_code": "SJ"
+    },
+    {
+        "display_name": "Swaziland",
+        "iso_code": "SZ"
+    },
+    {
+        "display_name": "Zweden",
+        "iso_code": "SE"
+    },
+    {
+        "display_name": "Zwitserland",
+        "iso_code": "CH"
+    },
+    {
+        "display_name": "Taiwan",
+        "iso_code": "TW"
+    },
+    {
+        "display_name": "Tadzjikistan",
+        "iso_code": "TJ"
+    },
+    {
+        "display_name": "Tanzania",
+        "iso_code": "TZ"
+    },
+    {
+        "display_name": "Thailand",
+        "iso_code": "TH"
+    },
+    {
+        "display_name": "Oost-Timor",
+        "iso_code": "TL"
+    },
+    {
+        "display_name": "Togo",
+        "iso_code": "TG"
+    },
+    {
+        "display_name": "Tokelau",
+        "iso_code": "TK"
+    },
+    {
+        "display_name": "Tonga",
+        "iso_code": "TO"
+    },
+    {
+        "display_name": "Trinidad en Tobago",
+        "iso_code": "TT"
+    },
+    {
+        "display_name": "Tunesië",
+        "iso_code": "TN"
+    },
+    {
+        "display_name": "Turkije",
+        "iso_code": "TR"
+    },
+    {
+        "display_name": "Turkmenistan",
+        "iso_code": "TM"
+    },
+    {
+        "display_name": "Turks- en Caicoseilanden",
+        "iso_code": "TC"
+    },
+    {
+        "display_name": "Tuvalu",
+        "iso_code": "TV"
+    },
+    {
+        "display_name": "Oeganda",
+        "iso_code": "UG"
+    },
+    {
+        "display_name": "Oekraïne (niet-Krim)",
+        "iso_code": "UA"
+    },
+    {
+        "display_name": "Verenigde Arabische Emiraten",
+        "iso_code": "AE"
+    },
+    {
+        "display_name": "Verenigd Koninkrijk",
+        "iso_code": "GB"
+    },
+    {
+        "display_name": "Verenigde Staten",
+        "iso_code": "US"
+    },
+    {
+        "display_name": "Uruguay",
+        "iso_code": "UY"
+    },
+    {
+        "display_name": "Kleine afgelegen eilanden van de Verenigde Staten",
+        "iso_code": "UM"
+    },
+    {
+        "display_name": "Oezbekistan",
+        "iso_code": "UZ"
+    },
+    {
+        "display_name": "Vanuatu",
+        "iso_code": "VU"
+    },
+    {
+        "display_name": "Venezuela",
+        "iso_code": "VE"
+    },
+    {
+        "display_name": "Vietnam",
+        "iso_code": "VN"
+    },
+    {
+        "display_name": "Amerikaanse Maagdeneilanden",
+        "iso_code": "VI"
+    },
+    {
+        "display_name": "Wallis en Futuna",
+        "iso_code": "WF"
+    },
+    {
+        "display_name": "Westelijke Sahara",
+        "iso_code": "EH"
+    },
+    {
+        "display_name": "Jemen",
+        "iso_code": "YE"
+    },
+    {
+        "display_name": "Zambia",
+        "iso_code": "ZM"
+    },
+    {
+        "display_name": "Zimbabwe",
+        "iso_code": "ZW"
+    },
+    {
+        "display_name": "Cuba",
+        "iso_code": "CU"
+    },
+    {
+        "display_name": "Iran",
+        "iso_code": "IR"
+    },
+    {
+        "display_name": "Myanmar",
+        "iso_code": "MM"
+    },
+    {
+        "display_name": "Somalië",
+        "iso_code": "SO"
+    },
+    {
+        "display_name": "Soedan",
+        "iso_code": "SD"
+    },
+    {
+        "display_name": "Syrië",
+        "iso_code": "SY"
+    }
+]

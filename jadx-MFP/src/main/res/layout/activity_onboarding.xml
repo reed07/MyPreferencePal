@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/btnCloseOnboarding" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="@dimen/material_margin_16" android:layout_marginTop="@dimen/material_margin_16" android:src="@drawable/ic_close" android:tint="@color/black_text" app:layout_constraintBottom_toTopOf="@+id/id_content" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <FrameLayout android:id="@+id/id_content" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toBottomOf="@+id/btnCloseOnboarding"/>
+</android.support.constraint.ConstraintLayout>

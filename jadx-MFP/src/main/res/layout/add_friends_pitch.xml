@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <TextView android:id="@+id/header1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/addfriends_header" style="@style/addfriends_header_large"/>
+    <TextView android:id="@+id/body1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/addfriends_subheader" style="@style/addfriends_text"/>
+    <TextView android:id="@+id/header2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:text="@string/addfriends_pitch_header" style="@style/addfriends_header"/>
+    <TextView android:id="@+id/body2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/addfriends_pitch1" style="@style/addfriends_text"/>
+</merge>

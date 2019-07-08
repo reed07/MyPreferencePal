@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.design.widget.TabLayout android:id="@+id/tab_layout" android:elevation="@dimen/default_material_elevation" style="@style/TabsAppearance.Fixed"/>
+        <android.support.v4.view.ViewPager android:id="@+id/fragments_pager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/tab_layout"/>
+    </RelativeLayout>
+    <android.support.design.widget.FloatingActionButton android:id="@+id/fab" android:visibility="gone" app:layout_anchorGravity="800055" style="@style/FloatingActionButton.Add"/>
+</android.support.design.widget.CoordinatorLayout>

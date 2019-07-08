@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+    <include android:id="@+id/nutritionFactsSimple" layout="@layout/new_nutrition_facts_simple"/>
+    <include android:id="@+id/nutritionFactsPremium" android:visibility="gone" layout="@layout/new_nutrition_facts_prem"/>
+    <View style="@style/HorizontalDivider"/>
+    <FrameLayout android:id="@+id/showMore" android:background="@color/nutrition_main_summary_background" android:layout_width="match_parent" android:layout_height="32dp">
+        <ImageView android:layout_gravity="center" android:id="@+id/show_more_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_chevron_up_black_24dp" android:scaleType="centerInside"/>
+        <com.myfitnesspal.shared.ui.view.StyledTextView android:layout_gravity="center" android:id="@+id/show_more_text" android:text="@string/view_nutrition_facts" style="@style/Body.BlackSecondaryText"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@+id/nutritionFactsDetailed" android:visibility="gone" layout="@layout/new_nutrition_facts_detailed"/>
+    </LinearLayout>
+</LinearLayout>

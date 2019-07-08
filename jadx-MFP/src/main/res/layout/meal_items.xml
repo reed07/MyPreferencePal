@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@drawable/divider_horizontal_black" android:showDividers="middle">
+    <RelativeLayout style="@style/FoodInfoContainer.Header">
+        <TextView android:id="@+id/meal_items_text" android:text="@string/meal_items_header" style="@style/FoodInfoHeaderText"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/meal_items_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_horizontal_black" android:showDividers="middle"/>
+</LinearLayout>

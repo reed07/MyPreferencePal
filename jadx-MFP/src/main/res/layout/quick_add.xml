@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_grey_small" android:showDividers="middle">
+    <RelativeLayout android:id="@+id/rlQuickCalories" android:animateLayoutChanges="true" style="@style/FoodInfoContainer">
+        <TextView android:id="@+id/tvCaloriesLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quick_add_label_calories" style="@style/FoodInfoLabelText"/>
+        <TextView android:id="@+id/tvRecalculateLabel" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recalculate_calories" android:layout_below="@+id/tvCaloriesLabel" style="@style/Caption.BlackText"/>
+        <com.myfitnesspal.shared.ui.view.CustomLocalizedNumberEditText android:id="@+id/tvQuickCalories" android:hint="@string/quick_add_hint_calories" android:layout_alignBaseline="@+id/tvCaloriesLabel" style="@style/quick_add_edit_text"/>
+    </RelativeLayout>
+    <LinearLayout android:id="@+id/quick_add_carbs_layout" style="@style/FoodInfoContainer">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/carbohydratesTxt" android:layout_weight="1" style="@style/FoodInfoLabelText"/>
+        <com.myfitnesspal.shared.ui.view.CustomLocalizedNumberEditText android:id="@+id/tvQuickCarbs" style="@style/quick_add_edit_text_macros"/>
+        <ImageView android:id="@+id/carb_lock" style="@style/QuickAddMacroLock"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/quick_add_fat_layout" style="@style/FoodInfoContainer">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/fatTxt" android:layout_weight="1" style="@style/FoodInfoLabelText"/>
+        <com.myfitnesspal.shared.ui.view.CustomLocalizedNumberEditText android:id="@+id/tvQuickFat" style="@style/quick_add_edit_text_macros"/>
+        <ImageView android:id="@+id/fat_lock" style="@style/QuickAddMacroLock"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/quick_add_protein_layout" style="@style/FoodInfoContainer">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/proteinTxt" android:layout_weight="1" style="@style/FoodInfoLabelText"/>
+        <com.myfitnesspal.shared.ui.view.CustomLocalizedNumberEditText android:id="@+id/tvQuickProtein" style="@style/quick_add_edit_text_macros"/>
+        <ImageView android:id="@+id/protein_lock" style="@style/QuickAddMacroLock"/>
+    </LinearLayout>
+    <com.myfitnesspal.feature.timestamp.view.TimestampRowView android:id="@+id/quick_add_time_layout" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/noteContentLayout" android:background="@color/white" android:paddingLeft="@dimen/diary_note_horizontal_padding" android:paddingTop="@dimen/diary_note_vertical_padding" android:paddingRight="@dimen/diary_note_horizontal_padding" android:paddingBottom="@dimen/diary_note_vertical_padding" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <ViewSwitcher android:id="@+id/switcher" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/noteBodyEditTxtView" android:hint="@string/note_content_hint" android:singleLine="false" android:inputType="none|text|textCapSentences|textAutoCorrect|textMultiLine" android:isScrollContainer="true" style="@style/DiaryNoteTextStyle">
+            <requestFocus/>
+        </EditText>
+        <TextView android:id="@+id/noteText" style="@style/DiaryNoteTextStyle"/>
+    </ViewSwitcher>
+</ScrollView>

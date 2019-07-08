@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/transparent_button_selector" android:padding="@dimen/material_margin_4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:background="@drawable/me_card_challenge_badge" android:layout_width="@dimen/my_info_card_badge_size" android:layout_height="@dimen/my_info_card_badge_size" android:layout_marginRight="@dimen/material_margin_4">
+            <TextView android:textColor="@color/white" android:layout_gravity="center" android:id="@+id/badgeCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2" style="@style/Caption"/>
+        </FrameLayout>
+        <TextView android:textStyle="bold" android:textColor="@color/me_card_red" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/me_card_challenges_new" android:textAllCaps="true" style="@style/Body"/>
+    </LinearLayout>
+</merge>

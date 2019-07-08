@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/profile_progress_chart_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_padding_16">
+        <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/material_margin_4">
+            <com.myfitnesspal.feature.profile.ui.view.ProgressGraphView android:id="@+id/progressGraph" android:layout_width="@dimen/profile_progress_chart_width" android:layout_height="wrap_content"/>
+            <ImageView android:layout_gravity="center" android:id="@+id/scaleImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_me_scale"/>
+            <TextView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/weightChange" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbs_lost" style="@style/Header.Bold"/>
+        </FrameLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/startingWeight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="135.2" android:layout_alignBaseline="@+id/currentWeight" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/Caption"/>
+            <TextView android:gravity="center" android:id="@+id/currentWeight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Current: 128.4 lbs" android:singleLine="true" android:layout_toLeftOf="@+id/goalWeight" android:layout_toRightOf="@+id/startingWeight"/>
+            <TextView android:id="@+id/goalWeight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="120.0" android:layout_alignBaseline="@+id/currentWeight" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/Caption"/>
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

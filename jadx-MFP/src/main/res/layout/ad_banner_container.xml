@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <ProgressBar android:id="@+id/ads_progress" android:layout_width="@dimen/banner_ads_progress_size" android:layout_height="@dimen/banner_ads_progress_size"/>
+    <include android:id="@+id/ads_premium_banner" layout="@layout/ads_premium_banner_fake"/>
+</merge>

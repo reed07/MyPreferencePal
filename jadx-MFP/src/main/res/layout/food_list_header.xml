@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/food_lists_header_background" android:paddingLeft="@dimen/food_list_item_margin_left_right" android:paddingRight="@dimen/food_list_item_margin_left_right" android:layout_width="match_parent" android:layout_height="@dimen/food_list_item_height">
+    <TextView android:id="@+id/FoodNameLabel" android:layout_marginRight="16dp" android:text="@string/food" android:layout_alignParentLeft="true" style="@style/FoodListItemName"/>
+    <TextView android:gravity="right" android:text="@string/times_eaten" android:layout_toLeftOf="@+id/TotalLabel" android:layout_toRightOf="@+id/FoodNameLabel" style="@style/FoodListItemName"/>
+    <TextView android:gravity="right" android:id="@+id/TotalLabel" android:layout_marginLeft="32dp" android:text="@string/totalTxt" android:layout_alignParentRight="true" style="@style/FoodListItemName"/>
+</RelativeLayout>

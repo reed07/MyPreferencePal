@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/list_item_bg_selector" android:padding="@dimen/challenge_list_item_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.myfitnesspal.shared.ui.view.MfpImageView android:id="@+id/ivImage" android:layout_width="@dimen/challenge_friend_image_height_width" android:layout_height="@dimen/challenge_friend_image_height_width" app:circular="true"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/challenge_image_right_margin">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+                <TextView android:gravity="left" android:id="@+id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/challenge_text_separator" android:layout_weight="1" style="@style/Link.Blue"/>
+                <TextView android:gravity="right" android:id="@+id/tvProgress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" style="@style/ChallengesPrizeValue"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/llBadges" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
